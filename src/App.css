@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.reel {
+  width: 100%;
+  /* height: 100vh; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .reel-container {
+  background-image: url("./assets/edit-1-2-OK.mp4");
+  width: 100%;
+  height: 100vh;
+} */
+
+.reel-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.reel {
+  position: absolute;
+  height: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* width: 2560px; */
+}
+
+.info-container {
+  position: absolute;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 400px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  margin: -200px 0 0 -200px;
+  /* background-color: pink; */
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  /* -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px); */
+}
+
+.info-container > * {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 2rem;
+  color: white;
+  /* background-color: white;
+  padding: 10px; */
+  /* margin: -25px 0 0 -25px */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info-logo {
+  width: 300px;
+}
+
+.transparency-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
 }
