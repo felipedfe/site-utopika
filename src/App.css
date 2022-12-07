@@ -146,6 +146,12 @@ iframe {
   pointer-events: none;
 }
 
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
 .icon {
   font-size: 3rem;
 }
@@ -153,6 +159,10 @@ iframe {
  a {
   all: unset
  }
+
+a:hover {
+  cursor: pointer;
+}
 
 @media (min-aspect-ratio: 15/9) {
   .video-foreground { height: 300%; top: -100%; }
