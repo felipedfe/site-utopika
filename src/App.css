@@ -20,7 +20,6 @@
   position: relative;
   height: 100vh;
   width: 100vw;
-
 }
 
 .reel {
@@ -50,7 +49,7 @@
   backdrop-filter: blur(5px); */
 }
 
-.info-container > * {
+.info-container>* {
   color: white;
 }
 
@@ -73,3 +72,104 @@ h1 {
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
+
+.iframe-container {
+  /* position: relative;
+  height: 100vh;
+  width: 100vw; */
+
+  /* position:relative; */
+  /* height: 100vh; */
+  /* padding:56.25% 0 0 0; */
+  /* object-fit: cover; */
+
+  position: absolute;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  direction: ltr;
+}
+
+iframe {
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; */
+  /* object-fit: cover; */
+
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  transform: translate(-50%, -50%); */
+  /* width: 100%;
+  height: 100%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%); */
+}
+
+/* .App {
+  position: relative;
+  height: 100vh;
+} */
+
+/* @media (min-aspect-ratio: 16/9) {
+  .iframe-container{
+    height = 100 * (9 / 16) = 56.25
+    height: 56.25vw;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .iframe-container{
+    width = 100 / (9 / 16) = 177.777777
+    width: 177.78vh;
+  }
+} */
+
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.icon {
+  font-size: 3rem;
+}
+
+ a {
+  all: unset
+ }
+
+@media (min-aspect-ratio: 15/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 15/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+
+/* @media all and (min-width: 3500px) {
+  .video-foreground {height: 100%;}
+} */
+
+
+  /* @media all and (max-width: 600px) {
+  .vid-info { width: 50%; padding: .5rem; }
+  .vid-info h1 { margin-bottom: .2rem; }
+  }
+  @media all and (max-width: 500px) {
+  .vid-info .acronym { display: none; }
+  } */
