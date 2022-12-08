@@ -10,7 +10,7 @@ function App() {
       className="App">
       <div className="transparency-layer" />
       <div className="info-container">
-        <h1 className="info-title">Site em breve</h1>
+        <h1 className="info-title">SITE EM BREVE</h1>
         <img className="info-logo" src={logo} alt="logo utopika"></img>
         <h3>contato@utopika.com.br</h3>
         <div className="icons-container">

@@ -54,11 +54,16 @@
 }
 
 h1 {
-  font-size: 2rem;
+  margin-left: 10px;
+  font-size: 1.2rem;
   color: white;
   /* background-color: white;
   padding: 10px; */
   /* margin: -25px 0 0 -25px */
+}
+
+h3 {
+  font-size: 1rem;
 }
 
 .info-logo {
@@ -148,12 +153,13 @@ iframe {
 
 .icons-container {
   display: flex;
-  justify-content: space-between;
-  width: 30%;
+  gap: 10px;
+  /* justify-content: space-between; */
+  /* width: 30%; */
 }
 
 .icon {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
  a {
