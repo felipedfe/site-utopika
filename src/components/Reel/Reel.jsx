@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaVimeo } from 'react-icons/fa';
 import { RiInstagramFill } from 'react-icons/ri';
-import logo from '../../../assets/LOGO UTOPIKA_OK.png';
+import logo from '../../assets/LOGO UTOPIKA_OK.png';
 import './reel.css';
 
 function Reel () {

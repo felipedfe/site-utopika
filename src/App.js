@@ -1,19 +1,33 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Reel from './components/home-components/Reel/Reel';
-import Intro from './components/home-components/Intro/Intro';
-import Instagram from './components/home-components/Instagram/Instagram';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Home, Projects, About } from './pages';
 import Menu from './components/Menu/Menu';
 import './App.css';
 
 function App() {
   return (
-    <main>
-      <Menu />
-      {/* <Reel /> */}
-      {/* <Intro /> */}
-      {/* <Instagram /> */}
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={
+          <Home>
+            <Menu />
+          </Home>
+        }
+        />
+        <Route exact path="/projetos" element={
+          <Projects>
+            <Menu />
+          </Projects>
+        }
+        />
+        <Route exact path="/sobre" element={
+          <About>
+            <Menu />
+          </About>
+        }
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
