@@ -1,0 +1,76 @@
+.reel--container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.reel--transparency-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.reel--video-background {
+  background: #FFF;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.reel--video-foreground,
+.reel--video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.reel--info-container {
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 400px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  margin: -200px 0 0 -200px;
+}
+
+.reel--info-container>* {
+  color: white;
+}
+
+.info-logo {
+  width: 300px;
+}
+
+.icons-container {
+  display: flex;
+  gap: 10px;
+}
+
+@media (min-aspect-ratio: 15/9) {
+  .reel--video-foreground {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 15/9) {
+  .reel--video-foreground {
+    width: 300%;
+    left: -100%;
+  }
+}
