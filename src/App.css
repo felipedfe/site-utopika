@@ -15,6 +15,10 @@ a {
   all: unset
 }
 
-a:hover {
+button, a:hover {
   cursor: pointer;
+}
+
+button {
+  border: none;
 }
