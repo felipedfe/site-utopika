@@ -1,0 +1,34 @@
+.reel--container {
+  position: relative;
+  /* background-color: aqua; */
+  /* margin-left: 300px; */
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.video-background {
+  background: #FFF;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  /* width: 800px;
+  height: 400px; */
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+@media (min-aspect-ratio: 15/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 15/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
