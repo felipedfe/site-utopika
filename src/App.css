@@ -1,10 +1,6 @@
 body {
-  background-color: pink;
-  overflow-x: hidden;
-}
-
-main {
-  background-color: rgb(191, 213, 195);
+  /* background-color: pink; */
+  /* overflow-x: hidden; */
 }
 
 .icon {
@@ -21,4 +17,8 @@ button, a:hover {
 
 button {
   border: none;
+}
+
+ul {
+  list-style-type: none;
 }
