@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Reel from '../../components/Reel/Reel';
 import Intro from '../../components/Intro/Intro';
-import { useContext } from 'react';
+import InstaFeed from '../../components/InstaFeed/InstaFeed';
 import myContext from '../../context/myContext';
 import { textLanguages as textOptions } from '../../data';
 
 function Home({ children }) {
-  const { test, textLanguage } = useContext(myContext);
+  const { textLanguage } = useContext(myContext);
 
   const text = textOptions[textLanguage];
   console.log(textLanguage);
@@ -18,6 +18,7 @@ function Home({ children }) {
         <h1>{text.home.introduction}</h1>
         <Reel />
         <Intro />
+        <InstaFeed />
       </main>
     </section>
   )

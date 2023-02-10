@@ -6,7 +6,10 @@ const textPt = {
       about: 'Sobre',
     },
     home: {
-      introduction: 'Nós somos as Utopika'
+      introduction: 'Nós somos as Utopika',
+    },
+    instaFeed: {
+      title: 'NOVIDADES'
     },
   }
 };

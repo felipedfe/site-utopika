@@ -6,8 +6,11 @@ const textEn = {
       about: 'About',
     },
     home: {
-      introduction: 'We are Utopika'
+      introduction: 'We are Utopika',
     },
+    instaFeed: {
+      title: 'NEWS'
+    }
   }
 };
 

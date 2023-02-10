@@ -72,7 +72,7 @@ function Menu() {
           <option value="pt-BR">PT</option>
           <option value="en-EN">EN</option>
         </select> */}
-        <button style={{"margin-left": "500px"}}onClick={handleText}>Muda língua</button>
+        <button style={{"marginLeft": "500px"}}onClick={handleText}>Muda língua</button>
       </nav>
     </section>
   )
