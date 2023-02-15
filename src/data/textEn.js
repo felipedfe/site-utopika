@@ -10,7 +10,10 @@ const textEn = {
     },
     instaFeed: {
       title: 'NEWS'
-    }
+    },
+    footer: {
+      info: 'Site by Utópika Estúdio Criativo'
+    },
   }
 };
 

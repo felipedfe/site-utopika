@@ -11,6 +11,9 @@ const textPt = {
     instaFeed: {
       title: 'NOVIDADES'
     },
+    footer: {
+      info: 'Site por Utópika Estúdio Criativo'
+    }
   }
 };
 
