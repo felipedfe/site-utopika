@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from 'react';
 import myContext from '../../context/myContext';
-import { textLanguages as textOptions } from '../../data';
+import { textLanguages as textOptions } from '../../data/languages';
 import './insta-feed.css';
 
 function InstaFeed() {

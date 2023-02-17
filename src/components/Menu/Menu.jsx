@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
 import NavButton from '../NavButton/NavButton';
-import i18n from '../../translate/i18n';
-import { textLanguages as textOptions } from '../../data';
+// import i18n from '../../translate/i18n';
+import { textLanguages as textOptions } from '../../data/languages';
 import myContext from '../../context/myContext';
 import './menu.css';
 

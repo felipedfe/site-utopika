@@ -1,0 +1,8 @@
+.projects--tag-btn-wraper {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects--tag-btn {
+  margin-top: 10px;
+}

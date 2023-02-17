@@ -6,7 +6,6 @@ function NavButton({ btnPath, buttonInnerText }) {
   const location = useLocation();
   const navigate = useNavigate();
 
-  console.log(buttonInnerText);
   return (
     <button
       type="button"

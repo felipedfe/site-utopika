@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import myContext from '../../context/myContext';
-import { textLanguages as textOptions } from '../../data';
+import { textLanguages as textOptions } from '../../data/languages';
 import { AiOutlineMail, AiOutlineInstagram } from "react-icons/ai";
 import './footer.css';
 
