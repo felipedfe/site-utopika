@@ -1,8 +1,57 @@
-.projects--tag-btn-wraper {
-  display: flex;
-  flex-direction: column;
+.projects--container {
+  /* width: 70%; */
+  padding: 5% 5% 5% 17%;
 }
 
-.projects--tag-btn {
-  margin-top: 10px;
+/* .projects--tag-btns {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 0.3rem;
+  column-gap: 0.5rem;
+} */
+
+.projects--main-tags-btns {
+  padding-bottom: 0.5rem;
 }
+
+.projects--main-tags-btns,
+.projects--secondary-tags-btns {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 0.3rem;
+  column-gap: 0.5rem;
+}
+
+.projects--main-tags-btns>*{
+  background-color: #fff;
+}
+
+.projects--main-tags-btns .on {
+  background-color: #000;
+  color: #fff;
+}
+
+.projects--secondary-tags-btns>*{
+  background-color: #fff;
+  color: rgb(201, 67, 44);
+  border-color: rgb(201, 67, 44);
+}
+
+.projects--secondary-tags-btns .on {
+  background-color: rgb(201, 67, 44);
+  color: #fff;
+}
+
+.projects--project-links {
+  padding-top: 3rem;
+}
+
+.projects--links-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* grid-template-columns: repeat(auto-fill, min(400px)); */
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* width: 70%; */
+}
+

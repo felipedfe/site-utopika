@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 import Menu from '../components/Menu/Menu';
 import Footer from '../components/Footer/Footer';
 

@@ -1,6 +1,7 @@
 .menu--container {
   position:fixed;
-  margin: 3rem 0 0 3.5rem;
+  /* margin: 3rem 0 0 3.5rem; */
+  margin: 5% 0 0 5%;
   z-index: 2;
 }
 
@@ -8,4 +9,3 @@
 .menu--nav-links>* {
   margin-bottom: 0.5rem;
 }
-

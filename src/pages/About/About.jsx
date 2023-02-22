@@ -1,10 +1,9 @@
 import React from 'react';
 
-function About({ children }) {
+function About() {
   return (
     <section className="about--container">
       <h1>About!</h1>
-      {children}
     </section>
   )
 };
