@@ -13,7 +13,6 @@ function Home() {
   return (
     <section className="home--container">
       <main>
-        <h1>{text.home.introduction}</h1>
         <Reel />
         <Intro />
         <InstaFeed />

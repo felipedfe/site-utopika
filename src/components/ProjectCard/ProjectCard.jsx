@@ -1,18 +1,18 @@
 import React, { useContext } from 'react';
 import myContext from '../../context/myContext';
-import './project.css';
+import './project-card.css';
 
-function Project(props) {
+function ProjectCard(props) {
   const { project } = props;
   const { textLanguage } = useContext(myContext);
 
   return (
-    <div key={project.id} className="project--wrapper">
-      <div className="project--hover-area">
-        <div className="project--hover-card">
+    <div key={project.id} className="projectcard--wrapper">
+      <div className="projectcard--hover-area">
+        <div className="projectcard--hover-card">
           <h2>{project.title}</h2>
-          <hr className="project--card-divider"></hr>
-          <div className="project--tags-wrapper">
+          <hr className="projectcard--card-divider"></hr>
+          <div className="projectcard--tags-wrapper">
             {/* {project.tags.map((tag) => <span>{`#${tag}`}</span>)} */}
 
             {textLanguage === 'en' ?
@@ -24,11 +24,11 @@ function Project(props) {
         </div>
       </div>
       <img
-        className="project--img"
+        className="projectcard--img"
         src={project.imageThumb}
         alt={project.alt} />
     </div>
   )
 };
 
-export default Project;
+export default ProjectCard;

@@ -3,7 +3,7 @@ import myContext from '../../context/myContext';
 import { projects, allTags } from '../../data/projects';
 import { Link } from 'react-router-dom';
 import TagButton from '../../components/TagButton/TagButton';
-import Project from '../../components/Project/Project';
+import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import './projects.css';
 
 function Projects() {
@@ -33,7 +33,7 @@ function Projects() {
     return filtered.map((project) => {
       return (
         <Link to="/sobre">
-          <Project project={project} />
+          <ProjectCard project={project} />
         </Link>
       )
     });
@@ -67,7 +67,7 @@ function Projects() {
   }, [tagsList]);
 
   return (
-    <section className="projects--container">
+    <main className="projects--container">
       {/* <section className="projects--tag-btns">
         {
           allTags[textLanguage].map((tag, index) =>
@@ -78,12 +78,12 @@ function Projects() {
             />)
         }
       </section> */}
-      <div className="projects--main-tags-btns">
+      <section className="projects--main-tags-btns">
         {mainTags(allTags)}
-      </div>
-      <div className="projects--secondary-tags-btns">
+      </section>
+      <section className="projects--secondary-tags-btns">
         {secondaryTags(allTags)}
-      </div>
+      </section>
       <section className="projects--project-links">
         <div className="projects--links-grid">
           {/* {projects.filter(({ tags }) => tagsList.every((tag) => tags.includes(tag)))
@@ -98,7 +98,7 @@ function Projects() {
           {filterProjects(projects)}
         </div>
       </section>
-    </section>
+    </main>
   )
 };
 

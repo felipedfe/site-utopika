@@ -1,24 +1,27 @@
-import React from 'react';
-import olho from '../../assets/olho-placeholder.png';
+import React, { useContext } from 'react';
+import myContext from '../../context/myContext';
+import { textLanguages as textOptions } from '../../data/languages';
+import olho from '../../assets/GIF_teste_1.gif';
 import './intro.css';
 
 function Intro() {
+  const { textLanguage } = useContext(myContext);
+
+  const text = textOptions[textLanguage];
+
   return (
     <section className="intro--container">
       <div className="intro--content">
         <section className="intro--gif-wrapper">
-            <img className="intro--gif" src={olho} alt="olho" />
+          <img className="intro--gif" src={olho} alt="olho" />
         </section>
         <section className="intro--text-and-btn">
           <p>
-            A Utópika é sobre juntar forças, trabalhar com gente legal em projetos que acreditamos. É sobre ser divertido e sobre ser sério, comunicar com transparência achando o tom de cada situação. É sobre explicar e entender.
+            {text.introduction.introPt1}
           </p>
           <h4>
-            Acreditamos muito no poder da comunicação para a transformação da realidade e queremos estar junto na construção de projetos que trazem soluções, imaginação e propósito.
+            {text.introduction.introPt2}
           </h4>
-          <p>
-            Queremos trabalhar em parceria com organizações que, como nós, querem ver a mudança acontecendo agora.
-          </p>
           <button type="button">Saiba +</button>
         </section>
       </div>
