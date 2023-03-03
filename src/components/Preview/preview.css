@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "fieldwork", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .reel {
@@ -133,51 +133,4 @@ a:hover {
   }
   @media all and (max-width: 500px) {
   .vid-info .acronym { display: none; }
-  } */
-
-  body {
-    /* background-color: pink; */
-    /* overflow-x: hidden; */
-  }
-  
-  .icon {
-    font-size: 2rem;
-  }
-  
-  a {
-    all: unset
-  }
-  
-  button, a:hover {
-    cursor: pointer;
-  }
-  
-  button {
-    border: none;
-  }
-  
-  ul {
-    list-style-type: none;
-  }
-  
-  /* .reel--video-background {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-  
-  .reel--container,
-  .intro--container,
-  .instafeed--container {
-    max-width: 1500px;
-    margin: auto;
-  }
-  
-  .instafeed--container {
-    max-width: 2000px;
-  } */
-  
-  /* .projects--container {
-    max-width: 2000px;
-    margin: auto;
   } */

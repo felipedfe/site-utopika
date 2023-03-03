@@ -1,0 +1,63 @@
+.menu--container {
+  position:relative;
+  /* margin: 3rem 0 0 3.5rem; */
+  /* margin: 4% 0 0 5%; */
+  /* z-index: 2; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: beige; */
+  /* margin-bottom: 4rem; */
+  padding-top: 1rem;
+}
+
+.menu--show-navigation-btn,
+.menu--nav-links>* {
+  /* margin-bottom: 0.5rem; */
+}
+
+.menu--show-navigation-btn {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: rgb(238, 87, 97);
+}
+
+
+
+#menu--logo{
+  position: absolute;
+  top:17%;
+  left:10%;
+  width: 80%
+}
+
+.menu--lang-btn {
+  position: relative;
+  background-color: #fff;
+  padding: 0.3rem 0;
+  /* background-color: aqua; */
+}
+
+.menu--lang-btn-line {
+  position: absolute;
+  border-bottom: 3px solid red;
+  height: 10px;
+  width: 50%;
+  /* z-index: 99; */
+}
+
+.pt-selected {
+  bottom: 0;
+  left: 0;
+}
+
+.en-selected {
+  bottom: 0;
+  right: 0;
+}
+
+nav {
+  position: absolute;
+}

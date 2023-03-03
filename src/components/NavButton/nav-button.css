@@ -1,0 +1,9 @@
+.selected {
+  border-bottom: 3px solid red;
+}
+
+.nav-btn {
+  background-color: #fff;
+  font-weight: 700;
+  padding: 10px 0 0 10px;
+}
