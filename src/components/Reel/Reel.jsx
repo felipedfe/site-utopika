@@ -24,8 +24,8 @@ function Reel () {
     <div className="reel--video-foreground">
       <iframe
         title="video-reel"
-        // src="https://player.vimeo.com/video/778199725?h=c1d00cc6da&autoplay=1&title=0&byline=0&portrait=0&controls=0&loop=1&muted=1"
-        src="https://player.vimeo.com/video/778199725?h=c1d00cc6da&title=0&byline=0&portrait=0&controls=0&loop=1&muted=1"
+         src="https://player.vimeo.com/video/778199725?h=c1d00cc6da&autoplay=1&title=0&byline=0&portrait=0&controls=0&loop=1&muted=1"
+        //src="https://player.vimeo.com/video/778199725?h=c1d00cc6da&title=0&byline=0&portrait=0&controls=0&loop=1&muted=1"
         width="640"
         height="360"
         frameBorder="0"
