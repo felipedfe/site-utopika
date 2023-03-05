@@ -1,7 +1,8 @@
 import React, { useContext } from 'react';
 import myContext from '../../context/myContext';
 import { textLanguages as textOptions } from '../../data/languages';
-import placeholder from '../../assets/mongabay-placeholder.png'
+import placeholder from '../../assets/mongabay-placeholder.png';
+import usersGuide from '../../assets/users-guide.jpg';
 import Menu from '../../components/Menu/Menu';
 import './mongabay.css';
 
@@ -13,6 +14,29 @@ function Mongabay() {
 
   return <main className="project--container">
     <Menu />
+
+    <div className="project--img-wrapper-wide">
+      {/* <img className="project--img" alt=" " src={placeholder} /> */}
+      {/* <iframe
+          title="video-reel"
+          src="https://player.vimeo.com/video/803576468?h=c1d00cc6da&title=0&byline=0&portrait=0&controls=1"
+          width="640"
+          height="360"
+        >
+        </iframe> */}
+      <div className="project--iframe-wrapper">
+        <iframe
+          title="gfx-intro"
+          className="project--iframe"
+          src="https://player.vimeo.com/video/803576468?h=3de32b4d5b&title=0&byline=0&portrait=0"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
+
     <section className="project--title-tags-wrapper">
       <h2>{text.projects.mongabay.title}</h2>
       <hr className="project--divider" />
@@ -32,34 +56,47 @@ function Mongabay() {
     </section>
 
     <section className="project--img-text-container">
+
+      {/* edit */}
       <div className="project--img-wrapper">
-        {/* <img className="project--img" alt=" " src={placeholder} /> */}
-        {/* <iframe
-          title="video-reel"
-          src="https://player.vimeo.com/video/803576468?h=c1d00cc6da&title=0&byline=0&portrait=0&controls=1"
-          width="640"
-          height="360"
-        >
-        </iframe> */}
         <div className="project--iframe-wrapper">
           <iframe
-            title="gfx-intro"
+            title="gfx-edit"
             className="project--iframe"
-            src="https://player.vimeo.com/video/803576468?h=3de32b4d5b&title=0&byline=0&portrait=0"
+            src="https://player.vimeo.com/video/804624798?background=1"
             frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
             allowfullscreen>
           </iframe>
         </div>
         <script src="https://player.vimeo.com/api/player.js"></script>
-
       </div>
 
+      {/* essential graphics */}
       <div className="project--img-wrapper-half-l">
-        <p className="project--text-l">
-          {text.projects.mongabay.text2}
-        </p>
-        <img className="project--img" alt=" " src={placeholder} />
+        <div className="project--text-wrapper">
+          <hr className="project--divider" />
+          <p className="project--text-l">
+            {text.projects.mongabay.text2}
+          </p>
+        </div>
+        {/* https://player.vimeo.com/video/804637137?h=5e8c037106 */}
+
+
+        <div className="project--iframe-wrapper ratio">
+          <iframe
+            title="gfx-essential"
+            className="project--iframe"
+            // src="https://player.vimeo.com/video/804637137?h=c1d00cc6da&title=0&byline=0&portrait=0&controls=0&autoplay=1=1&loop=1&muted&background=1"
+            src="https://player.vimeo.com/video/804637137?background=1"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <script src="https://player.vimeo.com/api/player.js"></script>
+
       </div>
 
       {/* <p className="project--text">
@@ -68,16 +105,59 @@ function Mongabay() {
         propriedades possível.
       </p> */}
 
-      <div className="project--img-wrapper">
-        <img className="project--img" alt=" " src={placeholder} />
-      </div>
+      {/* automatizacao? */}
 
       <div className="project--img-wrapper-half-r">
-        <img className="project--img" alt=" " src={placeholder} />
-        <p className="project--text-r">
-          {text.projects.mongabay.text3}
-        </p>
+        <div className="project--iframe-wrapper ratio-code">
+          <iframe
+            title="gfx-essential"
+            className="project--iframe"
+            src="https://player.vimeo.com/video/804882847?background=1"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div className="project--text-wrapper">
+          <hr className="project--divider" />
+          <p className="project--text-r">
+            {text.projects.mongabay.text3}
+          </p>
+        </div>
       </div>
+      {/* https://player.vimeo.com/video/804882847 */}
+
+      {/* Manual */}
+      <div className="project--img-wrapper bleed">
+        <img className="project--img users-guide" alt=" " src={usersGuide} />
+      </div>
+
+      {/* Celular */}
+      <div className="project--img-wrapper-half-l half-grid">
+        <div className="project--text-wrapper">
+          <hr className="project--divider" />
+          <p className="project--text-l">
+            {text.projects.mongabay.text4}
+          </p>
+        </div>
+
+        <div className="project--iframe-wrapper ratio">
+          <iframe
+            title="gfx-essential"
+            className="project--iframe"
+            src="https://player.vimeo.com/video/804634415?background=1"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <script src="https://player.vimeo.com/api/player.js"></script>
+
+
+      </div>
+
+      {/* https://player.vimeo.com/video/804634415 */}
 
       <section className="project--credits-wrapper">
         <hr className="project--divider" />

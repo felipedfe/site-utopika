@@ -1,5 +1,5 @@
 .menu--container {
-  position:relative;
+  position: relative;
   /* margin: 3rem 0 0 3.5rem; */
   /* margin: 4% 0 0 5%; */
   /* z-index: 2; */
@@ -21,15 +21,15 @@
   width: 55px;
   height: 55px;
   border-radius: 50%;
-  background-color: rgb(238, 87, 97);
+  background-color: rgb(229, 74, 56);
 }
 
 
 
-#menu--logo{
+#menu--logo {
   position: absolute;
-  top:17%;
-  left:10%;
+  top: 17%;
+  left: 10%;
   width: 80%
 }
 
@@ -60,4 +60,5 @@
 
 nav {
   position: absolute;
+  z-index: 2;
 }
