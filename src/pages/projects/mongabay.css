@@ -18,9 +18,9 @@ body {
 /* Introdução e tags */
 
 .project--container {
-  width: 80%;
+  /* width: 80%; */
   margin: auto;
-  max-width: 1200px;
+  max-width: 1500px;
 }
 
 .project--title-tags-wrapper {
@@ -28,6 +28,8 @@ body {
   flex-direction: column;
   gap: 0.5rem;
   padding-top: 2rem;
+  /* padding: 2rem 6rem 0 6rem; */
+  /* margin:0 20%; */
 }
 
 .project--title-tags-wrapper h1 {
@@ -123,7 +125,7 @@ body {
   flex-direction: column;
   /* gap: 0.2rem; */
   margin-left: 50%;
-  padding: 4rem 0 2rem 0;
+  padding: 4rem 0 4rem 0;
 }
 
 .project--credits-wrapper h2 {
@@ -160,8 +162,8 @@ body {
   position: absolute;
   padding-left: 0;
   padding-right: 0;
-  top:0;
-  left:-3rem;
+  top: 0;
+  left: -3rem;
   /* width: 100%; */
   width: calc(100% + 6rem);
   /* transform: translateX(-5.8%); */
@@ -181,6 +183,10 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
+  body {
+    background-color: #fff;
+  }
+
   .project--text-align-r {
     margin-left: 0;
     padding-top: 1rem;
@@ -188,7 +194,8 @@ body {
   }
 
   .project--container {
-    width: 95%;
+    /* width: 95%; */
+    padding: 0 1rem;
   }
 
   .project--img-wrapper {
@@ -210,8 +217,18 @@ body {
     display: block;
   }
 
+  .project--img-wrapper-half-r hr {
+    margin-top: 1rem;
+  }
+
   .project--credits-wrapper {
     margin-left: 0;
+  }
+
+  .project--img-wrapper-half-l hr,
+  .project--img-wrapper-half-r hr {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 

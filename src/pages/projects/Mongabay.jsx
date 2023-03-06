@@ -28,7 +28,7 @@ function Mongabay() {
         <iframe
           title="gfx-intro"
           className="project--iframe"
-          src="https://player.vimeo.com/video/803576468?h=3de32b4d5b&title=0&byline=0&portrait=0"
+          src="https://player.vimeo.com/video/803576468?h=3de32b4d5b&title=0&byline=0&portrait=0&color=e54a38"
           frameborder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           allowfullscreen>
@@ -41,10 +41,7 @@ function Mongabay() {
       <h2>{text.projects.mongabay.title}</h2>
       <hr className="project--divider" />
       <div className="project--tags">
-        <span>#animação</span>
-        <span>#ilustração</span>
-        <span>#diversidade</span>
-        <span>#política</span>
+        {text.projects.mongabay.tags.map((tag) => <span>{`#${tag} `}</span>)}
       </div>
     </section>
     <section className="project--text-wrapper">
@@ -63,7 +60,7 @@ function Mongabay() {
           <iframe
             title="gfx-edit"
             className="project--iframe"
-            src="https://player.vimeo.com/video/804624798?background=1"
+            src="https://player.vimeo.com/video/804624798?background=1&autopause=0"
             frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
             allowfullscreen>
@@ -87,8 +84,9 @@ function Mongabay() {
           <iframe
             title="gfx-essential"
             className="project--iframe"
-            // src="https://player.vimeo.com/video/804637137?h=c1d00cc6da&title=0&byline=0&portrait=0&controls=0&autoplay=1=1&loop=1&muted&background=1"
-            src="https://player.vimeo.com/video/804637137?background=1"
+            // src="https://player.vimeo.com/video/804637137?h=c1d00cc6da&title=0&byline=0&portrait=0&controls=0&autoplay=1=1&loop=1&muted&background=1&autopause=0"
+            src="https://player.vimeo.com/video/804637137?background=1&autopause=0"
+            loading="lazy"
             frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
             allowfullscreen>
@@ -112,7 +110,8 @@ function Mongabay() {
           <iframe
             title="gfx-essential"
             className="project--iframe"
-            src="https://player.vimeo.com/video/804882847?background=1"
+            src="https://player.vimeo.com/video/804882847?background=1&autopause=0"
+            loading="lazy"
             frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
             allowfullscreen>
@@ -145,7 +144,8 @@ function Mongabay() {
           <iframe
             title="gfx-essential"
             className="project--iframe"
-            src="https://player.vimeo.com/video/804634415?background=1"
+            src="https://player.vimeo.com/video/804634415?background=1&autopause=0"
+            loading="lazy"
             frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
             allowfullscreen>
@@ -161,11 +161,11 @@ function Mongabay() {
 
       <section className="project--credits-wrapper">
         <hr className="project--divider" />
-        <h2>CRÉDITOS</h2>
-        <p>Coordenação e motion design | Julia Lima</p>
-        <p>Essential graphics | Carla Dutra</p>
-        <p>Automação | Felipe Fernandes</p>
-        <p>Estagiária | Ana Clara Korin</p>
+        <h2>{text.projects.mongabay.credits.title}</h2>
+        <p>{text.projects.mongabay.credits.julia} | Julia Lima</p>
+        <p>{text.projects.mongabay.credits.carla} | Carla Dutra</p>
+        <p>{text.projects.mongabay.credits.felipe} | Felipe Fernandes</p>
+        <p>{text.projects.mongabay.credits.ana} | Ana Clara Korin</p>
       </section>
     </section>
   </main>
