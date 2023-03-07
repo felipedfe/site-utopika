@@ -12,18 +12,16 @@ function Intro() {
   return (
     <section className="intro--container">
       <div className="intro--content">
-        <section className="intro--gif-wrapper">
-          <img className="intro--gif" src={olho} alt="olho" />
-        </section>
-        <section className="intro--text-and-btn">
-          <p>
-            {text.introduction.introPt1}
-          </p>
-          <h4>
-            {text.introduction.introPt2}
-          </h4>
-          <button type="button">Saiba +</button>
-        </section>
+        <div className="intro--gif-and-text-wrapper">
+          <section className="intro--gif-wrapper">
+            <img className="intro--gif" src={olho} alt="olho" />
+          </section>
+          <section className="intro--text-and-btn">
+            <p>{text.introduction.introPt1}</p>
+            <p>{text.introduction.introPt2}</p>
+            <button type="button">Saiba +</button>
+          </section>
+        </div>
       </div>
     </section>
   )

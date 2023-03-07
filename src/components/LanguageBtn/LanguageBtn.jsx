@@ -7,7 +7,6 @@ function LanguageBtn(props) {
   const { textLanguage, setTextLanguage } = useContext(myContext);
 
   const handleText = () => {
-    // console.log(textLanguage);
     if (textLanguage === 'pt') {
       setTextLanguage('en');
     };
@@ -17,12 +16,12 @@ function LanguageBtn(props) {
   };
 
   return <button
-    className="menu--lang-btn"
+    className="lang-btn"
     onClick={handleText}
   >
     PT | EN
     <span
-      className={`menu--lang-btn-line ${textLanguage === 'pt' ? 'pt-selected' : 'en-selected'}`}
+      className={`lang-btn--line ${textLanguage === 'pt' ? 'pt-selected' : 'en-selected'}`}
     >
     </span>
   </button>

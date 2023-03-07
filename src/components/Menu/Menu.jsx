@@ -8,21 +8,11 @@ import './menu.css';
 function Menu() {
   const [isMenuDisabled, setIsMenuDisabled] = useState(true);
 
-  const { textLanguage, setTextLanguage } = useContext(myContext);
+  const { textLanguage } = useContext(myContext);
 
   const text = textOptions[textLanguage];
 
   const showNavigation = () => setIsMenuDisabled((prevState) => !prevState);
-
-  const handleText = () => {
-    // console.log(textLanguage);
-    if (textLanguage === 'pt') {
-      setTextLanguage('en');
-    };
-    if (textLanguage === 'en') {
-      setTextLanguage('pt')
-    };
-  };
 
   return (
     <section className="menu--container">
@@ -33,16 +23,6 @@ function Menu() {
       >
         <MenuLogo fill={"white"} />
       </button>
-      {/* <button
-        className="menu--lang-btn"
-        onClick={handleText}
-      >
-        PT | EN
-        <span
-          className={`menu--lang-btn-line ${textLanguage === 'pt' ? 'pt-selected' : 'en-selected'}`}
-        >
-        </span>
-      </button> */}
       <nav style={isMenuDisabled ? { display: 'none' } : { display: 'flex' }}>
         <ul className="menu--nav-links">
           <li>

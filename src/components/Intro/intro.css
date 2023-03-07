@@ -1,40 +1,61 @@
 .intro--container {
-  /* background-color: red; */
   width: 100%;
   padding: 1.5rem;
+  background-color: #fff;
 }
+
 .intro--content {
   display: flex;
   align-items: center;
-  color: #FFF;
-  /* margin: 1.2rem; */
+  color: #fff;
   border-radius: 20px;
-  /* background-color: rgb(8, 25, 66); */
   width: 100%;
-  background-color: rgb(5, 18, 58);
+  background-color: #001944;
+  padding: 3rem 0;
+}
+
+.intro--gif-and-text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: auto;
 }
 
 .intro--gif-wrapper {
-  /* width: 45%; */
-  /* flex-grow: 1; */
-  padding: 1rem;
-  /* background-color: bisque; */
-  /* height: 700px; */
-  /* background-color: blueviolet; */
+  padding: 1rem 0 1rem 0;
+  width: 50%;
+  /* background-image: url("../../assets/GIF_teste_1.gif"); */
+  z-index: 99;
 }
 
 .intro--gif {
-  /* width: 100%; */
+  transform: translateX(-25px);
+  width: 90%;
 }
 
 .intro--text-and-btn {
-  /* flex-grow: 1.2; */
   display: flex;
   flex-direction: column;
-  /* width: 50%; */
-  padding: 5% 10% 5% 5%;
+  width: 50%;
 }
 
-.intro--text-and-btn>* {
-  margin-bottom: 1rem;
+.intro--text-and-btn p {
+  margin-bottom: 2rem;
+}
+
+.intro--text-and-btn p:nth-child(2) {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.intro--text-and-btn button {
+  color: #fff;
+  font-weight: 600;
+  background-color: rgb(229, 74, 56);
+  padding: 0.4rem;
+  padding-bottom: 0.5rem;
+  border-radius: 50px;
+  width: 100px;
 }

@@ -1,4 +1,4 @@
-.menu--lang-btn {
+.lang-btn {
   position: absolute;
   z-index: 2;
   top: 13%;
@@ -8,7 +8,7 @@
   font-size: medium;
 }
 
-.menu--lang-btn-line {
+.lang-btn--line {
   position: absolute;
   border-bottom: 3px solid rgb(229, 74, 56);
   height: 10px;

@@ -43,7 +43,7 @@ function InstaFeed() {
                 <a key={item.id} href={item.permalink} target="_blank" rel="noreferrer">
                   {item.media_type === "IMAGE" ?
                     <img className="instafeed--media" alt="" src={item.media_url} /> :
-                    <video className="instafeed--media" muted>
+                    <video className="instafeed--media" muted autoPlay>
                       <source src={item.media_url} />
                     </video>
                   }
