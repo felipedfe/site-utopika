@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
-import { textLanguages as textOptions } from '../../data/languages';
 import myContext from '../../context/myContext';
-import './language-btn.css';
+import './menu-language-btn.css';
 
-function LanguageBtn() {
+function MenuLanguageBtn(props) {
+  const { btnInnerText } = props;
   const { textLanguage, setTextLanguage } = useContext(myContext);
 
   const handleText = () => {
@@ -16,15 +16,12 @@ function LanguageBtn() {
   };
 
   return <button
-    className="lang-btn"
+    type="button"
+    className="menu-lang-btn"
     onClick={handleText}
   >
-    PT | EN
-    <span
-      className={`lang-btn--line ${textLanguage === 'pt' ? 'pt-selected' : 'en-selected'}`}
-    >
-    </span>
+    {btnInnerText}
   </button>
 };
 
-export default LanguageBtn;
+export default MenuLanguageBtn;

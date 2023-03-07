@@ -1,5 +1,7 @@
 import React, { useState, useContext } from 'react';
+import { useLocation } from 'react-router-dom';
 import NavButton from '../NavButton/NavButton';
+import MenuLanguageBtn from '../MenuLanguageBtn/MenuLanguageBtn';
 import { textLanguages as textOptions } from '../../data/languages';
 import myContext from '../../context/myContext';
 import MenuLogo from '../MenuLogo';
@@ -8,11 +10,16 @@ import './menu.css';
 function Menu() {
   const [isMenuDisabled, setIsMenuDisabled] = useState(true);
 
-  const { textLanguage } = useContext(myContext);
+  const location = useLocation();
 
+  const { textLanguage } = useContext(myContext);
   const text = textOptions[textLanguage];
 
   const showNavigation = () => setIsMenuDisabled((prevState) => !prevState);
+
+  const selectedLanguage = () => {
+    return textLanguage === 'pt' ? 'ENGLISH' : 'PORTUGUÊS';
+  }
 
   return (
     <section className="menu--container">
@@ -42,6 +49,12 @@ function Menu() {
               btnPath="/sobre"
               buttonInnerText={text.menu.about}
             />
+          </li>
+          <li>
+            {
+              location.pathname !== "/" &&
+              <MenuLanguageBtn btnInnerText={selectedLanguage()}/>
+            }
           </li>
         </ul>
       </nav>

@@ -50,12 +50,16 @@
   line-height: 1.2;
 }
 
-.intro--text-and-btn button {
+.intro--btn {
   color: #fff;
   font-weight: 600;
   background-color: rgb(229, 74, 56);
   padding: 0.4rem;
   padding-bottom: 0.5rem;
   border-radius: 50px;
-  width: 100px;
+  align-self: flex-start;
+}
+
+.intro--btn span{
+  padding: 1rem;
 }
