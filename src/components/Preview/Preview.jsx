@@ -16,6 +16,7 @@ function Preview() {
         <a href="https://vimeo.com/utopika" rel="noreferrer" target="_blank">
           <FaVimeo className="icon" />
         </a>
+        <span>|</span>
         <a href="https://www.instagram.com/utopika_design/" rel="noreferrer" target="_blank">
           <RiInstagramFill className="icon" />
         </a>

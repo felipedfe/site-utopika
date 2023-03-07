@@ -35,7 +35,9 @@ function Footer() {
           </a>
         </div>
         <div className="footer--icon-wrapper">
-          <i className="footer--icon icon-btn"><FaBehance /></i>
+          <a href="https://www.behance.net/utopika_" target="_blank">
+            <i className="footer--icon icon-btn"><FaBehance /></i>
+          </a>
         </div>
       </section>
       <p className="footer--info">{text.footer.info}</p>
