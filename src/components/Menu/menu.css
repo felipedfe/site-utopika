@@ -1,11 +1,46 @@
 .menu--container {
-  position:fixed;
+  position: fixed;
+  top: 13%;
+  left: 4%;
   /* margin: 3rem 0 0 3.5rem; */
-  margin: 4% 0 0 5%;
+  /* margin: 4% 0 0 5%; */
   z-index: 2;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+  /* padding: 4rem; */
 }
 
 .menu--show-navigation-btn,
 .menu--nav-links>* {
   margin-bottom: 0.5rem;
+}
+
+nav {
+  position: absolute;
+  top: 70px;
+  left: 10px;
+}
+
+.menu--nav-links {
+  background-color: white;
+  padding: 7px 18px 7px 7px;
+  border-radius: 3px;
+}
+
+.menu--show-navigation-btn {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: rgb(229, 74, 56);
+}
+
+#menu--logo {
+  position: absolute;
+  top: 17%;
+  left: 10%;
+  width: 80%
 }

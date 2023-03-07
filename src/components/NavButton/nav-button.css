@@ -1,3 +1,8 @@
+.nav-button {
+  background-color: transparent;
+  padding-right: 5px;
+}
+
 .selected {
   border-bottom: 3px solid red;
 }

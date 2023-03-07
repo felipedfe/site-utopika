@@ -9,7 +9,7 @@ function NavButton({ btnPath, buttonInnerText }) {
   return (
     <button
       type="button"
-      className={location.pathname === btnPath ? "selected" : null}
+      className={`nav-button ${location.pathname === btnPath ? "selected" : null}`}
       onClick={() => { navigate(btnPath) }}
     >
       {buttonInnerText}

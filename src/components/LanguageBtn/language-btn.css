@@ -1,0 +1,26 @@
+.menu--lang-btn {
+  position: absolute;
+  z-index: 2;
+  top: 13%;
+  right: 8%;
+  background-color: transparent;
+  color: #fff;
+  font-size: medium;
+}
+
+.menu--lang-btn-line {
+  position: absolute;
+  border-bottom: 3px solid rgb(229, 74, 56);
+  height: 10px;
+  width: 40%;
+}
+
+.pt-selected {
+  bottom: -5px;
+  left: 0;
+}
+
+.en-selected {
+  bottom: -5px;
+  right: 0;
+}
