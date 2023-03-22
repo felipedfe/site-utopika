@@ -1,10 +1,13 @@
 .contacts--container {
-  width: 200px;
+  /* width: 333px; */
   display: flex;
   flex-direction: column;
+  align-content: flex-end;
   gap: 1.5rem;
-  background-color: rgb(201, 67, 44);
-  padding: 0.7rem 0.7rem 3rem 0.7rem;
+  background-color: var(--red);
+  /* padding: 0.7rem 0.7rem 3rem 0.7rem; */
+  padding: 1rem 2rem;
+  height: 65%;
 }
 
 .contacts--container * {
@@ -13,6 +16,7 @@
 
 .contacts--title hr {
   border-top: 3px solid #fff;
+  margin-top: 0.3rem;
 }
 
 .contacts--title h1 {
@@ -21,4 +25,12 @@
 
 .contacts--person-info>* {
   padding-bottom: 0.5rem;
+}
+
+@media all and (max-width: 768px) {
+  .contacts--container {
+    /* width: 100%; */
+    /* margin: auto; */
+    margin-top: 3rem;
+  }
 }

@@ -61,16 +61,22 @@
   gap: 10px;
 }
 
-@media (min-aspect-ratio: 15/9) {
+@media (min-aspect-ratio: 15/9) and (min-width: 1024px) {
   .reel--video-foreground {
     height: 300%;
     top: -100%;
   }
 }
 
-@media (max-aspect-ratio: 15/9) {
+@media (max-aspect-ratio: 15/9) and (min-width: 1024px) {
   .reel--video-foreground {
     width: 300%;
     left: -100%;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .reel--container {
+    display: none;
   }
 }

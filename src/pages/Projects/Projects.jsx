@@ -3,7 +3,9 @@ import myContext from '../../context/myContext';
 import { projects, allTags } from '../../data/projects';
 import { Link } from 'react-router-dom';
 import TagButton from '../../components/TagButton/TagButton';
+import TagBtn from '../../components/TagBtn'
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
+import ProjectNotFound from '../../components/ProjectNotFound/ProjectNotFound';
 import './projects.css';
 
 function Projects() {
@@ -28,11 +30,11 @@ function Projects() {
   const filterProjects = (projects) => {
     const filtered = projects.filter(({ tags }) => tagsList.every((tag) => tags.includes(tag)));
 
-    if (!filtered.length) return <h1>Não encontrado</h1>
+    if (!filtered.length) return <ProjectNotFound />
 
     return filtered.map((project) => {
       return (
-        <Link to="/sobre">
+        <Link to={`${project.id}`}>
           <ProjectCard project={project} />
         </Link>
       )
@@ -68,16 +70,6 @@ function Projects() {
 
   return (
     <main className="projects--container">
-      {/* <section className="projects--tag-btns">
-        {
-          allTags[textLanguage].map((tag, index) =>
-            <TagButton
-              handleClick={handleClick}
-              innerTextTag={tag}
-              valueTag={allTags['en'][index]}
-            />)
-        }
-      </section> */}
       <section className="projects--main-tags-btns">
         {mainTags(allTags)}
       </section>

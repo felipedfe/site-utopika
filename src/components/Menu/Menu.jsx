@@ -53,7 +53,7 @@ function Menu() {
           <li>
             {
               location.pathname !== "/" &&
-              <MenuLanguageBtn btnInnerText={selectedLanguage()}/>
+              <MenuLanguageBtn btnInnerText={selectedLanguage()} />
             }
           </li>
         </ul>

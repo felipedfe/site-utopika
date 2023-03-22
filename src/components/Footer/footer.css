@@ -4,7 +4,7 @@
   justify-content: space-evenly;
   width: 100%;
   padding: 2.5rem 0;
-  background-color: rgb(229, 74, 56);
+  background-color: var(--red);
 }
 
 .footer--icon-wrapper {
@@ -31,9 +31,16 @@
 .footer--icon {
   position: absolute;
   top: 0;
-  left: 18%;
-  color: rgb(229, 74, 56);
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--red);
   font-size: 1.5rem;
+  width: 100%;
+  height: 100%;
+  /* font-size: 30px; */
+  /* text-align:center; */
 }
 
 .footer--info {

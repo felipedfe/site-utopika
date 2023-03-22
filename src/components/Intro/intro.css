@@ -10,7 +10,7 @@
   color: #fff;
   border-radius: 20px;
   width: 100%;
-  background-color: #001944;
+  background-color: var(--blue);
   padding: 3rem 0;
 }
 
@@ -26,7 +26,7 @@
   padding: 1rem 0 1rem 0;
   width: 50%;
   /* background-image: url("../../assets/GIF_teste_1.gif"); */
-  z-index: 99;
+  /* z-index: 99; */
 }
 
 .intro--gif {
@@ -53,7 +53,7 @@
 .intro--btn {
   color: #fff;
   font-weight: 600;
-  background-color: rgb(229, 74, 56);
+  background-color: var(--red);
   padding: 0.4rem;
   padding-bottom: 0.5rem;
   border-radius: 50px;
@@ -62,4 +62,35 @@
 
 .intro--btn span{
   padding: 1rem;
+}
+
+@media all and (max-width: 1024px) {
+  .intro--gif-and-text-wrapper {
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+  }
+
+  .intro--gif {
+    width: 100%;
+    transform: translateX(0);
+  }
+
+  .intro--text-and-btn {
+    width: 70%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .intro--text-and-btn {
+    width: 90%;
+  }
+
+  .intro--container {
+    /* padding: 0; */
+  }
+
+  .intro--gif-wrapper {
+    width: 80%;
+  }
 }

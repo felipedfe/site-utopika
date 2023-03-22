@@ -10,7 +10,7 @@
 
 .lang-btn--line {
   position: absolute;
-  border-bottom: 3px solid rgb(229, 74, 56);
+  border-bottom: 3px solid var(--red);
   height: 10px;
   width: 40%;
 }

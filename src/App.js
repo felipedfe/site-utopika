@@ -12,9 +12,15 @@ function App() {
       <BrowserRouter>
         <ScrollToTop />
         <Routes>
-          <Route exact path="/" element={
+        <Route exact path="/projetos/vozes-femininas" element={
             <PageLayout>
               <Home />
+            </PageLayout>
+          }
+          />
+          <Route exact path="/projetos:id" element={
+            <PageLayout>
+              <About />
             </PageLayout>
           }
           />
@@ -27,6 +33,12 @@ function App() {
           <Route exact path="/sobre" element={
             <PageLayout>
               <About />
+            </PageLayout>
+          }
+          />
+          <Route exact path="/" element={
+            <PageLayout>
+              <Home />
             </PageLayout>
           }
           />
