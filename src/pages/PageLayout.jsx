@@ -4,11 +4,11 @@ import Footer from '../components/Footer/Footer';
 
 function PageLayout({ children }) {
   return (
-    <>
+    <header>
       <Menu />
       {children}
       <Footer />
-    </>
+    </header>
   )
 };
 

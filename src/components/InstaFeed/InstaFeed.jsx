@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useContext } from 'react';
 import myContext from '../../context/myContext';
 import { textLanguages as textOptions } from '../../data/languages';
+import { AiOutlineInstagram as InstagramIcon } from 'react-icons/ai';
 import './insta-feed.css';
 
 function InstaFeed() {
@@ -34,6 +35,7 @@ function InstaFeed() {
     <section className="instafeed--container">
       <div className="instafeed--grid">
         <div className="instafeed--grid-title">
+          <i className="instafeed--icon"><InstagramIcon /></i>
           <h3>{text.instaFeed.title}</h3>
         </div>
         <div className="instafeed--grid-media">

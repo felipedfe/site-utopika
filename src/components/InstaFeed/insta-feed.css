@@ -12,8 +12,19 @@
   max-width: 1500px;
 }
 
+.instafeed--icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  color: var(--red);
+}
+
 .instafeed--grid-title {
   padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
   /* margin-left: 6%; */
 }
 
@@ -48,6 +59,7 @@
     width: 50%;
     /* padding: 0.5rem; */
   }
+
   .instafeed--grid-media {
     /* flex-direction: column; */
   }
