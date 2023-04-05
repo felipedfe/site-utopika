@@ -2,6 +2,12 @@
   position: relative;
 }
 
+.home--container main{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 @media all and (min-width: 1025px) {
   .home--mobile-reel-wrapper{
     display: none;

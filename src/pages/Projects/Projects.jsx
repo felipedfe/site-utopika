@@ -6,12 +6,21 @@ import TagButton from '../../components/TagButton/TagButton';
 import TagBtn from '../../components/TagBtn'
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import ProjectNotFound from '../../components/ProjectNotFound/ProjectNotFound';
+import Tags from '../../components/Tags/Tags';
 import './projects.css';
 
 function Projects() {
-  const [tagsList, setTagsList] = useState([]);
+  const [loading, setLoading] = useState([]);
 
-  const { textLanguage } = useContext(myContext);
+  const {
+    textLanguage,
+    isLargeScreen,
+    setIsLargeScreen,
+    setIsNavMenuDisabled,
+    setIsSearchMenuDisabled,
+    tagsList,
+    setTagsList,
+    largeScreenBreakPt } = useContext(myContext);
 
   // Aqui é indicada a quantidade de main tags
   const mainTagsLimit = 4;
@@ -64,18 +73,40 @@ function Projects() {
   };
 
   // Retirar depois
+  // useEffect(() => {
+  //   console.log(tagsList)
+  // }, [tagsList]);
+
   useEffect(() => {
-    console.log(tagsList)
-  }, [tagsList]);
+    // Quando o componente começa a montar é feita a checagem do tamanho da tela
+    // para saber que tipo de menu será renderizado
+    const checkForLargeScreen = () => window.innerWidth <= largeScreenBreakPt ? false : true;
+
+    setIsLargeScreen(checkForLargeScreen());
+    setLoading(false);
+  }, []);
+
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth >= largeScreenBreakPt) {
+      setIsLargeScreen(true)
+      setIsNavMenuDisabled(true)
+      setIsSearchMenuDisabled(true)
+    } else {
+      setIsLargeScreen(false)
+    }
+  });
 
   return (
     <main className="projects--container">
-      <section className="projects--main-tags-btns">
+      {/* {isLargeScreen && <Tags />} */}
+      {loading ? "Loading..." : isLargeScreen && <Tags />}
+      {/* <section className="projects--main-tags-btns">
         {mainTags(allTags)}
       </section>
       <section className="projects--secondary-tags-btns">
         {secondaryTags(allTags)}
-      </section>
+      </section> */}
       <section className="projects--project-links">
         <div className="projects--links-grid">
           {/* {projects.filter(({ tags }) => tagsList.every((tag) => tags.includes(tag)))

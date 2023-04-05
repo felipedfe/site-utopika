@@ -1,3 +1,11 @@
+#menu--logo {
+  pointer-events: none;
+}
+
+.menu--search-icon {
+  pointer-events: none;
+}
+
 .menu--container {
   position: fixed;
   top: 13%;
@@ -19,7 +27,7 @@
   height: 40px;
 }
 
-.menu__btn-touch-area {
+.menu--btn-touch-area {
   width: 100%;
   height: 100%;
   background-color: blue;
@@ -40,6 +48,36 @@ nav {
   background-color: #fff;
   padding: 7px 18px 7px 7px;
   border-radius: 3px;
+}
+
+.menu--close-btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+}
+
+.close-btn-pt1 {
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  background-color: #000;
+  border-radius: 2px; 
+  transform: rotate(45deg);
+}
+
+.close-btn-pt2 {
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  background-color: #000;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+}
+
+@keyframes closeBtnAnimation {
+  from {width: 0px;}
+  to {width: 40px;}
 }
 
 .menu--show-navigation-btn {
@@ -67,7 +105,7 @@ nav {
     width: 100%;
     /* height: 10vw; */
     background-color: aqua;
-    opacity: 0.8;
+    /* opacity: 0.8; */
   }
 
   .menu--search-btn {
@@ -85,7 +123,7 @@ nav {
   }
 
   .menu--show-navigation-btn {
-    position: absolute;  
+    position: absolute;
     /* left: 500px; */
     top: 10px;
     right: 20px;
@@ -94,14 +132,22 @@ nav {
     height: 40px;
   }
 
+  .menu--tags,
   nav {
     position: absolute;
-    top: 0;
+    top: 100px;
     left: auto;
     right: 0;
     height: 100vh;
     width: 0;
     background-color: #fff;
+    overflow: hidden;
+  }
+
+  .menu--tags {
+    /* position: relative; */
+    left: 0;
+    right: auto;
   }
 
   .menu--enabled {
@@ -112,5 +158,12 @@ nav {
   .menu--disabled {
     width: 0;
     transition: 0.3s;
+  }
+
+  .menu--tags .tags--tags-container {
+    /* position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: red; */
   }
 }

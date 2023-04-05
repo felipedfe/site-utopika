@@ -1,6 +1,7 @@
-import React, { useState, useContext, useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import NavButton from '../NavButton/NavButton';
+import Tags from '../Tags/Tags';
 import MenuLanguageBtn from '../MenuLanguageBtn/MenuLanguageBtn';
 import { textLanguages as textOptions } from '../../data/languages';
 import myContext from '../../context/myContext';
@@ -9,116 +10,122 @@ import { RxMagnifyingGlass as SearchIcon } from 'react-icons/rx';
 import './menu.css';
 
 function Menu() {
-  const [isMenuDisabled, setIsMenuDisabled] = useState(true);
-  const [isLargeScreen, setIsLargeScreen] = useState(true);
-
   const { pathname } = useLocation();
 
-  const { textLanguage } = useContext(myContext);
+  const {
+    textLanguage,
+    isLargeScreen,
+    setIsLargeScreen,
+    isNavMenuDisabled,
+    setIsNavMenuDisabled,
+    isSearchMenuDisabled,
+    setIsSearchMenuDisabled,
+    largeScreenBreakPt } = useContext(myContext);
+
   const text = textOptions[textLanguage];
 
-  const showNavigation = () => setIsMenuDisabled((prevState) => !prevState);
+  const toggleNavigationMenu = () => {
+    if (!isSearchMenuDisabled) setIsSearchMenuDisabled((prevState) => !prevState);
+    setIsNavMenuDisabled((prevState) => !prevState);
+  };
+
+  const toggleSearchMenu = () => {
+    if (!isNavMenuDisabled) setIsNavMenuDisabled((prevState) => !prevState);
+    setIsSearchMenuDisabled((prevState) => !prevState)
+  };
 
   const selectedLanguage = () => textLanguage === 'pt' ? 'ENGLISH' : 'PORTUGUÊS';
 
   useEffect(() => {
     // Quando o componente começa a montar é feita a checagem do tamanho da tela
     // para saber que tipo de menu será renderizado
-    const checkForLargeScreen = () => window.innerWidth <= 1024 ? false : true;
+    const checkForLargeScreen = () => window.innerWidth <= largeScreenBreakPt ? false : true;
 
-    setIsLargeScreen(checkForLargeScreen);
-  }, [isMenuDisabled]);
-
-  useEffect(() => {
-    const closeMenu = (e) => {
-      console.log(e.srcElement.className)
-      // O menu só vai fechar se ele não for disparado pelo botão do menu
-      // if (e.srcElement.id !== 'menu--logo') setIsMenuDisabled(true);
-      if (e.srcElement.id === 'menu--logo' || 
-        e.srcElement.className ==='menu--show-navigation-btn') {
-          setIsMenuDisabled(false);
-        } else {
-          setIsMenuDisabled(true);
-        }
-    }
-
-    document.body.addEventListener('touchend', closeMenu);
-    document.body.addEventListener('click', closeMenu);
-
-    return () => {
-      document.body.removeEventListener('touchend', closeMenu);
-      document.body.removeEventListener('click', closeMenu);
-    }
-  }, []);
-
-
+    setIsLargeScreen(checkForLargeScreen());
+  }, [isNavMenuDisabled, isSearchMenuDisabled]);
 
   return (
     <section className="menu--container">
-      {
-        pathname === "/projetos" &&
-        <button
-          type="button"
-          className="menu--search-btn"
-        >
-          <i className="menu--search-icon"><SearchIcon /></i>
-          {/* <div className="menu__btn-touch-area" /> */}
-        </button>
-      }
       <button
         type="button"
         className="menu--show-navigation-btn"
-        onClick={showNavigation}
+        onClick={toggleNavigationMenu}
       >
         <MenuLogo fill={"white"} />
-        {/* <div className="menu__btn-touch-area" /> */}
       </button>
       <nav
-        style={isLargeScreen && isMenuDisabled ? { display: 'none' } : { display: 'flex' }}
-        className={isMenuDisabled ? "menu--disabled" : "menu--enabled"}
+        style={isLargeScreen && isNavMenuDisabled ? { display: 'none' } : { display: 'flex' }}
+        className={isNavMenuDisabled ? "menu--disabled" : "menu--enabled"}
       >
         <ul className="menu--nav-links">
           <li>
             <NavButton
               btnPath="/"
               buttonInnerText={text.menu.home}
-              setIsMenuDisabled={setIsMenuDisabled}
+              setIsNavMenuDisabled={setIsNavMenuDisabled}
             />
           </li>
           <li>
             <NavButton
               btnPath="/projetos"
               buttonInnerText={text.menu.projects}
-              setIsMenuDisabled={setIsMenuDisabled}
+              setIsNavMenuDisabled={setIsNavMenuDisabled}
             />
           </li>
           <li>
             <NavButton
               btnPath="/sobre"
               buttonInnerText={text.menu.about}
-              setIsMenuDisabled={setIsMenuDisabled}
+              setIsNavMenuDisabled={setIsNavMenuDisabled}
             />
           </li>
           <li>
             {
-              pathname !== "/" &&
-              <MenuLanguageBtn btnInnerText={selectedLanguage()} />
+              pathname === "/" && isLargeScreen ?
+                null :
+                <MenuLanguageBtn btnInnerText={selectedLanguage()} />
             }
           </li>
           {
             !isLargeScreen &&
             <li>
               <button
+                className="menu--close-btn"
                 type="button"
-                onClick={() => setIsMenuDisabled(true)}
+                onClick={() => setIsNavMenuDisabled(true)}
               >
-                Fechar
+                <div className="close-btn-pt1"></div>
+                <div className="close-btn-pt2"></div>
               </button>
             </li>
           }
-
         </ul>
       </nav>
+      {
+        pathname === "/projetos" &&
+        <>
+          <button
+            type="button"
+            className="menu--search-btn"
+            onClick={toggleSearchMenu}
+          >
+            <i className="menu--search-icon"><SearchIcon /></i>
+          </button>
+          <section
+            style={isLargeScreen && isSearchMenuDisabled ? { display: 'none' } : { display: 'flex' }}
+            className={`menu--tags ${isSearchMenuDisabled ? "menu--disabled" : "menu--enabled"}`}
+          >
+            <Tags />
+            <button
+              type="button"
+              onClick={toggleSearchMenu}
+            >
+              Fechar
+            </button>
+          </section>
+        </>
+      }
+
     </section>
   )
 };

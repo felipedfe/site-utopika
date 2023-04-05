@@ -1,12 +1,29 @@
 import React, { useState, useEffect, useContext } from 'react';
 import myContext from '../../context/myContext';
 import { textLanguages as textOptions } from '../../data/languages';
+import { Carousel } from 'react-responsive-carousel';
+// import Slider from "react-styled-carousel";
+// import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+import './clients.css';
 
 import styled from 'styled-components';
 
 
-const ClientsWrapper = styled.div`
+const handleDragStart = (e) => e.preventDefault();
+
+const ClientsWrapper = styled.section`
+/* background-color: var(--blue); */
 `
+
+const CarouselWrapper = styled.div`
+  background-color: var(--blue);
+  /* width: 80%; */
+  /* margin: auto; */
+  border-radius: 10px;
+  /* height: 200px; */
+  `
 
 const ClientsGrid = styled.div`
   /* display: grid;
@@ -20,11 +37,18 @@ const ClientsGrid = styled.div`
 `
 
 const LogoWrapper = styled.div`
-  width: 200px;
+  /* width: 200px; */
+  /* background-color: var(--red); */
+  display: flex;
+  
 `
 
 const Image = styled.img`
-  /* width: 100%; */
+  /* width: 100px; */
+  width: 100%;
+  padding: 1rem;
+  /* width: 200px; */
+  /* height: 100%; */
 `
 
 
@@ -43,15 +67,44 @@ function Clients() {
     };
 
     const allLogos = importAllLogos(require.context('../../assets/logos', false, /\.png$/i))
-    console.log(allLogos);
-    setLogos(allLogos);
+    // console.log(allLogos);
+    const logoImages = allLogos.map((item) => <LogoWrapper>
+      <Image
+        alt=''
+        src={item}
+        onDragStart={handleDragStart}
+        role="presentation"
+      // autoHeight
+      // autoWidth
+      />
+    </LogoWrapper>);
+
+    setLogos(logoImages);
   }, []);
 
 
   return (
     <ClientsWrapper>
       <h1>{title}</h1>
-      {/* <ClientsGrid>
+      <CarouselWrapper>
+        <AliceCarousel
+          mouseTracking
+          items={logos}
+          disableDotsControls
+          responsive={{
+            0: {
+              items: 2,
+            },
+            400: {
+              items: 6,
+              itemsFit: 'contain',
+            }
+          }}
+        />
+
+        {/* {logos.map((item) => <LogoWrapper><img src={item} /></LogoWrapper>)} */}
+
+        {/* <ClientsGrid>
         {logos.map((logo, i) => {
           console.log(i)
           return <LogoWrapper>
@@ -60,6 +113,7 @@ function Clients() {
         })}
         <img src="images/clients/12-frente-desencarceramento.png"></img>
       </ClientsGrid> */}
+      </CarouselWrapper>
     </ClientsWrapper>
   )
 };

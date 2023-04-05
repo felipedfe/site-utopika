@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import './nav-button.css';
 
-function NavButton({ btnPath, buttonInnerText, setIsMenuDisabled }) {
+function NavButton({ btnPath, buttonInnerText, setIsNavMenuDisabled }) {
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -12,7 +12,7 @@ function NavButton({ btnPath, buttonInnerText, setIsMenuDisabled }) {
       className={`nav-button ${location.pathname === btnPath ? "selected" : null}`}
       // onClick={() => { navigate(btnPath) }}
       onClick={() => { 
-        setIsMenuDisabled(true)
+        setIsNavMenuDisabled(true)
         navigate(btnPath) 
       }}
     >
