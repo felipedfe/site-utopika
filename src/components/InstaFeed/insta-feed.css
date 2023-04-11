@@ -1,6 +1,6 @@
 .instafeed--container {
   /* background-color: pink; */
-  padding: 2rem 0;
+  padding: 2rem 0 6rem 0;
 }
 
 .instafeed--grid {
@@ -9,7 +9,7 @@
   flex-direction: column;
   margin: auto;
   width: 70%;
-  max-width: 1500px;
+  /* max-width: 1500px; */
 }
 
 .instafeed--icon {
@@ -62,5 +62,11 @@
 
   .instafeed--grid-media {
     /* flex-direction: column; */
+  }
+}
+
+@media all and (min-width: 1500px) {
+  .instafeed--grid {
+    width: 90%;
   }
 }

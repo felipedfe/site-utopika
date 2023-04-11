@@ -13,13 +13,16 @@ margin-bottom: 4rem;
   }
 `
 
-const Text = styled.p`
+const TextWrapper = styled.div`
 padding: 0 3rem 0 0;
 font-size: 1.1rem;
+&>* {
+  padding-bottom: 1rem;
+}
 
 @media all and (max-width: 768px) {
     padding: 0;
   }
 `
 
-export { Text, TextAndContactSection };
+export { TextWrapper, TextAndContactSection };

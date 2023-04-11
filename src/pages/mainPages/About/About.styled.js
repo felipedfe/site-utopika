@@ -4,10 +4,16 @@ const AboutContainer = styled.main`
   padding: 5% 0;
   margin-left: 17%;
   margin-right: 8%;
+  max-width: 1200px;
+  /* margin: auto; */
 
   @media all and (max-width: 1024px) {
     margin-left: 3%;
     margin-right: 3%;
+  }
+
+  @media all and (min-width: 1500px) {
+    margin: auto;
   }
 `
 
@@ -20,9 +26,10 @@ const Hr = styled.hr`
 const ProfileSection = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: 5rem;
   padding: 0 1.5rem;
   margin-bottom: 2rem;
+  text-align: justify;
 
   @media all and (max-width: 768px) {
     grid-template-columns: 1fr;

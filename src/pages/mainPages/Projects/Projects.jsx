@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useContext } from 'react';
-import myContext from '../../context/myContext';
-import { projects, allTags } from '../../data/projects';
+import myContext from '../../../context/myContext';
+import { projects, allTags } from '../../../data/projects';
 import { Link } from 'react-router-dom';
-import TagButton from '../../components/TagButton/TagButton';
-import TagBtn from '../../components/TagBtn'
-import ProjectCard from '../../components/ProjectCard/ProjectCard';
-import ProjectNotFound from '../../components/ProjectNotFound/ProjectNotFound';
-import Tags from '../../components/Tags/Tags';
+import TagButton from '../../../components/TagButton/TagButton';
+import TagBtn from '../../../components/TagBtn'
+import ProjectCard from '../../../components/ProjectCard/ProjectCard';
+import ProjectNotFound from '../../../components/ProjectNotFound/ProjectNotFound';
+import Tags from '../../../components/Tags/Tags';
 import './projects.css';
 
 function Projects() {
@@ -44,7 +44,13 @@ function Projects() {
     return filtered.map((project) => {
       return (
         <Link to={`${project.id}`}>
-          <ProjectCard project={project} />
+          <button
+            className="projects--project-btn"
+            type="button"
+            onClick={() => setIsNavMenuDisabled(true)}
+          >
+            <ProjectCard project={project} />
+          </button>
         </Link>
       )
     });

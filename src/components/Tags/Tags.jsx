@@ -52,12 +52,14 @@ function Tags() {
 
   return (
     <section className="tags--tags-container">
-      <section className="tags--main-tags-btns">
-        {mainTags(allTags)}
-      </section>
-      <section className="tags--secondary-tags-btns">
-        {secondaryTags(allTags)}
-      </section>
+      <div className="tags--all-tags-wrapper">
+        <section className="tags--main-tags-btns">
+          {mainTags(allTags)}
+        </section>
+        <section className="tags--secondary-tags-btns">
+          {secondaryTags(allTags)}
+        </section>
+      </div>
     </section>
 
   )

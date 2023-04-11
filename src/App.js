@@ -1,7 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Home, Projects, About } from './pages';
-import PageLayout from './pages/PageLayout';
+import { Home, Projects, About } from './pages/mainPages';
+import Despolarize from './pages/projectsPages/Despolarize';
+import MainPageLayout from './pages/pageLayouts/mainPageLayout';
+import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
 import MyProvider from './provider/myProvider';
 import ScrollToTop from './helpers/ScrollToTop';
 import './App.css';
@@ -12,34 +14,36 @@ function App() {
       <BrowserRouter>
         <ScrollToTop />
         <Routes>
-        <Route exact path="/projetos/vozes-femininas" element={
-            <PageLayout>
-              <Home />
-            </PageLayout>
+          <Route exact path="/projetos/despolarize" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <Despolarize />
+              </ProjectPageLayout>
+            </MainPageLayout>
           }
           />
-          <Route exact path="/projetos:id" element={
-            <PageLayout>
-              <About />
-            </PageLayout>
+          <Route exact path="/projetos/vozes-femininas" element={
+            <ProjectPageLayout>
+
+            </ProjectPageLayout>
           }
           />
           <Route exact path="/projetos" element={
-            <PageLayout>
+            <MainPageLayout>
               <Projects />
-            </PageLayout>
+            </MainPageLayout>
           }
           />
           <Route exact path="/sobre" element={
-            <PageLayout>
+            <MainPageLayout>
               <About />
-            </PageLayout>
+            </MainPageLayout>
           }
           />
           <Route exact path="/" element={
-            <PageLayout>
+            <MainPageLayout>
               <Home />
-            </PageLayout>
+            </MainPageLayout>
           }
           />
         </Routes>

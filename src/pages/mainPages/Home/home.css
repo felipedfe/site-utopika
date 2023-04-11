@@ -8,6 +8,11 @@
   height: 100%;
 }
 
+.home--intro-instafeed-wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
 @media all and (min-width: 1025px) {
   .home--mobile-reel-wrapper{
     display: none;

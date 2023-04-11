@@ -6,3 +6,11 @@
 .selected {
   border-bottom: 3px solid var(--red);;
 }
+
+@media screen and (max-width: 1024px) {
+  .nav-button {
+    background-color: transparent;
+    padding-right: 5px;
+    font-size: 2rem;
+  }
+}

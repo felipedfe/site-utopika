@@ -7,6 +7,7 @@ import { textLanguages as textOptions } from '../../data/languages';
 import myContext from '../../context/myContext';
 import MenuLogo from '../MenuLogo';
 import { RxMagnifyingGlass as SearchIcon } from 'react-icons/rx';
+import CloseIcon from '../CloseIcon/CloseIcon';
 import './menu.css';
 
 function Menu() {
@@ -97,6 +98,13 @@ function Menu() {
                 <div className="close-btn-pt1"></div>
                 <div className="close-btn-pt2"></div>
               </button>
+              <button
+                type="button"
+                onClick={() => setIsNavMenuDisabled(true)}
+                className="menu--close-btn"
+              >
+                <CloseIcon />
+              </button>
             </li>
           }
         </ul>
@@ -118,9 +126,10 @@ function Menu() {
             <Tags />
             <button
               type="button"
+              className="menu--close-btn"
               onClick={toggleSearchMenu}
             >
-              Fechar
+              <CloseIcon />
             </button>
           </section>
         </>

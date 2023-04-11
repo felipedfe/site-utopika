@@ -1,17 +1,20 @@
 import React, { useEffect, useContext } from 'react';
-import Reel from '../../components/Reel/Reel';
-import Intro from '../../components/Intro/Intro';
-import InstaFeed from '../../components/InstaFeed/InstaFeed';
-import MobileReel from '../../components/VideoContainer/VideoContainer';
+import { useLocation } from 'react-router-dom';
+import Menu from '../../components/Menu/Menu';
+import Footer from '../../components/Footer/Footer';
+import LanguageBtn from '../../components/LanguageBtn/LanguageBtn';
 import myContext from '../../context/myContext';
-import './home.css';
+import styled from 'styled-components';
 
-function Home() {
+function MainPageLayout({ children }) {
+  // const { isLargeScreen } = useContext(myContext);
   const {
+    isLargeScreen,
     setIsLargeScreen,
     setIsNavMenuDisabled,
     setIsSearchMenuDisabled,
     largeScreenBreakPt } = useContext(myContext);
+  const { pathname } = useLocation();
 
   useEffect(() => {
     // Quando o componente começa a montar é feita a checagem do tamanho da tela
@@ -32,23 +35,26 @@ function Home() {
     }
   });
 
+
   return (
-    <section className="home--container">
-      <main>
-        <Reel />
-        <section className="home--mobile-reel-wrapper">
-          <MobileReel
-            url="https://player.vimeo.com/video/778199725?"
-            autoPlay='1'
-            muted='1'
-            loop='1'
-          />
-        </section>
-        <Intro />
-        <InstaFeed />
-      </main>
-    </section>
+    <>
+      <header>
+        <Menu />
+        {
+          (isLargeScreen && pathname === '/')
+            // ||
+            //   (isLargeScreen && pathname.startsWith('/projetos/')) 
+            ?
+            <LanguageBtn /> :
+            null
+        }
+      </header>
+      {children}
+      {/* <footer> */}
+      <Footer />
+      {/* </footer> */}
+    </>
   )
 };
 
-export default Home;
+export default MainPageLayout;

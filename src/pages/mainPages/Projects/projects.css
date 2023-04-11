@@ -2,6 +2,8 @@
   padding: 5% 0;
   margin-left: 17%;
   margin-right: 8%;
+  max-width: 1200px;
+  /* margin: auto; */
 }
 
 /* .projects--tag-btns {
@@ -65,5 +67,11 @@
     padding: 5% 0;
     margin-left: 3%;
     margin-right: 3%;
+  }
+}
+
+@media all and (min-width: 1500px) {
+  .projects--container {
+    margin: auto;
   }
 }

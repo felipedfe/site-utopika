@@ -51,15 +51,17 @@ nav {
 }
 
 .menu--close-btn {
-  position: relative;
+  position: absolute;
   width: 40px;
   height: 40px;
   background-color: transparent;
+  top: 1rem;
+  right: 1.5rem;
 }
 
-.close-btn-pt1 {
+/* .close-btn-pt1 {
   position: absolute;
-  width: 40px;
+  width: 30px;
   height: 3px;
   background-color: #000;
   border-radius: 2px; 
@@ -68,12 +70,12 @@ nav {
 
 .close-btn-pt2 {
   position: absolute;
-  width: 40px;
+  width: 30px;
   height: 3px;
   background-color: #000;
   border-radius: 2px;
   transform: rotate(-45deg);
-}
+} */
 
 @keyframes closeBtnAnimation {
   from {width: 0px;}
@@ -98,8 +100,8 @@ nav {
 
 @media all and (max-width: 1024px) {
   .menu--container {
-    display: block;
     position: fixed;
+    display: block;
     top: auto;
     left: auto;
     width: 100%;
@@ -132,10 +134,15 @@ nav {
     height: 40px;
   }
 
+  .menu--nav-links {
+    padding-top: 4rem;
+    padding-left: 4rem;
+  }
+
   .menu--tags,
   nav {
     position: absolute;
-    top: 100px;
+    top: 0;
     left: auto;
     right: 0;
     height: 100vh;
@@ -151,19 +158,12 @@ nav {
   }
 
   .menu--enabled {
-    width: 70vw;
+    width: 80vw;
     transition: width 0.5s;
   }
 
   .menu--disabled {
     width: 0;
     transition: 0.3s;
-  }
-
-  .menu--tags .tags--tags-container {
-    /* position: relative;
-    width: 100%;
-    height: 100%;
-    background-color: red; */
   }
 }

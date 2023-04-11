@@ -10,7 +10,6 @@ function NavButton({ btnPath, buttonInnerText, setIsNavMenuDisabled }) {
     <button
       type="button"
       className={`nav-button ${location.pathname === btnPath ? "selected" : null}`}
-      // onClick={() => { navigate(btnPath) }}
       onClick={() => { 
         setIsNavMenuDisabled(true)
         navigate(btnPath) 

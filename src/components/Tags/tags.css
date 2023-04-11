@@ -29,3 +29,12 @@
   background-color: var(--red);
   color: #fff;
 }
+
+@media screen and (max-width: 1024px) {
+  .tags--all-tags-wrapper {
+    width: 80%;
+    /* background-color: green; */
+    padding-top: 4rem;
+    padding-left: 1rem;
+  }
+}

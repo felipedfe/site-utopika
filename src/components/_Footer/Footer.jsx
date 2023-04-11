@@ -21,7 +21,7 @@ const footerIcon = css`
   font-size: 1.5rem;
 `
 
-const FooterContainer = styled.footer`
+const FooterContainer = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -60,6 +60,7 @@ const LinkIcon = styled.i`
   ${footerIcon}
   &:hover {
     color: #fff;
+    cursor: pointer;
   }
 `
 

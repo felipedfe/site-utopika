@@ -13,9 +13,12 @@ function ProjectCard({ project }) {
           <h2>{title}</h2>
           <hr className="projectcard--card-divider"></hr>
           <div className="projectcard--tags-wrapper">
-            {textLanguage === 'en' ?
-              tags.map((tag) => <span>{`#${tag}`}</span>) :
-              tagsPt.map((tag) => <span>{`#${tag}`}</span>)}
+            {
+              textLanguage === 'en' ?
+                tags.map((tag) => <span>{`#${tag}`}</span>) :
+                tagsPt.map((tag) => <span>{`#${tag}`}</span>)
+              // tags[textLanguage].map((tag) => <span>{`#${tag}`}</span>)
+            }
           </div>
         </div>
       </div>
