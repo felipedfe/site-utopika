@@ -29,6 +29,15 @@ import styled from 'styled-components';
 
 const Main = styled.main`
   margin: 0 4% 0 17%;
+  max-width: 1200px;
+
+  @media all and (max-width: 1024px) {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  @media all and (min-width: 1500px) {
+    margin: auto;
+  }
 `
 
 function ProjectPageLayout({ children }) {

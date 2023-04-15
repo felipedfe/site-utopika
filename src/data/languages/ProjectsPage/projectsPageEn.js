@@ -1,7 +1,10 @@
 const projectsPageEn = {
-  despolarize: {
-    title: "Despolarize",
+  mongabay: {
+    title: "Mongabay Graphic Package",
     introduction: "Mongabay is an environmental news portal based in different regions and needed to standardize its communication and make life easier for editors collaborating around the world. To that end, we created new layouts for its video graphics package in order to be versatile and adapt to social midia, without losing the Mongabay identity.",
+    paragraph1: "We made an essential graphics package that can be easily used in Adobe Premiere through a simple interface and with some customization options for the editor.",
+    paragraph2: "The graphics are automated to adapt to the content. Programming codes control the size of text boxes, number of lines etc, so that the editor has the minimun",
+    paragraph3: "We made vertical and horizontal versions so that the information behaved similarly in both formats without needing adaptations by the editorials. It was a great partnership with Mongabay's video coordinator, Lucia Torres, so that the graphic package had the best use internally.",
     credits: {
       title: "Credits",
       info: [
@@ -24,6 +27,29 @@ const projectsPageEn = {
       ]
     },
     tags: ['animation', 'women', 'politics', 'cities', 'work', 'esg', 'infographic', 'equality', 'publication', 'humanRights'],
+  },
+  plenamata: {
+    title: "Plenamata",
+    introduction: `Plenamata is a portal with real-time data and news about deforestation in the Amazon. Made possible by Natura together with MapBiomas and InfoAmazonia, it brings together indicators, analyses, in addition to giving visibility to conservation and regeneration initiatives in the Amazon.
+    We were very happy to participate a little in this initiative with illustrations, gifs and infographics for the website's glossary.`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Art Direction and illustrations",
+          name: "Julia Lima",
+        },
+        {
+          role: "Design and animation assistant",
+          name: "Carla Dutra",
+        },
+        {
+          role: "Intern",
+          name: "Ana Clara Korin",
+        },
+      ]
+    },
+    tags: ['animation'],
   },
 }
 

@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 const AboutContainer = styled.main`
-  padding: 5% 0;
+  /* padding: 5% 0; */
+  padding-top: 60px;
   margin-left: 17%;
   margin-right: 8%;
   max-width: 1200px;

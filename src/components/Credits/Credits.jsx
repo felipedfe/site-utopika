@@ -6,6 +6,10 @@ const CreditsContainer = styled.section`
   flex-direction: column;
   margin-left: 50%;
   padding: 4rem 0 4rem 0;
+
+  @media all and (max-width: 1024px){
+    margin-left: 0;
+  }
 `
 
 const Divider = styled.hr`
@@ -13,7 +17,7 @@ const Divider = styled.hr`
 `
 
 const Title = styled.h2`
-  font-weight: 100;
+  font-weight: 400;
   font-size: 1rem;
   padding-top: 0.7rem;
   padding-bottom: 0.6rem;

@@ -1,7 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Home, Projects, About } from './pages/mainPages';
-import Despolarize from './pages/projectsPages/Despolarize';
+import {
+  Mongabay,
+  Plenamata,
+} from './pages/projectsPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
 import MyProvider from './provider/myProvider';
@@ -14,18 +17,20 @@ function App() {
       <BrowserRouter>
         <ScrollToTop />
         <Routes>
-          <Route exact path="/projetos/despolarize" element={
+          <Route exact path="/projetos/mongabay" element={
             <MainPageLayout>
               <ProjectPageLayout>
-                <Despolarize />
+                <Mongabay />
               </ProjectPageLayout>
             </MainPageLayout>
           }
           />
-          <Route exact path="/projetos/vozes-femininas" element={
+          <Route exact path="/projetos/plenamata" element={
+            <MainPageLayout>
             <ProjectPageLayout>
-
+              <Plenamata />
             </ProjectPageLayout>
+          </MainPageLayout>
           }
           />
           <Route exact path="/projetos" element={

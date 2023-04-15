@@ -43,14 +43,16 @@ function Projects() {
 
     return filtered.map((project) => {
       return (
-        <Link to={`${project.id}`}>
-          <button
+        <Link
+          onClick={() => setIsNavMenuDisabled(true)}
+          to={`${project.id}`}>
+          {/* <button
             className="projects--project-btn"
             type="button"
             onClick={() => setIsNavMenuDisabled(true)}
-          >
-            <ProjectCard project={project} />
-          </button>
+          > */}
+          <ProjectCard project={project} />
+          {/* </button> */}
         </Link>
       )
     });
@@ -105,25 +107,9 @@ function Projects() {
 
   return (
     <main className="projects--container">
-      {/* {isLargeScreen && <Tags />} */}
       {loading ? "Loading..." : isLargeScreen && <Tags />}
-      {/* <section className="projects--main-tags-btns">
-        {mainTags(allTags)}
-      </section>
-      <section className="projects--secondary-tags-btns">
-        {secondaryTags(allTags)}
-      </section> */}
       <section className="projects--project-links">
         <div className="projects--links-grid">
-          {/* {projects.filter(({ tags }) => tagsList.every((tag) => tags.includes(tag)))
-            .map((project) => {
-              return (
-                <Link to="/sobre">
-                  <Project project={project} />
-                </Link>
-              )
-            })
-          } */}
           {filterProjects(projects)}
         </div>
       </section>

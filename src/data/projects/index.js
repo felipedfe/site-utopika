@@ -28,8 +28,8 @@ const allTags = {
 
 const projects = [
   {
-    id: 'despolarize',
-    title: 'Despolarize',
+    id: 'mongabay',
+    title: 'Pacote Gráfico Mongabay',
     images: {
       thumbnail: 'thumb.png',
       full: '...'
@@ -40,7 +40,7 @@ const projects = [
     tags: ['animation', 'women', 'politics', 'cities', 'work', 'esg', 'infographic', 'equality', 'publication', 'humanRights'],
     tagsPt: ['animação', 'ilustração'],
   },
-  
+
   // {
   //   id: 'despolarize',
   //   title: 'Despolarize',
@@ -56,32 +56,33 @@ const projects = [
   //     en: ['animation', 'women', 'politics', 'cities', 'work', 'esg', 'infographic', 'equality', 'publication', 'humanRights'],
   //   },
   // },
-  // {
-  //   id: 'vozes-femininas',
-  //   title: 'Vozes Femininas',
-  //   images: {
-  //     thumbnail: 'thumb.png',
-  //     full: '...'
-  //   },
-  //   imageThumb: 'images/test-thumb-2.png',
-  //   imageFull: '(imagem)',
-  //   alt: '(descrição)',
-  //   tags: ['animation', 'women', 'politics', 'cities', 'work', 'esg', 'infographic', 'equality'],
-  //   tagsPt: ['animação', 'ilustração'],
-  // },
-  // {
-  //   id: 'direitos-humanos',
-  //   title: 'Direitos Humanos no trabalho Rural',
-  //   images: {
-  //     thumbnail: 'thumb.png',
-  //     full: '...'
-  //   },
-  //   imageThumb: 'images/test-thumb-3.png',
-  //   imageFull: '(imagem)',
-  //   alt: '(descrição)',
-  //   tags: ['humanRights', 'politics'],
-  //   tagsPt: ['direitosHumanos', 'política'],
-  // },
+  {
+    id: 'plenamata',
+    title: 'Plenamata',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    imageThumb: 'images/test-thumb-3.png',
+    imageFull: '(imagem)',
+    alt: '(descrição)',
+    tags: ['humanRights', 'politics'],
+    tagsPt: ['direitosHumanos', 'política'],
+  },
+  {
+    id: 'vozes-femininas',
+    title: 'Vozes Femininas',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    imageThumb: 'images/test-thumb-2.png',
+    imageFull: '(imagem)',
+    alt: '(descrição)',
+    tags: ['animation', 'women', 'politics', 'cities', 'work', 'esg', 'infographic', 'equality'],
+    tagsPt: ['animação', 'ilustração'],
+  },
+
   // {
   //   id: 'sitawi',
   //   title: 'Sitawi',

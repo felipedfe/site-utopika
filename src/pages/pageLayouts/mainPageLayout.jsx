@@ -38,7 +38,7 @@ function MainPageLayout({ children }) {
 
   return (
     <>
-      <header>
+      <header className="menu-space">
         <Menu />
         {
           (isLargeScreen && pathname === '/')
@@ -49,7 +49,9 @@ function MainPageLayout({ children }) {
             null
         }
       </header>
-      {children}
+      <section className="page-content">
+        {children}
+      </section>
       {/* <footer> */}
       <Footer />
       {/* </footer> */}

@@ -14,18 +14,23 @@ function VideoContainer({
   controls = "0",
   loop = "0",
   muted = "0",
+  autopause = "0",
+  aspectRatio = "16/9",
 }) {
   return (
-    <VideoSection>
-      <VideoWrapper>
-        <Video
-          title="video-container"
-          src={`${url}?h=c1d00cc6da&autoplay=${autoPlay}&title=${title}&byline=${byLine}&portrait=${portrait}&controls=${controls}&loop=${loop}&muted=${muted}`}
-          frameBorder="0"
-          allow="autoplay"
-        />
-      </VideoWrapper>
-    </VideoSection>
+    // <VideoSection>
+    <VideoWrapper
+      aspectRatio={aspectRatio}
+    >
+      <Video
+        title="video-container"
+        src={`${url}?h=c1d00cc6da&autoplay=${autoPlay}&title=${title}&byline=${byLine}&portrait=${portrait}&controls=${controls}&loop=${loop}&muted=${muted}&autopause=${autopause}`}
+        frameBorder="0"
+        allow="autoplay"
+        loading="lazy"
+      />
+    </VideoWrapper>
+    // </VideoSection>
   )
 };
 

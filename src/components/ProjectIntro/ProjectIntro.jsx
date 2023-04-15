@@ -2,7 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ProjectInfoContainer = styled.section`
-  
+  padding: 3rem 0 1.5rem 0;
+
+  @media all and (max-width:1024px) {
+    padding: 2.5rem 0;
+  }
 `
 
 const Title = styled.h1`
@@ -20,6 +24,10 @@ const Tag = styled.span`
 const TextWrapper = styled.div`
   margin-left: 50%;
   padding-top: 1rem;
+
+  @media all and (max-width:1024px) {
+    margin-left: 0;
+  }
 `
 
 const Text = styled.p`
@@ -28,7 +36,6 @@ const Text = styled.p`
 function ProjectIntro({ tags, introduction, title, projectId }) {
   return (
     <ProjectInfoContainer>
-      <div className={`project--${projectId}`} />
       <Title>{title}</Title>
       <Divider />
       {tags.map((tag) => <Tag>{`#${tag} `}</Tag>)}

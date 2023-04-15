@@ -11,8 +11,30 @@ body {
   /* background-color: rgb(232, 255, 237); */
   /* overflow-x: hidden; */
   /* background-color: aqua; */
+  position: relative;
   min-height: 100vh;
 }
+
+/* .menu-space {
+  padding-top: 60px;
+} */
+
+.menu-space {
+  padding-bottom: 60px;
+}
+
+.page-content{
+  /* padding-top: 60px; */
+  padding-bottom: 120px;
+}
+
+@media all and (max-width: 1024px) {
+  .page-content{
+    padding-bottom: 320px;
+  }
+}
+
+
 
 .icon {
   font-size: 2rem;
@@ -33,6 +55,11 @@ button {
 ul {
   list-style-type: none;
 }
+
+/* .page-container {
+  position: relative;
+  min-height: 100vh;
+} */
 
 /* .reel--video-background {
   width: 100%;

@@ -14,6 +14,9 @@ const handleDragStart = (e) => e.preventDefault();
 const ClientsWrapper = styled.section`
 /* background-color: var(--blue); */
 padding: 1.5rem;
+@media all and (min-width: 1024px) {
+  padding-top: 2rem;
+}
 `
 
 const Title = styled.h1`
@@ -113,7 +116,7 @@ function Clients() {
             },
             1024: {
               items: 5,
-              itemsFit: 'contain',
+              // itemsFit: 'contain',
             }
           }}
         />
