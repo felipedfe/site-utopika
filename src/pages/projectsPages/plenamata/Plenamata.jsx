@@ -13,10 +13,6 @@ const IntroGifs = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
 
-  /* @media all and (max-width: 768px){
-    grid-template-columns: 1fr;
-  } */
-
   @media all and (max-width: 1024px){
     grid-template-columns: 1fr 1fr;
   }
@@ -24,11 +20,6 @@ const IntroGifs = styled.div`
   @media all and (max-width: 768px){
     grid-template-columns: 1fr;
   }
-  
-`
-
-const HeaderImage = styled.div`
-  width: 100%;
 `
 
 const ImageWrapper = styled.div`
@@ -61,7 +52,7 @@ const ImagesContainer2 = styled.div`
 `
 
 const Grid = styled.section`
-  display:grid;
+  display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -83,20 +74,20 @@ const GridImageWrapper = styled.div`
   }
 `
 
-function Plenamata() {
-  const { textLanguage } = useContext(myContext);
+function Plenamata({ projectData }) {
+  // const { textLanguage } = useContext(myContext);
 
-  const { pathname } = useLocation();
+  // const { pathname } = useLocation();
 
-  const projectId = pathname.split('/').pop();
+  // const projectId = pathname.split('/').pop();
 
-  const { projectsPage } = textOptions[textLanguage];
+  // const { projectsPage } = textOptions[textLanguage];
 
   const {
     title,
     introduction,
     credits,
-    tags } = projectsPage[projectId];
+    tags } = projectData;
   return (
     <section className="plenamata--container">
       <IntroGifs>
@@ -119,22 +110,11 @@ function Plenamata() {
           />
         </ImageWrapper>
       </IntroGifs>
-
-      {/* <HeaderImage>
-        <ImageWrapper>
-          <img
-            src="/images/projects/plenamata/arvores-derrubadas.png"
-            alt="frequencia de árvores derrubadas por dia, minuto e segundo"
-          />          
-        </ImageWrapper>
-      </HeaderImage> */}
-
       <ProjectIntro
         title={title}
         tags={tags}
         introduction={introduction}
       />
-
       <section className="plenamata--solo-img">
         <div className="plenamata--solo-img-wrapper">
           <img
@@ -143,7 +123,6 @@ function Plenamata() {
           />
         </div>
       </section>
-
       <section className="plenamata--content-container-1">
         <div className="plenamata--img-wrapper-1">
           <img
@@ -161,7 +140,6 @@ function Plenamata() {
           />
         </div>
       </section>
-
       <section className="plenamata--content-container-2">
         <div className="plenamata--video-wrapper-2">
           <VideoContainer
@@ -195,22 +173,34 @@ function Plenamata() {
       </ImagesContainer2> */}
       <Grid>
         <GridImageWrapper >
-          <img src="/images/projects/plenamata/grid-img-1.png" alt="1" />
+          <img src="/images/projects/plenamata/grid-img-1.png"
+            alt="ilustração alerta de desmatamento"
+          />
         </GridImageWrapper>
         <GridImageWrapper>
-          <img src="/images/projects/plenamata/grid-img-2.png" alt="1" />
+          <img src="/images/projects/plenamata/grid-img-2.png"
+            alt="ilustração área desmatada"
+          />
         </GridImageWrapper>
         <GridImageWrapper>
-          <img src="/images/projects/plenamata/grid-img-3.png" alt="1" />
+          <img src="/images/projects/plenamata/grid-img-3.png"
+            alt="ilustração corte seletivo"
+          />
         </GridImageWrapper>
         <GridImageWrapper>
-          <img src="/images/projects/plenamata/grid-img-4.png" alt="1" />
+          <img src="/images/projects/plenamata/grid-img-4.png"
+            alt="ilustração cicatriz de incêndio florestal"
+          />
         </GridImageWrapper>
         <GridImageWrapper>
-          <img src="/images/projects/plenamata/grid-img-5.png" alt="1" />
+          <img src="/images/projects/plenamata/grid-img-5.png"
+            alt="ilustração grilagem"
+          />
         </GridImageWrapper>
         <GridImageWrapper>
-          <img src="/images/projects/plenamata/grid-img-6.png" alt="1" />
+          <img src="/images/projects/plenamata/grid-img-6.png"
+            alt="ilustração reserva legal"
+          />
         </GridImageWrapper>
       </Grid>
       <Credits credits={credits} />

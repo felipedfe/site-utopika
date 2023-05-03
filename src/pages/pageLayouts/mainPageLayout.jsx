@@ -38,7 +38,7 @@ function MainPageLayout({ children }) {
 
   return (
     <>
-      <header className="menu-space">
+      <header className={isLargeScreen && pathname === '/' ? null : 'menu-space'}>
         <Menu />
         {
           (isLargeScreen && pathname === '/')

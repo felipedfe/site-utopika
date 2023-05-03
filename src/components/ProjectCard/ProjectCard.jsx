@@ -24,7 +24,7 @@ function ProjectCard({ project }) {
       </div>
       <img
         className="projectcard--img"
-        src={`images/projects/${id}/thumb.png`}
+        src={`images/projects/${id}/thumb.gif`}
         alt={alt} />
     </div>
   )

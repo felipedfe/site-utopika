@@ -28,26 +28,43 @@ import styled from 'styled-components';
 // `;
 
 const Main = styled.main`
-  margin: 0 4% 0 17%;
+  /* margin: 0 4% 0 17%; */
+  margin: 0 4% 0 4%;
   max-width: 1200px;
+  /* margin: auto; */
 
   @media all and (max-width: 1024px) {
     margin-left: 3%;
     margin-right: 3%;
   }
-  @media all and (min-width: 1500px) {
+  @media all and (min-width: 1300px) {
     margin: auto;
   }
 `
 
 function ProjectPageLayout({ children }) {
-  const {
-    isLargeScreen,
-    setIsLargeScreen,
-    setIsNavMenuDisabled,
-    setIsSearchMenuDisabled,
-    largeScreenBreakPt } = useContext(myContext);
+  // const {
+  //   isLargeScreen,
+  //   setIsLargeScreen,
+  //   setIsNavMenuDisabled,
+  //   setIsSearchMenuDisabled,
+  //   largeScreenBreakPt } = useContext(myContext);
+  // const { pathname } = useLocation();
+
+
+  const { textLanguage } = useContext(myContext);
+
   const { pathname } = useLocation();
+
+  const projectId = pathname.split('/').pop();
+
+  const { projectsPage } = textOptions[textLanguage];
+
+  // const {
+  //   title,
+  //   introduction,
+  //   credits,
+  //   tags } = projectsPage[projectId];
 
   // useEffect(() => {
   //   // Quando o componente começa a montar é feita a checagem do tamanho da tela
@@ -78,9 +95,10 @@ function ProjectPageLayout({ children }) {
 
   // const { credits } = projectsPage[projectId];
   // console.log('--->', projects)
+  // console.log(projectsPage[projectId])
   return (
     <Main>
-      {children}
+      {React.cloneElement(children, { projectData: projectsPage[projectId] })}
     </Main>
   )
 };

@@ -51,6 +51,66 @@ const projectsPageEn = {
     },
     tags: ['animation'],
   },
+  refarm: {
+    title: "Refarm",
+    introduction: `Delightful project to talk about beautiful pieces from Farm in two versions, knits and jeans. The brand has been positioning itself for some time on several fronts to reach the #carbonzero mark and the animations list some specific ESG actions, promoting conscious and socially conscious practices :)`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Illustrations and Animation",
+          name: "Julia Lima",
+        },
+        {
+          role: "Soundtrack",
+          name: '"Adoro" - Flor de Sal',
+        },
+        {
+          role: "Voice over",
+          name: "Karina Zevian",
+        },
+      ]
+    },
+    tags: ['animation', 'illustration', 'esg', 'environment'],
+  },
+  pasto: {
+    title: "Do Prato ao Pasto",
+    introduction: `Trase's plate-to-grass app helps consumers identify where the meat they buy in the market comes from and its environmental impact by scanning the bar code. We made this animation to promote the 1st version of the app.
+
+    Another partnership with super director Márcio Isensee`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Production and finalization",
+          name: '"Márcio Isensee',
+        },
+        {
+          role: "Illustrations and Animation",
+          name: "Julia Lima",
+        },
+      ]
+    },
+    tags: ['animation', 'illustration', 'esg', 'environment'],
+  },
+  direitos: {
+    title: "Human Rights in Rural Work",
+    introduction: `This booklet on human rights in rural work is the result of research by Ana Cristina Nobre from the Ambiente Social consultancy. This is the first of 6 themes, and serves as support material for facilitators to systematize complex themes. Visual support is very important in fieldwork and helps bring people closer to the subject.`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Layout and illustration",
+          name: 'Carla Dutra',
+        },
+        {
+          role: "Art direction",
+          name: "Julia Lima",
+        },
+      ]
+    },
+    tags: ['animação', 'ilustração', 'esg', 'meioAmbiente'],
+  },
 }
 
 export default projectsPageEn;

@@ -1,6 +1,6 @@
 .projects--container {
   /* padding: 5% 0; */
-  padding-top: 60px;
+  /* padding-top: 60px; */
   margin-left: 17%;
   margin-right: 8%;
   /* margin-top: 60px; */
@@ -62,7 +62,7 @@
   /* width: 70%; */
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 768px) {
   .projects--links-grid {
     grid-template-columns: 1fr;
   }

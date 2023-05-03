@@ -13,7 +13,7 @@ const allTags = {
     'politics',
     'environment',
     'humanRights',
-    'ilustration'
+    'illustration'
   ],
   pt:
     [
@@ -23,6 +23,7 @@ const allTags = {
       'publicação',
       'mulheres',
       'trabalho',
+      'meioAmbiente'
     ]
 }
 
@@ -34,28 +35,10 @@ const projects = [
       thumbnail: 'thumb.png',
       full: '...'
     },
-    imageThumb: 'images/test-thumb-1.png',
-    imageFull: '(imagem)',
     alt: '(descrição)',
     tags: ['animation', 'women', 'politics', 'cities', 'work', 'esg', 'infographic', 'equality', 'publication', 'humanRights'],
     tagsPt: ['animação', 'ilustração'],
   },
-
-  // {
-  //   id: 'despolarize',
-  //   title: 'Despolarize',
-  //   images: {
-  //     thumbnail: 'thumb.png',
-  //     full: '...'
-  //   },
-  //   imageThumb: 'images/test-thumb-1.png',
-  //   imageFull: '(imagem)',
-  //   alt: '(descrição)',
-  //   tags: {
-  //     pt: ['animação', 'ilustração'],
-  //     en: ['animation', 'women', 'politics', 'cities', 'work', 'esg', 'infographic', 'equality', 'publication', 'humanRights'],
-  //   },
-  // },
   {
     id: 'plenamata',
     title: 'Plenamata',
@@ -63,11 +46,9 @@ const projects = [
       thumbnail: 'thumb.png',
       full: '...'
     },
-    imageThumb: 'images/test-thumb-3.png',
-    imageFull: '(imagem)',
     alt: '(descrição)',
-    tags: ['humanRights', 'politics'],
-    tagsPt: ['direitosHumanos', 'política'],
+    tags: ['infographic', 'illustration', 'environment'],
+    tagsPt: ['infográfico', 'ilustração', 'meioAmbiente'],
   },
   {
     id: 'vozes-femininas',
@@ -76,26 +57,43 @@ const projects = [
       thumbnail: 'thumb.png',
       full: '...'
     },
-    imageThumb: 'images/test-thumb-2.png',
-    imageFull: '(imagem)',
     alt: '(descrição)',
     tags: ['animation', 'women', 'politics', 'cities', 'work', 'esg', 'infographic', 'equality'],
     tagsPt: ['animação', 'ilustração'],
   },
-
-  // {
-  //   id: 'sitawi',
-  //   title: 'Sitawi',
-  //   images: {
-  //     thumbnail: 'thumb.png',
-  //     full: '...'
-  //   },
-  //   imageThumb: 'images/test-thumb-4.png',
-  //   imageFull: '(imagem)',
-  //   alt: '(descrição)',
-  //   tags: ['socialMedia', 'politics'],
-  //   tagsPt: ['animação', 'ilustração'],
-  // },
+  {
+    id: 'refarm',
+    title: 'Refarm',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['animation', 'illustration', 'esg', 'environment'],
+    tagsPt: ['animação', 'ilustração', 'esg', 'meioAmbiente'],
+  },
+  {
+    id: 'pasto',
+    title: 'Do Prato ao Pasto',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['socialMedia', 'politics'],
+    tagsPt: ['animação', 'ilustração'],
+  },
+  {
+    id: 'direitos',
+    title: 'Direitos Humanos no Trabalho Rural',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['socialMedia', 'politics'],
+    tagsPt: ['animação', 'ilustração'],
+  },
 ]
 
 export { projects, allTags };

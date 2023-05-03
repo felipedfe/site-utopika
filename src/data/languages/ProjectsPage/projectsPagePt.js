@@ -51,6 +51,66 @@ const projectsPagePt = {
     },
     tags: ['animação'],
   },
+  refarm: {
+    title: "Refarm",
+    introduction: `Projeto delícia para falar sobre peças bonitas da Farm em duas versões, malhas e jeans. A marca tem um posicionamento de algum tempo em várias frentes para alcançar a marca de #carbonozero e as animações elencam algumas ações específicas de ESG, divulgando práticas conscientes e socialmente conscientes :)`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Ilustrações e Animação",
+          name: "Julia Lima",
+        },
+        {
+          role: "Trilha",
+          name: '"Adoro" - Flor de Sal',
+        },
+        {
+          role: "Locução",
+          name: "Karina Zevian",
+        },
+      ]
+    },
+    tags: ['animação', 'ilustração', 'esg', 'meioAmbiente'],
+  },
+  pasto: {
+    title: "Do Prato ao Pasto",
+    introduction: `O aplicativo do prato ao pasto da Trase ajuda o consumidor a identificar de onde vem a carne que compra no mercado e seu impacto ambiental escaneando o código de barra. Fizemos essa animação para a divulgação da 1a versão do app.
+
+    Mais uma parceria com o super diretor Márcio Isensee`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Produção e finalização",
+          name: '"Márcio Isensee',
+        },
+        {
+          role: "Ilustrações e Animação",
+          name: "Julia Lima",
+        },
+      ]
+    },
+    tags: ['animação', 'ilustração', 'esg', 'meioAmbiente'],
+  },
+  direitos: {
+    title: "Direitos Humanos no Trabalho Rural",
+    introduction: `Essa cartilha sobre direitos humanos no trabalho rural é fruto da pesquisa da @Ana Cristina Nobre da consultoria Ambiente Social. Este é o primeiro de 6 temas, e serve como material de apoio para facilitadores sistematizarem temas complexos. O apoio visual é muito importante no trabalho de campo e ajuda na aproximação das pessoas com o assunto.`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Diagramação e ilustração",
+          name: 'Carla Dutra',
+        },
+        {
+          role: "Direção de Arte",
+          name: "Julia Lima",
+        },
+      ]
+    },
+    tags: ['animação', 'ilustração', 'esg', 'meioAmbiente'],
+  },
 }
 
 export default projectsPagePt;

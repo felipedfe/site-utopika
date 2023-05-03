@@ -4,6 +4,9 @@ import { Home, Projects, About } from './pages/mainPages';
 import {
   Mongabay,
   Plenamata,
+  Refarm,
+  Pasto,
+  Direitos,
 } from './pages/projectsPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
@@ -27,10 +30,34 @@ function App() {
           />
           <Route exact path="/projetos/plenamata" element={
             <MainPageLayout>
-            <ProjectPageLayout>
-              <Plenamata />
-            </ProjectPageLayout>
-          </MainPageLayout>
+              <ProjectPageLayout>
+                <Plenamata />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+          <Route exact path="/projetos/refarm" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <Refarm />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+          <Route exact path="/projetos/pasto" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <Pasto />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+          <Route exact path="/projetos/direitos" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <Direitos />
+              </ProjectPageLayout>
+            </MainPageLayout>
           }
           />
           <Route exact path="/projetos" element={
