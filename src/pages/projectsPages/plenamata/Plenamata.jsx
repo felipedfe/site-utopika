@@ -94,7 +94,7 @@ function Plenamata({ projectData }) {
         <ImageWrapper media="1024px" display="none">
           <img
             src="/images/projects/plenamata/01-corte-seletivo.gif"
-            alt="caminhão extraindo de madeira"
+            alt="caminhão extraindo madeira"
           />
         </ImageWrapper>
         <ImageWrapper media="768px" display="none">

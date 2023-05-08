@@ -134,22 +134,17 @@ const projectsPageEn = {
   },
   vozes: {
     title: "Vozes Femininas",
-    introduction: `Bit aris aspe estis dis dollentur simincime eate evelitasimi, quatur? Nobit, siminulpa iligendi vellatq uaeprovit volore- pro ipis doluptas est pernatus ab il molenis porit doluptin- tis sum ea ent ea dendesc iderum doluptatur?
-    Pudi occulpa riatae cupta velignati alibusam volore dolor as dolume dicilla borrovit denderumquod que venditia cusandiorro tempor as doluptatur re.`,
+    introduction: `The book written by Tatiane Matheus had the voice of 21 women from different places and knowledge about diagnoses and solutions for the climate crisis. In the words of the author “It is a manifesto of the just transition in theory and, above all, in practice. A call for global thinking to local action. How ready are you to actually listen?” Working together with the @observatoriodoclima Gender WG, it is clear that any possible recovery puts women at the center of the solution. Let's go together :)`,
     credits: {
       title: "Credits",
       info: [
         {
-          role: "Ilustrações e animação",
+          role: "Graphic design and art direction",
           name: "Julia Lima",
         },
         {
-          role: "Script e locução",
-          name: "Manon Verchot",
-        },
-        {
-          role: "Editorial",
-          name: "Isabel Esterman, Basten Gokkon e Lucia Torres",
+          role: "illustration and layout",
+          name: "Ana Clara Lury",
         },
       ]
     },
