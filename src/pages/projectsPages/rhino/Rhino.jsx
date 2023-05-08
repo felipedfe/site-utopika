@@ -8,6 +8,28 @@ const VideoWrapper = styled.section`
   width: 100%;
 `
 
+const ImageWrapper = styled.div`
+  height: 100%;
+
+  img {
+    width: 100%;
+  }
+`
+
+const GridContainer = styled.section`
+  margin: auto;
+`
+
+const Row = styled.div`
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+
+  @media all and (max-width: 700px) {
+    display: block;
+  }
+`
+
 function Rhino({ projectData }) {
   const {
     title,
@@ -16,6 +38,12 @@ function Rhino({ projectData }) {
     tags } = projectData;
   return (
     <section className="rhino--container">
+      <ImageWrapper>
+        <img
+          alt="Rhino banner"
+          src="/images/projects/rhino/rhino-banner.jpg"
+        />
+      </ImageWrapper>
       <ProjectIntro
         title={title}
         tags={tags}
@@ -27,7 +55,26 @@ function Rhino({ projectData }) {
           controls="1"
         />
       </VideoWrapper>
-
+      <GridContainer>
+        <Row>
+          <ImageWrapper>
+            <img src="/images/projects/rhino/rhino-frame-1.jpg" alt=""></img>
+          </ImageWrapper>
+          <ImageWrapper>
+            <img src="/images/projects/rhino/rhino-frame-2.jpg" alt=""></img>
+          </ImageWrapper>
+        </Row>
+        <Row>
+          <ImageWrapper>
+            <img src="/images/projects/rhino/rhino-frame-4.jpg" alt=""></img>
+          </ImageWrapper>
+        </Row>
+        <Row>
+          <ImageWrapper>
+            <img src="/images/projects/rhino/rhino-frame-5.jpg" alt=""></img>
+          </ImageWrapper>
+        </Row>
+      </GridContainer>
       <Credits credits={credits} />
     </section>
   )

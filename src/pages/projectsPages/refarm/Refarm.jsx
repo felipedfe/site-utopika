@@ -17,10 +17,6 @@ const VideoWrapper = styled.section`
 // `
 
 const GridContainer = styled.section`
-  /* height: 373px; */
-  /* background-color: red; */
-  /* width: 1200px; */
-  /* max-width: 1200px; */
   margin: auto;
 `
 

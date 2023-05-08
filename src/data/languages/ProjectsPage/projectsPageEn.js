@@ -120,6 +120,13 @@ const projectsPageEn = {
         {
           role: "Illustrations and Animation",
           name: "Julia Lima",
+        },{
+          role: "Script and voice over",
+          name: "Manon Verchot",
+        },
+        {
+          role: "Editorial",
+          name: "Isabel Esterman, Basten Gokkon and Lucia Torres",
         },
       ]
     },

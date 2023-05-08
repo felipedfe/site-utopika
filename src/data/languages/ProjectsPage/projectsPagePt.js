@@ -58,7 +58,7 @@ const projectsPagePt = {
       title: "Créditos",
       info: [
         {
-          role: "Ilustrações e Animação",
+          role: "Ilustrações e animação",
           name: "Julia Lima",
         },
         {
@@ -86,7 +86,7 @@ const projectsPagePt = {
           name: '"Márcio Isensee',
         },
         {
-          role: "Ilustrações e Animação",
+          role: "Ilustrações e animação",
           name: "Julia Lima",
         },
       ]
@@ -104,7 +104,7 @@ const projectsPagePt = {
           name: 'Carla Dutra',
         },
         {
-          role: "Direção de Arte",
+          role: "Direção de arte",
           name: "Julia Lima",
         },
       ]
@@ -118,8 +118,16 @@ const projectsPagePt = {
       title: "Créditos",
       info: [
         {
-          role: "Ilustrações e Animação",
+          role: "Ilustrações e animação",
           name: "Julia Lima",
+        },
+        {
+          role: "Script e locução",
+          name: "Manon Verchot",
+        },
+        {
+          role: "Editorial",
+          name: "Isabel Esterman, Basten Gokkon e Lucia Torres",
         },
       ]
     },
