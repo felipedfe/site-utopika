@@ -133,6 +133,29 @@ const projectsPagePt = {
     },
     tags: ['animação', 'ilustração', 'meioAmbiente'],
   },
+  vozes: {
+    title: "Vozes Femininas",
+    introduction: `Bit aris aspe estis dis dollentur simincime eate evelitasimi, quatur? Nobit, siminulpa iligendi vellatq uaeprovit volore- pro ipis doluptas est pernatus ab il molenis porit doluptin- tis sum ea ent ea dendesc iderum doluptatur?
+    Pudi occulpa riatae cupta velignati alibusam volore dolor as dolume dicilla borrovit denderumquod que venditia cusandiorro tempor as doluptatur re.`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Ilustrações e animação",
+          name: "Julia Lima",
+        },
+        {
+          role: "Script e locução",
+          name: "Manon Verchot",
+        },
+        {
+          role: "Editorial",
+          name: "Isabel Esterman, Basten Gokkon e Lucia Torres",
+        },
+      ]
+    },
+    tags: ['mulheres', 'publicação'],
+  },
 }
 
 export default projectsPagePt;

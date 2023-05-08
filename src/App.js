@@ -8,6 +8,7 @@ import {
   Pasto,
   Direitos,
   Rhino,
+  Vozes,
 } from './pages/projectsPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
@@ -65,6 +66,14 @@ function App() {
             <MainPageLayout>
               <ProjectPageLayout>
                 <Rhino />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+          <Route exact path="/projetos/vozes" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <Vozes />
               </ProjectPageLayout>
             </MainPageLayout>
           }

@@ -101,6 +101,17 @@ const projects = [
     tags: ['socialMedia', 'politics'],
     tagsPt: ['animação', 'ilustração'],
   },
+  {
+    id: 'vozes',
+    title: 'Vozes Femininas',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['women', 'publication'],
+    tagsPt: ['mulheres', 'publicação'],
+  },
 ]
 
 export { projects, allTags };

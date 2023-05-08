@@ -4,6 +4,7 @@ import Refarm from "./refarm/Refarm";
 import Pasto from "./pasto/Pasto";
 import Direitos from "./direitos/Direitos";
 import Rhino from "./rhino/Rhino";
+import Vozes from "./vozes/Vozes";
 
 export {
   Mongabay,
@@ -12,4 +13,5 @@ export {
   Pasto,
   Direitos,
   Rhino,
+  Vozes,
 }
