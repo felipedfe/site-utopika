@@ -1,14 +1,11 @@
 import styled from 'styled-components';
 
-const VideoSection = styled.section`
-  width: 100%;
-`
-
 const VideoWrapper = styled.div`
   position: relative;
   padding: 56.25% 0 0 0;
   width: 100%;
-  aspect-ratio: ${(props) => props.aspectRatio}
+  aspect-ratio: ${(props) => props.aspectRatio};
+  background-color: 'red';
 `
 
 const Video = styled.iframe`
@@ -21,7 +18,6 @@ const Video = styled.iframe`
 `
 
 export {
-  VideoSection,
   VideoWrapper,
   Video,
 }

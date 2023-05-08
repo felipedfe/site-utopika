@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  VideoSection,
   VideoWrapper,
   Video,
 } from './VideoContainer.styled';
@@ -18,7 +17,6 @@ function VideoContainer({
   aspectRatio = "16/9",
 }) {
   return (
-    // <VideoSection>
     <VideoWrapper
       aspectRatio={aspectRatio}
     >
@@ -30,7 +28,6 @@ function VideoContainer({
         loading="lazy"
       />
     </VideoWrapper>
-    // </VideoSection>
   )
 };
 

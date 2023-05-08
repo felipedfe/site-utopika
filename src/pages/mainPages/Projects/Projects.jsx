@@ -41,18 +41,14 @@ function Projects() {
 
     if (!filtered.length) return <ProjectNotFound />
 
-    return filtered.map((project) => {
+    return filtered.map((project, index) => {
       return (
         <Link
+          key={index}
           onClick={() => setIsNavMenuDisabled(true)}
-          to={`${project.id}`}>
-          {/* <button
-            className="projects--project-btn"
-            type="button"
-            onClick={() => setIsNavMenuDisabled(true)}
-          > */}
+          to={`${project.id}`}
+        >
           <ProjectCard project={project} />
-          {/* </button> */}
         </Link>
       )
     });

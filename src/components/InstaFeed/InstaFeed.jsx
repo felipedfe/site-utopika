@@ -20,10 +20,13 @@ function InstaFeed() {
     try {
       const response = await fetch(url);
       const data = await response.json();
+
+      if (data.error) throw new Error(data.error.message)
+
       setFeed(data.data);
-      console.log(data.data);
+      console.log('----->', data);
     } catch (error) {
-      console.log(error.message);
+      console.log(error);
     }
   };
 
@@ -39,7 +42,7 @@ function InstaFeed() {
           <h3>{text.instaFeed.title}</h3>
         </div>
         <div className="instafeed--grid-media">
-          {feed.map((item) => {
+          {feed?.map((item) => {
             return (
               <div className="instafeed--media-wrapper">
                 <a key={item.id} href={item.permalink} target="_blank" rel="noreferrer">

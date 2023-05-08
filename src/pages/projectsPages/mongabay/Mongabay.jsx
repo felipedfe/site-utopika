@@ -7,23 +7,32 @@ import { textLanguages as textOptions } from '../../../data/languages';
 import VideoContainer from '../../../components/VideoContainer/VideoContainer';
 import './mongabay.css';
 
-function Mongabay() {
-  const { textLanguage } = useContext(myContext);
+function Mongabay({ projectData }) {
+  // const { textLanguage } = useContext(myContext);
 
-  const { pathname } = useLocation();
+  // const { pathname } = useLocation();
 
-  const projectId = pathname.split('/').pop();
+  // const projectId = pathname.split('/').pop();
 
-  const { projectsPage } = textOptions[textLanguage];
+  // const { projectsPage } = textOptions[textLanguage];
+
+  // const {
+  //   title,
+  //   paragraph1,
+  //   paragraph2,
+  //   paragraph3,
+  //   introduction,
+  //   credits,
+  //   tags } = projectsPage[projectId];
 
   const {
     title,
+    introduction,
     paragraph1,
     paragraph2,
     paragraph3,
-    introduction,
     credits,
-    tags } = projectsPage[projectId];
+    tags } = projectData;
 
   return (
     <section className="project--container menu-space">
@@ -74,7 +83,7 @@ function Mongabay() {
               frameborder="0"
               allow="autoplay; fullscreen; picture-in-picture"
               allowfullscreen
-              >
+            >
             </iframe>
           </div>
           <script src="https://player.vimeo.com/api/player.js"></script>

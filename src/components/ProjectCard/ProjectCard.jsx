@@ -15,8 +15,8 @@ function ProjectCard({ project }) {
           <div className="projectcard--tags-wrapper">
             {
               textLanguage === 'en' ?
-                tags.map((tag) => <span>{`#${tag}`}</span>) :
-                tagsPt.map((tag) => <span>{`#${tag}`}</span>)
+                tags.map((tag, index) => <span key={index}>{`#${tag}`}</span>) :
+                tagsPt.map((tag, index) => <span key={index}>{`#${tag}`}</span>)
               // tags[textLanguage].map((tag) => <span>{`#${tag}`}</span>)
             }
           </div>
@@ -24,8 +24,11 @@ function ProjectCard({ project }) {
       </div>
       <img
         className="projectcard--img"
+        // src={`images/projects/${id}/thumb.gif`}
         src={`images/projects/${id}/thumb.gif`}
-        alt={alt} />
+        alt={alt}
+        loading="lazy"
+      />
     </div>
   )
 };

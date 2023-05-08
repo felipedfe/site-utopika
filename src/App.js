@@ -7,6 +7,7 @@ import {
   Refarm,
   Pasto,
   Direitos,
+  Rhino,
 } from './pages/projectsPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
@@ -56,6 +57,14 @@ function App() {
             <MainPageLayout>
               <ProjectPageLayout>
                 <Direitos />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+          <Route exact path="/projetos/rhino" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <Rhino />
               </ProjectPageLayout>
             </MainPageLayout>
           }

@@ -26,7 +26,7 @@ const projectsPagePt = {
         },
       ]
     },
-    tags: ['animação', 'ilustração'],
+    tags: ['animação', 'meioAmbiente'],
   },
   plenamata: {
     title: "Plenamata",
@@ -95,7 +95,7 @@ const projectsPagePt = {
   },
   direitos: {
     title: "Direitos Humanos no Trabalho Rural",
-    introduction: `Essa cartilha sobre direitos humanos no trabalho rural é fruto da pesquisa da @Ana Cristina Nobre da consultoria Ambiente Social. Este é o primeiro de 6 temas, e serve como material de apoio para facilitadores sistematizarem temas complexos. O apoio visual é muito importante no trabalho de campo e ajuda na aproximação das pessoas com o assunto.`,
+    introduction: `Essa cartilha sobre direitos humanos no trabalho rural é fruto da pesquisa da Ana Cristina Nobre da consultoria Ambiente Social. Este é o primeiro de 6 temas, e serve como material de apoio para facilitadores sistematizarem temas complexos. O apoio visual é muito importante no trabalho de campo e ajuda na aproximação das pessoas com o assunto.`,
     credits: {
       title: "Créditos",
       info: [
@@ -109,7 +109,21 @@ const projectsPagePt = {
         },
       ]
     },
-    tags: ['animação', 'ilustração', 'esg', 'meioAmbiente'],
+    tags: ['publicação', 'ilustração', 'infográfico', 'direitosHumanos', 'trabalho'],
+  },
+  rhino: {
+    title: "Rhino Poops",
+    introduction: `O Rinoceronte-de-Sumatra é uma espécie em extinção monitorada de perto. Mas para não perturbar os animais, os cientistas desenvolveram um método eficaz de acompanhar as famílias e preservar a espécie. Animação divertida para o Mongabay. Muito bom poder falar de coisas positivas que estão dando certo.`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Ilustrações e Animação",
+          name: "Julia Lima",
+        },
+      ]
+    },
+    tags: ['animação', 'ilustração', 'meioAmbiente'],
   },
 }
 

@@ -26,7 +26,7 @@ const projectsPageEn = {
         },
       ]
     },
-    tags: ['animation', 'women', 'politics', 'cities', 'work', 'esg', 'infographic', 'equality', 'publication', 'humanRights'],
+    tags: ['animation', 'environment'],
   },
   plenamata: {
     title: "Plenamata",
@@ -109,7 +109,21 @@ const projectsPageEn = {
         },
       ]
     },
-    tags: ['animação', 'ilustração', 'esg', 'meioAmbiente'],
+    tags: ['publication', 'illustration', 'infographic', 'humanRights', 'work'],
+  },
+  rhino: {
+    title: "Rhino Poops",
+    introduction: `The Sumatran Rhinoceros is a closely monitored endangered species. But in order not to disturb the animals, scientists have developed an effective method of tracking families and preserving the species. Fun animation for Mongabay. It's great to be able to talk about positive things that are working.`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Illustrations and Animation",
+          name: "Julia Lima",
+        },
+      ]
+    },
+    tags: ['animation', 'illustration', 'environment'],
   },
 }
 

@@ -13,7 +13,7 @@ const allTags = {
     'politics',
     'environment',
     'humanRights',
-    'illustration'
+    'illustration',
   ],
   pt:
     [
@@ -23,7 +23,14 @@ const allTags = {
       'publicação',
       'mulheres',
       'trabalho',
-      'meioAmbiente'
+      'esg',
+      'igualdade',
+      'cidades',
+      'território',
+      'política',
+      'meioAmbiente',
+      'direitosHumanos',
+      'ilustração',
     ]
 }
 
@@ -36,8 +43,8 @@ const projects = [
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['animation', 'women', 'politics', 'cities', 'work', 'esg', 'infographic', 'equality', 'publication', 'humanRights'],
-    tagsPt: ['animação', 'ilustração'],
+    tags: ['animation', 'environment'],
+    tagsPt: ['animação', 'meioAmbiente'],
   },
   {
     id: 'plenamata',
@@ -51,17 +58,6 @@ const projects = [
     tagsPt: ['infográfico', 'ilustração', 'meioAmbiente'],
   },
   {
-    id: 'vozes-femininas',
-    title: 'Vozes Femininas',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: ['animation', 'women', 'politics', 'cities', 'work', 'esg', 'infographic', 'equality'],
-    tagsPt: ['animação', 'ilustração'],
-  },
-  {
     id: 'refarm',
     title: 'Refarm',
     images: {
@@ -73,19 +69,30 @@ const projects = [
     tagsPt: ['animação', 'ilustração', 'esg', 'meioAmbiente'],
   },
   {
-    id: 'pasto',
-    title: 'Do Prato ao Pasto',
+    id: 'rhino',
+    title: 'Rhino Poop',
     images: {
       thumbnail: 'thumb.png',
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['socialMedia', 'politics'],
-    tagsPt: ['animação', 'ilustração'],
+    tags: ['animation', 'illustration', 'environment'],
+    tagsPt: ['animação', 'ilustração', 'meioAmbiente'],
   },
   {
     id: 'direitos',
     title: 'Direitos Humanos no Trabalho Rural',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['publication', 'illustration', 'infographic', 'humanRights', 'work'],
+    tagsPt: ['publicação', 'ilustração', 'infográfico', 'direitosHumanos', 'trabalho'],
+  },
+  {
+    id: 'pasto',
+    title: 'Do Prato ao Pasto',
     images: {
       thumbnail: 'thumb.png',
       full: '...'

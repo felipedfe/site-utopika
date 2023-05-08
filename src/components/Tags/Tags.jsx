@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
+import { useNavigate } from 'react-router-dom';
 import myContext from '../../context/myContext';
 import { allTags } from '../../data/projects';
 import TagButton from '../../components/TagButton/TagButton';
@@ -6,6 +7,9 @@ import './tags.css';
 
 function Tags() {
   // const [tagsList, setTagsList] = useState([]);
+
+  const navigate = useNavigate();
+  console.log("--->", navigate)
 
   const { textLanguage, tagsList, setTagsList } = useContext(myContext);
 
@@ -28,6 +32,7 @@ function Tags() {
 
     return mainTags.map((tag, index) =>
       <TagButton
+        key={index}
         handleClick={handleClick}
         innerTextTag={tag}
         valueTag={allTags['en'][index]}
@@ -39,16 +44,25 @@ function Tags() {
 
     return mainTags.map((tag, index) =>
       <TagButton
+        key={index}
         handleClick={handleClick}
         innerTextTag={tag}
         valueTag={allTags['en'][index + mainTagsLimit]}
       />)
   };
 
-  //Retirar depois
+  // Retirar depois
   useEffect(() => {
     console.log(tagsList)
   }, [tagsList]);
+
+
+  // limpa a lista de tags quando o componente desmonta
+  useEffect(() => {
+    return () => {
+      setTagsList([])
+    }
+  }, [])
 
   return (
     <section className="tags--tags-container">
