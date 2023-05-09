@@ -143,12 +143,48 @@ const projectsPageEn = {
           name: "Julia Lima",
         },
         {
-          role: "illustration and layout",
+          role: "Illustration and layout",
           name: "Ana Clara Lury",
         },
       ]
     },
-    tags: ['women', 'publication'],
+    tags: ['women', 'publication', 'illustration', 'equality'],
+  },
+  olhar: {
+    title: "Olhar Perto, Enxergar Longe",
+    introduction: `The book "Look Close, See Far: Timeless Environmental Chronicles" is a collection produced by @siteoeco and organized by journalist Lorenzo Aldé with the chronicles of journalist and photographer Marcos Sá Corrêa. The book brings together 98 columns on the most varied environmental topics and Marcos Sá's observations are surprisingly up-to-date, worth reading :)`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Layout and Graphic Design",
+          name: "Laura Levín e Julia Lima",
+        },
+        {
+          role: "Cover",
+          name: "Carla Dutra",
+        },
+      ]
+    },
+    tags: ['women', 'publication', 'illustration', 'equality'],
+  },
+  guia: {
+    title: "Guia dos Perplexos",
+    introduction: `The book "Look Close, See Far: Timeless Environmental Chronicles" is a collection produced by @siteoeco and organized by journalist Lorenzo Aldé with the chronicles of journalist and photographer Marcos Sá Corrêa. The book brings together 98 columns on the most varied environmental topics and Marcos Sá's observations are surprisingly up-to-date, worth reading :)`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Layout and Graphic Design",
+          name: "Laura Levín e Julia Lima",
+        },
+        {
+          role: "Cover",
+          name: "Carla Dutra",
+        },
+      ]
+    },
+    tags: ['women', 'publication', 'illustration', 'equality'],
   },
 }
 

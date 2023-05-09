@@ -109,8 +109,30 @@ const projects = [
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['women', 'publication'],
-    tagsPt: ['mulheres', 'publicação'],
+    tags: ['women', 'publication', 'illustration', 'equality'],
+    tagsPt: ['mulheres', 'publicação', 'ilustração', 'igualdade'],
+  },
+  {
+    id: 'olhar',
+    title: 'Olhar Perto, Enxergar Longe',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['women', 'publication', 'illustration', 'equality'],
+    tagsPt: ['mulheres', 'publicação', 'ilustração', 'igualdade'],
+  },
+  {
+    id: 'guia',
+    title: 'Guia dos Perplexos',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['women', 'publication', 'illustration', 'equality'],
+    tagsPt: ['mulheres', 'publicação', 'ilustração', 'igualdade'],
   },
 ]
 

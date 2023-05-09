@@ -149,7 +149,43 @@ const projectsPagePt = {
         },
       ]
     },
-    tags: ['mulheres', 'publicação'],
+    tags: ['mulheres', 'publicação', 'ilustração', 'igualdade'],
+  },
+  olhar: {
+    title: "Olhar Perto, Enxergar Longe",
+    introduction: `O livro "Olhar perto, enxergar longe: crônicas ambientais atemporais" é uma coletânea produzida pelo @siteoeco e organizada pelo jornalista Lorenzo Aldé com as crônicas do jornalista e fotógrafo Marcos Sá Corrêa. O livro reúne 98 colunas sobre os mais variados temas ambientais e as observações de Marcos Sá seguem surpreendentemente atuais, vale a leitura :)`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Diagramação e Projeto Gráfico",
+          name: "Laura Levín e Julia Lima",
+        },
+        {
+          role: "Capa",
+          name: "Carla Dutra",
+        },
+      ]
+    },
+    tags: ['mulheres', 'publicação', 'ilustração', 'igualdade'],
+  },
+  guia: {
+    title: "Guia dos Perplexos",
+    introduction: `O livro "Olhar perto, enxergar longe: crônicas ambientais atemporais" é uma coletânea produzida pelo @siteoeco e organizada pelo jornalista Lorenzo Aldé com as crônicas do jornalista e fotógrafo Marcos Sá Corrêa. O livro reúne 98 colunas sobre os mais variados temas ambientais e as observações de Marcos Sá seguem surpreendentemente atuais, vale a leitura :)`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Diagramação e Projeto Gráfico",
+          name: "Laura Levín e Julia Lima",
+        },
+        {
+          role: "Capa",
+          name: "Carla Dutra",
+        },
+      ]
+    },
+    tags: ['mulheres', 'publicação', 'ilustração', 'igualdade'],
   },
 }
 

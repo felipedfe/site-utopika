@@ -9,6 +9,8 @@ import {
   Direitos,
   Rhino,
   Vozes,
+  Olhar,
+  Guia,
 } from './pages/projectsPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
@@ -74,6 +76,22 @@ function App() {
             <MainPageLayout>
               <ProjectPageLayout>
                 <Vozes />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+          <Route exact path="/projetos/olhar" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <Olhar />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+          <Route exact path="/projetos/guia" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <Guia />
               </ProjectPageLayout>
             </MainPageLayout>
           }

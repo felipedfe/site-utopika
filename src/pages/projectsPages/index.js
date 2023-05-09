@@ -5,6 +5,8 @@ import Pasto from "./pasto/Pasto";
 import Direitos from "./direitos/Direitos";
 import Rhino from "./rhino/Rhino";
 import Vozes from "./vozes/Vozes";
+import Olhar from "./olhar/Olhar";
+import Guia from "./guia/Guia";
 
 export {
   Mongabay,
@@ -14,4 +16,6 @@ export {
   Direitos,
   Rhino,
   Vozes,
+  Olhar,
+  Guia,
 }
