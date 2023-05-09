@@ -21,6 +21,7 @@ function Pasto({ projectData }) {
   `
   const ImageWrapper = styled.div`
     height: 100%;
+    margin-bottom: -0.5rem;
 
     img {
       width: 100%;
