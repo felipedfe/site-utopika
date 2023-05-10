@@ -30,9 +30,6 @@ const TextWrapper = styled.div`
   }
 `
 
-const Text = styled.p`
-`
-
 function ProjectIntro({ tags, introduction, title, projectId }) {
   return (
     <ProjectInfoContainer>
@@ -40,7 +37,8 @@ function ProjectIntro({ tags, introduction, title, projectId }) {
       <Divider />
       {tags.map((tag) => <Tag>{`#${tag} `}</Tag>)}
       <TextWrapper>
-        <p>{introduction}</p>
+        {/* <p>{introduction}</p> */}
+        <p dangerouslySetInnerHTML={{ __html: `${introduction}` }}></p>
       </TextWrapper>
     </ProjectInfoContainer>
   )

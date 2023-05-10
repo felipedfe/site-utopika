@@ -169,7 +169,7 @@ const projectsPageEn = {
     tags: ['women', 'publication', 'illustration', 'equality'],
   },
   guia: {
-    title: "Guia dos Perplexos",
+    title: "Um Guia para os Perplexos",
     introduction: `The book "Look Close, See Far: Timeless Environmental Chronicles" is a collection produced by @siteoeco and organized by journalist Lorenzo Aldé with the chronicles of journalist and photographer Marcos Sá Corrêa. The book brings together 98 columns on the most varied environmental topics and Marcos Sá's observations are surprisingly up-to-date, worth reading :)`,
     credits: {
       title: "Credits",
@@ -181,6 +181,28 @@ const projectsPageEn = {
         {
           role: "Cover",
           name: "Carla Dutra",
+        },
+      ]
+    },
+    tags: ['women', 'publication', 'illustration', 'equality'],
+  },
+  sitawi: {
+    title: "Sitawi",
+    introduction: `Sitawi is an organization that mobilizes resources for projects with a positive impact. That was a fun explainer video to make. Another happy partnership with <a class="text-link" href="http://cadenzafilmes.com.br/" target="__blank__">Cadenza</a>.`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Direction and Production",
+          name: "Cadenza Filmes",
+        },
+        {
+          role: "Script",
+          name: "Filipe Tomassini",
+        },
+        {
+          role: "Layout and Animation",
+          name: "Julia Lima",
         },
       ]
     },

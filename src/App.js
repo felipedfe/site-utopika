@@ -11,6 +11,7 @@ import {
   Vozes,
   Olhar,
   Guia,
+  Sitawi,
 } from './pages/projectsPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
@@ -92,6 +93,14 @@ function App() {
             <MainPageLayout>
               <ProjectPageLayout>
                 <Guia />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+          <Route exact path="/projetos/sitawi" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <Sitawi />
               </ProjectPageLayout>
             </MainPageLayout>
           }

@@ -170,7 +170,7 @@ const projectsPagePt = {
     tags: ['mulheres', 'publicação', 'ilustração', 'igualdade'],
   },
   guia: {
-    title: "Guia dos Perplexos",
+    title: "Um Guia para os Perplexos",
     introduction: `O livro "Olhar perto, enxergar longe: crônicas ambientais atemporais" é uma coletânea produzida pelo @siteoeco e organizada pelo jornalista Lorenzo Aldé com as crônicas do jornalista e fotógrafo Marcos Sá Corrêa. O livro reúne 98 colunas sobre os mais variados temas ambientais e as observações de Marcos Sá seguem surpreendentemente atuais, vale a leitura :)`,
     credits: {
       title: "Créditos",
@@ -182,6 +182,28 @@ const projectsPagePt = {
         {
           role: "Capa",
           name: "Carla Dutra",
+        },
+      ]
+    },
+    tags: ['mulheres', 'publicação', 'ilustração', 'igualdade'],
+  },
+  sitawi: {
+    title: "Sitawi",
+    introduction: `A Sitawi é uma organização que mobiliza recursos para projetos de impacto positivo. Esse foi um vídeo explicativo divertido de fazer. Mais uma parceria feliz com a <a class="text-link" href="http://cadenzafilmes.com.br/" target="__blank__">Cadenza</a>.`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Direção e Produção",
+          name: "Cadenza Filmes",
+        },
+        {
+          role: "Roteiro",
+          name: "Filipe Tomassini",
+        },
+        {
+          role: "Layout e Animação",
+          name: "Julia Lima",
         },
       ]
     },

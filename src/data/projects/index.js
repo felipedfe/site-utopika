@@ -134,6 +134,17 @@ const projects = [
     tags: ['women', 'publication', 'illustration', 'equality'],
     tagsPt: ['mulheres', 'publicação', 'ilustração', 'igualdade'],
   },
+  {
+    id: 'sitawi',
+    title: 'Sitawi',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['women', 'publication', 'illustration', 'equality'],
+    tagsPt: ['mulheres', 'publicação', 'ilustração', 'igualdade'],
+  },
 ]
 
 export { projects, allTags };

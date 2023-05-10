@@ -7,6 +7,7 @@ import Rhino from "./rhino/Rhino";
 import Vozes from "./vozes/Vozes";
 import Olhar from "./olhar/Olhar";
 import Guia from "./guia/Guia";
+import Sitawi from "./sitawi/Sitawi";
 
 export {
   Mongabay,
@@ -18,4 +19,5 @@ export {
   Vozes,
   Olhar,
   Guia,
+  Sitawi,
 }

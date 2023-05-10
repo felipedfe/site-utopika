@@ -23,13 +23,13 @@ body {
   padding-bottom: 60px;
 }
 
-.page-content{
+.page-content {
   /* padding-top: 60px; */
   padding-bottom: 120px;
 }
 
 @media all and (max-width: 1024px) {
-  .page-content{
+  .page-content {
     padding-bottom: 320px;
   }
 }
@@ -40,11 +40,20 @@ body {
   font-size: 2rem;
 }
 
+.text-link {
+  color: var(--red);
+}
+
+/* .text-link:hover {
+  cursor: pointer;
+} */
+
 a {
   all: unset
 }
 
-button, a:hover {
+button:hover,
+a:hover {
   cursor: pointer;
 }
 
