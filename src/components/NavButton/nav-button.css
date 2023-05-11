@@ -1,9 +1,16 @@
-.selected {
-  border-bottom: 3px solid red;
+.nav-button {
+  background-color: transparent;
+  padding-right: 5px;
 }
 
-.nav-btn {
-  background-color: #fff;
-  font-weight: 700;
-  padding: 10px 10px 7px 10px;
+.selected {
+  border-bottom: 3px solid var(--red);;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-button {
+    background-color: transparent;
+    padding-right: 5px;
+    font-size: 2rem;
+  }
 }

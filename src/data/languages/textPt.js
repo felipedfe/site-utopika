@@ -1,3 +1,5 @@
+import projectsPagePt from "./ProjectsPage/projectsPagePt";
+
 const textPt = {
   pt: {
     menu: {
@@ -6,8 +8,9 @@ const textPt = {
       about: "Sobre",
     },
     introduction: {
-      introPt1: "A Utópika é sobre juntar forças, trabalhar com gente legal em projetos que acreditamos. É sobre ser divertido e sobre ser sério. É sobre explicar e entender.",
-      introPt2: "Acreditamos muito no poder da comunicação para a transformação da realidade e queremos construir juntos projetos e narrativas que trazem soluções, imaginação e propósito em temas que realmente importam para as pessoas.",
+      introPt1: "A Utópika é sobre caminhar junto em busca dos horizontes que levamos nos olhos. Olhando à frente, e com os pés firmes no que acreditamos. ",
+      introPt2: "É sobre caminhar ombro a ombro com aqueles que acreditam que podemos transformar realidades através das narrativas que trazem entendimento e imaginação, para criar novos pensamentos, comportamentos, novos hábitos e novas atitudes.",
+      button: "Saiba +",
     },
     instaFeed: {
       title: "NOVIDADES"
@@ -15,23 +18,24 @@ const textPt = {
     footer: {
       info: "Site por Utópika Estúdio Criativo"
     },
-    projects: {
-      mongabay: {
-        title: "Pacote Gráfico Mongabay",
-        tags: ['meioAmbiente', 'animação', 'identidadeVisual', 'mídiasSociais'],
-        text1: "O Mongabay é um portal de notícias ambientais com sede em diferentes regiões e precisava padronizar sua comunicação e facilitar a vida de editores que colaboram ao redor do mundo. Para isso criamos novos layouts para o seu pacote gráfico em vídeo com o intuito de ser versátil e se adequar ao consumo nas redes, sem perder a identidade do Mongabay.",
-        text2: "Fizemos então um pacote de essential graphics que pode facilmente ser usado no Adobe Premiere através de uma interface simples e com algumas opções de customização para o editor.",
-        text3: "Os gráficos são automatizados para se adaptar ao conteúdo. Códigos de programação controlam o tamanho das caixas de texto, quantidade de linhas e etc, fazendo com que o editor mexa no mínimo de propriedades possível.",
-        text4: "Fizemos versões verticais e horizontais de forma que as informações se comportassem de forma semelhante em ambos os formatos sem precisar de adaptações das editorias. Foi uma grande parceria com a coordenadora de vídeo do Mongabay, Lucia Torres, para que o pacote gráfico tivesse o melhor aproveitamento internamente.",
-        credits: {
-          title: 'CRÉDITOS',
-          julia: 'Coordenação e motion design',
-          carla: 'Essential graphics',
-          felipe: 'Automação',
-          ana: 'Estagiária',
-        }
+    aboutPage: {
+      intro: {
+        paragraph1: `Olá, seja bem-vindo e bem-vinda!
+      Obrigada por chegar até aqui com interesse em conhecer melhor quem somos.
+      O nosso propósito é tornar o mundo melhor através do trabalho que entregamos. Acreditamos que para transformar o futuro que nos assusta, precisamos criar imagens para o futuro que sonhamos!`,
+        paragraph2: `Aqui na Utópika, compreendemos profundamente os conceitos que nossos parceiros estão debatendo e agregamos forças porque temos o desejo de fazer a transformação acontecer de verdade e de nos tornar parte dessas histórias através das narrativas visuais que produzimos com esse engajamento.`,
+        paragraph3: `Andamos de mãos dadas e coração alinhado com profissionais multi-talentosos de diferentes disciplinas e saberes, assim, não importa o tamanho do desafio, mobilizamos a equipe necessária para fazer acontecer projetos de design, ilustração, audiovisual e animação, seja nas plataformas on ou off.
+      Estamos prontas para oferecer soluções criativas em qualquer área da comunicação! Vamos conversar?`
+      },
+      profile: {
+        julia: "<strong>Julia Lima</strong> - designer, ilustradora e motion, já passou por tv, revista, editora e produtora até entender que o design é transversal e o que a envolve é o tema e as pessoas com quem se constrói junto. Ama livros infantis e como cada história se transforma com os diferentes traços.",
+        rachel: "<strong>Rachel Gepp</strong> é publicitária, designer e ilustradora, ama a realidade e, por isso, não se encaixou no mercado publicitário que produz ilusões. Largou tudo e foi ver o mundo. Morou no Camboja e na Amazônia e foi nessas experiências que entendeu que poderia usar a comunicação como ferramenta para combater violências e injustiças.",
+      },
+      clients: {
+        title: "Clientes",
       }
     },
+    projectsPage: projectsPagePt,
   }
 };
 

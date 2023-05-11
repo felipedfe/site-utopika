@@ -1,0 +1,14 @@
+.menu-lang-btn{
+  background-color: transparent;
+  color: rgb(229, 74, 56);
+  font-size: 0.7rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu-lang-btn{
+    background-color: transparent;
+    color: rgb(229, 74, 56);
+    font-size: 1.4rem;
+    padding-top: 1rem;
+  }
+}

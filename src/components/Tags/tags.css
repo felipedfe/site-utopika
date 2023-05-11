@@ -1,0 +1,40 @@
+.tags--main-tags-btns {
+  padding-bottom: 0.5rem;
+}
+
+.tags--main-tags-btns,
+.tags--secondary-tags-btns {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 0.3rem;
+  column-gap: 0.5rem;
+}
+
+.tags--main-tags-btns>*{
+  background-color: #fff;
+}
+
+.tags--main-tags-btns .on {
+  background-color: #000;
+  color: #fff;
+}
+
+.tags--secondary-tags-btns>*{
+  background-color: #fff;
+  color: var(--red);
+  border-color: var(--red);
+}
+
+.tags--secondary-tags-btns .on {
+  background-color: var(--red);
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .tags--all-tags-wrapper {
+    width: 80%;
+    /* background-color: green; */
+    padding-top: 4rem;
+    padding-left: 1rem;
+  }
+}

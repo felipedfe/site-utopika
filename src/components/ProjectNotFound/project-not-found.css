@@ -1,0 +1,13 @@
+.project-not-found--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  transform: translateX(50%);
+}
+
+.project-not-found--container img{
+  width: 100%;
+}
