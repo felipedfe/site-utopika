@@ -77,7 +77,7 @@ const projectsPagePt = {
     title: "Do Prato ao Pasto",
     introduction: `O aplicativo do prato ao pasto da Trase ajuda o consumidor a identificar de onde vem a carne que compra no mercado e seu impacto ambiental escaneando o código de barra. Fizemos essa animação para a divulgação da 1a versão do app.
 
-    Mais uma parceria com o super diretor Márcio Isensee`,
+    Mais uma parceria com o super diretor Márcio Isensee.`,
     credits: {
       title: "Créditos",
       info: [
@@ -135,7 +135,7 @@ const projectsPagePt = {
   },
   vozes: {
     title: "Vozes Femininas",
-    introduction: `O livro escrito por Tatiane Matheus contou com a voz de 21 mulheres de diferentes lugares e saberes sobre diagnósticos e soluções para a crise climática. Nas palavras da autora “É um manifesto da transição justa na teoria e, sobretudo, na prática. Uma convocação do pensar global ao agir local. Qual a sua prontidão para, de fato, ouvir?”. Trabalhando junto ao GT de genero do @observatoriodoclima fica claro que qualquer recuperação possível coloca as mulheres no centro da solução. Vamos juntas :) `,
+    introduction: `O livro escrito por Tatiane Matheus contou com a voz de 21 mulheres de diferentes lugares e saberes sobre diagnósticos e soluções para a crise climática. Nas palavras da autora “É um manifesto da transição justa na teoria e, sobretudo, na prática. Uma convocação do pensar global ao agir local. Qual a sua prontidão para, de fato, ouvir?”. Trabalhando junto ao GT de genero do <a class="text-link" href="https: //www.oc.eco.br/" target="__blank__">Observatório do Clima</a> fica claro que qualquer recuperação possível coloca as mulheres no centro da solução. Vamos juntas :) `,
     credits: {
       title: "Créditos",
       info: [
@@ -153,7 +153,7 @@ const projectsPagePt = {
   },
   olhar: {
     title: "Olhar Perto, Enxergar Longe",
-    introduction: `O livro "Olhar perto, enxergar longe: crônicas ambientais atemporais" é uma coletânea produzida pelo @siteoeco e organizada pelo jornalista Lorenzo Aldé com as crônicas do jornalista e fotógrafo Marcos Sá Corrêa. O livro reúne 98 colunas sobre os mais variados temas ambientais e as observações de Marcos Sá seguem surpreendentemente atuais, vale a leitura :)`,
+    introduction: `O livro "Olhar perto, enxergar longe: crônicas ambientais atemporais" é uma coletânea produzida pelo <a class="text-link" href="https://oeco.org.br/" target="__blank__">O Eco</a> e organizada pelo jornalista Lorenzo Aldé com as crônicas do jornalista e fotógrafo Marcos Sá Corrêa. O livro reúne 98 colunas sobre os mais variados temas ambientais e as observações de Marcos Sá seguem surpreendentemente atuais, vale a leitura :)`,
     credits: {
       title: "Créditos",
       info: [
@@ -167,25 +167,21 @@ const projectsPagePt = {
         },
       ]
     },
-    tags: ['mulheres', 'publicação', 'ilustração', 'igualdade'],
+    tags: ['meioAmbiente', 'publicação'],
   },
   guia: {
     title: "Um Guia para os Perplexos",
-    introduction: `O livro "Olhar perto, enxergar longe: crônicas ambientais atemporais" é uma coletânea produzida pelo @siteoeco e organizada pelo jornalista Lorenzo Aldé com as crônicas do jornalista e fotógrafo Marcos Sá Corrêa. O livro reúne 98 colunas sobre os mais variados temas ambientais e as observações de Marcos Sá seguem surpreendentemente atuais, vale a leitura :)`,
+    introduction: `Elaborado pela <a class="text-link" href="https://laclima.org/" target="__blank__">LACLIMA</a> e pelo <a class="text-link" href="https://www.oc.eco.br/" target="__blank__">Observatório do Clima</a> o guia dos perplexos explica de forma didática e bem humorada explica tudo que você precisa saber sobre o Acordo de Paris e o funcionamento das COPs do clima da ONU. Por aqui fizemos o projeto gráfico e diagramação, pontuando o texto com algumas colagens. Um material muito rico e fácil de ler para qualquer pessoa que queira entender como caminha essa negociação, que por sua vez não é nada fácil.`,
     credits: {
       title: "Créditos",
       info: [
         {
           role: "Diagramação e Projeto Gráfico",
-          name: "Laura Levín e Julia Lima",
-        },
-        {
-          role: "Capa",
-          name: "Carla Dutra",
+          name: "Rachel Gepp e Julia Lima",
         },
       ]
     },
-    tags: ['mulheres', 'publicação', 'ilustração', 'igualdade'],
+    tags: ['publicação', 'ilustração', 'meioAmbiente'],
   },
   sitawi: {
     title: "Sitawi",

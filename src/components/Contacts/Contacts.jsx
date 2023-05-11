@@ -16,7 +16,7 @@ function Contacts() {
       <section className="contacts--person-info">
         <p>Rachel Gepp</p>
         <p>rachel@utopika.com.br</p>
-        <p>21. 999999999</p>
+        <p>21. 965267513</p>
       </section>
     </section>
   )

@@ -77,7 +77,7 @@ const projectsPageEn = {
     title: "Do Prato ao Pasto",
     introduction: `Trase's plate-to-grass app helps consumers identify where the meat they buy in the market comes from and its environmental impact by scanning the bar code. We made this animation to promote the 1st version of the app.
 
-    Another partnership with super director Márcio Isensee`,
+    Another partnership with super director Márcio Isensee.`,
     credits: {
       title: "Credits",
       info: [
@@ -134,7 +134,7 @@ const projectsPageEn = {
   },
   vozes: {
     title: "Vozes Femininas",
-    introduction: `The book written by Tatiane Matheus had the voice of 21 women from different places and knowledge about diagnoses and solutions for the climate crisis. In the words of the author “It is a manifesto of the just transition in theory and, above all, in practice. A call for global thinking to local action. How ready are you to actually listen?” Working together with the @observatoriodoclima Gender WG, it is clear that any possible recovery puts women at the center of the solution. Let's go together :)`,
+    introduction: `The book written by Tatiane Matheus had the voice of 21 women from different places and knowledge about diagnoses and solutions for the climate crisis. In the words of the author “It is a manifesto of the just transition in theory and, above all, in practice. A call for global thinking to local action. How ready are you to actually listen?” Working together with the <a class="text-link" href="https: //www.oc.eco.br/" target="__blank__">Observatório do Clima</a> Gender WG, it is clear that any possible recovery puts women at the center of the solution. Let's go together :)`,
     credits: {
       title: "Credits",
       info: [
@@ -152,7 +152,7 @@ const projectsPageEn = {
   },
   olhar: {
     title: "Olhar Perto, Enxergar Longe",
-    introduction: `The book "Look Close, See Far: Timeless Environmental Chronicles" is a collection produced by @siteoeco and organized by journalist Lorenzo Aldé with the chronicles of journalist and photographer Marcos Sá Corrêa. The book brings together 98 columns on the most varied environmental topics and Marcos Sá's observations are surprisingly up-to-date, worth reading :)`,
+    introduction: `The book "Look Close, See Far: Timeless Environmental Chronicles" is a collection produced by <a class="text-link" href="https://oeco.org.br/" target="__blank__">O Eco</a> and organized by journalist Lorenzo Aldé with the chronicles of journalist and photographer Marcos Sá Corrêa. The book brings together 98 columns on the most varied environmental topics and Marcos Sá's observations are surprisingly up-to-date, worth reading :)`,
     credits: {
       title: "Credits",
       info: [
@@ -166,25 +166,21 @@ const projectsPageEn = {
         },
       ]
     },
-    tags: ['women', 'publication', 'illustration', 'equality'],
+    tags: ['environment', 'publication'],
   },
   guia: {
     title: "Um Guia para os Perplexos",
-    introduction: `The book "Look Close, See Far: Timeless Environmental Chronicles" is a collection produced by @siteoeco and organized by journalist Lorenzo Aldé with the chronicles of journalist and photographer Marcos Sá Corrêa. The book brings together 98 columns on the most varied environmental topics and Marcos Sá's observations are surprisingly up-to-date, worth reading :)`,
+    introduction: `Prepared by <a class="text-link" href="https://laclima.org/" target="__blank__">LACLIMA</a> and <a class="text-link" href="https: //www.oc.eco.br/" target="__blank__">Observatório do Clima</a> the guide for the perplexed explains everything you need to know about the Paris Agreement and the functioning of the UN climate COPs. Here we did the graphic design and layout, punctuating the text with some collages. Very rich and easy-to-read material for anyone who wants to understand how this negotiation is going, which in turn is not easy.`,
     credits: {
       title: "Credits",
       info: [
         {
           role: "Layout and Graphic Design",
-          name: "Laura Levín e Julia Lima",
-        },
-        {
-          role: "Cover",
-          name: "Carla Dutra",
+          name: "Rachel Gepp e Julia Lima",
         },
       ]
     },
-    tags: ['women', 'publication', 'illustration', 'equality'],
+    tags: ['publication', 'illustration', 'environment'],
   },
   sitawi: {
     title: "Sitawi",

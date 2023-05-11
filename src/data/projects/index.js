@@ -4,6 +4,7 @@ const allTags = {
     'infographic',
     'animation',
     'publication',
+    'illustration',
     'women',
     'work',
     'esg',
@@ -13,7 +14,6 @@ const allTags = {
     'politics',
     'environment',
     'humanRights',
-    'illustration',
   ],
   pt:
     [
@@ -21,6 +21,7 @@ const allTags = {
       'infográfico',
       'animação',
       'publicação',
+      'ilustração',
       'mulheres',
       'trabalho',
       'esg',
@@ -30,7 +31,6 @@ const allTags = {
       'política',
       'meioAmbiente',
       'direitosHumanos',
-      'ilustração',
     ]
 }
 
@@ -120,19 +120,19 @@ const projects = [
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['women', 'publication', 'illustration', 'equality'],
-    tagsPt: ['mulheres', 'publicação', 'ilustração', 'igualdade'],
+    tags: ['environment', 'publication'],
+    tagsPt: ['meioAmbiente', 'publicação'],
   },
   {
     id: 'guia',
-    title: 'Guia dos Perplexos',
+    title: 'Um Guia para os Perplexos',
     images: {
       thumbnail: 'thumb.png',
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['women', 'publication', 'illustration', 'equality'],
-    tagsPt: ['mulheres', 'publicação', 'ilustração', 'igualdade'],
+    tags: ['publication', 'illustration', 'environment'],
+    tagsPt: ['publicação', 'ilustração', 'meioAmbiente'],
   },
   {
     id: 'sitawi',
@@ -142,8 +142,8 @@ const projects = [
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['women', 'publication', 'illustration', 'equality'],
-    tagsPt: ['mulheres', 'publicação', 'ilustração', 'igualdade'],
+    tags: ['illustration', 'equality', 'animation', 'environment'],
+    tagsPt: ['ilustração', 'igualdade', 'animação', 'meioAmbiente'],
   },
 ]
 

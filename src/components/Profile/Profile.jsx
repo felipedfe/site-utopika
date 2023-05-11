@@ -37,10 +37,6 @@ const IconLink = styled.a`
     }
   `
 
-const Text = styled.p`
-    display: inline;
-  `
-
 const TextWrapper = styled.div``
 
 
