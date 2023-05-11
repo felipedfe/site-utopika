@@ -42,10 +42,10 @@ function InstaFeed() {
           <h3>{text.instaFeed.title}</h3>
         </div>
         <div className="instafeed--grid-media">
-          {feed?.map((item) => {
+          {feed?.map((item ) => {
             return (
-              <div className="instafeed--media-wrapper">
-                <a key={item.id} href={item.permalink} target="_blank" rel="noreferrer">
+              <div key={item.id} className="instafeed--media-wrapper">
+                <a  href={item.permalink} target="_blank" rel="noreferrer">
                   {item.media_type === "IMAGE" ?
                     <img className="instafeed--media" alt="" src={item.media_url} /> :
                     <video className="instafeed--media" muted autoPlay>
