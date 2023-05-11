@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import { textLanguages as textOptions } from '../../data/languages';
 import myContext from '../../context/myContext';
 import './language-btn.css';
 

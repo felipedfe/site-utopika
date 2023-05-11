@@ -24,9 +24,9 @@ function InstaFeed() {
       if (data.error) throw new Error(data.error.message)
 
       setFeed(data.data);
-      console.log('----->', data);
+      console.log('Data ->', data);
     } catch (error) {
-      console.log(error);
+      console.log('Erro ->', error);
     }
   };
 

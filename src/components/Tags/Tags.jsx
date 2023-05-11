@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useEffect, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import myContext from '../../context/myContext';
 import { allTags } from '../../data/projects';
@@ -6,10 +6,8 @@ import TagButton from '../../components/TagButton/TagButton';
 import './tags.css';
 
 function Tags() {
-  // const [tagsList, setTagsList] = useState([]);
-
   const navigate = useNavigate();
-  console.log("--->", navigate)
+  console.log("--->", navigate);
 
   const { textLanguage, tagsList, setTagsList } = useContext(myContext);
 
@@ -75,7 +73,6 @@ function Tags() {
         </section>
       </div>
     </section>
-
   )
 };
 

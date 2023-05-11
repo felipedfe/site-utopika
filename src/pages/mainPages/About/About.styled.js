@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
+const ClientsSection = styled.section`
+  width: 100%;
+`
+
 const AboutContainer = styled.main`
-  /* padding: 5% 0; */
-  /* padding-top: 60px; */
   margin-left: 17%;
   margin-right: 8%;
   max-width: 1200px;
-  /* margin: auto; */
 
   @media all and (max-width: 1024px) {
     margin-left: 3%;
@@ -37,9 +38,9 @@ const ProfileSection = styled.section`
   }
 `
 
-
 export {
   Hr,
   ProfileSection,
   AboutContainer,
+  ClientsSection,
 };

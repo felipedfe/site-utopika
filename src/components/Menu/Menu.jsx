@@ -135,7 +135,6 @@ function Menu() {
           </section>
         </>
       }
-
     </section>
   )
 };

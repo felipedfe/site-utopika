@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import styled from 'styled-components';
 import myContext from '../../context/myContext';
 import { textLanguages as textOptions } from '../../data/languages';
 import Contacts from '../Contacts/Contacts';
@@ -14,7 +13,6 @@ function TextAndContact() {
   return (
     <TextAndContactSection>
       <TextWrapper>
-        {/* {intro} */}
         <p>{intro.paragraph1}</p>
         <p>{intro.paragraph2}</p>
         <p>{intro.paragraph3}</p>

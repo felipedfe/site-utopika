@@ -1,30 +1,10 @@
-import React, { useContext } from 'react';
-import { useLocation } from 'react-router-dom';
+import React from 'react';
 import ProjectIntro from '../../../components/ProjectIntro/ProjectIntro'
 import Credits from '../../../components/Credits/Credits';
-import myContext from '../../../context/myContext';
-import { textLanguages as textOptions } from '../../../data/languages';
 import VideoContainer from '../../../components/VideoContainer/VideoContainer';
 import './mongabay.css';
 
 function Mongabay({ projectData }) {
-  // const { textLanguage } = useContext(myContext);
-
-  // const { pathname } = useLocation();
-
-  // const projectId = pathname.split('/').pop();
-
-  // const { projectsPage } = textOptions[textLanguage];
-
-  // const {
-  //   title,
-  //   paragraph1,
-  //   paragraph2,
-  //   paragraph3,
-  //   introduction,
-  //   credits,
-  //   tags } = projectsPage[projectId];
-
   const {
     title,
     introduction,
@@ -54,9 +34,9 @@ function Mongabay({ projectData }) {
               title="gfx-edit"
               className="project--iframe"
               src="https://player.vimeo.com/video/804624798?background=1&autopause=0"
-              frameborder="0"
+              frameBorder="0"
               allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen>
+              allowFullScreen>
             </iframe>
           </div>
           <script src="https://player.vimeo.com/api/player.js"></script>
@@ -70,27 +50,23 @@ function Mongabay({ projectData }) {
               {paragraph1}
             </p>
           </div>
-          {/* https://player.vimeo.com/video/804637137?h=5e8c037106 */}
-
 
           <div className="project--iframe-wrapper ratio">
             <iframe
               title="gfx-essential"
               className="project--iframe"
-              // src="https://player.vimeo.com/video/804637137?h=c1d00cc6da&title=0&byline=0&portrait=0&controls=0&autoplay=1=1&loop=1&muted&background=1&autopause=0"
               src="https://player.vimeo.com/video/804637137?background=1&autopause=0"
               loading="lazy"
-              frameborder="0"
+              frameBorder="0"
               allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             >
             </iframe>
           </div>
           <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
 
-        {/* automatizacao? */}
-
+        {/* automatizacao */}
         <div className="project--img-wrapper-half-r">
           <div className="project--iframe-wrapper ratio-code">
             <iframe
@@ -98,9 +74,9 @@ function Mongabay({ projectData }) {
               className="project--iframe"
               src="https://player.vimeo.com/video/804882847?background=1&autopause=0"
               loading="lazy"
-              frameborder="0"
+              frameBorder="0"
               allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen>
+              allowFullScreen>
             </iframe>
           </div>
           <div className="project--text-wrapper">
@@ -110,9 +86,8 @@ function Mongabay({ projectData }) {
             </p>
           </div>
         </div>
-        {/* https://player.vimeo.com/video/804882847 */}
 
-        {/* Manual */}
+        {/* manual */}
         <div className="project--img-wrapper">
           <img
             className="project--img users-guide"
@@ -121,7 +96,7 @@ function Mongabay({ projectData }) {
           />
         </div>
 
-        {/* Celular */}
+        {/* celular */}
         <div className="project--img-wrapper-half-l half-grid">
           <div className="project--text-wrapper">
             <hr className="project--divider" />
@@ -136,23 +111,14 @@ function Mongabay({ projectData }) {
               className="project--iframe"
               src="https://player.vimeo.com/video/804634415?background=1&autopause=0"
               loading="lazy"
-              frameborder="0"
+              frameBorder="0"
               allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen>
+              allowFullScreen>
             </iframe>
           </div>
-
           <script src="https://player.vimeo.com/api/player.js"></script>
-
-
         </div>
-
-        {/* https://player.vimeo.com/video/804634415 */}
-
-
       </section>
-
-
 
       <Credits credits={credits} />
     </section>

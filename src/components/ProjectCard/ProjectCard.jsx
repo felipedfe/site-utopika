@@ -17,14 +17,12 @@ function ProjectCard({ project }) {
               textLanguage === 'en' ?
                 tags.map((tag, index) => <span key={index}>{`#${tag}`}</span>) :
                 tagsPt.map((tag, index) => <span key={index}>{`#${tag}`}</span>)
-              // tags[textLanguage].map((tag) => <span>{`#${tag}`}</span>)
             }
           </div>
         </div>
       </div>
       <img
         className="projectcard--img"
-        // src={`images/projects/${id}/thumb.gif`}
         src={`images/projects/${id}/thumb.gif`}
         alt={alt}
         loading="lazy"

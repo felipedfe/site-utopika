@@ -1,19 +1,8 @@
 .projects--container {
-  /* padding: 5% 0; */
-  /* padding-top: 60px; */
   margin-left: 17%;
   margin-right: 8%;
-  /* margin-top: 60px; */
   max-width: 1200px;
-  /* margin: auto; */
 }
-
-/* .projects--tag-btns {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 0.3rem;
-  column-gap: 0.5rem;
-} */
 
 .projects--main-tags-btns {
   padding-bottom: 0.5rem;
@@ -56,10 +45,6 @@
 .projects--links-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* grid-template-columns: repeat(auto-fill, min(400px)); */
-  /* display: flex;
-  flex-wrap: wrap; */
-  /* width: 70%; */
 }
 
 @media all and (max-width: 768px) {
@@ -68,7 +53,6 @@
   }
 
   .projects--container {
-    /* padding: 5% 0; */
     margin-left: 3%;
     margin-right: 3%;
   }

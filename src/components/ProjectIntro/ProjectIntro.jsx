@@ -35,7 +35,7 @@ function ProjectIntro({ tags, introduction, title, projectId }) {
     <ProjectInfoContainer>
       <Title>{title}</Title>
       <Divider />
-      {tags.map((tag) => <Tag>{`#${tag} `}</Tag>)}
+      {tags.map((tag, index) => <Tag key={index}>{`#${tag} `}</Tag>)}
       <TextWrapper>
         {/* <p>{introduction}</p> */}
         <p dangerouslySetInnerHTML={{ __html: `${introduction}` }}></p>

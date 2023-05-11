@@ -4,10 +4,8 @@ import Menu from '../../components/Menu/Menu';
 import Footer from '../../components/Footer/Footer';
 import LanguageBtn from '../../components/LanguageBtn/LanguageBtn';
 import myContext from '../../context/myContext';
-import styled from 'styled-components';
 
 function MainPageLayout({ children }) {
-  // const { isLargeScreen } = useContext(myContext);
   const {
     isLargeScreen,
     setIsLargeScreen,
@@ -35,16 +33,12 @@ function MainPageLayout({ children }) {
     }
   });
 
-
   return (
     <>
       <header className={isLargeScreen && pathname === '/' ? null : 'menu-space'}>
         <Menu />
         {
-          (isLargeScreen && pathname === '/')
-            // ||
-            //   (isLargeScreen && pathname.startsWith('/projetos/')) 
-            ?
+          (isLargeScreen && pathname === '/') ?
             <LanguageBtn /> :
             null
         }
@@ -52,9 +46,7 @@ function MainPageLayout({ children }) {
       <section className="page-content">
         {children}
       </section>
-      {/* <footer> */}
       <Footer />
-      {/* </footer> */}
     </>
   )
 };

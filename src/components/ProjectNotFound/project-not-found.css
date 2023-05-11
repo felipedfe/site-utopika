@@ -3,10 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: var(--blue); */
   border: 2px solid black;
   border-radius: 10px;
-  /* color: white; */
   transform: translateX(50%);
 }
 

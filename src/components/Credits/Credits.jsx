@@ -25,12 +25,12 @@ const Title = styled.h2`
 
 function Credits({ credits }) {
   console.log(credits);
-  const {title, info} = credits;
+  const { title, info } = credits;
   return (
     <CreditsContainer>
       <Divider />
       <Title>{title.toUpperCase()}</Title>
-      {info.map(({ role, name }) => <p>{role} | {name}</p>)}
+      {info.map(({ role, name }, index) => <p key={index}>{role} | {name}</p>)}
     </CreditsContainer>
   )
 };

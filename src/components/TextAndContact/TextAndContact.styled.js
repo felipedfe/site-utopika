@@ -1,12 +1,9 @@
 import styled from 'styled-components';
-// import { marginBottom } from '../../pages/About/About.styled';
 
 const TextAndContactSection = styled.section`
 display: flex;
 white-space: pre-line;
-/* line-height: 1.7; */
 margin-bottom: 4rem;
-
 
 @media all and (max-width: 768px) {
     flex-direction: column;
