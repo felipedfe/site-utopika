@@ -1,5 +1,5 @@
 .footer--container {
-  position:absolute;
+  position: absolute;
   bottom: 0;
   display: flex;
   align-items: center;
@@ -52,7 +52,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  * p{
+  * p {
     line-height: 2;
   }
 
