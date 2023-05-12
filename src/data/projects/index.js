@@ -145,6 +145,17 @@ const projects = [
     tags: ['illustration', 'equality', 'animation', 'environment'],
     tagsPt: ['ilustração', 'igualdade', 'animação', 'meioAmbiente'],
   },
+  {
+    id: 'mata',
+    title: 'Mata Atlântica: Novas Histórias',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['illustration', 'environment'],
+    tagsPt: ['ilustração', 'meioAmbiente'],
+  },
 ]
 
 export { projects, allTags };

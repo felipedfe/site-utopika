@@ -8,6 +8,7 @@ import Vozes from "./vozes/Vozes";
 import Olhar from "./olhar/Olhar";
 import Guia from "./guia/Guia";
 import Sitawi from "./sitawi/Sitawi";
+import Mata from "./mata/Mata";
 
 export {
   Mongabay,
@@ -20,4 +21,5 @@ export {
   Olhar,
   Guia,
   Sitawi,
+  Mata,
 }

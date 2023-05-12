@@ -202,7 +202,29 @@ const projectsPageEn = {
         },
       ]
     },
-    tags: ['women', 'publication', 'illustration', 'equality'],
+    tags: ['illustration', 'equality', 'animation', 'environment'],
+  },
+  mata: {
+    title: "Mata Atlântica: Novas Histórias",
+    introduction: `Sitawi is an organization that mobilizes resources for projects with a positive impact. That was a fun explainer video to make. Another happy partnership with <a class="text-link" href="http://cadenzafilmes.com.br/" target="__blank__">Cadenza</a>.`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Direction and Production",
+          name: "Cadenza Filmes",
+        },
+        {
+          role: "Script",
+          name: "Filipe Tomassini",
+        },
+        {
+          role: "Layout and Animation",
+          name: "Julia Lima",
+        },
+      ]
+    },
+    tags: ['illustration', 'environment'],
   },
 }
 

@@ -12,6 +12,7 @@ import {
   Olhar,
   Guia,
   Sitawi,
+  Mata,
 } from './pages/projectsPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
@@ -101,6 +102,14 @@ function App() {
             <MainPageLayout>
               <ProjectPageLayout>
                 <Sitawi />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+          <Route exact path="/projetos/mata" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <Mata />
               </ProjectPageLayout>
             </MainPageLayout>
           }
