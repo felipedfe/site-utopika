@@ -10,7 +10,7 @@ const VideoWrapper = styled.section`
 
 const ImageWrapper = styled.div`
   height: 100%;
-  margin-bottom: -0.5rem;
+  margin-bottom: -0.6rem;
   
   img {
     width: 100%;

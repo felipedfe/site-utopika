@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const ImageWrapper = styled.div`
   height: 100%;
-  margin-bottom: -0.5rem;
+  margin-bottom: -0.7rem;
   
   img {
     width: 100%;

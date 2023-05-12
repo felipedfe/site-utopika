@@ -36,8 +36,6 @@ function Clients() {
         src={item}
         onDragStart={handleDragStart}
         role="presentation"
-      // autoHeight
-      // autoWidth
       />
     </LogoWrapper>);
 
@@ -46,7 +44,7 @@ function Clients() {
 
 
   return (
-    <ClientsWrapper>
+    <ClientsWrapper className="clients--wrapper">
       <CarouselWrapper>
         <Title>
           {clients.title}

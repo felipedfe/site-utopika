@@ -12,13 +12,13 @@
   margin: auto;
 }
 
-.alice-carousel__prev-btn-wrapper {
+.clients--wrapper .alice-carousel__prev-btn-wrapper {
   position: absolute;
   top: 20%;
   text-align: left;
 }
 
-.alice-carousel__next-btn-wrapper {
+.clients--wrapper .alice-carousel__next-btn-wrapper {
   position: absolute;
   top: 20%;
   right: 0;

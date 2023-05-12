@@ -1,0 +1,31 @@
+.image-carousel-wrapper div:nth-of-type(1) {
+  margin: 0;
+  width: 100%;
+}
+
+.image-carousel-wrapper .alice-carousel__prev-btn {
+  /* background-color: rgb(255, 129, 129); */
+  position: absolute;
+  top: 40%;
+  left: 0;
+  text-align: left;
+  color: var(--red);
+}
+
+.image-carousel-wrapper .alice-carousel__prev-btn-wrapper span {
+  color: var(--red);
+  font-size: 1.5rem;
+}
+
+.image-carousel-wrapper .alice-carousel__next-btn {
+  width: 100px;
+  position: absolute;
+  top: 40%;
+  right: 0;
+  text-align: right;
+}
+
+.image-carousel-wrapper .alice-carousel__next-btn-wrapper span {
+  color: var(--red);
+  font-size: 1.5rem;
+}
