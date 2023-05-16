@@ -225,7 +225,7 @@ const projectsPagePt = {
         },
       ]
     },
-    tags: ['ilustração', 'meioAmbiente'],
+    tags: ['ilustração', 'meioAmbiente', 'publicação', 'identidadeVisual'],
   },
 }
 

@@ -28,7 +28,6 @@ const ImageWrapper = styled.div`
 `
 
 const VideoWrapper = styled.section`
-  /* height: 500px; */
   width: 500px;
 
   @media all and (max-width: 700px) {

@@ -14,7 +14,6 @@ const CarouselWrapper = styled.div`
 `
 
 function ImagesCarousel() {
-
   const [images, setImages] = useState([]);
 
   const handleDragStart = (e) => e.preventDefault();

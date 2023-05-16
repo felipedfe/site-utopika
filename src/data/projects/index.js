@@ -14,6 +14,7 @@ const allTags = {
     'politics',
     'environment',
     'humanRights',
+    'visualIdentity',
   ],
   pt:
     [
@@ -31,21 +32,11 @@ const allTags = {
       'política',
       'meioAmbiente',
       'direitosHumanos',
+      'identidadeVisual',
     ]
 }
 
 const projects = [
-  {
-    id: 'mongabay',
-    title: 'Pacote Gráfico Mongabay',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: ['animation', 'environment'],
-    tagsPt: ['animação', 'meioAmbiente'],
-  },
   {
     id: 'plenamata',
     title: 'Plenamata',
@@ -58,15 +49,26 @@ const projects = [
     tagsPt: ['infográfico', 'ilustração', 'meioAmbiente'],
   },
   {
-    id: 'refarm',
-    title: 'Refarm',
+    id: 'mongabay',
+    title: 'Pacote Gráfico Mongabay',
     images: {
       thumbnail: 'thumb.png',
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['animation', 'illustration', 'esg', 'environment'],
-    tagsPt: ['animação', 'ilustração', 'esg', 'meioAmbiente'],
+    tags: ['animation', 'environment'],
+    tagsPt: ['animação', 'meioAmbiente'],
+  },
+  {
+    id: 'olhar',
+    title: 'Olhar Perto, Enxergar Longe',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['environment', 'publication'],
+    tagsPt: ['meioAmbiente', 'publicação'],
   },
   {
     id: 'rhino',
@@ -102,6 +104,17 @@ const projects = [
     tagsPt: ['animação', 'ilustração'],
   },
   {
+    id: 'refarm',
+    title: 'Refarm',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['animation', 'illustration', 'esg', 'environment'],
+    tagsPt: ['animação', 'ilustração', 'esg', 'meioAmbiente'],
+  },
+  {
     id: 'vozes',
     title: 'Vozes Femininas',
     images: {
@@ -111,17 +124,6 @@ const projects = [
     alt: '(descrição)',
     tags: ['women', 'publication', 'illustration', 'equality'],
     tagsPt: ['mulheres', 'publicação', 'ilustração', 'igualdade'],
-  },
-  {
-    id: 'olhar',
-    title: 'Olhar Perto, Enxergar Longe',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: ['environment', 'publication'],
-    tagsPt: ['meioAmbiente', 'publicação'],
   },
   {
     id: 'guia',
@@ -153,8 +155,8 @@ const projects = [
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['illustration', 'environment'],
-    tagsPt: ['ilustração', 'meioAmbiente'],
+    tags: ['illustration', 'environment', 'publication', 'visualIdentity'],
+    tagsPt: ['ilustração', 'meioAmbiente', 'publicação', 'identidadeVisual'],
   },
 ]
 

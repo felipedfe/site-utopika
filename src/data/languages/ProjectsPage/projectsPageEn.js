@@ -224,7 +224,7 @@ const projectsPageEn = {
         },
       ]
     },
-    tags: ['illustration', 'environment'],
+    tags: ['illustration', 'environment', 'publication', 'visualIdentity'],
   },
 }
 
