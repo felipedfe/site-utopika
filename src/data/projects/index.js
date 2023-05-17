@@ -1,21 +1,22 @@
 const allTags = {
-  en: [
-    'socialMedia',
-    'infographic',
-    'animation',
-    'publication',
-    'illustration',
-    'women',
-    'work',
-    'esg',
-    'equality',
-    'cities',
-    'territory',
-    'politics',
-    'environment',
-    'humanRights',
-    'visualIdentity',
-  ],
+  en:
+    [
+      'socialMedia',
+      'infographic',
+      'animation',
+      'publication',
+      'illustration',
+      'women',
+      'work',
+      'esg',
+      'equality',
+      'cities',
+      'territory',
+      'politics',
+      'environment',
+      'humanRights',
+      'visualIdentity',
+    ],
   pt:
     [
       'mídiasSociais',
@@ -157,6 +158,17 @@ const projects = [
     alt: '(descrição)',
     tags: ['illustration', 'environment', 'publication', 'visualIdentity'],
     tagsPt: ['ilustração', 'meioAmbiente', 'publicação', 'identidadeVisual'],
+  },
+  {
+    id: 'vozesin',
+    title: 'Vozes Indígenas',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['animation', 'illustration', 'territory', 'environment', 'infographic'],
+    tagsPt: ['animação', 'ilustração', 'território', 'meioAmbiente', 'infográfico'],
   },
 ]
 

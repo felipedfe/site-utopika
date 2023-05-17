@@ -184,7 +184,7 @@ const projectsPageEn = {
   },
   sitawi: {
     title: "Sitawi",
-    introduction: `Sitawi is an organization that mobilizes resources for projects with a positive impact. That was a fun explainer video to make. Another happy partnership with <a class="text-link" href="http://cadenzafilmes.com.br/" target="__blank__">Cadenza</a>.`,
+    introduction: `Sitawi is an organization that mobilizes resources for projects with a positive impact. That was a fun explainer video to make. Another happy partnership with <a class="text-link" href="http://cadenzafilmes.com.br/" target="_blank">Cadenza</a>.`,
     credits: {
       title: "Credits",
       info: [
@@ -206,25 +206,49 @@ const projectsPageEn = {
   },
   mata: {
     title: "Mata Atlântica: Novas Histórias",
-    introduction: `Sitawi is an organization that mobilizes resources for projects with a positive impact. That was a fun explainer video to make. Another happy partnership with <a class="text-link" href="http://cadenzafilmes.com.br/" target="__blank__">Cadenza</a>.`,
+    introduction: `This <a class="text-link" href="https://oeco.org.br/especial/mataatlantica/" target="_blank">special about the Atlantic Forest</a> published in ((o)) eco , in partnership with the Serrapilheira Institute, featured 10 reports and 10 articles talking about actions to restore the Atlantic Forest, our most deforested biome.
+
+    In addition to the visual identity, illustrations and infographics, the project was deployed in a <a class="text-link" href="https://oeco.org.br/biblioteca/mata-atlantica-novas-historias/" target="_blank">ebook</a> with all the reports, <a class="text-link" href="https://oeco.org.br/biblioteca/biodiversidade-em-pauta-um-guia-para-comunicadores-ebook/" target="_blank">a guide for communicators</a> with material on biodiversity of all biomes and even an online seminar on the subject.`,
     credits: {
       title: "Credits",
       info: [
         {
-          role: "Direction and Production",
+          role: "Visual Identity, Illustrations and Graphic Design",
+          name: "Julia Lima",
+        },
+        {
+          role: "Design Assistant",
+          name: "Carla Dutra",
+        },
+        {
+          role: "Intern",
+          name: "Ana Clara Korin",
+        },
+      ]
+    },
+    tags: ['animation', 'illustration', 'territory', 'environment', 'infographic'],
+  },
+  vozesin: {
+    title: "Vozes Indígenas",
+    introduction: `A Sitawi é uma organização que mobiliza recursos para projetos de impacto positivo. Esse foi um vídeo explicativo divertido de fazer. Mais uma parceria feliz com a <a class="text-link" href="http://cadenzafilmes.com.br/" target="_blank">Cadenza</a>.`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Direção e Produção",
           name: "Cadenza Filmes",
         },
         {
-          role: "Script",
+          role: "Roteiro",
           name: "Filipe Tomassini",
         },
         {
-          role: "Layout and Animation",
+          role: "Layout e Animação",
           name: "Julia Lima",
         },
       ]
     },
-    tags: ['illustration', 'environment', 'publication', 'visualIdentity'],
+    tags: ['animation', 'illustration', 'territory', 'environment'],
   },
 }
 

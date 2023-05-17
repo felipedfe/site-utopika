@@ -13,6 +13,7 @@ import {
   Guia,
   Sitawi,
   Mata,
+  VozesIn,
 } from './pages/projectsPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
@@ -110,6 +111,14 @@ function App() {
             <MainPageLayout>
               <ProjectPageLayout>
                 <Mata />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+          <Route exact path="/projetos/vozesin" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <VozesIn />
               </ProjectPageLayout>
             </MainPageLayout>
           }

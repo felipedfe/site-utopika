@@ -1,6 +1,6 @@
 import React from 'react';
 import Credits from '../../../components/Credits/Credits';
-import ProjectIntro from '../../../components/ProjectIntro/ProjectIntro'
+import ProjectIntro from '../../../components/ProjectIntro/ProjectIntro';
 import ImagesCarousel from '../../../components/ImagesCarousel/ImagesCarousel';
 import VideoContainer from '../../../components/VideoContainer/VideoContainer';
 import styled from 'styled-components';
@@ -12,15 +12,6 @@ const ImageWrapper = styled.div`
   img {
     width: 100%;
   }
-
-  /* &:nth-of-type(1) {
-    background-color: red;
-    flex-grow: 1;
-  }
-  &:nth-of-type(2) {
-    background-color: red;
-    flex-grow: 4;
-  } */
 `
 
 const GridContainer = styled.section`
@@ -50,6 +41,7 @@ function Mata({ projectData }) {
     introduction,
     credits,
     tags } = projectData;
+
   return (
     <section className="mata--container">
       <ImageWrapper>
@@ -74,6 +66,12 @@ function Mata({ projectData }) {
         <img
           alt="mockup capitulos guia"
           src="/images/projects/mata/mata-frame-16.jpg"
+        />
+      </ImageWrapper>
+      <ImageWrapper>
+        <img
+          alt="mockup livro aberto"
+          src="/images/projects/mata/mata-frame-25.jpg"
         />
       </ImageWrapper>
       <GridContainer>
@@ -129,10 +127,16 @@ function Mata({ projectData }) {
       </GridContainer>
       <ImageWrapper>
         <img
+          alt="infografico bioma mata atlantica"
+          src="/images/projects/mata/mata-frame-26.jpg"
+        />
+      </ImageWrapper>
+      {/* <ImageWrapper>
+        <img
           alt="mockup em tablet, celular, desktop e livro"
           src="/images/projects/mata/mata-frame-13.jpg"
         />
-      </ImageWrapper>
+      </ImageWrapper> */}
       <Credits credits={credits} />
     </section>
   )
