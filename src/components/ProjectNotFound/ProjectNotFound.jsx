@@ -1,12 +1,14 @@
 import React from 'react';
-import eyeGif from '../../assets/GIF_teste_1.gif';
+import eyeGif from '../../assets/nao-encontrado-25fr-v2.gif';
 import './project-not-found.css';
 
 function ProjectNotFound() {
   return (
-    <section className="project-not-found--container">
-      <img src={eyeGif} alt="gif de um olho"></img>
-      <p>Não encontrado!</p>
+    <section className="not-found--container">
+      <div className="not-found--img-wrapper">
+        <img src={eyeGif} alt="gif de um olho"></img>
+      </div>
+      <p>Ainda não fizemos um projeto assim, vamos conversar?</p>
     </section>
   )
 };

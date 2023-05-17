@@ -57,8 +57,8 @@ const projects = [
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['animation', 'environment'],
-    tagsPt: ['animação', 'meioAmbiente'],
+    tags: ['animation', 'environment', 'socialMedia'],
+    tagsPt: ['animação', 'meioAmbiente', 'mídiasSociais'],
   },
   {
     id: 'olhar',
@@ -156,8 +156,8 @@ const projects = [
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['illustration', 'environment', 'publication', 'visualIdentity'],
-    tagsPt: ['ilustração', 'meioAmbiente', 'publicação', 'identidadeVisual'],
+    tags: ['illustration', 'environment', 'publication', 'visualIdentity', 'infographic'],
+    tagsPt: ['ilustração', 'meioAmbiente', 'publicação', 'identidadeVisual', 'infográfico'],
   },
   {
     id: 'vozesin',
@@ -167,8 +167,8 @@ const projects = [
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['animation', 'illustration', 'territory', 'environment', 'infographic'],
-    tagsPt: ['animação', 'ilustração', 'território', 'meioAmbiente', 'infográfico'],
+    tags: ['animation', 'illustration', 'territory', 'environment'],
+    tagsPt: ['animação', 'ilustração', 'território', 'meioAmbiente'],
   },
 ]
 

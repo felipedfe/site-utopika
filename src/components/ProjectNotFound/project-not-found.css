@@ -1,13 +1,24 @@
-.project-not-found--container {
+.not-found--container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 10px;
   transform: translateX(50%);
+  text-align: center;
 }
 
-.project-not-found--container img{
+@media all and (max-width: 768px) {
+  .not-found--container {
+    transform: translateX(0);
+  }
+};
+
+.not-found--img-wrapper {
+  width: 300px;
+}
+
+.not-found--container img{
   width: 100%;
 }
