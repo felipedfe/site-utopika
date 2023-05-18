@@ -39,37 +39,26 @@ const allTags = {
 
 const projects = [
   {
-    id: 'plenamata',
-    title: 'Plenamata',
+    id: 'mata',
+    title: 'Mata Atlântica: Novas Histórias',
     images: {
       thumbnail: 'thumb.png',
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['infographic', 'illustration', 'environment'],
-    tagsPt: ['infográfico', 'ilustração', 'meioAmbiente'],
+    tags: ['illustration', 'environment', 'publication', 'visualIdentity', 'infographic'],
+    tagsPt: ['ilustração', 'meioAmbiente', 'publicação', 'identidadeVisual', 'infográfico'],
   },
   {
-    id: 'mongabay',
-    title: 'Pacote Gráfico Mongabay',
+    id: 'vozesin',
+    title: 'Vozes Indígenas',
     images: {
       thumbnail: 'thumb.png',
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['animation', 'environment', 'socialMedia'],
-    tagsPt: ['animação', 'meioAmbiente', 'mídiasSociais'],
-  },
-  {
-    id: 'olhar',
-    title: 'Olhar Perto, Enxergar Longe',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: ['environment', 'publication'],
-    tagsPt: ['meioAmbiente', 'publicação'],
+    tags: ['animation', 'illustration', 'territory', 'environment'],
+    tagsPt: ['animação', 'ilustração', 'território', 'meioAmbiente'],
   },
   {
     id: 'rhino',
@@ -83,15 +72,48 @@ const projects = [
     tagsPt: ['animação', 'ilustração', 'meioAmbiente'],
   },
   {
-    id: 'direitos',
-    title: 'Direitos Humanos no Trabalho Rural',
+    id: 'mongabay',
+    title: 'Pacote Gráfico Mongabay',
     images: {
       thumbnail: 'thumb.png',
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['publication', 'illustration', 'infographic', 'humanRights', 'work'],
-    tagsPt: ['publicação', 'ilustração', 'infográfico', 'direitosHumanos', 'trabalho'],
+    tags: ['animation', 'environment', 'socialMedia'],
+    tagsPt: ['animação', 'meioAmbiente', 'mídiasSociais'],
+  },
+  {
+    id: 'guia',
+    title: 'Um Guia para os Perplexos',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['publication', 'illustration', 'environment'],
+    tagsPt: ['publicação', 'ilustração', 'meioAmbiente'],
+  },
+  {
+    id: 'plenamata',
+    title: 'Plenamata',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['infographic', 'illustration', 'environment'],
+    tagsPt: ['infográfico', 'ilustração', 'meioAmbiente'],
+  },
+  {
+    id: 'olhar',
+    title: 'Olhar Perto, Enxergar Longe',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['environment', 'publication'],
+    tagsPt: ['meioAmbiente', 'publicação'],
   },
   {
     id: 'pasto',
@@ -127,15 +149,15 @@ const projects = [
     tagsPt: ['mulheres', 'publicação', 'ilustração', 'igualdade'],
   },
   {
-    id: 'guia',
-    title: 'Um Guia para os Perplexos',
+    id: 'direitos',
+    title: 'Direitos Humanos no Trabalho Rural',
     images: {
       thumbnail: 'thumb.png',
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['publication', 'illustration', 'environment'],
-    tagsPt: ['publicação', 'ilustração', 'meioAmbiente'],
+    tags: ['publication', 'illustration', 'infographic', 'humanRights', 'work'],
+    tagsPt: ['publicação', 'ilustração', 'infográfico', 'direitosHumanos', 'trabalho'],
   },
   {
     id: 'sitawi',
@@ -147,28 +169,6 @@ const projects = [
     alt: '(descrição)',
     tags: ['illustration', 'equality', 'animation', 'environment'],
     tagsPt: ['ilustração', 'igualdade', 'animação', 'meioAmbiente'],
-  },
-  {
-    id: 'mata',
-    title: 'Mata Atlântica: Novas Histórias',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: ['illustration', 'environment', 'publication', 'visualIdentity', 'infographic'],
-    tagsPt: ['ilustração', 'meioAmbiente', 'publicação', 'identidadeVisual', 'infográfico'],
-  },
-  {
-    id: 'vozesin',
-    title: 'Vozes Indígenas',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: ['animation', 'illustration', 'territory', 'environment'],
-    tagsPt: ['animação', 'ilustração', 'território', 'meioAmbiente'],
   },
 ]
 

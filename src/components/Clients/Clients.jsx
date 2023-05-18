@@ -28,7 +28,7 @@ function Clients() {
       return imagesList;
     };
 
-    const allLogos = importAllLogos(require.context('../../assets/logos-d2', false, /\.png$/i))
+    const allLogos = importAllLogos(require.context('../../assets/logos', false, /\.png$/i))
 
     const logoImages = allLogos.map((item) => <LogoWrapper>
       <Image

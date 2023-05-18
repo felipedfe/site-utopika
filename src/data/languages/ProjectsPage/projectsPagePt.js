@@ -231,21 +231,25 @@ const projectsPagePt = {
   },
   vozesin: {
     title: "Vozes Indígenas",
-    introduction: `A Sitawi é uma organização que mobiliza recursos para projetos de impacto positivo. Esse foi um vídeo explicativo divertido de fazer. Mais uma parceria feliz com a <a class="text-link" href="http://cadenzafilmes.com.br/" target="_blank">Cadenza</a>.`,
+    introduction: `Animação feita para a campanha guardioesdoiriri em parceria com o @institutomaira e a @anistiainternacional chamando atenção para as violações de direitos territoriais do povo Arara e a urgência global pela preservação do meio ambiente.`,
     credits: {
       title: "Créditos",
       info: [
         {
-          role: "Direção e Produção",
-          name: "Cadenza Filmes",
+          role: "Roteiro, Ilustração e Direção Criativa",
+          name: "Rachel Gepp",
         },
         {
-          role: "Roteiro",
-          name: "Filipe Tomassini",
+          role: "Locução",
+          name: "Carla Marques",
         },
         {
-          role: "Layout e Animação",
+          role: "Animação",
           name: "Julia Lima",
+        },
+        {
+          role: "Sonorização",
+          name: "Rodrigo Chuva",
         },
       ]
     },

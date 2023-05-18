@@ -56,7 +56,11 @@ function Menu() {
       </button>
       {!isLargeScreen && <p className="menu--utopika">Utópika</p>}
       <nav
-        style={isLargeScreen && isNavMenuDisabled ? { display: 'none' } : { display: 'flex' }}
+        style={
+          isLargeScreen && isNavMenuDisabled ?
+            { display: 'none' } :
+            { display: 'flex' }
+        }
         className={isNavMenuDisabled ? "menu--disabled" : "menu--enabled"}
       >
         <ul className="menu--nav-links">
@@ -121,8 +125,17 @@ function Menu() {
             <i className="menu--search-icon"><SearchIcon /></i>
           </button>
           <section
-            style={isLargeScreen && isSearchMenuDisabled ? { display: 'none' } : { display: 'flex' }}
-            className={`menu--tags ${isSearchMenuDisabled ? "menu--disabled" : "menu--enabled"}`}
+            style={
+              isLargeScreen && isSearchMenuDisabled ?
+                { display: 'none' } :
+                { display: 'flex' }
+            }
+            className={
+              `menu--tags 
+              ${isSearchMenuDisabled ?
+                "menu--disabled" :
+                "menu--enabled"}`
+            }
           >
             <Tags />
             <button

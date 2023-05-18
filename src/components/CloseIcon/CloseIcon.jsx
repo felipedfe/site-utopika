@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
-const Icon = styled.div``;
+const Icon = styled.div`
+`;
 
 const IconPt1 = styled.div`
   position: absolute;

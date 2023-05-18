@@ -9,7 +9,7 @@ import Olhar from "./olhar/Olhar";
 import Guia from "./guia/Guia";
 import Sitawi from "./sitawi/Sitawi";
 import Mata from "./mata/Mata";
-import VozesIn from "./vozesi/VozesIn";
+import VozesIn from "./vozesin/VozesIn";
 
 export {
   Mongabay,

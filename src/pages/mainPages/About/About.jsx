@@ -14,9 +14,9 @@ function About() {
   return (
     <AboutContainer>
       <AboutVideo
-        url="https://player.vimeo.com/video/778199725"
+        url="https://player.vimeo.com/video/828038058"
         controls="1"
-        muted="1"
+        // muted="1"
       />
       <Hr />
       <TextAndContact />

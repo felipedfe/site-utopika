@@ -1,5 +1,5 @@
 import React from 'react';
-import Reel from '../../../components/Reel/Reel';
+import Reel from '../../../components/_Reel/Reel';
 import Intro from '../../../components/Intro/Intro';
 import InstaFeed from '../../../components/InstaFeed/InstaFeed';
 import MobileReel from '../../../components/VideoContainer/VideoContainer';
@@ -11,12 +11,12 @@ function Home() {
       <main>
         <Reel />
         <section className="home--mobile-reel-wrapper">
-          <MobileReel
+          {/* <MobileReel
             url="https://player.vimeo.com/video/778199725?"
             autoPlay='1'
             muted='1'
             loop='1'
-          />
+          /> */}
         </section>
         <section className="home--intro-instafeed-wrapper">
           <Intro />

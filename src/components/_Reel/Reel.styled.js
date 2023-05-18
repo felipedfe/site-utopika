@@ -43,6 +43,10 @@ const LogoWrapper = styled.div`
 `
 const Logo = styled.img`
   width: 300px;
+
+  @media all and (max-width: 1023px){
+    width: 200px;
+  }
 `
 
 const VideoBackground = styled.div`
