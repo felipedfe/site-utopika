@@ -10,10 +10,17 @@ function Home() {
     <section className="home--container">
       <main>
         <Reel />
-        <section className="home--mobile-reel-wrapper">
+        <div className="home--info-logo-wrapper">
           <div className="home--info-container">
             <img className="mobile-logo" src={logo} alt="logo utopika"></img>
           </div>
+        </div>
+        <section className="home--mobile-reel-wrapper">
+          {/* <div className="home--info-logo-wrapper">
+            <div className="home--info-container">
+              <img className="mobile-logo" src={logo} alt="logo utopika"></img>
+            </div>
+          </div> */}
           <div className="home--video-wrapper">
             <iframe
               className="home--mobile-reel"
