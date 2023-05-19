@@ -24,4 +24,5 @@ yarn-error.log*
 
 *.mp4
 
-.env
+/.env
+*.env

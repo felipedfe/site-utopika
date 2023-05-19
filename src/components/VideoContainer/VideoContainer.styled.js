@@ -5,7 +5,6 @@ const VideoWrapper = styled.div`
   padding: 56.25% 0 0 0;
   width: 100%;
   aspect-ratio: ${(props) => props.aspectRatio};
-  background-color: 'red';
 `
 
 const Video = styled.iframe`

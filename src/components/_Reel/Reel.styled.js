@@ -73,11 +73,6 @@ const VideoForeground = styled.div`
 
 const Video = styled.iframe`
   ${positioning}
-  @media all and (max-width: 384px) {
-    /* background-color: red; */
-    /* margin-top: -100px; */
-    margin-bottom: 0;
-}
 `
 
 export {

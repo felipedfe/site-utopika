@@ -231,7 +231,8 @@ const projectsPagePt = {
   },
   vozesin: {
     title: "Vozes Indígenas",
-    introduction: `Animação feita para a campanha guardioesdoiriri em parceria com o @institutomaira e a @anistiainternacional chamando atenção para as violações de direitos territoriais do povo Arara e a urgência global pela preservação do meio ambiente.`,
+    introduction: `Projeto de animação para a campanha dos Guardiões do Iriri, do Povo Arara. Uma iniciativa da parceria do <a class="text-link" href="https://en.institutomaira.org/" target="_blank">Instituto Maíra</a> e <a class="text-link" href="https://anistia.org.br/" target="_blank">Anistia Internacional</a>, que apoiam a resistência histórica e luta dos Arara pela garantia de seus direitos territoriais e a urgência global pela preservação do meio ambiente.
+    Nosso trabalho passa pela compreensão aprofundada da luta socio ambiental, o que nos possibilita uma criação de roteiro e construção de imagens que toquem na realidade, com sensibilidade e respeito a cada tema.`,
     credits: {
       title: "Créditos",
       info: [
@@ -241,7 +242,7 @@ const projectsPagePt = {
         },
         {
           role: "Locução",
-          name: "Carla Marques",
+          name: "Carla Marques e Solaira Studios",
         },
         {
           role: "Animação",
@@ -253,7 +254,7 @@ const projectsPagePt = {
         },
       ]
     },
-    tags: ['animação', 'ilustração', 'território', 'meioAmbiente','direitosHumanos'],
+    tags: ['animação', 'ilustração', 'território', 'meioAmbiente', 'direitosHumanos'],
   },
 }
 

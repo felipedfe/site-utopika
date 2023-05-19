@@ -2,7 +2,7 @@ import React from 'react';
 import Reel from '../../../components/Reel/Reel';
 import Intro from '../../../components/Intro/Intro';
 import InstaFeed from '../../../components/InstaFeed/InstaFeed';
-import MobileReel from '../../../components/VideoContainer/VideoContainer';
+import logo from '../../../assets/LOGO UTOPIKA_OK.png';
 import './home.css';
 
 function Home() {
@@ -11,12 +11,16 @@ function Home() {
       <main>
         <Reel />
         <section className="home--mobile-reel-wrapper">
-          <MobileReel
-            url="https://player.vimeo.com/video/778199725?"
-            autoPlay='1'
-            muted='1'
-            loop='1'
-          />
+          <div className="home--info-container">
+            <img className="mobile-logo" src={logo} alt="logo utopika"></img>
+          </div>
+          <div className="home--video-wrapper">
+            <iframe
+              className="home--mobile-reel"
+              title="mobile-reel"
+              src="https://player.vimeo.com/video/828350102?autoplay=1&title=0&byline=0&portrait=0&controls=0&loop=1&muted=1&autopause=0"
+            />
+          </div>
         </section>
         <section className="home--intro-instafeed-wrapper">
           <Intro />

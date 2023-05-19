@@ -61,22 +61,29 @@
   gap: 10px;
 }
 
-@media (min-aspect-ratio: 15/9) and (min-width: 1024px) {
+/* A partir de 450px é renderizado o MobileReel */
+@media (min-aspect-ratio: 15/9) and (min-width: 450px) {
   .reel--video-foreground {
     height: 300%;
     top: -100%;
   }
 }
 
-@media (max-aspect-ratio: 15/9) and (min-width: 1024px) {
+@media (max-aspect-ratio: 15/9) and (min-width: 450px) {
   .reel--video-foreground {
     width: 300%;
     left: -100%;
   }
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 450px) {
   .reel--container {
     display: none;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .info-logo {
+    width: 250px;
   }
 }
