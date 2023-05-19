@@ -1,6 +1,7 @@
 import React from 'react';
 import Credits from '../../../components/Credits/Credits';
 import ProjectIntro from '../../../components/ProjectIntro/ProjectIntro';
+import VideoContainer from '../../../components/VideoContainer/VideoContainer';
 import styled from 'styled-components';
 
 const VideoWrapper = styled.section`
@@ -14,10 +15,6 @@ const ImageWrapper = styled.div`
   img {
     width: 100%;
   }
-`
-
-const GridContainer = styled.section`
-  margin: auto;
 `
 
 const Row = styled.div`
@@ -38,12 +35,12 @@ function VozesIn({ projectData }) {
 
   return (
     <section className="vozesin--container">
-      <ImageWrapper>
-        <img
-          alt=""
-          src="/images/projects/vozesin/vozesin-frame-4.jpg"
+      <VideoWrapper>
+        <VideoContainer
+          url="https://player.vimeo.com/video/825601108?h=ba528bd0e4"
+          controls="1"
         />
-      </ImageWrapper>
+      </VideoWrapper>
       <ProjectIntro
         title={title}
         tags={tags}

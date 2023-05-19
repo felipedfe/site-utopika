@@ -253,7 +253,7 @@ const projectsPagePt = {
         },
       ]
     },
-    tags: ['animação', 'ilustração', 'território', 'meioAmbiente'],
+    tags: ['animação', 'ilustração', 'território', 'meioAmbiente','direitosHumanos'],
   },
 }
 

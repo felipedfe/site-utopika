@@ -57,8 +57,8 @@ const projects = [
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['animation', 'illustration', 'territory', 'environment'],
-    tagsPt: ['animação', 'ilustração', 'território', 'meioAmbiente'],
+    tags: ['animation', 'illustration', 'territory', 'environment', 'humanRights'],
+    tagsPt: ['animação', 'ilustração', 'território', 'meioAmbiente','direitosHumanos'],
   },
   {
     id: 'rhino',

@@ -64,15 +64,20 @@ const VideoForeground = styled.div`
   @media (min-aspect-ratio: 15/9) {
     height: 300%;
     top: -100%;
-}
+  }
   @media (max-aspect-ratio: 15/9) {
     width: 300%;
     left: -100%;
-}
+  }
 `
 
 const Video = styled.iframe`
   ${positioning}
+  @media all and (max-width: 384px) {
+    /* background-color: red; */
+    /* margin-top: -100px; */
+    margin-bottom: 0;
+}
 `
 
 export {

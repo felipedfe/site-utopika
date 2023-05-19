@@ -252,7 +252,7 @@ const projectsPageEn = {
         },
       ]
     },
-    tags: ['animation', 'illustration', 'territory', 'environment'],
+    tags: ['animation', 'illustration', 'territory', 'environment', 'humanRights'],
   },
 }
 

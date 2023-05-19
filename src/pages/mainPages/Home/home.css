@@ -8,10 +8,29 @@
   height: 100%;
 }
 
+/* .home--mobile-reel-wrapper {
+  height: 70vh;
+  overflow: hidden;
+}
+
+.home--mobile-reel-wrapper > * {
+  height: 100%;
+  transform: translateX(-25%);
+} */
+
 .home--intro-instafeed-wrapper {
   max-width: 1200px;
   margin: auto;
 }
+
+@media all and (max-width: 384px) {
+  .home--intro-instafeed-wrapper{
+
+    /* margin-top: -100px; */
+    z-index: 99;
+  }
+}
+
 
 @media all and (min-width: 1025px) {
   .home--mobile-reel-wrapper {
