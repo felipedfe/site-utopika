@@ -33,7 +33,6 @@
 @media screen and (max-width: 1023px) {
   .tags--all-tags-wrapper {
     width: 80%;
-    /* background-color: green; */
     padding-top: 4rem;
     padding-left: 1rem;
   }

@@ -68,7 +68,8 @@
 }
 
 
-@media all and (min-width: 450px) {
+@media all and (min-width: 451px) {
+  .home--info-logo-wrapper,
   .home--mobile-reel-wrapper {
     display: none;
   }

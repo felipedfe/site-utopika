@@ -58,7 +58,7 @@ const projects = [
     },
     alt: '(descrição)',
     tags: ['animation', 'illustration', 'territory', 'environment', 'humanRights'],
-    tagsPt: ['animação', 'ilustração', 'território', 'meioAmbiente','direitosHumanos'],
+    tagsPt: ['animação', 'ilustração', 'território', 'meioAmbiente', 'direitosHumanos'],
   },
   {
     id: 'rhino',
@@ -169,6 +169,17 @@ const projects = [
     alt: '(descrição)',
     tags: ['illustration', 'equality', 'animation', 'environment'],
     tagsPt: ['ilustração', 'igualdade', 'animação', 'meioAmbiente'],
+  },
+  {
+    id: 'plastico',
+    title: 'Sem Plástico',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['illustration', 'animation', 'environment'],
+    tagsPt: ['ilustração', 'animação', 'meioAmbiente'],
   },
 ]
 

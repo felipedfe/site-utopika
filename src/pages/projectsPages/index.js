@@ -10,6 +10,7 @@ import Guia from "./guia/Guia";
 import Sitawi from "./sitawi/Sitawi";
 import Mata from "./mata/Mata";
 import VozesIn from "./vozesin/VozesIn";
+import Plastico from "./plastico/Plastico";
 
 export {
   Mongabay,
@@ -24,4 +25,5 @@ export {
   Sitawi,
   Mata,
   VozesIn,
+  Plastico,
 }

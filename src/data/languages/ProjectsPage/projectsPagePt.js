@@ -256,6 +256,33 @@ const projectsPagePt = {
     },
     tags: ['animação', 'ilustração', 'território', 'meioAmbiente', 'direitosHumanos'],
   },
+  plastico: {
+    title: "Sem Plástico",
+    introduction: `Esse vídeo explicativo foi realizado em 2019 em parceria com a produtora Cadenza. Aqui fizemos as ilustrações e animação dessa iniciativa do WWF junto ao Banco do Brasil para a redução do consumo de plásticos.
+    `,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Produção",
+          name: "Cadenza",
+        },
+        {
+          role: "Direção de Arte",
+          name: "Julia Lima",
+        },
+        {
+          role: "Ilustrações",
+          name: "Rachel Gepp",
+        },
+        {
+          role: "Animação",
+          name: "Marcelo Antônio e Julia Lima",
+        },
+      ]
+    },
+    tags: ['animação', 'ilustração', 'meioAmbiente'],
+  },
 }
 
 export default projectsPagePt;

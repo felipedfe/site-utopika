@@ -89,7 +89,10 @@ function Menu() {
             {
               pathname === "/" && isLargeScreen ?
                 null :
-                <MenuLanguageBtn btnInnerText={selectedLanguage()} />
+                <MenuLanguageBtn
+                  setIsNavMenuDisabled={setIsNavMenuDisabled}
+                  btnInnerText={selectedLanguage()}
+                />
             }
           </li>
           {

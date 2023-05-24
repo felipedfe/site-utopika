@@ -120,7 +120,7 @@ const projectsPageEn = {
         {
           role: "Illustrations and Animation",
           name: "Julia Lima",
-        },{
+        }, {
           role: "Script and voice over",
           name: "Manon Verchot",
         },
@@ -228,32 +228,31 @@ const projectsPageEn = {
     },
     tags: ['animation', 'illustration', 'territory', 'environment', 'infographic'],
   },
-  vozesin: {
-    title: "Vozes Indígenas",
-    introduction: `Animation project for the campaign of the Guardians of Iriri, from the Arara People. A partnership initiative between <a class="text-link" href="https://en.institutomaira.org/" target="_blank">Instituto Maíra</a> and <a class="text-link" href="https://anistia.org.br/" target="_blank">Anistia Internacional</a>, which support the historical resistance and struggle of the Arara to guarantee their territorial rights and the global urgency to preserve the environment.
-    Our work involves a deep understanding of the socio-environmental struggle, which allows us to create a script and build images that touch reality, with sensitivity and respect for each theme.`,
+  plastico: {
+    title: "Sem Plástico",
+    introduction: `This explanatory video was made in 2019 in partnership with the production company Cadenza. Here we made the illustrations and animations of this WWF initiative with Banco do Brasil to reduce the consumption of plastics.`,
     credits: {
       title: "Credits",
       info: [
         {
-          role: "Script, Illustration and Creative Direction",
-          name: "Rachel Gepp",
+          role: "Production",
+          name: "Cadenza",
         },
         {
-          role: "Voice-over",
-          name: "Carla Marques e Solaira Studios",
-        },
-        {
-          role: "Animation",
+          role: "Art Direction",
           name: "Julia Lima",
         },
         {
-          role: "Sound Designer",
-          name: "Rodrigo Chuva",
+          role: "Illustrations",
+          name: "Rachel Gepp",
+        },
+        {
+          role: "Animation",
+          name: "Marcelo Antônio e Julia Lima",
         },
       ]
     },
-    tags: ['animation', 'illustration', 'territory', 'environment', 'humanRights'],
+    tags: ['animation', 'illustration', 'environment'],
   },
 }
 

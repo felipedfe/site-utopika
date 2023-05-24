@@ -3,15 +3,17 @@ import myContext from '../../context/myContext';
 import './menu-language-btn.css';
 
 function MenuLanguageBtn(props) {
-  const { btnInnerText } = props;
+  const { btnInnerText, setIsNavMenuDisabled } = props;
   const { textLanguage, setTextLanguage } = useContext(myContext);
 
   const handleText = () => {
     if (textLanguage === 'pt') {
       setTextLanguage('en');
+      setIsNavMenuDisabled(true);
     };
     if (textLanguage === 'en') {
-      setTextLanguage('pt')
+      setTextLanguage('pt');
+      setIsNavMenuDisabled(true);
     };
   };
 
