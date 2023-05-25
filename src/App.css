@@ -5,6 +5,7 @@
 
 iframe {
   background-color: rgb(231, 231, 231);
+  box-shadow: inset 0 0 0 5px #fff;
 }
 
 * {

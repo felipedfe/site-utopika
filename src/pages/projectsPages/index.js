@@ -11,6 +11,7 @@ import Sitawi from "./sitawi/Sitawi";
 import Mata from "./mata/Mata";
 import VozesIn from "./vozesin/VozesIn";
 import Plastico from "./plastico/Plastico";
+import Captura from "./captura/Captura";
 
 export {
   Mongabay,
@@ -26,4 +27,5 @@ export {
   Mata,
   VozesIn,
   Plastico,
+  Captura,
 }

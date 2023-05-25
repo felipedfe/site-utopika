@@ -8,14 +8,6 @@ const VideoWrapper = styled.section`
   width: 100%;
 `
 
-// const GridContainer = styled.section`
-//   display: grid;
-//   align-items: center;
-//   grid-template-columns: 1fr 2fr 1fr;
-
-//   grid-template-rows: 1fr 1fr 1fr;
-// `
-
 const GridContainer = styled.section`
   margin: auto;
 `

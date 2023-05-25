@@ -46,14 +46,18 @@ function Plastico({ projectData }) {
         tags={tags}
         introduction={introduction}
       />
-
       <ImageWrapper>
         <img
           alt=""
-          src="/images/projects/plastico/plastico-frame-8.jpg"
+          src="/images/projects/plastico/plastico-frame-10.jpg"
         />
       </ImageWrapper>
-
+      <ImageWrapper>
+        <img
+          alt=""
+          src="/images/projects/plastico/plastico-frame-9.jpg"
+        />
+      </ImageWrapper>
       <Row>
         <ImageWrapper>
           <img src="/images/projects/plastico/plastico-frame-3.jpg" alt=""></img>
@@ -62,14 +66,12 @@ function Plastico({ projectData }) {
           <img src="/images/projects/plastico/plastico-frame-4.jpg" alt=""></img>
         </ImageWrapper>
       </Row>
-
       <ImageWrapper>
         <img
           alt=""
           src="/images/projects/plastico/plastico-frame-2.jpg"
         />
       </ImageWrapper>
-
       <Row>
         <ImageWrapper>
           <img src="/images/projects/plastico/plastico-frame-6.jpg" alt=""></img>
@@ -81,14 +83,12 @@ function Plastico({ projectData }) {
           <img src="/images/projects/plastico/plastico-frame-7.jpg" alt=""></img>
         </ImageWrapper>
       </Row>
-
       <ImageWrapper>
         <img
           alt=""
           src="/images/projects/plastico/plastico-frame-1.jpg"
         />
       </ImageWrapper>
-
       <Credits credits={credits} />
     </section>
   )

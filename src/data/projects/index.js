@@ -178,8 +178,19 @@ const projects = [
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['illustration', 'animation', 'environment'],
-    tagsPt: ['ilustração', 'animação', 'meioAmbiente'],
+    tags: ['illustration', 'animation', 'environment', 'esg'],
+    tagsPt: ['ilustração', 'animação', 'meioAmbiente', 'esg'],
+  },
+  {
+    id: 'captura',
+    title: 'Captura Corporativa',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['illustration', 'animation', 'environment', 'humanRights', 'politics'],
+    tagsPt: ['ilustração', 'animação', 'meioAmbiente', 'direitosHumanos', 'política'],
   },
 ]
 

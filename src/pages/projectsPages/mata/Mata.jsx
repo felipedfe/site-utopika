@@ -131,12 +131,6 @@ function Mata({ projectData }) {
           src="/images/projects/mata/mata-frame-26.jpg"
         />
       </ImageWrapper>
-      {/* <ImageWrapper>
-        <img
-          alt="mockup em tablet, celular, desktop e livro"
-          src="/images/projects/mata/mata-frame-13.jpg"
-        />
-      </ImageWrapper> */}
       <Credits credits={credits} />
     </section>
   )
