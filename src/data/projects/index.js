@@ -10,7 +10,7 @@ const allTags = {
       'work',
       'esg',
       'equality',
-      'cities',
+      // 'cities',
       'territory',
       'politics',
       'environment',
@@ -28,7 +28,7 @@ const allTags = {
       'trabalho',
       'esg',
       'igualdade',
-      'cidades',
+      // 'cidades',
       'território',
       'política',
       'meioAmbiente',
@@ -123,8 +123,8 @@ const projects = [
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['socialMedia', 'politics'],
-    tagsPt: ['animação', 'ilustração'],
+    tags: ['animation', 'illustration', 'esg', 'environment'],
+    tagsPt: ['animação', 'ilustração', 'esg', 'meioAmbiente'],
   },
   {
     id: 'refarm',

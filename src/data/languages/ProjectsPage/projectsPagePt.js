@@ -158,7 +158,7 @@ const projectsPagePt = {
       title: "Créditos",
       info: [
         {
-          role: "Diagramação e Projeto Gráfico",
+          role: "Diagramação e projeto gráfico",
           name: "Laura Levín e Julia Lima",
         },
         {
@@ -176,7 +176,7 @@ const projectsPagePt = {
       title: "Créditos",
       info: [
         {
-          role: "Diagramação e Projeto Gráfico",
+          role: "Diagramação e projeto gráfico",
           name: "Rachel Gepp e Julia Lima",
         },
       ]
@@ -190,7 +190,7 @@ const projectsPagePt = {
       title: "Créditos",
       info: [
         {
-          role: "Direção e Produção",
+          role: "Direção e produção",
           name: "Cadenza Filmes",
         },
         {
@@ -198,7 +198,7 @@ const projectsPagePt = {
           name: "Filipe Tomassini",
         },
         {
-          role: "Layout e Animação",
+          role: "Layout e animação",
           name: "Julia Lima",
         },
       ]
@@ -214,7 +214,7 @@ const projectsPagePt = {
       title: "Créditos",
       info: [
         {
-          role: "Identidade Visual, Ilustrações e Projeto gráfico",
+          role: "Identidade Visual, ilustrações e projeto gráfico",
           name: "Julia Lima",
         },
         {
@@ -237,7 +237,7 @@ const projectsPagePt = {
       title: "Créditos",
       info: [
         {
-          role: "Roteiro, Ilustração e Direção Criativa",
+          role: "Roteiro, ilustração e direção criativa",
           name: "Rachel Gepp",
         },
         {
@@ -291,20 +291,12 @@ const projectsPagePt = {
       title: "Créditos",
       info: [
         {
-          role: "Produção",
-          name: "Cadenza",
-        },
-        {
-          role: "Direção de Arte",
-          name: "Julia Lima",
-        },
-        {
-          role: "Ilustrações",
+          role: "Direção de arte e ilustrações",
           name: "Rachel Gepp",
         },
         {
           role: "Animação",
-          name: "Marcelo Antônio e Julia Lima",
+          name: "Julia Lima",
         },
       ]
     },

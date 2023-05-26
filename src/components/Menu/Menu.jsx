@@ -54,7 +54,7 @@ function Menu() {
       >
         <MenuLogo fill={"white"} />
       </button>
-      {!isLargeScreen && <p className="menu--utopika">Utópika</p>}
+      {!isLargeScreen && <span className="menu--utopika">Utópika</span>}
       <nav
         style={
           isLargeScreen && isNavMenuDisabled ?

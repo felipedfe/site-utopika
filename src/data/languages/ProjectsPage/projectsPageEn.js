@@ -86,7 +86,7 @@ const projectsPageEn = {
           name: '"Márcio Isensee',
         },
         {
-          role: "Illustrations and Animation",
+          role: "Illustrations and animation",
           name: "Julia Lima",
         },
       ]
@@ -118,7 +118,7 @@ const projectsPageEn = {
       title: "Credits",
       info: [
         {
-          role: "Illustrations and Animation",
+          role: "Illustrations and animation",
           name: "Julia Lima",
         }, {
           role: "Script and voice over",
@@ -157,7 +157,7 @@ const projectsPageEn = {
       title: "Credits",
       info: [
         {
-          role: "Layout and Graphic Design",
+          role: "Layout and graphic design",
           name: "Laura Levín e Julia Lima",
         },
         {
@@ -175,7 +175,7 @@ const projectsPageEn = {
       title: "Credits",
       info: [
         {
-          role: "Layout and Graphic Design",
+          role: "Layout and graphic design",
           name: "Rachel Gepp e Julia Lima",
         },
       ]
@@ -189,7 +189,7 @@ const projectsPageEn = {
       title: "Credits",
       info: [
         {
-          role: "Direction and Production",
+          role: "Direction and production",
           name: "Cadenza Filmes",
         },
         {
@@ -197,7 +197,7 @@ const projectsPageEn = {
           name: "Filipe Tomassini",
         },
         {
-          role: "Layout and Animation",
+          role: "Layout and animation",
           name: "Julia Lima",
         },
       ]
@@ -213,11 +213,11 @@ const projectsPageEn = {
       title: "Credits",
       info: [
         {
-          role: "Visual Identity, Illustrations and Graphic Design",
+          role: "Visual Identity, illustrations and graphic design",
           name: "Julia Lima",
         },
         {
-          role: "Design Assistant",
+          role: "Design assistant",
           name: "Carla Dutra",
         },
         {
@@ -239,7 +239,7 @@ const projectsPageEn = {
           name: "Cadenza",
         },
         {
-          role: "Art Direction",
+          role: "Art direction",
           name: "Julia Lima",
         },
         {
@@ -261,20 +261,12 @@ const projectsPageEn = {
       title: "Credits",
       info: [
         {
-          role: "Production",
-          name: "Cadenza",
-        },
-        {
-          role: "Art Direction",
-          name: "Julia Lima",
-        },
-        {
-          role: "Illustrations",
+          role: "Art direction and illustrations",
           name: "Rachel Gepp",
         },
         {
           role: "Animation",
-          name: "Marcelo Antônio e Julia Lima",
+          name: "Julia Lima",
         },
       ]
     },
