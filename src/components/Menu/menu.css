@@ -50,8 +50,6 @@ nav {
   left: 50%;
   font-size: 1.4rem;
   transform: translate(-50%, -50%);
-  /* transform: translateX(-50%); */
-
 }
 
 .menu--nav-links {

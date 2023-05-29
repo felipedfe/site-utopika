@@ -272,6 +272,24 @@ const projectsPageEn = {
     },
     tags: ['illustration', 'animation', 'environment', 'humanRights', 'politics'],
   },
+  despolarize: {
+    title: "Despolarize",
+    introduction: `In times of threat to our institutions, we take the opportunity to remember this animation made in partnership with <a class="text-link" href="https://www.escr-net.org/" target="_blank">ESCR -Net</a>. An initiative by the human rights community to draw attention to the practice of "corporate capture", this tendency of corporations to take over our hard-won democratic institutions.`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Art direction and illustrations",
+          name: "Rachel Gepp",
+        },
+        {
+          role: "Animation",
+          name: "Julia Lima",
+        },
+      ]
+    },
+    tags: ['illustration', 'animation', 'politics'],
+  },
 }
 
 export default projectsPageEn;

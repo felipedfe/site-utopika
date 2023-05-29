@@ -12,6 +12,7 @@ import Mata from "./mata/Mata";
 import VozesIn from "./vozesin/VozesIn";
 import Plastico from "./plastico/Plastico";
 import Captura from "./captura/Captura";
+import Despolarize from "./despolarize/Despolarize";
 
 export {
   Mongabay,
@@ -28,4 +29,5 @@ export {
   VozesIn,
   Plastico,
   Captura,
+  Despolarize,
 }

@@ -192,6 +192,17 @@ const projects = [
     tags: ['illustration', 'animation', 'environment', 'humanRights', 'politics'],
     tagsPt: ['ilustração', 'animação', 'meioAmbiente', 'direitosHumanos', 'política'],
   },
+  {
+    id: 'despolarize',
+    title: 'Despolarize',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['illustration', 'animation', 'politics'],
+    tagsPt: ['ilustração', 'animação', 'política'],
+  },
 ]
 
 export { projects, allTags };

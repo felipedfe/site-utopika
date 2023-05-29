@@ -302,6 +302,25 @@ const projectsPagePt = {
     },
     tags: ['ilustração', 'animação', 'meioAmbiente', 'direitosHumanos', 'política'],
   },
+  despolarize: {
+    title: "Despolarize",
+    introduction: `Em tempos de ameaça às nossas instituições, aproveitamos para lembrar desta animação feita em parceria com a <a class="text-link" href="https://www.escr-net.org/" target="_blank">ESCR-Net</a>. Uma iniciativa da comunidade de direitos humanos para chamar atenção para a prática da "captura corporativa", esta tendência das empresas de tomarem conta das nossas instituições democráticas duramente conquistadas.
+    `,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Direção de arte e ilustrações",
+          name: "Rachel Gepp",
+        },
+        {
+          role: "Animação",
+          name: "Julia Lima",
+        },
+      ]
+    },
+    tags: ['ilustração', 'animação', 'política'],
+  },
 }
 
 export default projectsPagePt;
