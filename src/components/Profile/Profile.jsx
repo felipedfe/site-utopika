@@ -17,8 +17,8 @@ function Profile({ id }) {
   const { textLanguage } = useContext(myContext);
   const text = textOptions[textLanguage];
 
-  const { aboutPage: { profile } } = text;
-
+  const { aboutPage: { profile, socialMedia } } = text;
+  console.log(socialMedia[id])
   return (
     <ProfileWrapper>
       <Image src={`images/profile/${id}/image.png`} />
@@ -26,16 +26,16 @@ function Profile({ id }) {
         <p dangerouslySetInnerHTML={{ __html: `${profile[id]}` }}></p>
         <SocialMediaIcons>
           <IconLink
-          // href='https://vimeo.com/utopika'
-          // rel="noreferrer"
-          // target='_blank'
+          href={socialMedia[id].instagram}
+          rel="noreferrer"
+          target='_blank'
           >
             <InstagramIcon />
           </IconLink>
           <IconLink
-          // href='https://vimeo.com/utopika'
-          // rel="noreferrer"
-          // target='_blank'
+          href={socialMedia[id].linkedin}
+          rel="noreferrer"
+          target='_blank'
           >
             <LinkedInIcon />
           </IconLink>

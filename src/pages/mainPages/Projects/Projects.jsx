@@ -47,7 +47,7 @@ function Projects() {
 
 
   window.addEventListener('resize', () => {
-    if (window.innerWidth >= largeScreenBreakPt) {
+    if (window.innerWidth > largeScreenBreakPt) {
       setIsLargeScreen(true)
       setIsNavMenuDisabled(true)
       setIsSearchMenuDisabled(true)

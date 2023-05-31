@@ -304,18 +304,22 @@ const projectsPagePt = {
   },
   despolarize: {
     title: "Despolarize",
-    introduction: `Em tempos de ameaça às nossas instituições, aproveitamos para lembrar desta animação feita em parceria com a <a class="text-link" href="https://www.escr-net.org/" target="_blank">ESCR-Net</a>. Uma iniciativa da comunidade de direitos humanos para chamar atenção para a prática da "captura corporativa", esta tendência das empresas de tomarem conta das nossas instituições democráticas duramente conquistadas.
+    introduction: `Esse projeto foi feito no auge da polarização, logo antes da pandemia. Fizemos essa animação para a ong <a class="text-link" href="https://www.politize.com.br/" target="_blank">Politize!</a> que trabalha com educação política em prol da democracia O vídeo divulga o material criado por eles para enfrentar essa questão e criar pontes de diálogo em um cenário de muitos rachas entre famílias e amigos.
     `,
     credits: {
       title: "Créditos",
       info: [
         {
-          role: "Direção de arte e ilustrações",
-          name: "Rachel Gepp",
+          role: "Ilustrações e animação",
+          name: "Julia Lima",
         },
         {
-          role: "Animação",
-          name: "Julia Lima",
+          role: "Roteiro, locução e produção",
+          name: "Danila Bustamante e Filipe Maia",
+        },
+        {
+          role: "Sonorização",
+          name: "Manon Ribat",
         },
       ]
     },

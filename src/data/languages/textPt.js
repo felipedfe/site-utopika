@@ -31,6 +31,16 @@ const textPt = {
         julia: "<strong>Julia Lima</strong> - designer, ilustradora e motion, já passou por tv, revista, editora e produtora até entender que o design é transversal e o que a envolve é o tema e as pessoas com quem se constrói junto. Ama livros infantis e como cada história se transforma com os diferentes traços.",
         rachel: "<strong>Rachel Gepp</strong> é publicitária, designer e ilustradora, ama a realidade e, por isso, não se encaixou no mercado publicitário que produz ilusões. Largou tudo e foi ver o mundo. Morou no Camboja e na Amazônia e foi nessas experiências que entendeu que poderia usar a comunicação como ferramenta para combater violências e injustiças.",
       },
+      socialMedia: {
+        julia: {
+          instagram: "https://www.instagram.com/jotalimac/",
+          linkedin: "https://www.linkedin.com/in/julia-lima/",
+        },
+        rachel: {
+          instagram: "https://www.instagram.com/gepprachel/",
+          linkedin: "https://www.linkedin.com/in/rachelgepp/",
+        },
+      },
       clients: {
         title: "Clientes",
       }

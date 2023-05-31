@@ -228,6 +228,33 @@ const projectsPageEn = {
     },
     tags: ['animation', 'illustration', 'territory', 'environment', 'infographic'],
   },
+  vozesin: {
+    title: "Vozes Indígenas",
+    introduction: `Animation project for the campaign of the Guardians of Iriri, from the Arara People. A partnership initiative of <a class="text-link" href="https://en.institutomaira.org/" target="_blank">Instituto Maíra</a> and <a class="text-link" href="https://anistia.org.br/" target="_blank">Anistia Internacional</a>, who support the historical resistance and struggle of the Arara to guarantee their territorial rights and the global urgency to preserve the environment environment.
+    Our work involves a deep understanding of the socio-environmental struggle, which allows us to create a script and build images that touch reality, with sensitivity and respect for each theme.`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Script, illustration and creative direction",
+          name: "Rachel Gepp",
+        },
+        {
+          role: "Voice over",
+          name: "Carla Marques e Solaira Studios",
+        },
+        {
+          role: "Animation",
+          name: "Julia Lima",
+        },
+        {
+          role: "Sound design",
+          name: "Rodrigo Chuva",
+        },
+      ]
+    },
+    tags: ['animation', 'illustration', 'territory', 'environment', 'humanRights'],
+  },
   plastico: {
     title: "Sem Plástico",
     introduction: `This explanatory video was made in 2019 in partnership with the production company Cadenza. Here we made the illustrations and animations of this WWF initiative with Banco do Brasil to reduce the consumption of plastics.`,
@@ -274,17 +301,17 @@ const projectsPageEn = {
   },
   despolarize: {
     title: "Despolarize",
-    introduction: `In times of threat to our institutions, we take the opportunity to remember this animation made in partnership with <a class="text-link" href="https://www.escr-net.org/" target="_blank">ESCR -Net</a>. An initiative by the human rights community to draw attention to the practice of "corporate capture", this tendency of corporations to take over our hard-won democratic institutions.`,
+    introduction: `This project was done at the height of polarization, right before the pandemic. We made this animation for the NGO <a class="text-link" href="https://www.politize.com.br/" target="_blank">Politize!</a> who works with political education in favor of democracy The video disseminates the material created by them to face this issue and create bridges of dialogue in a scenario of many rifts between families and friends.`,
     credits: {
       title: "Credits",
       info: [
         {
-          role: "Art direction and illustrations",
-          name: "Rachel Gepp",
+          role: "Illustrations and animation",
+          name: "Julia Lima",
         },
         {
-          role: "Animation",
-          name: "Julia Lima",
+          role: "Script, voice over and production",
+          name: "Danila Bustamante e Filipe Maia",
         },
       ]
     },

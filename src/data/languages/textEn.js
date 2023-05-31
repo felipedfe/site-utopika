@@ -30,6 +30,16 @@ const textEn = {
         rachel: "<strong>Rachel Gepp</strong> is a publicist, designer and illustrator, loves reality and, therefore, did not fit into the advertising market that produces illusions. She dropped everything and went to see the world. She lived in Cambodia and in the Amazon and it was in these experiences that she understood that she could use communication as a tool to combat violence and injustice.",
         julia: "<strong>Julia Lima</strong> - designer, illustrator and motion, has worked for tv, magazine, editor and producer until she understood that design is transversal and what involves her is the theme and the people with whom she builds together. She loves children's books and how each story transforms with different strokes.",
       },
+      socialMedia: {
+        julia: {
+          instagram: "https://www.instagram.com/jotalimac/",
+          linkedin: "https://www.linkedin.com/in/julia-lima/",
+        },
+        rachel: {
+          instagram: "https://www.instagram.com/gepprachel/",
+          linkedin: "https://www.linkedin.com/in/rachelgepp/",
+        },
+      },
       clients: {
         title: "Clients",
       }
