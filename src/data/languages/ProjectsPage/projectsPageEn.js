@@ -91,7 +91,7 @@ const projectsPageEn = {
         },
       ]
     },
-    tags: ['animation', 'illustration', 'esg', 'environment'],
+    tags: ['animation', 'illustration', 'environment'],
   },
   direitos: {
     title: "Human Rights in Rural Work",
@@ -311,7 +311,7 @@ const projectsPageEn = {
         },
         {
           role: "Script, voice over and production",
-          name: "Danila Bustamante e Filipe Maia",
+          name: "Danila Bustamante e Felipe Maia",
         },
       ]
     },

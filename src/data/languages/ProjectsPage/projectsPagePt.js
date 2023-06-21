@@ -91,7 +91,7 @@ const projectsPagePt = {
         },
       ]
     },
-    tags: ['animação', 'ilustração', 'esg', 'meioAmbiente'],
+    tags: ['animação', 'ilustração', 'meioAmbiente'],
   },
   direitos: {
     title: "Direitos Humanos no Trabalho Rural",
@@ -315,7 +315,7 @@ const projectsPagePt = {
         },
         {
           role: "Roteiro, locução e produção",
-          name: "Danila Bustamante e Filipe Maia",
+          name: "Danila Bustamante e Felipe Maia",
         },
         {
           role: "Sonorização",

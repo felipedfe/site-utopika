@@ -123,8 +123,8 @@ const projects = [
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['animation', 'illustration', 'esg', 'environment'],
-    tagsPt: ['animação', 'ilustração', 'esg', 'meioAmbiente'],
+    tags: ['animation', 'illustration', 'environment'],
+    tagsPt: ['animação', 'ilustração', 'meioAmbiente'],
   },
   {
     id: 'refarm',

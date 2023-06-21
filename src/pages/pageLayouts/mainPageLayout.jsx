@@ -43,9 +43,9 @@ function MainPageLayout({ children }) {
             null
         }
       </header>
-      <section className="page-content">
+      <main className="page-content">
         {children}
-      </section>
+      </main>
       <Footer />
     </>
   )
