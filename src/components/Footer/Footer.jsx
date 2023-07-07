@@ -18,7 +18,7 @@ function Footer() {
         </div>
         <div className="footer--email-addresses-wrapper">
           <span>julia@utopika.com.br |&nbsp;</span>
-          <span>rachel@utopika.com</span>
+          <span>rachel@utopika.com.br</span>
         </div>
       </section>
       <FooterLinks />
