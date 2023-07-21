@@ -6,7 +6,7 @@ function FooterLinks() {
   return (
     <section className="footer--icons">
       <div className="footer--icon-wrapper">
-        <a href="https://www.instagram.com/utopika_design/" rel="noreferrer" target="_blank">
+        <a href="https://www.instagram.com/utopika_estudio/" rel="noreferrer" target="_blank">
           <i className="footer--icon icon-btn"><AiOutlineInstagram /></i>
         </a>
       </div>
