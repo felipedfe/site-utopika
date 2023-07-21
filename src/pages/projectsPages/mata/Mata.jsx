@@ -131,6 +131,14 @@ function Mata({ projectData }) {
           src="/images/projects/mata/mata-frame-26.jpg"
         />
       </ImageWrapper>
+      <ImageWrapper>
+        <a href="https://jogo-da-memoria-mata-atlantica.vercel.app/" rel="noreferrer" target='_blank'>
+          <img
+            alt="jogo da memoria link"
+            src="/images/projects/mata/mata-frame-27.jpg"
+          />
+        </a>
+      </ImageWrapper>
       <Credits credits={credits} />
     </section>
   )
