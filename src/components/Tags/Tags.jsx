@@ -8,7 +8,7 @@ function Tags() {
   const { textLanguage, tagsList, setTagsList } = useContext(myContext);
 
   // Aqui é indicada a quantidade de main tags
-  const mainTagsLimit = 5;
+  const mainTagsLimit = 6;
 
   const handleClick = ({ target }, buttonOn) => {
     // O botão está off nessa condição pq o setState demora para ser atualizado

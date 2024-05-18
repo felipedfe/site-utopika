@@ -13,6 +13,7 @@ function InstaFeed() {
 
   const getInstaFeed = async () => {
     const token = process.env.REACT_APP_INSTA_TOKEN;
+    console.log('Data ->', process.env.REACT_APP_INSTA_TOKEN);
     const fields = "media_url,media_type,permalink,thumbnail_url";
     const limit = 6;
 
@@ -20,7 +21,6 @@ function InstaFeed() {
     try {
       const response = await fetch(url);
       const data = await response.json();
-
       if (data.error) throw new Error(data.error.message)
 
       setFeed(data.data);

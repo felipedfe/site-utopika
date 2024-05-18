@@ -6,6 +6,7 @@ const allTags = {
       'animation',
       'publication',
       'illustration',
+      'visualIdentity',
       'women',
       'work',
       'esg',
@@ -15,7 +16,7 @@ const allTags = {
       'politics',
       'environment',
       'humanRights',
-      'visualIdentity',
+      'website',
     ],
   pt:
     [
@@ -24,6 +25,7 @@ const allTags = {
       'animação',
       'publicação',
       'ilustração',
+      'identidadeVisual',
       'mulheres',
       'trabalho',
       'esg',
@@ -33,7 +35,7 @@ const allTags = {
       'política',
       'meioAmbiente',
       'direitosHumanos',
-      'identidadeVisual',
+      'site',
     ]
 }
 
@@ -202,6 +204,17 @@ const projects = [
     alt: '(descrição)',
     tags: ['illustration', 'animation', 'politics'],
     tagsPt: ['ilustração', 'animação', 'política'],
+  },
+  {
+    id: 'alianza',
+    title: 'Alianza',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['illustration', 'infographic', 'socialMedia', 'publication', 'territory', 'environment', 'humanRights', 'equality', 'website'],
+    tagsPt: ['ilustração', 'infográfico', 'mídiasSociais', 'publicação', 'território', 'meioAmbiente', 'direitosHumanos', 'igualdade', 'site'],
   },
 ]
 

@@ -317,6 +317,28 @@ const projectsPageEn = {
     },
     tags: ['illustration', 'animation', 'politics'],
   },
+  alianza: {
+    title: "Alianza",
+    introduction: `After a year of activity, <a class="text-link" href="https://alianzafondosdelsur.org/" target="_blank">Alianza</a>, which brings together local funds from various countries in the Global South, has published its first report, launching its communication efforts! To enhance its communication strategy, we also created a website for the institution to post news, reports, and data, as well as an informative folder for events. We have added to Alianza’s identity the diversity of both the people and the biomes where they operate. <a class="text-link" href="https://alianzafondosdelsur.org/" target="_blank">www.alianzafondosdelsur.org</a>`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Layout and graphic design",
+          name: "Rachel Gepp and Julia Lima",
+        },
+        {
+          role: "Web development",
+          name: "Felipe Fernandes",
+        },
+        {
+          role: "Design assistant",
+          name: "Ana Clara Lury",
+        },
+      ]
+    },
+    tags: ['illustration', 'infographic', 'socialMedia', 'publication', 'territory', 'environment', 'humanRights', 'equality', 'website'],
+  },
 }
 
 export default projectsPageEn;

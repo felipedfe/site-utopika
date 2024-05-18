@@ -17,6 +17,7 @@ import {
   Plastico,
   Captura,
   Despolarize,
+  Alianza,
 } from './pages/projectsPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
@@ -150,6 +151,15 @@ function App() {
             </MainPageLayout>
           }
           />
+          <Route exact path="/projetos/alianza" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <Alianza />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+
           <Route exact path="/projetos" element={
             <MainPageLayout>
               <Projects />

@@ -325,6 +325,28 @@ const projectsPagePt = {
     },
     tags: ['ilustração', 'animação', 'política'],
   },
+  alianza: {
+    title: "Alianza",
+    introduction: `Depois de um ano de atuação, a <a class="text-link" href="https://alianzafondosdelsur.org/" target="_blank">Alianza</a>, que reúne fundos locais de diversos países do sul Global, publicou seu primeiro relatório inaugurando sua comunicação! Para potencializar sua estratégia de comunicação, criamos também um site para a instituição postar notícias, relatórios e dados além de um folder informativo para eventos. Agregamos à identidade da Alianza a diversidade humana e dos biomas onde eles atuam. <a class="text-link" href="https://alianzafondosdelsur.org/" target="_blank">www.alianzafondosdelsur.org</a>`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Diagramação e projeto gráfico",
+          name: "Rachel Gepp e Julia Lima",
+        },
+        {
+          role: "Desenvolvimento web",
+          name: "Felipe Fernandes",
+        },
+        {
+          role: "Assistência de Design",
+          name: "Ana Clara Lury",
+        },
+      ]
+    },
+    tags: ['ilustração', 'infográfico', 'mídiasSociais', 'publicação', 'território', 'meioAmbiente', 'direitosHumanos', 'igualdade', 'site'],
+  },
 }
 
 export default projectsPagePt;

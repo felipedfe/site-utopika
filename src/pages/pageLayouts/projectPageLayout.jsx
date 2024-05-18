@@ -23,6 +23,7 @@ function ProjectPageLayout({ children }) {
   const { pathname } = useLocation();
 
   const projectId = pathname.split('/').pop();
+  console.log(projectId)
 
   const { projectsPage } = textOptions[textLanguage];
 
