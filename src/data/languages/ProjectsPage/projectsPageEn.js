@@ -337,7 +337,7 @@ const projectsPageEn = {
         },
       ]
     },
-    tags: ['illustration', 'infographic', 'socialMedia', 'publication', 'territory', 'environment', 'humanRights', 'equality', 'website'],
+    tags: ['illustration', 'infographic', 'socialMedia', 'publication', 'territory', 'environment', 'humanRights', 'equality', 'web'],
   },
 }
 

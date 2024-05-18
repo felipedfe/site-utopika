@@ -1,12 +1,13 @@
 const allTags = {
   en:
     [
-      'socialMedia',
       'infographic',
       'animation',
+      'socialMedia',
       'publication',
       'illustration',
       'visualIdentity',
+      'web',
       'women',
       'work',
       'esg',
@@ -16,16 +17,16 @@ const allTags = {
       'politics',
       'environment',
       'humanRights',
-      'website',
     ],
   pt:
     [
-      'mídiasSociais',
       'infográfico',
       'animação',
+      'mídiasSociais',
       'publicação',
       'ilustração',
       'identidadeVisual',
+      'web',
       'mulheres',
       'trabalho',
       'esg',
@@ -35,7 +36,6 @@ const allTags = {
       'política',
       'meioAmbiente',
       'direitosHumanos',
-      'site',
     ]
 }
 
@@ -50,6 +50,17 @@ const projects = [
     alt: '(descrição)',
     tags: ['illustration', 'environment', 'publication', 'visualIdentity', 'infographic'],
     tagsPt: ['ilustração', 'meioAmbiente', 'publicação', 'identidadeVisual', 'infográfico'],
+  },
+  {
+    id: 'alianza',
+    title: 'Um Ano da Alianza',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['illustration', 'infographic', 'socialMedia', 'publication', 'territory', 'environment', 'humanRights', 'equality', 'web'],
+    tagsPt: ['ilustração', 'infográfico', 'mídiasSociais', 'publicação', 'território', 'meioAmbiente', 'direitosHumanos', 'igualdade', 'web'],
   },
   {
     id: 'vozesin',
@@ -204,17 +215,6 @@ const projects = [
     alt: '(descrição)',
     tags: ['illustration', 'animation', 'politics'],
     tagsPt: ['ilustração', 'animação', 'política'],
-  },
-  {
-    id: 'alianza',
-    title: 'Alianza',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: ['illustration', 'infographic', 'socialMedia', 'publication', 'territory', 'environment', 'humanRights', 'equality', 'website'],
-    tagsPt: ['ilustração', 'infográfico', 'mídiasSociais', 'publicação', 'território', 'meioAmbiente', 'direitosHumanos', 'igualdade', 'site'],
   },
 ]
 

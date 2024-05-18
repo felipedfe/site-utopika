@@ -345,7 +345,7 @@ const projectsPagePt = {
         },
       ]
     },
-    tags: ['ilustração', 'infográfico', 'mídiasSociais', 'publicação', 'território', 'meioAmbiente', 'direitosHumanos', 'igualdade', 'site'],
+    tags: ['ilustração', 'infográfico', 'mídiasSociais', 'publicação', 'território', 'meioAmbiente', 'direitosHumanos', 'igualdade', 'web'],
   },
 }
 
