@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext, useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import NavButton from '../NavButton/NavButton';
 import Tags from '../Tags/Tags';
@@ -23,7 +23,41 @@ function Menu() {
     setIsSearchMenuDisabled,
     largeScreenBreakPt } = useContext(myContext);
 
+  const navMenuRef = useRef(null);
+  const searchMenuRef = useRef(null);
+
   const text = textOptions[textLanguage];
+
+  const closeAllMenus = () => {
+    if (!isNavMenuDisabled) {
+      setIsNavMenuDisabled(true);
+    }
+    if (!isSearchMenuDisabled) {
+      setIsSearchMenuDisabled(true);
+    }
+  };
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (navMenuRef.current && !navMenuRef.current.contains(event.target)) {
+        setIsNavMenuDisabled(true);
+        event.stopPropagation();
+      }
+      if (searchMenuRef.current && !searchMenuRef.current.contains(event.target)) {
+        setIsSearchMenuDisabled(true);
+        event.stopPropagation();
+      }
+    };
+
+    // Adicionar o listener quando o componente é montado
+    document.addEventListener("mousedown", handleClickOutside);
+
+    // Limpar o listener quando o componente é desmontado
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []); // Pode ser necessário adicionar outras dependências se estados específicos forem usados dentro de handleClickOutside
+
 
   const toggleNavigationMenu = () => {
     if (!isSearchMenuDisabled) setIsSearchMenuDisabled((prevState) => !prevState);
@@ -47,6 +81,9 @@ function Menu() {
 
   return (
     <section className="menu--container">
+      {(!isNavMenuDisabled || !isSearchMenuDisabled) && (
+        <div className="menu-overlay" onClick={closeAllMenus}></div>
+      )}
       <button
         type="button"
         className="menu--show-navigation-btn"
@@ -56,6 +93,7 @@ function Menu() {
       </button>
       {!isLargeScreen && <span className="menu--utopika">Utópika</span>}
       <nav
+        ref={navMenuRef}
         style={
           isLargeScreen && isNavMenuDisabled ?
             { display: 'none' } :
@@ -128,6 +166,7 @@ function Menu() {
             <i className="menu--search-icon"><SearchIcon /></i>
           </button>
           <section
+            ref={searchMenuRef}
             style={
               isLargeScreen && isSearchMenuDisabled ?
                 { display: 'none' } :

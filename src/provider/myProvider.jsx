@@ -4,6 +4,7 @@ import myContext from '../context/myContext';
 
 function MyProvider(props) {
   const largeScreenBreakPt = 1024;
+  
   const [textLanguage, setTextLanguage] = useState('pt');
   const [tagsList, setTagsList] = useState([]);
   const [isLargeScreen, setIsLargeScreen] = useState(true);

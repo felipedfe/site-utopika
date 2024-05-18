@@ -88,6 +88,17 @@ nav {
   width: 80%
 }
 
+.menu-overlay {
+  position: fixed; /* Ou absolute, dependendo do layout */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: 0; /* Ajuste conforme necessário para que fique entre o menu e o conteúdo da página */
+}
+
+
 @media all and (max-width: 1024px) {
   .menu--container {
     position: fixed;
