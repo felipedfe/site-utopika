@@ -8,6 +8,10 @@ const Main = styled.main`
   margin: 0 4% 0 4%;
   max-width: 1200px;
 
+  & p {
+    margin-bottom: 10px;
+  }
+
   @media all and (max-width: 1024px) {
     margin-left: 3%;
     margin-right: 3%;

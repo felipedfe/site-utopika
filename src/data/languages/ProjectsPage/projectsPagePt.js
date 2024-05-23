@@ -1,3 +1,7 @@
+import { tags } from '../../projects/constants';
+
+const { pt } = tags;
+
 const projectsPagePt = {
   mongabay: {
     title: "Pacote Gráfico Mongabay",
@@ -346,6 +350,44 @@ const projectsPagePt = {
       ]
     },
     tags: ['ilustração', 'infográfico', 'mídiasSociais', 'publicação', 'território', 'meioAmbiente', 'direitosHumanos', 'igualdade', 'web'],
+  },
+  clima: {
+    title: "Em Nome do Clima - Mapeamento Crítico",
+    introduction: `<p>O objetivo desta pesquisa era compreender e dar visibilidade às estratégias adotadas pelos governos e por empresas neoextrativistas (complexo hidro-agro-energético-mineral) ante a crise climática e às implicações dos usos que fazem das categorias transição energética, energia renovável, descarbonização e compensação.</p>
+    <p>O papel da Utópika foi traduzir esses dados complexos e discursos obtusos das estratégias governamentais e empresariais em um design acessível e compreensível. Trabalhamos para tornar essas informações claras e impactantes, facilitando o entendimento e o engajamento da sociedade civil.</p>
+    <p>Para a divulgação do estudo, produzimos uma websérie com cinco animações, relatórios, infográficos e cards para as redes sociais, facilitando o acesso a essas informações vitais para que mais pessoas possam compreender e agir sobre elas.</p>`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Projeto gráfico e ilustrações",
+          name: "Rachel Gepp e Julia Lima",
+        },
+        {
+          role: "Assistência de Design",
+          name: "Beatriz Fukumoto",
+        },
+      ]
+    },
+    tags: ['publicação', 'ilustração', 'infográfico', 'território', 'meioAmbiente', 'direitosHumanos'],
+  },
+  forest: {
+    title: "Forest Ventures",
+    introduction: `Essa série de podcast olha para a floresta pelo ângulo dos negócios e mostra que a floresta em pé está na base de uma série de iniciativas que envolvem compromisso ambiental e social. Para construir essa identidade visual partimos de elementos comuns ao mundo dos investimentos, como os gráficos, e também da natureza, como as folhas, e as curvas dos rios que também aparecem nas ondas sonoras.`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Projeto gráfico",
+          name: "Julia Lima",
+        },
+        {
+          role: "Assistente de design e Ilustrações",
+          name: "Ana Clara Lury",
+        },
+      ]
+    },
+    tags: [pt.SOCIAL_MEDIA, pt.VISUAL_IDENTITY, pt.ILLUSTRATION, pt.ENVIRONMENT],
   },
 }
 

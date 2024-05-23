@@ -18,6 +18,8 @@ import {
   Captura,
   Despolarize,
   Alianza,
+  Clima,
+  Forest,
 } from './pages/projectsPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
@@ -155,6 +157,22 @@ function App() {
             <MainPageLayout>
               <ProjectPageLayout>
                 <Alianza />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+          <Route exact path="/projetos/clima" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <Clima />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+          <Route exact path="/projetos/forest" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <Forest />
               </ProjectPageLayout>
             </MainPageLayout>
           }

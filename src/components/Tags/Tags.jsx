@@ -1,6 +1,7 @@
 import React, { useEffect, useContext } from 'react';
 import myContext from '../../context/myContext';
 import { allTags } from '../../data/projects';
+import { tags } from '../../data/projects/constants';
 import TagButton from '../../components/TagButton/TagButton';
 import './tags.css';
 

@@ -14,6 +14,8 @@ import Plastico from "./plastico/Plastico";
 import Captura from "./captura/Captura";
 import Despolarize from "./despolarize/Despolarize";
 import Alianza from "./alianza/Alianza";
+import Clima from "./clima/Clima";
+import Forest from "./forest/Forest";
 
 export {
   Mongabay,
@@ -32,4 +34,6 @@ export {
   Captura,
   Despolarize,
   Alianza,
+  Clima,
+  Forest,
 }

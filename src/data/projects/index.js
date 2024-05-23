@@ -1,9 +1,11 @@
+import { tags } from "./constants";
+
 const allTags = {
   en:
     [
+      'socialMedia',
       'infographic',
       'animation',
-      'socialMedia',
       'publication',
       'illustration',
       'visualIdentity',
@@ -20,9 +22,9 @@ const allTags = {
     ],
   pt:
     [
+      'mídiasSociais',
       'infográfico',
       'animação',
-      'mídiasSociais',
       'publicação',
       'ilustração',
       'identidadeVisual',
@@ -39,17 +41,34 @@ const allTags = {
     ]
 }
 
+const { en } = tags;
+const { pt } = tags;
+
+console.log("en", en)
+console.log("pt", pt)
+
 const projects = [
   {
-    id: 'mata',
-    title: 'Mata Atlântica: Novas Histórias',
+    id: 'clima',
+    title: 'Em Nome do Clima - Mapeamento Crítico',
     images: {
       thumbnail: 'thumb.png',
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['illustration', 'environment', 'publication', 'visualIdentity', 'infographic'],
-    tagsPt: ['ilustração', 'meioAmbiente', 'publicação', 'identidadeVisual', 'infográfico'],
+    tags: ['publication', 'illustration', 'infographic', 'territory', 'environment', 'humanRights'],
+    tagsPt: ['publicação', 'ilustração', 'infográfico', 'território', 'meioAmbiente', 'direitosHumanos'],
+  },
+  {
+    id: 'forest',
+    title: 'Forest Ventures',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: [en.SOCIAL_MEDIA, en.VISUAL_IDENTITY, en.ILLUSTRATION, en.ENVIRONMENT],
+    tagsPt: [pt.SOCIAL_MEDIA, pt.VISUAL_IDENTITY, pt.ILLUSTRATION, pt.ENVIRONMENT],
   },
   {
     id: 'alianza',
@@ -74,17 +93,6 @@ const projects = [
     tagsPt: ['animação', 'ilustração', 'território', 'meioAmbiente', 'direitosHumanos'],
   },
   {
-    id: 'rhino',
-    title: 'Rhino Poop',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: ['animation', 'illustration', 'environment'],
-    tagsPt: ['animação', 'ilustração', 'meioAmbiente'],
-  },
-  {
     id: 'mongabay',
     title: 'Pacote Gráfico Mongabay',
     images: {
@@ -96,15 +104,26 @@ const projects = [
     tagsPt: ['animação', 'meioAmbiente', 'mídiasSociais'],
   },
   {
-    id: 'guia',
-    title: 'Um Guia para os Perplexos',
+    id: 'rhino',
+    title: 'Rhino Poop',
     images: {
       thumbnail: 'thumb.png',
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['publication', 'illustration', 'environment'],
-    tagsPt: ['publicação', 'ilustração', 'meioAmbiente'],
+    tags: ['animation', 'illustration', 'environment'],
+    tagsPt: ['animação', 'ilustração', 'meioAmbiente'],
+  },
+  {
+    id: 'mata',
+    title: 'Mata Atlântica: Novas Histórias',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['illustration', 'environment', 'publication', 'visualIdentity', 'infographic'],
+    tagsPt: ['ilustração', 'meioAmbiente', 'publicação', 'identidadeVisual', 'infográfico'],
   },
   {
     id: 'plenamata',
@@ -118,6 +137,17 @@ const projects = [
     tagsPt: ['infográfico', 'ilustração', 'meioAmbiente'],
   },
   {
+    id: 'guia',
+    title: 'Um Guia para os Perplexos',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['publication', 'illustration', 'environment'],
+    tagsPt: ['publicação', 'ilustração', 'meioAmbiente'],
+  },
+  {
     id: 'olhar',
     title: 'Olhar Perto, Enxergar Longe',
     images: {
@@ -127,6 +157,17 @@ const projects = [
     alt: '(descrição)',
     tags: ['environment', 'publication'],
     tagsPt: ['meioAmbiente', 'publicação'],
+  },
+  {
+    id: 'despolarize',
+    title: 'Despolarize',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['illustration', 'animation', 'politics'],
+    tagsPt: ['ilustração', 'animação', 'política'],
   },
   {
     id: 'pasto',
@@ -172,6 +213,7 @@ const projects = [
     tags: ['publication', 'illustration', 'infographic', 'humanRights', 'work'],
     tagsPt: ['publicação', 'ilustração', 'infográfico', 'direitosHumanos', 'trabalho'],
   },
+
   {
     id: 'sitawi',
     title: 'Sitawi',
@@ -182,17 +224,6 @@ const projects = [
     alt: '(descrição)',
     tags: ['illustration', 'equality', 'animation', 'environment'],
     tagsPt: ['ilustração', 'igualdade', 'animação', 'meioAmbiente'],
-  },
-  {
-    id: 'plastico',
-    title: 'Sem Plástico',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: ['illustration', 'animation', 'environment', 'esg'],
-    tagsPt: ['ilustração', 'animação', 'meioAmbiente', 'esg'],
   },
   {
     id: 'captura',
@@ -206,15 +237,15 @@ const projects = [
     tagsPt: ['ilustração', 'animação', 'meioAmbiente', 'direitosHumanos', 'política'],
   },
   {
-    id: 'despolarize',
-    title: 'Despolarize',
+    id: 'plastico',
+    title: 'Sem Plástico',
     images: {
       thumbnail: 'thumb.png',
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['illustration', 'animation', 'politics'],
-    tagsPt: ['ilustração', 'animação', 'política'],
+    tags: ['illustration', 'animation', 'environment', 'esg'],
+    tagsPt: ['ilustração', 'animação', 'meioAmbiente', 'esg'],
   },
 ]
 

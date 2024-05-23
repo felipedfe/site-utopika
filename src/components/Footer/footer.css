@@ -60,9 +60,4 @@
     flex-direction: column;
     gap: 2.7rem;
   }
-
-  .footer--email-addresses-wrapper {
-    display: flex;
-    flex-direction: column;
-  }
 }

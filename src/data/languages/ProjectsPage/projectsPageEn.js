@@ -1,3 +1,7 @@
+import { tags } from '../../projects/constants';
+
+const { en } = tags;
+
 const projectsPageEn = {
   mongabay: {
     title: "Mongabay Graphic Package",
@@ -338,6 +342,44 @@ const projectsPageEn = {
       ]
     },
     tags: ['illustration', 'infographic', 'socialMedia', 'publication', 'territory', 'environment', 'humanRights', 'equality', 'web'],
+  },
+  clima: {
+    title: "Em Nome do Clima - Mapeamento Crítico",
+    introduction: `<p>The goal of this research was to understand and give visibility to the strategies adopted by governments and neo-extractive companies (hydro-agro-energy-mineral complex) in the face of the climate crisis and the implications of their use of the categories energy transition, renewable energy, decarbonization, and compensation.</p>
+    <p>Utópika's role was to translate these complex data and obtuse discourses from governmental and business strategies into accessible and comprehensible design. We worked to make this information clear and impactful, facilitating the understanding and engagement of civil society.</p>
+    <p>For the dissemination of the study, we produced a web series with five animations, reports, infographics, and cards for social media, making it easier to access this vital information so that more people can understand and act upon it.</p>`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Graphic design and illustrations",
+          name: "Rachel Gepp e Julia Lima",
+        },
+        {
+          role: "Design assistant",
+          name: "Beatriz Fukumoto",
+        },
+      ]
+    },
+    tags: ['publication', 'illustration', 'infographic', 'territory', 'environment','humanRights'],
+  },
+  forest: {
+    title: "Forest Ventures",
+    introduction: `This podcast series looks at the forest from a business perspective and shows that the standing forest is at the core of a series of initiatives involving environmental and social commitment. To build this visual identity, we started with elements common to the world of investments, such as graphs, as well as from nature, like leaves, and the curves of rivers that also appear in the sound waves.`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Graphic design",
+          name: "Julia Lima",
+        },
+        {
+          role: "Design and Illustration Assistant",
+          name: "Ana Clara Lury",
+        },
+      ]
+    },
+    tags: [en.SOCIAL_MEDIA, en.VISUAL_IDENTITY, en.ILLUSTRATION, en.ENVIRONMENT],
   },
 }
 
