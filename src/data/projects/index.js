@@ -93,6 +93,17 @@ const projects = [
     tagsPt: ['animação', 'ilustração', 'território', 'meioAmbiente', 'direitosHumanos'],
   },
   {
+    id: 'populacao',
+    title: 'População LGBTI+ Privada de Liberdade no Brasil',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: [en.PUBLICATION, en.ILLUSTRATION, en.EQUALITY, en.HUMAN_RIGHTS],
+    tagsPt: [pt.PUBLICATION, pt.ILLUSTRATION, pt.EQUALITY, pt.HUMAN_RIGHTS],
+  },
+  {
     id: 'mongabay',
     title: 'Pacote Gráfico Mongabay',
     images: {
@@ -104,26 +115,15 @@ const projects = [
     tagsPt: ['animação', 'meioAmbiente', 'mídiasSociais'],
   },
   {
-    id: 'rhino',
-    title: 'Rhino Poop',
+    id: 'refarm',
+    title: 'Refarm',
     images: {
       thumbnail: 'thumb.png',
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['animation', 'illustration', 'environment'],
-    tagsPt: ['animação', 'ilustração', 'meioAmbiente'],
-  },
-  {
-    id: 'mata',
-    title: 'Mata Atlântica: Novas Histórias',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: ['illustration', 'environment', 'publication', 'visualIdentity', 'infographic'],
-    tagsPt: ['ilustração', 'meioAmbiente', 'publicação', 'identidadeVisual', 'infográfico'],
+    tags: ['animation', 'illustration', 'esg', 'environment'],
+    tagsPt: ['animação', 'ilustração', 'esg', 'meioAmbiente'],
   },
   {
     id: 'plenamata',
@@ -137,6 +137,17 @@ const projects = [
     tagsPt: ['infográfico', 'ilustração', 'meioAmbiente'],
   },
   {
+    id: 'mata',
+    title: 'Mata Atlântica: Novas Histórias',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['illustration', 'environment', 'publication', 'visualIdentity', 'infographic'],
+    tagsPt: ['ilustração', 'meioAmbiente', 'publicação', 'identidadeVisual', 'infográfico'],
+  },
+  {
     id: 'guia',
     title: 'Um Guia para os Perplexos',
     images: {
@@ -146,6 +157,17 @@ const projects = [
     alt: '(descrição)',
     tags: ['publication', 'illustration', 'environment'],
     tagsPt: ['publicação', 'ilustração', 'meioAmbiente'],
+  },
+  {
+    id: 'rhino',
+    title: 'Rhino Poop',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['animation', 'illustration', 'environment'],
+    tagsPt: ['animação', 'ilustração', 'meioAmbiente'],
   },
   {
     id: 'olhar',
@@ -181,17 +203,6 @@ const projects = [
     tagsPt: ['animação', 'ilustração', 'meioAmbiente'],
   },
   {
-    id: 'refarm',
-    title: 'Refarm',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: ['animation', 'illustration', 'esg', 'environment'],
-    tagsPt: ['animação', 'ilustração', 'esg', 'meioAmbiente'],
-  },
-  {
     id: 'vozes',
     title: 'Vozes Femininas',
     images: {
@@ -213,7 +224,17 @@ const projects = [
     tags: ['publication', 'illustration', 'infographic', 'humanRights', 'work'],
     tagsPt: ['publicação', 'ilustração', 'infográfico', 'direitosHumanos', 'trabalho'],
   },
-
+  {
+    id: 'plastico',
+    title: 'Sem Plástico',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['illustration', 'animation', 'environment', 'esg'],
+    tagsPt: ['ilustração', 'animação', 'meioAmbiente', 'esg'],
+  },
   {
     id: 'sitawi',
     title: 'Sitawi',
@@ -235,17 +256,6 @@ const projects = [
     alt: '(descrição)',
     tags: ['illustration', 'animation', 'environment', 'humanRights', 'politics'],
     tagsPt: ['ilustração', 'animação', 'meioAmbiente', 'direitosHumanos', 'política'],
-  },
-  {
-    id: 'plastico',
-    title: 'Sem Plástico',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: ['illustration', 'animation', 'environment', 'esg'],
-    tagsPt: ['ilustração', 'animação', 'meioAmbiente', 'esg'],
   },
 ]
 

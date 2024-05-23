@@ -16,6 +16,7 @@ import Despolarize from "./despolarize/Despolarize";
 import Alianza from "./alianza/Alianza";
 import Clima from "./clima/Clima";
 import Forest from "./forest/Forest";
+import Populacao from "./populacao/Populacao";
 
 export {
   Mongabay,
@@ -36,4 +37,5 @@ export {
   Alianza,
   Clima,
   Forest,
+  Populacao,
 }

@@ -381,6 +381,20 @@ const projectsPageEn = {
     },
     tags: [en.SOCIAL_MEDIA, en.VISUAL_IDENTITY, en.ILLUSTRATION, en.ENVIRONMENT],
   },
+  populacao: {
+    title: "LGBTI+ Population Deprived of Liberty in Brazil",
+    introduction: `We faced the challenge of bringing visibility to the conditions faced by LGBTI+ individuals in the Brazilian prison system, using art to sensitize how critical information is perceived and understood. Our biggest challenge was to illustrate this sensitive and complex topic in a way that respected the seriousness of the matter while simultaneously facilitating understanding. Thank you <a class="text-link" href="https://www.somos.org.br/\" target="_blank">@somos</a>, <a class="text-link" href="https://www.apt.ch/pt\" target="_blank">@apt</a> and <a class="text-link" href="https://mnpctbrasil.wordpress.com/\" target="_blank">@mecanismo</a> for your trust!`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Graphic design and illustrations",
+          name: "Rachel Gepp",
+        },
+      ]
+    },
+    tags: [en.PUBLICATION, en.ILLUSTRATION, en.EQUALITY, en.HUMAN_RIGHTS],
+  },
 }
 
 export default projectsPageEn;

@@ -139,7 +139,7 @@ const projectsPagePt = {
   },
   vozes: {
     title: "Vozes Femininas",
-    introduction: `O livro escrito por Tatiane Matheus contou com a voz de 21 mulheres de diferentes lugares e saberes sobre diagnósticos e soluções para a crise climática. Nas palavras da autora “É um manifesto da transição justa na teoria e, sobretudo, na prática. Uma convocação do pensar global ao agir local. Qual a sua prontidão para, de fato, ouvir?”. Trabalhando junto ao GT de genero do <a class="text-link" href="https: //www.oc.eco.br/" target="__blank__">Observatório do Clima</a> fica claro que qualquer recuperação possível coloca as mulheres no centro da solução. Vamos juntas :) `,
+    introduction: `O livro escrito por Tatiane Matheus contou com a voz de 21 mulheres de diferentes lugares e saberes sobre diagnósticos e soluções para a crise climática. Nas palavras da autora “É um manifesto da transição justa na teoria e, sobretudo, na prática. Uma convocação do pensar global ao agir local. Qual a sua prontidão para, de fato, ouvir?”. Trabalhando junto ao GT de genero do <a class="text-link" href="https: //www.oc.eco.br/" target="_blank">Observatório do Clima</a> fica claro que qualquer recuperação possível coloca as mulheres no centro da solução. Vamos juntas :) `,
     credits: {
       title: "Créditos",
       info: [
@@ -157,7 +157,7 @@ const projectsPagePt = {
   },
   olhar: {
     title: "Olhar Perto, Enxergar Longe",
-    introduction: `O livro "Olhar perto, enxergar longe: crônicas ambientais atemporais" é uma coletânea produzida pelo <a class="text-link" href="https://oeco.org.br/" target="__blank__">O Eco</a> e organizada pelo jornalista Lorenzo Aldé com as crônicas do jornalista e fotógrafo Marcos Sá Corrêa. O livro reúne 98 colunas sobre os mais variados temas ambientais e as observações de Marcos Sá seguem surpreendentemente atuais, vale a leitura :)`,
+    introduction: `O livro "Olhar perto, enxergar longe: crônicas ambientais atemporais" é uma coletânea produzida pelo <a class="text-link" href="https://oeco.org.br/" target="_blank">O Eco</a> e organizada pelo jornalista Lorenzo Aldé com as crônicas do jornalista e fotógrafo Marcos Sá Corrêa. O livro reúne 98 colunas sobre os mais variados temas ambientais e as observações de Marcos Sá seguem surpreendentemente atuais, vale a leitura :)`,
     credits: {
       title: "Créditos",
       info: [
@@ -175,7 +175,7 @@ const projectsPagePt = {
   },
   guia: {
     title: "Um Guia para os Perplexos",
-    introduction: `Elaborado pela <a class="text-link" href="https://laclima.org/" target="__blank__">LACLIMA</a> e pelo <a class="text-link" href="https://www.oc.eco.br/" target="__blank__">Observatório do Clima</a> o guia dos perplexos explica de forma didática e bem humorada explica tudo que você precisa saber sobre o Acordo de Paris e o funcionamento das COPs do clima da ONU. Por aqui fizemos o projeto gráfico e diagramação, pontuando o texto com algumas colagens. Um material muito rico e fácil de ler para qualquer pessoa que queira entender como caminha essa negociação, que por sua vez não é nada fácil.`,
+    introduction: `Elaborado pela <a class="text-link" href="https://laclima.org/" target="_blank">LACLIMA</a> e pelo <a class="text-link" href="https://www.oc.eco.br/" target="_blank">Observatório do Clima</a> o guia dos perplexos explica de forma didática e bem humorada explica tudo que você precisa saber sobre o Acordo de Paris e o funcionamento das COPs do clima da ONU. Por aqui fizemos o projeto gráfico e diagramação, pontuando o texto com algumas colagens. Um material muito rico e fácil de ler para qualquer pessoa que queira entender como caminha essa negociação, que por sua vez não é nada fácil.`,
     credits: {
       title: "Créditos",
       info: [
@@ -388,6 +388,20 @@ const projectsPagePt = {
       ]
     },
     tags: [pt.SOCIAL_MEDIA, pt.VISUAL_IDENTITY, pt.ILLUSTRATION, pt.ENVIRONMENT],
+  },
+  populacao: {
+    title: "População LGBTI+ Privada de Liberdade no Brasil",
+    introduction: `Tivemos o desafio de dar visibilidade às condições enfrentadas pelas pessoas LGBTI+ no sistema prisional brasileiro, utilizando arte para sensibilizar como informações críticas são percebidas e compreendidas. Nosso maior desafio foi ilustrar esse tema tão sensível e complexo de maneira que respeitasse a seriedade do assunto e ao mesmo tempo facilitasse o entendimento. Obrigada <a class="text-link" href="https://www.somos.org.br/" target="_blank">@somos</a>, <a class="text-link" href="https://www.apt.ch/pt" target="_blank">@apt</a> e <a class="text-link" href="https://mnpctbrasil.wordpress.com/" target="_blank">@mecanismo</a> pela confiança!`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Projeto gráfico e ilustrações",
+          name: "Rachel Gepp",
+        },
+      ]
+    },
+    tags: [pt.PUBLICATION, pt.ILLUSTRATION, pt.EQUALITY, pt.HUMAN_RIGHTS],
   },
 }
 
