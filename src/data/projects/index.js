@@ -82,6 +82,17 @@ const projects = [
     tagsPt: ['ilustração', 'infográfico', 'mídiasSociais', 'publicação', 'território', 'meioAmbiente', 'direitosHumanos', 'igualdade', 'web'],
   },
   {
+    id: 'p4f',
+    title: 'Partnerships for Forests',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: [en.PUBLICATION, en.ANIMATION, en.ENVIRONMENT, en.INFOGRAPHIC],
+    tagsPt: [pt.PUBLICATION, pt.ANIMATION, pt.ENVIRONMENT, pt.INFOGRAPHIC],
+  },
+  {
     id: 'vozesin',
     title: 'Vozes Indígenas',
     images: {

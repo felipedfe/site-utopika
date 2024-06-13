@@ -395,6 +395,29 @@ const projectsPageEn = {
     },
     tags: [en.PUBLICATION, en.ILLUSTRATION, en.EQUALITY, en.HUMAN_RIGHTS],
   },
+  p4f: {
+    title: "Partnerships for Forests",
+    introduction: `<p>Partnerships for Forests is a British government program that boosts forest businesses and what is needed to make them viable. It's hard to summarize here four years of engagement and so many lessons learned; the truth is that we have seen the topic become more substantial over this time.</p>
+    <p>From 2020 to 2024, there were over 30 case studies, portfolios, guides, animations, among many other deliveries for the Latin America branch. Many interesting projects have passed through there, and consequently, through here as well. We are just grateful for the internal and external team that made so many impressive things happen.</p>`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Coordination",
+          name: "Julia Lima",
+        },
+        {
+          role: "Animation and Graphic Projects",
+          name: "Julia Lima",
+        },
+        {
+          role: "Designers",
+          name: "Carla Dutra, Laura Levín, Ana Clara Korin, Ana Clara Abbate e Beatriz Fukumoto",
+        },
+      ]
+    },
+    tags: [en.PUBLICATION, en.ANIMATION, en.ENVIRONMENT, en.INFOGRAPHIC],
+  },
 }
 
 export default projectsPageEn;

@@ -21,6 +21,7 @@ import {
   Clima,
   Forest,
   Populacao,
+  P4f,
 } from './pages/projectsPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
@@ -182,6 +183,14 @@ function App() {
             <MainPageLayout>
               <ProjectPageLayout>
                 <Populacao />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+          <Route exact path="/projetos/p4f" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <P4f />
               </ProjectPageLayout>
             </MainPageLayout>
           }

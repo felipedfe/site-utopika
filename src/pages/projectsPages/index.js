@@ -17,6 +17,7 @@ import Alianza from "./alianza/Alianza";
 import Clima from "./clima/Clima";
 import Forest from "./forest/Forest";
 import Populacao from "./populacao/Populacao";
+import P4f from "./p4f/P4f";
 
 export {
   Mongabay,
@@ -38,4 +39,5 @@ export {
   Clima,
   Forest,
   Populacao,
+  P4f,
 }
