@@ -1,4 +1,5 @@
 .contacts--container {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-content: flex-end;

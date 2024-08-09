@@ -24,19 +24,27 @@ const EmailBtn = styled.button`
   background-color: transparent;
   border: none;
   font-size: 16px;
+  border-radius: 5px;
+  padding: 0 5px;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
 `
 
 const CopyMessage = styled.span`
   position: absolute;
-  top: -32px;
+  top: -38px;
   left: 110px;
   background-color: #fff;
   font-size: 13px;
   padding: 2px 5px;
   border-radius: 5px;
+  border: solid 2px #000;
 
   @media all and (max-width: 1024px) {
-    top: -30px;
+    top: -45px;
     left: 25px;
   }
 `
