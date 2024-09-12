@@ -4,7 +4,7 @@ import TextAndContact from '../../../components/TextAndContact/TextAndContact';
 import Profile from '../../../components/Profile/Profile';
 import Clients from '../../../components/Clients/Clients';
 import {
-  Hr,
+  Divider,
   ProfileSection,
   AboutContainer,
   ClientsSection,
@@ -17,7 +17,7 @@ function About() {
         url="https://player.vimeo.com/video/828038058"
         controls="1"
       />
-      <Hr />
+      <Divider />
       <TextAndContact />
       <ProfileSection>
         <Profile id="rachel" />

@@ -2,6 +2,11 @@ import styled from 'styled-components';
 
 const ClientsSection = styled.section`
   width: 100%;
+  margin-bottom: 50px;
+
+  @media all and (max-width: 768px) {
+    margin-bottom: 10px;
+  } 
 `
 
 const AboutContainer = styled.main`
@@ -19,7 +24,7 @@ const AboutContainer = styled.main`
   }
 `
 
-const Hr = styled.hr`
+const Divider = styled.hr`
   border: 0;
   border-top: 4px solid #000;
   margin: 1.5rem 0 2.5rem 0;
@@ -39,7 +44,7 @@ const ProfileSection = styled.section`
 `
 
 export {
-  Hr,
+  Divider,
   ProfileSection,
   AboutContainer,
   ClientsSection,
