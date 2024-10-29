@@ -18,7 +18,7 @@ function Profile({ id }) {
   const text = textOptions[textLanguage];
 
   const { aboutPage: { profile, socialMedia } } = text;
-  console.log(socialMedia[id])
+  // console.log(socialMedia[id])
   return (
     <ProfileWrapper>
       <Image src={`images/profile/${id}/image.png`} />

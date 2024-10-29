@@ -44,9 +44,6 @@ const allTags = {
 const { en } = tags;
 const { pt } = tags;
 
-console.log("en", en)
-console.log("pt", pt)
-
 const projects = [
   {
     id: 'clima',

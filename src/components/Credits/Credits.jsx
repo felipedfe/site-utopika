@@ -24,7 +24,6 @@ const Title = styled.h2`
 `
 
 function Credits({ credits }) {
-  console.log(credits);
   const { title, info } = credits;
   return (
     <CreditsContainer>

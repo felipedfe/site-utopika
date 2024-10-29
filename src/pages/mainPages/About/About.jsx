@@ -14,19 +14,20 @@ function About() {
   const [token, setToken] = useState(null);
   const [error, setError] = useState(null);
 
-  useEffect(() => {
-    fetch('https://utopika.com.br/renovar_token.php')
-      .then(response => response.json())
-      .then(data => {
-        if (data.token) {
-          setToken(data.token);
-        } else {
-          setError("Token não encontrado.");
+useEffect(() => {
+    fetch('https://www.utopika.com.br/get-token.php')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("Erro na resposta do servidor");
         }
+        return response.json();
       })
-      .catch(err => {
-        console.error("Erro ao buscar o token:", err);
-        setError("Erro ao buscar o token.");
+      .then(data => {
+        setToken(data.token);
+      })
+      .catch(error => {
+        console.error("Erro ao buscar o token:", error);
+        setError("Não foi possível obter o token.");
       });
   }, []);
 
