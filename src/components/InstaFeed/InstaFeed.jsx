@@ -51,7 +51,7 @@ function InstaFeed() {
       if (data.error) throw new Error(data.error.message);
 
       setFeed(data.data);
-      console.log('Data ->', data);
+      // console.log('Data ->', data);
     } catch (error) {
       console.log('Erro ->', error);
     }
@@ -65,31 +65,42 @@ function InstaFeed() {
   //   console.log('TESTE TOKEN: ', testToken)
   // }, [testToken]);
 
+  // useEffect(() => {
+  //   console.log(feed)
+  // }, [feed])
+
   return (
-    <section className="instafeed--container">
-      <div className="instafeed--grid">
-        <div className="instafeed--grid-title">
-          <i className="instafeed--icon"><InstagramIcon /></i>
-          <h3>{text.instaFeed.title}</h3>
-        </div>
-        <div className="instafeed--grid-media">
-          {feed?.map((item) => {
-            return (
-              <div key={item.id} className="instafeed--media-wrapper">
-                <a href={item.permalink} target="_blank" rel="noreferrer">
-                  {item.media_type === "IMAGE" ?
-                    <img className="instafeed--media" alt="" src={item.media_url} /> :
-                    <video className="instafeed--media" muted autoPlay>
-                      <source src={item.media_url} />
-                    </video>
-                  }
-                </a>
-              </div>
-            )
-          })}
-        </div>
-      </div>
-    </section>
+    <>
+      {feed.length > 0 ?
+
+        <section className="instafeed--container">
+          <div className="instafeed--grid">
+            <div className="instafeed--grid-title">
+              <i className="instafeed--icon"><InstagramIcon /></i>
+              <h3>{text.instaFeed.title}</h3>
+            </div>
+            <div className="instafeed--grid-media">
+              {feed?.map((item) => {
+                return (
+                  <div key={item.id} className="instafeed--media-wrapper">
+                    <a href={item.permalink} target="_blank" rel="noreferrer">
+                      {item.media_type === "IMAGE" ?
+                        <img className="instafeed--media" alt="" src={item.media_url} /> :
+                        <video className="instafeed--media" muted autoPlay>
+                          <source src={item.media_url} />
+                        </video>
+                      }
+                    </a>
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        </section>
+        :
+        <div style={{ marginBottom: '2rem' }} />
+      }
+    </>
   )
 };
 
