@@ -26,7 +26,7 @@ const projectsPageEn = {
         },
         {
           role: "Intern",
-          name: "Ana Clara Korin",
+          name: "Ana Clara Lury",
         },
       ]
     },
@@ -49,7 +49,7 @@ const projectsPageEn = {
         },
         {
           role: "Intern",
-          name: "Ana Clara Korin",
+          name: "Ana Clara Lury",
         },
       ]
     },
@@ -226,7 +226,7 @@ const projectsPageEn = {
         },
         {
           role: "Intern",
-          name: "Ana Clara Korin",
+          name: "Ana Clara Lury",
         },
       ]
     },
@@ -412,11 +412,29 @@ const projectsPageEn = {
         },
         {
           role: "Designers",
-          name: "Carla Dutra, Laura Levín, Ana Clara Korin, Ana Clara Abbate e Beatriz Fukumoto",
+          name: "Carla Dutra, Laura Levín, Ana Clara Lury, Ana Clara Abbate e Beatriz Fukumoto",
         },
       ]
     },
     tags: [en.PUBLICATION, en.ANIMATION, en.ENVIRONMENT, en.INFOGRAPHIC],
+  },
+  facanhas: {
+    title: "Façanhas do Homem na Floresta",
+    introduction: `We had the pleasure of embracing ICMBio and doing the graphic design and layout of the book “Feats of Man in the Forest - memories of 30 years of biodiversity conservation”, which pays homage to the career of the civil servant Raimundo Façanha and his path to becoming IBAMA. The history of biodiversity conservation over the last 30 years in the Carajás region is intertwined with Façanha's living testimony. In a narrative filled with vibrant stories and memories, the book allows an analysis of the territorial dynamics and social transformations of the region.`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Layout and Graphic Design",
+          name: "Rachel Gepp",
+        },
+        {
+          role: "Design assistant",
+          name: "Ana Clara Lury",
+        },
+      ]
+    },
+    tags: [en.ILLUSTRATION, en.PUBLICATION, en.ENVIRONMENT, en.INFOGRAPHIC, en.TERRITORY],
   },
 }
 

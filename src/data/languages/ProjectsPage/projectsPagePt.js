@@ -26,7 +26,7 @@ const projectsPagePt = {
         },
         {
           role: "Estagiária",
-          name: "Ana Clara Korin",
+          name: "Ana Clara Lury",
         },
       ]
     },
@@ -49,7 +49,7 @@ const projectsPagePt = {
         },
         {
           role: "Estagiária",
-          name: "Ana Clara Korin",
+          name: "Ana Clara Lury",
         },
       ]
     },
@@ -227,7 +227,7 @@ const projectsPagePt = {
         },
         {
           role: "Estagiária",
-          name: "Ana Clara Korin",
+          name: "Ana Clara Lury",
         },
       ]
     },
@@ -420,11 +420,31 @@ const projectsPagePt = {
         },
         {
           role: "Designers",
-          name: "Carla Dutra, Laura Levín, Ana Clara Korin, Ana Clara Abbate e Beatriz Fukumoto",
+          name: "Carla Dutra, Laura Levín, Ana Clara Lury, Ana Clara Abbate e Beatriz Fukumoto",
         },
       ]
     },
     tags: [pt.PUBLICATION, pt.ANIMATION, pt.ENVIRONMENT, pt.INFOGRAPHIC],
+  },
+  facanhas: {
+    title: "Façanhas do Homem na Floresta",
+    introduction: `<p>Tivemos o prazer de abraçar o ICMBio e fazer o projeto gráfico e diagramação do  livro “Façanhas do Homem na Floresta - memórias de 30 anos de conservação da biodiversidade”, que homenageia a trajetória do servidor Raimundo Façanha e seu caminho percorrido até chegar ao IBAMA.</p>
+    <p> A história da conservação da biodiversidade nos últimos 30 anos na região de Carajás se confunde com o testemunho vivo do Façanha.</p>
+    <p> Numa narrativa recheada de causos e memórias vibrantes, o livro  permite uma análise sobre a dinâmica territorial e as transformações sociais da região.</p>`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Diagramação e Projetos Gráficos",
+          name: "Rachel Gepp",
+        },
+        {
+          role: "Assistência de Design",
+          name: "Ana Clara Lury",
+        },
+      ]
+    },
+    tags: [pt.ILLUSTRATION, pt.PUBLICATION, pt.ENVIRONMENT, pt.INFOGRAPHIC, pt.TERRITORY],
   },
 }
 

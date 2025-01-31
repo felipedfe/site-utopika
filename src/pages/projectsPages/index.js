@@ -18,6 +18,7 @@ import Clima from "./clima/Clima";
 import Forest from "./forest/Forest";
 import Populacao from "./populacao/Populacao";
 import P4f from "./p4f/P4f";
+import Facanhas from "./facanhas/Facanhas";
 
 export {
   Mongabay,
@@ -40,4 +41,5 @@ export {
   Forest,
   Populacao,
   P4f,
+  Facanhas,
 }

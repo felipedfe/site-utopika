@@ -265,6 +265,17 @@ const projects = [
     tags: ['illustration', 'animation', 'environment', 'humanRights', 'politics'],
     tagsPt: ['ilustração', 'animação', 'meioAmbiente', 'direitosHumanos', 'política'],
   },
+  {
+    id: 'facanhas',
+    title: 'Façanhas do Homem na Floresta',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['illustration', 'publication', 'environment', 'infographic', 'territory'],
+    tagsPt: ['ilustração', 'publicação', 'meioAmbiente', 'infográfico', 'território'],
+  },
 ]
 
 export { projects, allTags };

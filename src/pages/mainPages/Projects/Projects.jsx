@@ -8,7 +8,7 @@ import Tags from '../../../components/Tags/Tags';
 import './projects.css';
 
 function Projects() {
-  const [loading, setLoading] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   const {
     isLargeScreen,
