@@ -7,6 +7,7 @@ const EmailBtn = styled.button`
   border: none;
   font-size: 16px;
   border-radius: 5px;
+  display: block;
 
   &:hover {
     text-decoration: underline;
