@@ -28,7 +28,7 @@ const ImageWrapper = styled.div`
 `
 
 const VideoWrapper2 = styled.section`
-  width: 750px;
+  width: 530px;
 
   @media all and (max-width: 700px) {
     width: 100%;
@@ -113,11 +113,11 @@ function Solidaria({ projectData }) {
           </ImageWrapper>
           <VideoWrapper2>
             <VideoContainer
-              url="https://player.vimeo.com/video/999171167?h=e63a8db4f1"
+              url="https://player.vimeo.com/video/1053207327?h=88771e14e5"
               autoPlay='1'
               loop='1'
               muted='1'
-              aspectRatio="4/5"
+              aspectRatio="9/16"
             />
           </VideoWrapper2>
         </Row>

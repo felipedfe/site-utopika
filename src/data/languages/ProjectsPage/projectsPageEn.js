@@ -458,7 +458,7 @@ const projectsPageEn = {
         },
         {
           role: "Book launch video",
-          name: "-",
+          name: "Diego da Silveira",
         },
       ]
     },

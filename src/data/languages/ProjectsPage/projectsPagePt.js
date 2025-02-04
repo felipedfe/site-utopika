@@ -466,7 +466,7 @@ const projectsPagePt = {
         },
         {
           role: "Vídeo Lançamento",
-          name: "-",
+          name: "Diego da Silveira",
         },
       ]
     },
