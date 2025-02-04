@@ -19,6 +19,7 @@ import Forest from "./forest/Forest";
 import Populacao from "./populacao/Populacao";
 import P4f from "./p4f/P4f";
 import Facanhas from "./facanhas/Facanhas";
+import Solidaria from "./solidaria/Solidaria";
 
 export {
   Mongabay,
@@ -42,4 +43,5 @@ export {
   Populacao,
   P4f,
   Facanhas,
+  Solidaria,
 }

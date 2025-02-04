@@ -446,6 +446,34 @@ const projectsPagePt = {
     },
     tags: [pt.ILLUSTRATION, pt.PUBLICATION, pt.ENVIRONMENT, pt.INFOGRAPHIC, pt.TERRITORY],
   },
+  solidaria: {
+    title: "Economia Solidária Digital",
+    introduction: `<p>Para nós da Utópika, participar desse projeto foi uma oportunidade de reafirmar nossos valores: o design como uma ferramenta poderosa de transformação social. Nosso trabalho vai além da criação visual; buscamos facilitar a compreensão de temas complexos e gerar engajamento, conectando as pessoas com questões importantes para o seu futuro.</p>
+    <p> É uma honra para nós não só participar da criação de narrativas que promovam justiça social de forma honesta e transparente, mas também sermos consideradas uma voz nesse processo.</p>
+    <p>Explorem o livro e se envolvam na construção do futuro do trabalho e dessa nova economia!</p>
+    <p>Obrigada por tanto <a class="text-link" href="https://www.instagram.com/danielsantini/" target="_blank">@danielsantini</a> e <a class="text-link" href="https://www.instagram.com/grohmannrafael/" target="_blank">@grohmannrafael</a> e <a class="text-link" href="https://rosalux.org.br/" target="_blank">Fundação Rosaluxemburgo</a></p>
+    `,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Projeto gráfico e ilustrações",
+          name: "Rachel Gepp",
+        },
+        {
+          role: "Assistência de Design",
+          name: "Ana Clara Abbate",
+        },
+        {
+          role: "Vídeo Lançamento",
+          name: "-",
+        },
+      ]
+    },
+    tags: [pt.PUBLICATION, pt.EQUALITY, pt.POLITICS, pt.HUMAN_RIGHTS, pt.WORK, pt.SOCIAL_MEDIA],
+  },
 }
 
 export default projectsPagePt;
+
+<a class="text-link" href="https://rosalux.org.br/" target="_blank">Fundação Rosaluxemburgo</a>

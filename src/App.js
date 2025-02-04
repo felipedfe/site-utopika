@@ -22,7 +22,8 @@ import {
   Forest,
   Populacao,
   P4f,
-  Facanhas
+  Facanhas,
+  Solidaria,
 } from './pages/projectsPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
@@ -200,6 +201,14 @@ function App() {
             <MainPageLayout>
               <ProjectPageLayout>
                 <Facanhas />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+          <Route exact path="/projetos/solidaria" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <Solidaria />
               </ProjectPageLayout>
             </MainPageLayout>
           }

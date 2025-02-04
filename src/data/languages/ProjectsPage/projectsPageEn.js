@@ -361,7 +361,7 @@ const projectsPageEn = {
         },
       ]
     },
-    tags: ['publication', 'illustration', 'infographic', 'territory', 'environment','humanRights'],
+    tags: ['publication', 'illustration', 'infographic', 'territory', 'environment', 'humanRights'],
   },
   forest: {
     title: "Forest Ventures",
@@ -420,7 +420,9 @@ const projectsPageEn = {
   },
   facanhas: {
     title: "Façanhas do Homem na Floresta",
-    introduction: `We had the pleasure of embracing ICMBio and doing the graphic design and layout of the book “Feats of Man in the Forest - memories of 30 years of biodiversity conservation”, which pays homage to the career of the civil servant Raimundo Façanha and his path to becoming IBAMA. The history of biodiversity conservation over the last 30 years in the Carajás region is intertwined with Façanha's living testimony. In a narrative filled with vibrant stories and memories, the book allows an analysis of the territorial dynamics and social transformations of the region.`,
+    introduction: `<p>We had the pleasure of embracing ICMBio and doing the graphic design and layout of the book “Feats of Man in the Forest - memories of 30 years of biodiversity conservation”, which pays homage to the career of the civil servant Raimundo Façanha and his path to becoming IBAMA.</p> 
+    <p>The history of biodiversity conservation over the last 30 years in the Carajás region is intertwined with Façanha's living testimony.</p> 
+    <p>In a narrative filled with vibrant stories and memories, the book allows an analysis of the territorial dynamics and social transformations of the region.</p>`,
     credits: {
       title: "Credits",
       info: [
@@ -435,6 +437,32 @@ const projectsPageEn = {
       ]
     },
     tags: [en.ILLUSTRATION, en.PUBLICATION, en.ENVIRONMENT, en.INFOGRAPHIC, en.TERRITORY],
+  },
+  solidaria: {
+    title: "Economia Solidária Digital",
+    introduction: `<p>For us at Utópika, participating in this project was an opportunity to reaffirm our values: design as a powerful tool for social transformation. Our work goes beyond visual creation; we strive to facilitate the understanding of complex topics and generate engagement, connecting people with issues that are important for their future.</p>
+    <p>It is an honor for us not only to take part in the creation of narratives that promote social justice in an honest and transparent way but also to be considered a voice in this process.</p>
+    <p>Explore the book and get involved in shaping the future of work and this new economy!</p>
+    <p>Thank you so much <a class="text-link" href="https://www.instagram.com/danielsantini/" target="_blank">@danielsantini</a> and <a class="text-link" href="https://www.instagram.com/grohmannrafael/" target="_blank">@grohmannrafael</a> and <a class="text-link" href="https://rosalux.org.br/" target="_blank">Rosa Luxemburg Foundation</a></p>
+    `,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Graphic design and illustrations",
+          name: "Rachel Gepp",
+        },
+        {
+          role: "Design assistant",
+          name: "Ana Clara Abbate",
+        },
+        {
+          role: "Book launch video",
+          name: "-",
+        },
+      ]
+    },
+    tags: [en.PUBLICATION, en.EQUALITY, en.POLITICS, en.HUMAN_RIGHTS, en.WORK, en.SOCIAL_MEDIA],
   },
 }
 

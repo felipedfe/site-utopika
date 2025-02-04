@@ -233,6 +233,17 @@ const projects = [
     tagsPt: ['publicação', 'ilustração', 'infográfico', 'direitosHumanos', 'trabalho'],
   },
   {
+    id: 'solidaria',
+    title: 'Economia Solidária Digital',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['publication', 'equality', 'politics', 'humanRights', 'work', 'socialMedia'],
+    tagsPt: ['publicação', 'igualdade', 'política', 'direitosHumanos', 'trabalho', 'mídiasSociais'],
+  },
+  {
     id: 'plastico',
     title: 'Sem Plástico',
     images: {
