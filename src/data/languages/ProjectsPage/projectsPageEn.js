@@ -464,6 +464,32 @@ const projectsPageEn = {
     },
     tags: [en.PUBLICATION, en.EQUALITY, en.POLITICS, en.HUMAN_RIGHTS, en.WORK, en.SOCIAL_MEDIA],
   },
+  chover: {
+    title: "Será que vai chover?",
+    introduction: `<p>For us at Utópika, participating in this project was an opportunity to reaffirm our values: design as a powerful tool for social transformation. Our work goes beyond visual creation; we strive to facilitate the understanding of complex topics and generate engagement, connecting people with issues that are important for their future.</p>
+    <p>It is an honor for us not only to take part in the creation of narratives that promote social justice in an honest and transparent way but also to be considered a voice in this process.</p>
+    <p>Explore the book and get involved in shaping the future of work and this new economy!</p>
+    <p>Thank you so much <a class="text-link" href="https://www.instagram.com/danielsantini/" target="_blank">@danielsantini</a> and <a class="text-link" href="https://www.instagram.com/grohmannrafael/" target="_blank">@grohmannrafael</a> and <a class="text-link" href="https://rosalux.org.br/" target="_blank">Rosa Luxemburg Foundation</a></p>
+    `,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Graphic design and illustrations",
+          name: "Rachel Gepp",
+        },
+        {
+          role: "Design assistant",
+          name: "Ana Clara Abbate",
+        },
+        {
+          role: "Book launch video",
+          name: "Diego da Silveira",
+        },
+      ]
+    },
+    tags: [en.ILLUSTRATION, en.WEB, en.ENVIRONMENT],
+  },
 }
 
 export default projectsPageEn;

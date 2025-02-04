@@ -24,6 +24,7 @@ import {
   P4f,
   Facanhas,
   Solidaria,
+  Chover,
 } from './pages/projectsPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
@@ -209,6 +210,14 @@ function App() {
             <MainPageLayout>
               <ProjectPageLayout>
                 <Solidaria />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+          <Route exact path="/projetos/chover" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <Chover />
               </ProjectPageLayout>
             </MainPageLayout>
           }

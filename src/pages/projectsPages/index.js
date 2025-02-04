@@ -20,6 +20,7 @@ import Populacao from "./populacao/Populacao";
 import P4f from "./p4f/P4f";
 import Facanhas from "./facanhas/Facanhas";
 import Solidaria from "./solidaria/Solidaria";
+import Chover from "./chover/Chover";
 
 export {
   Mongabay,
@@ -44,4 +45,5 @@ export {
   P4f,
   Facanhas,
   Solidaria,
+  Chover,
 }

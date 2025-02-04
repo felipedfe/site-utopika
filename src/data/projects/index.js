@@ -287,6 +287,17 @@ const projects = [
     tags: ['illustration', 'publication', 'environment', 'infographic', 'territory'],
     tagsPt: ['ilustração', 'publicação', 'meioAmbiente', 'infográfico', 'território'],
   },
+  {
+    id: 'chover',
+    title: 'Será que vai chover?',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['illustration', 'web', 'environment'],
+    tagsPt: ['ilustração', 'web', 'meioAmbiente'],
+  },
 ]
 
 export { projects, allTags };
