@@ -43,7 +43,7 @@ const ImageWrapper = styled.div`
 `
 
 const VideoWrapper2 = styled.section`
-  width: 383px;
+  width: 382px;
 
   @media all and (max-width: 700px) {
     width: 100%;
@@ -118,14 +118,14 @@ function Agricultura({ projectData }) {
       <ImageWrapper>
         <img
           alt=""
-          src="/images/projects/agricultura/agricultura-frame-1.webp"
+          src="/images/projects/agricultura/agricultura-frame-1-b.png"
         />
       </ImageWrapper>
 
       <ImageWrapper>
         <img
           alt=""
-          src="/images/projects/agricultura/agricultura-frame-2.webp"
+          src="/images/projects/agricultura/agricultura-frame-2.png"
         />
       </ImageWrapper>
 
@@ -141,7 +141,7 @@ function Agricultura({ projectData }) {
       <ImageWrapper>
         <img
           alt=""
-          src="/images/projects/agricultura/agricultura-frame-3.png"
+          src="/images/projects/agricultura/agricultura-frame-3-c.png"
         />
       </ImageWrapper>
 
@@ -156,7 +156,7 @@ function Agricultura({ projectData }) {
           <ImageWrapper>
             <img
               alt=""
-              src="/images/projects/agricultura/agricultura-frame-4.webp"
+              src="/images/projects/agricultura/agricultura-frame-4.png"
             />
           </ImageWrapper>
         </Row>
@@ -166,7 +166,7 @@ function Agricultura({ projectData }) {
         <ImageWrapper>
           <img
             alt=""
-            src="/images/projects/agricultura/agricultura-frame-6.webp"
+            src="/images/projects/agricultura/agricultura-frame-6.png"
           />
         </ImageWrapper>
       </SpaceWrapper>
@@ -181,7 +181,7 @@ function Agricultura({ projectData }) {
       <ImageWrapper>
         <img
           alt=""
-          src="/images/projects/agricultura/agricultura-frame-8.webp"
+          src="/images/projects/agricultura/agricultura-frame-8.png"
         />
       </ImageWrapper>
 
@@ -197,7 +197,7 @@ function Agricultura({ projectData }) {
           <ImageWrapper>
             <img
               alt=""
-              src="/images/projects/agricultura/agricultura-frame-9.png"
+              src="/images/projects/agricultura/agricultura-frame-9-b.png"
             />
           </ImageWrapper>
           <VideoWrapper2>
