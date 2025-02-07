@@ -55,7 +55,7 @@ function ProjectCard({ project }) {
 
   return (
     <div key={id} className="projectcard--wrapper" ref={ref}>
-      {inView ? (
+      {inView && (
         <>
           <div className="projectcard--hover-area">
             <div className="projectcard--hover-card">
@@ -70,18 +70,13 @@ function ProjectCard({ project }) {
           </div>
           <img
             className="projectcard--img"
-            src={`images/projects/${id}/thumb.gif`}
+            // src={`images/projects/${id}/thumb.gif`}
+            src={isLoading ? `images/projects/${id}/thumb-low.jpg` : `images/projects/${id}/thumb.gif`}
             alt={title}
             loading="lazy" // HTML lazy loading adicional
             onLoad={() => setIsLoading(false)}
           />
         </>
-      ) : (
-        <div className="projectcard--placeholder">
-          {/* Placeholder enquanto o elemento não está visível */}
-
-          {isLoading && <div className="placeholder-img" />}
-        </div>
       )}
     </div>
   );
