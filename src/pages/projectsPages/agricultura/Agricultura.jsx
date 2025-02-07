@@ -43,10 +43,20 @@ const ImageWrapper = styled.div`
 `
 
 const VideoWrapper2 = styled.section`
-  width: 530px;
+  width: 383px;
 
   @media all and (max-width: 700px) {
     width: 100%;
+    margin-top: 2rem;
+  }
+`
+
+const VideoWrapper3 = styled.section`
+  width: 560px;
+
+  @media all and (max-width: 700px) {
+    width: 100%;
+    margin-top: 2rem
   }
 `
 
@@ -54,7 +64,7 @@ const VideoWrapper = styled.section`
   width: 100%;
 `
 
-function Chover({ projectData }) {
+function Agricultura({ projectData }) {
   const {
     title,
     introduction,
@@ -85,24 +95,53 @@ function Chover({ projectData }) {
         />
       </VideoWrapper>
 
+      <GridContainer>
+        <Row>
+          <ImageWrapper>
+            <img
+              alt=""
+              src="/images/projects/agricultura/agricultura-frame-11.png"
+            />
+          </ImageWrapper>
+          <VideoWrapper3>
+            <VideoContainer
+              url="https://player.vimeo.com/video/1054227293?h=8032962080"
+              autoPlay='1'
+              loop='1'
+              muted='1'
+              aspectRatio="3/4.8"
+            />
+          </VideoWrapper3>
+        </Row>
+      </GridContainer>
+
       <ImageWrapper>
         <img
           alt=""
-          src="/images/projects/chover/chover-frame-1.webp"
+          src="/images/projects/agricultura/agricultura-frame-1.webp"
         />
       </ImageWrapper>
 
       <ImageWrapper>
         <img
           alt=""
-          src="/images/projects/chover/chover-frame-2.webp"
+          src="/images/projects/agricultura/agricultura-frame-2.webp"
         />
       </ImageWrapper>
+
+      <VideoWrapper>
+        <VideoContainer
+          url="https://player.vimeo.com/video/1054227260?h=0a05d95b6b"
+          autoPlay='1'
+          loop='1'
+          muted='1'
+        />
+      </VideoWrapper>
 
       <ImageWrapper>
         <img
           alt=""
-          src="/images/projects/chover/chover-frame-3.webp"
+          src="/images/projects/agricultura/agricultura-frame-3.png"
         />
       </ImageWrapper>
 
@@ -111,13 +150,13 @@ function Chover({ projectData }) {
           <ImageWrapper>
             <img
               alt=""
-              src="/images/projects/chover/chover-frame-5.webp"
+              src="/images/projects/agricultura/agricultura-frame-5.png"
             />
           </ImageWrapper>
           <ImageWrapper>
             <img
               alt=""
-              src="/images/projects/chover/chover-frame-4.webp"
+              src="/images/projects/agricultura/agricultura-frame-4.webp"
             />
           </ImageWrapper>
         </Row>
@@ -127,7 +166,7 @@ function Chover({ projectData }) {
         <ImageWrapper>
           <img
             alt=""
-            src="/images/projects/chover/chover-frame-6.webp"
+            src="/images/projects/agricultura/agricultura-frame-6.webp"
           />
         </ImageWrapper>
       </SpaceWrapper>
@@ -135,14 +174,21 @@ function Chover({ projectData }) {
       <ImageWrapper>
         <img
           alt=""
-          src="/images/projects/chover/chover-frame-7.webp"
+          src="/images/projects/agricultura/agricultura-frame-7-c.png"
         />
       </ImageWrapper>
 
       <ImageWrapper>
         <img
           alt=""
-          src="/images/projects/chover/chover-frame-8.webp"
+          src="/images/projects/agricultura/agricultura-frame-8.webp"
+        />
+      </ImageWrapper>
+
+      <ImageWrapper>
+        <img
+          alt=""
+          src="/images/projects/agricultura/agricultura-frame-10.webp"
         />
       </ImageWrapper>
 
@@ -151,16 +197,16 @@ function Chover({ projectData }) {
           <ImageWrapper>
             <img
               alt=""
-              src="/images/projects/chover/chover-frame-9.webp"
+              src="/images/projects/agricultura/agricultura-frame-9.png"
             />
           </ImageWrapper>
           <VideoWrapper2>
             <VideoContainer
-              url="https://player.vimeo.com/video/1053207327?h=88771e14e5"
+              url="https://player.vimeo.com/video/1054227248?h=8b4a6dbfe0"
               autoPlay='1'
               loop='1'
               muted='1'
-              aspectRatio="9/16"
+              aspectRatio="3/4"
             />
           </VideoWrapper2>
         </Row>
@@ -171,4 +217,4 @@ function Chover({ projectData }) {
   )
 };
 
-export default Chover;
+export default Agricultura;

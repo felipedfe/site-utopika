@@ -123,6 +123,17 @@ const projects = [
     tagsPt: ['animação', 'meioAmbiente', 'mídiasSociais'],
   },
   {
+    id: 'agricultura',
+    title: 'Agricultura Familiar e Clima',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: [en.ILLUSTRATION, en.WEB, en.ENVIRONMENT, en.PUBLICATION, en.ANIMATION, en.SOCIAL_MEDIA, en.VISUAL_IDENTITY, en.WORK],
+    tagsPt: [pt.ILLUSTRATION, pt.WEB, pt.ENVIRONMENT, pt.PUBLICATION, pt.ANIMATION, pt.SOCIAL_MEDIA, pt.VISUAL_IDENTITY, pt.WORK],
+  },
+  {
     id: 'refarm',
     title: 'Refarm',
     images: {
@@ -286,17 +297,6 @@ const projects = [
     alt: '(descrição)',
     tags: ['illustration', 'publication', 'environment', 'infographic', 'territory'],
     tagsPt: ['ilustração', 'publicação', 'meioAmbiente', 'infográfico', 'território'],
-  },
-  {
-    id: 'chover',
-    title: 'Será que vai chover?',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: ['illustration', 'web', 'environment'],
-    tagsPt: ['ilustração', 'web', 'meioAmbiente'],
   },
 ]
 

@@ -383,7 +383,7 @@ const projectsPageEn = {
   },
   populacao: {
     title: "LGBTI+ Population Deprived of Liberty in Brazil",
-    introduction: `We faced the challenge of bringing visibility to the conditions faced by LGBTI+ individuals in the Brazilian prison system, using art to sensitize how critical information is perceived and understood. Our biggest challenge was to illustrate this sensitive and complex topic in a way that respected the seriousness of the matter while simultaneously facilitating understanding. Thank you <a class="text-link" href="https://www.somos.org.br/\" target="_blank">@somos</a>, <a class="text-link" href="https://www.apt.ch/pt\" target="_blank">@apt</a> and <a class="text-link" href="https://mnpctbrasil.wordpress.com/\" target="_blank">@mecanismo</a> for your trust!`,
+    introduction: `We faced the challenge of bringing visibility to the conditions faced by LGBTI+ individuals in the Brazilian prison system, using art to sensitize how critical information is perceived and understood. Our biggest challenge was to illustrate this sensitive and complex topic in a way that respected the seriousness of the matter while simultaneously facilitating understanding. Thank you <a class="text-link" href="https://www.somos.org.br/" target="_blank">@somos</a>, <a class="text-link" href="https://www.apt.ch/pt" target="_blank">@apt</a> and <a class="text-link" href="https://mnpctbrasil.wordpress.com/" target="_blank">@mecanismo</a> for your trust!`,
     credits: {
       title: "Credits",
       info: [
@@ -464,32 +464,47 @@ const projectsPageEn = {
     },
     tags: [en.PUBLICATION, en.EQUALITY, en.POLITICS, en.HUMAN_RIGHTS, en.WORK, en.SOCIAL_MEDIA],
   },
-  chover: {
-    title: "Será que vai chover?",
-    introduction: `<p>For us at Utópika, participating in this project was an opportunity to reaffirm our values: design as a powerful tool for social transformation. Our work goes beyond visual creation; we strive to facilitate the understanding of complex topics and generate engagement, connecting people with issues that are important for their future.</p>
-    <p>It is an honor for us not only to take part in the creation of narratives that promote social justice in an honest and transparent way but also to be considered a voice in this process.</p>
-    <p>Explore the book and get involved in shaping the future of work and this new economy!</p>
-    <p>Thank you so much <a class="text-link" href="https://www.instagram.com/danielsantini/" target="_blank">@danielsantini</a> and <a class="text-link" href="https://www.instagram.com/grohmannrafael/" target="_blank">@grohmannrafael</a> and <a class="text-link" href="https://rosalux.org.br/" target="_blank">Rosa Luxemburg Foundation</a></p>
+  agricultura: {
+    title: "Agricultura Familiar e Clima",
+    introduction: `<p>With great enthusiasm, we launch this campaign together with <a class="text-link" href="https://www.instagram.com/contag_brasil/" target="_blank">@contag_brasil</a> and <a class="text-link" href="https://www.instagram.com/observatoriodoclima/" target="_blank">@observatoriodoclima</a>, creating materials for training family farmers on climate issues. We learned a lot! Another crucial chapter in the conversation about climate justice, as family farming is essential for food security and will be the most affected by extreme weather events.</p>
+    <p>This project was also very special because it allowed us to bring together both old and new partnerships. For the visual identity, we had the collaboration of <a class="text-link" href="https://www.instagram.com/lalaulevin/" target="_blank">@lalaulevin</a>, the podcast connected us with the amazing <a class="text-link" href="https://www.instagram.com/georgiapsantos/" target="_blank">@georgiapsantos</a> and <a class="text-link" href="https://www.instagram.com/todavos/" target="_blank">@todavos</a>, and for the website, our long-time partner <a class="text-link" href="https://www.instagram.com/felipedfe/" target="_blank">@felipedfe</a>. We also created a handbook, animations, and there's still more material to come!<p>
     `,
     credits: {
       title: "Credits",
       info: [
         {
-          role: "Graphic design and illustrations",
-          name: "Rachel Gepp",
+          "role": "Graphic Design and Illustrations",
+          "name": "Julia Lima and Rachel Gepp"
         },
         {
-          role: "Design assistant",
-          name: "Ana Clara Abbate",
+          "role": "Visual Identity",
+          "name": "Julia Lima and Laura Levin"
         },
         {
-          role: "Book launch video",
-          name: "Diego da Silveira",
+          "role": "Animation",
+          "name": "Julia Lima"
         },
+        {
+          "role": "Voice-over",
+          "name": "Raul Zoche"
+        },
+        {
+          "role": "Design Assistance",
+          "name": "Beatrik Fukumoto"
+        },
+        {
+          "role": "Podcast Editing",
+          "name": "Todavos"
+        }
       ]
     },
-    tags: [en.ILLUSTRATION, en.WEB, en.ENVIRONMENT],
+    tags: [en.ILLUSTRATION, en.WEB, en.ENVIRONMENT, en.PUBLICATION, en.ANIMATION, en.SOCIAL_MEDIA, en.VISUAL_IDENTITY, en.WORK],
   },
 }
 
 export default projectsPageEn;
+
+{/* <a class="text-link" href="https://www.instagram.com/lalaulevin/" target="_blank">@lalaulevin</a>
+<a class="text-link" href="https://www.instagram.com/georgiapsantos/" target="_blank">@georgiapsantos</a>
+<a class="text-link" href="https://www.instagram.com/todavos/" target="_blank">@todavos</a>
+<a class="text-link" href="https://www.instagram.com/felipedfe/" target="_blank">@felipedfe</a> */}

@@ -24,7 +24,7 @@ import {
   P4f,
   Facanhas,
   Solidaria,
-  Chover,
+  Agricultura,
 } from './pages/projectsPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
@@ -214,10 +214,10 @@ function App() {
             </MainPageLayout>
           }
           />
-          <Route exact path="/projetos/chover" element={
+          <Route exact path="/projetos/agricultura" element={
             <MainPageLayout>
               <ProjectPageLayout>
-                <Chover />
+                <Agricultura />
               </ProjectPageLayout>
             </MainPageLayout>
           }

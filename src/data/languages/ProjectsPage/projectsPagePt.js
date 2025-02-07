@@ -472,34 +472,43 @@ const projectsPagePt = {
     },
     tags: [pt.PUBLICATION, pt.EQUALITY, pt.POLITICS, pt.HUMAN_RIGHTS, pt.WORK, pt.SOCIAL_MEDIA],
   },
-  chover: {
-    title: "Será que vai chover?",
-    introduction: `<p>Para nós da Utópika, participar desse projeto foi uma oportunidade de reafirmar nossos valores: o design como uma ferramenta poderosa de transformação social. Nosso trabalho vai além da criação visual; buscamos facilitar a compreensão de temas complexos e gerar engajamento, conectando as pessoas com questões importantes para o seu futuro.</p>
-    <p> É uma honra para nós não só participar da criação de narrativas que promovam justiça social de forma honesta e transparente, mas também sermos consideradas uma voz nesse processo.</p>
-    <p>Explorem o livro e se envolvam na construção do futuro do trabalho e dessa nova economia!</p>
-    <p>Obrigada por tanto <a class="text-link" href="https://www.instagram.com/danielsantini/" target="_blank">@danielsantini</a> e <a class="text-link" href="https://www.instagram.com/grohmannrafael/" target="_blank">@grohmannrafael</a> e <a class="text-link" href="https://rosalux.org.br/" target="_blank">Fundação Rosaluxemburgo</a></p>
+  agricultura: {
+    title: "Agricultura Familiar e Clima",
+    introduction: `<p>Com muito entusiamo lançamos esta campanha junto com a <a class="text-link" href="https://www.instagram.com/contag_brasil/" target="_blank">@contag_brasil</a> e o <a class="text-link" href="https://www.instagram.com/observatoriodoclima/" target="_blank">@observatoriodoclima</a>, contruindo um material para as formações com os agricultores familiares sobre clima. Aprendemos um tanto! Mais um capítulo importantíssimo para falar de justiça climática, já que a agricultura familiar é essencial para a segurança alimentar e, será a mais afetada pelos eventos extremos.</p>
+    <p>Este projeto também foi muito especial por ter possibilitado agregar parcerias antigas e novas, na identidade visual tivemos a colaboração da <a class="text-link" href="https://www.instagram.com/lalaulevin/" target="_blank">@lalaulevin</a>, o podcast nos trouxe a parceria com a querida <a class="text-link" href="https://www.instagram.com/georgiapsantos/" target="_blank">@georgiapsantos</a> <a class="text-link" href="https://www.instagram.com/todavos/" target="_blank">@todavos</a>, no site nosso parceiro de caminhada
+    <a class="text-link" href="https://www.instagram.com/felipedfe/" target="_blank">@felipedfe</a>, também tivemos cartilha, animação e ainda tem material para sair!</p>
     `,
     credits: {
       title: "Créditos",
       info: [
         {
           role: "Projeto gráfico e ilustrações",
-          name: "Rachel Gepp",
+          name: "Julia Lima e Rachel Gepp",
+        },
+        {
+          role: "Identidade Visual",
+          name: "Julia Lima e Laura Levin",
+        },
+        {
+          role: "Animação",
+          name: "Julia Lima",
+        },
+        {
+          role: "Locução",
+          name: "Raul Zoche",
         },
         {
           role: "Assistência de Design",
-          name: "Ana Clara Abbate",
+          name: "Beatrik Fukumoto",
         },
         {
-          role: "Vídeo Lançamento",
-          name: "Diego da Silveira",
+          role: "Edição podcast",
+          name: "Todavos",
         },
       ]
     },
-    tags: [pt.ILLUSTRATION, pt.WEB, pt.ENVIRONMENT],
+    tags: [pt.ILLUSTRATION, pt.WEB, pt.ENVIRONMENT, pt.PUBLICATION, pt.ANIMATION, pt.SOCIAL_MEDIA, pt.VISUAL_IDENTITY, pt.WORK],
   },
 }
 
 export default projectsPagePt;
-
-<a class="text-link" href="https://rosalux.org.br/" target="_blank">Fundação Rosaluxemburgo</a>

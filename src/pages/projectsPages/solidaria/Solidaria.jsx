@@ -50,7 +50,7 @@ function Solidaria({ projectData }) {
       <ImageWrapper>
         <img
           alt=""
-          src="/images/projects/solidaria/solidaria-banner.webp"
+          src="/images/projects/solidaria/solidaria-banner.png"
         />
       </ImageWrapper>
       <ProjectIntro
@@ -70,7 +70,7 @@ function Solidaria({ projectData }) {
           <ImageWrapper>
             <img
               alt=""
-              src="/images/projects/solidaria/solidaria-frame-2.webp"
+              src="/images/projects/solidaria/solidaria-frame-2.png"
             />
           </ImageWrapper>
         </Row>
@@ -126,7 +126,7 @@ function Solidaria({ projectData }) {
       <ImageWrapper>
         <img
           alt=""
-          src="/images/projects/solidaria/solidaria-frame-6.webp"
+          src="/images/projects/solidaria/solidaria-frame-6.jpg"
         />
       </ImageWrapper>
 
