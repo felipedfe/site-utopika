@@ -2,10 +2,10 @@
 <img src="https://raw.githubusercontent.com/felipedfe/felipedfe/main/assets/utopika-print.jpg" alt="tela da aplicação" width="600">
 
 ## •Description
-Utopika design studio´s website. It has some features that I tried to implement “from scratch” to be able to practice, such as filter by tags, access to the Instagram API, the functionality to switch between languages and others. I'm currently remodeling it to use the Styled Components library.
+Utopika design studio´s website. It has some features that I tried to implement “from scratch” to be able to practice, such as filter by tags, access to the Instagram API, the functionality to switch between languages and others. What I like about this project is that I'm always coming back to it to improve it.
 
 ## •Challenges
-At one point in the project it became very difficult to organize element classes using css files, so i started implementing the styled components. I also had some difficulty accessing the instagram API and managing its possible errors.
+At one point in the project it became very difficult to organize element classes using css files, so i started implementing the styled components. I also had some difficulty accessing the instagram API and managing its possible errors. 
 
 ## •Technologies and Libraries
 - JavaScript
