@@ -46,6 +46,39 @@ const { pt } = tags;
 
 const projects = [
   {
+    id: 'agricultura',
+    title: 'Agricultura Familiar e Clima',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: [en.ILLUSTRATION, en.WEB, en.ENVIRONMENT, en.PUBLICATION, en.ANIMATION, en.SOCIAL_MEDIA, en.VISUAL_IDENTITY, en.WORK],
+    tagsPt: [pt.ILLUSTRATION, pt.WEB, pt.ENVIRONMENT, pt.PUBLICATION, pt.ANIMATION, pt.SOCIAL_MEDIA, pt.VISUAL_IDENTITY, pt.WORK],
+  },
+  {
+    id: 'solidaria',
+    title: 'Economia Solidária Digital',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['publication', 'equality', 'politics', 'humanRights', 'work', 'socialMedia'],
+    tagsPt: ['publicação', 'igualdade', 'política', 'direitosHumanos', 'trabalho', 'mídiasSociais'],
+  },
+  {
+    id: 'facanhas',
+    title: 'Façanhas do Homem na Floresta',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['illustration', 'publication', 'environment', 'infographic', 'territory'],
+    tagsPt: ['ilustração', 'publicação', 'meioAmbiente', 'infográfico', 'território'],
+  },
+  {
     id: 'clima',
     title: 'Em Nome do Clima - Mapeamento Crítico',
     images: {
@@ -68,17 +101,6 @@ const projects = [
     tagsPt: [pt.SOCIAL_MEDIA, pt.VISUAL_IDENTITY, pt.ILLUSTRATION, pt.ENVIRONMENT],
   },
   {
-    id: 'alianza',
-    title: 'Um Ano da Alianza',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: ['illustration', 'infographic', 'socialMedia', 'publication', 'territory', 'environment', 'humanRights', 'equality', 'web'],
-    tagsPt: ['ilustração', 'infográfico', 'mídiasSociais', 'publicação', 'território', 'meioAmbiente', 'direitosHumanos', 'igualdade', 'web'],
-  },
-  {
     id: 'p4f',
     title: 'Partnerships for Forests',
     images: {
@@ -90,15 +112,15 @@ const projects = [
     tagsPt: [pt.PUBLICATION, pt.ANIMATION, pt.ENVIRONMENT, pt.INFOGRAPHIC],
   },
   {
-    id: 'vozesin',
-    title: 'Vozes Indígenas',
+    id: 'alianza',
+    title: 'Um Ano da Alianza',
     images: {
       thumbnail: 'thumb.png',
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['animation', 'illustration', 'territory', 'environment', 'humanRights'],
-    tagsPt: ['animação', 'ilustração', 'território', 'meioAmbiente', 'direitosHumanos'],
+    tags: ['illustration', 'infographic', 'socialMedia', 'publication', 'territory', 'environment', 'humanRights', 'equality', 'web'],
+    tagsPt: ['ilustração', 'infográfico', 'mídiasSociais', 'publicação', 'território', 'meioAmbiente', 'direitosHumanos', 'igualdade', 'web'],
   },
   {
     id: 'populacao',
@@ -112,6 +134,17 @@ const projects = [
     tagsPt: [pt.PUBLICATION, pt.ILLUSTRATION, pt.EQUALITY, pt.HUMAN_RIGHTS],
   },
   {
+    id: 'vozesin',
+    title: 'Vozes Indígenas',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: ['animation', 'illustration', 'territory', 'environment', 'humanRights'],
+    tagsPt: ['animação', 'ilustração', 'território', 'meioAmbiente', 'direitosHumanos'],
+  },
+  {
     id: 'mongabay',
     title: 'Pacote Gráfico Mongabay',
     images: {
@@ -121,17 +154,6 @@ const projects = [
     alt: '(descrição)',
     tags: ['animation', 'environment', 'socialMedia'],
     tagsPt: ['animação', 'meioAmbiente', 'mídiasSociais'],
-  },
-  {
-    id: 'agricultura',
-    title: 'Agricultura Familiar e Clima',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: [en.ILLUSTRATION, en.WEB, en.ENVIRONMENT, en.PUBLICATION, en.ANIMATION, en.SOCIAL_MEDIA, en.VISUAL_IDENTITY, en.WORK],
-    tagsPt: [pt.ILLUSTRATION, pt.WEB, pt.ENVIRONMENT, pt.PUBLICATION, pt.ANIMATION, pt.SOCIAL_MEDIA, pt.VISUAL_IDENTITY, pt.WORK],
   },
   {
     id: 'refarm',
@@ -244,17 +266,6 @@ const projects = [
     tagsPt: ['publicação', 'ilustração', 'infográfico', 'direitosHumanos', 'trabalho'],
   },
   {
-    id: 'solidaria',
-    title: 'Economia Solidária Digital',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: ['publication', 'equality', 'politics', 'humanRights', 'work', 'socialMedia'],
-    tagsPt: ['publicação', 'igualdade', 'política', 'direitosHumanos', 'trabalho', 'mídiasSociais'],
-  },
-  {
     id: 'plastico',
     title: 'Sem Plástico',
     images: {
@@ -288,15 +299,15 @@ const projects = [
     tagsPt: ['ilustração', 'animação', 'meioAmbiente', 'direitosHumanos', 'política'],
   },
   {
-    id: 'facanhas',
-    title: 'Façanhas do Homem na Floresta',
+    id: 'mare-de-ciencia',
+    title: 'Maré de Ciência',
     images: {
       thumbnail: 'thumb.png',
       full: '...'
     },
     alt: '(descrição)',
-    tags: ['illustration', 'publication', 'environment', 'infographic', 'territory'],
-    tagsPt: ['ilustração', 'publicação', 'meioAmbiente', 'infográfico', 'território'],
+    tags: [en.PUBLICATION, en.ILLUSTRATION, en.ENVIRONMENT],
+    tagsPt: [pt.PUBLICATION, pt.ILLUSTRATION, pt.ENVIRONMENT],
   },
 ]
 

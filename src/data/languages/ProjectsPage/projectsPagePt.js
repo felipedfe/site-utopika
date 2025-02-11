@@ -509,6 +509,27 @@ const projectsPagePt = {
     },
     tags: [pt.ILLUSTRATION, pt.WEB, pt.ENVIRONMENT, pt.PUBLICATION, pt.ANIMATION, pt.SOCIAL_MEDIA, pt.VISUAL_IDENTITY, pt.WORK],
   },
+  "mare-de-ciencia": {
+    title: "Maré de Ciência",
+    introduction: `<p>Desenvolvemos um projeto especial para <a class="text-link" href="https://oeco.org.br/" target="_blank">O Eco</a> e <a class="text-link" href="https://maredeciencia.eco.br/" target="_blank">Maré de Ciência</a>: uma cartilha que conecta escolas à cultura oceânica, incentivando crianças a explorar e compreender a importância do oceano para o futuro do planeta.</p>
+    <p>Trabalhar com educação ambiental é sempre uma experiência enriquecedora. Neste projeto, criamos imagens que não apenas comunicam, mas também engajam os estudantes, inspirando-os a se tornarem agentes de um mundo mais sustentável. Afinal, o oceano é um patrimônio de todos nós!</p>
+    `,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Diagramação e projeto gráfico",
+          name: "Rachel Gepp",
+        },
+      ]
+    },
+    tags: [pt.PUBLICATION, pt.ILLUSTRATION, pt.ENVIRONMENT],
+  },
 }
 
 export default projectsPagePt;
+
+{/* <a class="text-link" href="https://oeco.org.br/" target="_blank">O Eco</a>
+<a class="text-link" href="https://maredeciencia.eco.br/" target="_blank">Maré de Ciência</a>
+<a class="text-link" href="https://www.instagram.com/todavos/" target="_blank">@todavos</a>
+<a class="text-link" href="https://www.instagram.com/felipedfe/" target="_blank">@felipedfe</a> */}

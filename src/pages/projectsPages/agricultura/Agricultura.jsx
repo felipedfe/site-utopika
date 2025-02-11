@@ -12,12 +12,13 @@ const MainContainer = styled.section`
 
 const GridContainer = styled.section`
   margin: auto;
+  width: 100%;
 `
 
 const Row = styled.div`
   width: 100%;
   display: flex;
-  /* gap: 0.5rem; */
+  gap: 1rem;
 
   @media all and (max-width: 700px) {
     display: block;

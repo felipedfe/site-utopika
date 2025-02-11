@@ -25,6 +25,7 @@ import {
   Facanhas,
   Solidaria,
   Agricultura,
+  MareDeCiencia,
 } from './pages/projectsPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
@@ -218,6 +219,14 @@ function App() {
             <MainPageLayout>
               <ProjectPageLayout>
                 <Agricultura />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+          <Route exact path="/projetos/mare-de-ciencia" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <MareDeCiencia />
               </ProjectPageLayout>
             </MainPageLayout>
           }

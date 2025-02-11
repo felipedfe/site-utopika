@@ -500,6 +500,22 @@ const projectsPageEn = {
     },
     tags: [en.ILLUSTRATION, en.WEB, en.ENVIRONMENT, en.PUBLICATION, en.ANIMATION, en.SOCIAL_MEDIA, en.VISUAL_IDENTITY, en.WORK],
   },
+  "mare-de-ciencia": {
+    title: "Maré de Ciência",
+    introduction: `<p>We developed a special project for <a class="text-link" href="https://oeco.org.br/" target="_blank">O Eco</a> and <a class="text-link" href="https://maredeciencia.eco.br/" target="_blank">Maré de Ciência</a>: an educational booklet that connects schools to ocean culture, encouraging children to explore and understand the importance of the ocean for the planet’s future.</p>  
+    <p>Working with environmental education is always a rewarding experience. In this project, we created visuals that not only communicate but also engage students, inspiring them to become agents of a more sustainable world. After all, the ocean belongs to all of us!</p>
+    `,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Layout and graphic design",
+          name: "Rachel Gepp",
+        },
+      ]
+    },
+    tags: [en.PUBLICATION, en.ILLUSTRATION, en.ENVIRONMENT],
+  },
 }
 
 export default projectsPageEn;

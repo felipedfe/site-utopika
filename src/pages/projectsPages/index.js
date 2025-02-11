@@ -21,6 +21,7 @@ import P4f from "./p4f/P4f";
 import Facanhas from "./facanhas/Facanhas";
 import Solidaria from "./solidaria/Solidaria";
 import Agricultura from "./agricultura/Agricultura";
+import MareDeCiencia from "./mare-de-ciencia/MareDeCiencia";
 
 export {
   Mongabay,
@@ -46,4 +47,5 @@ export {
   Facanhas,
   Solidaria,
   Agricultura,
+  MareDeCiencia,
 }
