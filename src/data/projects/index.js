@@ -266,6 +266,17 @@ const projects = [
     tagsPt: ['publicação', 'ilustração', 'infográfico', 'direitosHumanos', 'trabalho'],
   },
   {
+    id: 'mare-de-ciencia',
+    title: 'Maré de Ciência',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: [en.PUBLICATION, en.ILLUSTRATION, en.ENVIRONMENT],
+    tagsPt: [pt.PUBLICATION, pt.ILLUSTRATION, pt.ENVIRONMENT],
+  },
+  {
     id: 'plastico',
     title: 'Sem Plástico',
     images: {
@@ -297,17 +308,6 @@ const projects = [
     alt: '(descrição)',
     tags: ['illustration', 'animation', 'environment', 'humanRights', 'politics'],
     tagsPt: ['ilustração', 'animação', 'meioAmbiente', 'direitosHumanos', 'política'],
-  },
-  {
-    id: 'mare-de-ciencia',
-    title: 'Maré de Ciência',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: [en.PUBLICATION, en.ILLUSTRATION, en.ENVIRONMENT],
-    tagsPt: [pt.PUBLICATION, pt.ILLUSTRATION, pt.ENVIRONMENT],
   },
 ]
 

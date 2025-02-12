@@ -1,6 +1,6 @@
 #target photoshop
 
-var rootFolder = Folder("/Users/julialima/Documents/projetos-peu/pessoais/site-utopika/public/images/projects");
+var rootFolder = Folder("/Users/utopika/Documents/projetos-peu/site-utopika/public/images/projects");
 var saveQuality = 50; // Ajuste a qualidade de 0 a 100 (menor = mais compactação)
 
 function processThumb(file, destinationFolder) {
