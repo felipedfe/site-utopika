@@ -525,11 +525,30 @@ const projectsPagePt = {
     },
     tags: [pt.PUBLICATION, pt.ILLUSTRATION, pt.ENVIRONMENT],
   },
+  alziras: {
+    title: "Alziras - Violência Política",
+    introduction: `<p>Durante o período eleitoral, em parceria com o <a class="text-link" href="https://alziras.org.br/" target="_blank">Instituto Alziras</a>, desenvolvemos um conjunto de ferramentas para monitoramento e enfrentamento da violência política de gênero. Nesta entrega, produzimos uma publicação robusta, <a class="text-link" href="https://alziras.org.br/violenciapolitica/" target="_blank">um site acessível</a> e materiais informativos para incidência no período eleitoral, reunindo dados, estratégias de enfrentamento e suporte para vítimas.</p>
+    <p>Nosso papel foi transformar esse tema urgente em um design acessível e informativo, criando recursos visuais que ampliam a conscientização e fortalecem o combate a essa forma de violência, garantindo que mais mulheres possam ocupar espaços políticos sem medo ou silenciamento.</p>`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Diagramação e projeto gráfico",
+          name: "Rachel Gepp",
+        },
+        {
+          role: "Assistência de Design",
+          name: "Ana Clara Abbate",
+        }
+      ]
+    },
+    tags: [pt.PUBLICATION, pt.INFOGRAPHIC, pt.WEB],
+  },
 }
 
 export default projectsPagePt;
 
-{/* <a class="text-link" href="https://oeco.org.br/" target="_blank">O Eco</a>
-<a class="text-link" href="https://maredeciencia.eco.br/" target="_blank">Maré de Ciência</a>
+{/* <a class="text-link" href="https://alziras.org.br/violenciapolitica/" target="_blank">um site acessível</a>
+<a class="text-link" href="https://alziras.org.br/" target="_blank">Instituto Alziras</a>
 <a class="text-link" href="https://www.instagram.com/todavos/" target="_blank">@todavos</a>
 <a class="text-link" href="https://www.instagram.com/felipedfe/" target="_blank">@felipedfe</a> */}

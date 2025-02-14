@@ -22,6 +22,7 @@ import Facanhas from "./facanhas/Facanhas";
 import Solidaria from "./solidaria/Solidaria";
 import Agricultura from "./agricultura/Agricultura";
 import MareDeCiencia from "./mare-de-ciencia/MareDeCiencia";
+import Alziras from "./alziras/Alziras";
 
 export {
   Mongabay,
@@ -48,4 +49,5 @@ export {
   Solidaria,
   Agricultura,
   MareDeCiencia,
+  Alziras,
 }

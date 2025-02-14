@@ -211,6 +211,17 @@ const projects = [
     tagsPt: ['animação', 'ilustração', 'meioAmbiente'],
   },
   {
+    id: 'alziras',
+    title: 'Alziras - Violência Política',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: [en.PUBLICATION, en.INFOGRAPHIC, en.WEB],
+    tagsPt: [pt.PUBLICATION, pt.INFOGRAPHIC, pt.WEB],
+  },
+  {
     id: 'olhar',
     title: 'Olhar Perto, Enxergar Longe',
     images: {

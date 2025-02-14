@@ -516,6 +516,25 @@ const projectsPageEn = {
     },
     tags: [en.PUBLICATION, en.ILLUSTRATION, en.ENVIRONMENT],
   },
+  alziras: {
+    title: "Alziras - Violência Política",
+    introduction: `<p>During the electoral period, in partnership with <a class="text-link" href="https://alziras.org.br/" target="_blank">Instituto Alziras</a>, we developed a set of tools for monitoring and combating gender-based political violence. In this project, we produced a comprehensive publication, <a class="text-link" href="https://alziras.org.br/violenciapolitica/" target="_blank">an accessible website</a>, and informational materials for electoral advocacy, gathering data, response strategies, and support for victims.</p>
+    <p>Our role was to transform this urgent issue into an accessible and informative design, creating visual resources that raise awareness and strengthen the fight against this form of violence, ensuring that more women can occupy political spaces without fear or silencing.</p>`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Layout and graphic design",
+          name: "Rachel Gepp",
+        },
+        {
+          role: "Design assistant",
+          name: "Ana Clara Abbate",
+        }
+      ]
+    },
+    tags: [en.PUBLICATION, en.INFOGRAPHIC, en.WEB],
+  },
 }
 
 export default projectsPageEn;
