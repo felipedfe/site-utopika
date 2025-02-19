@@ -561,7 +561,7 @@ const projectsPagePt = {
         }
       ]
     },
-    tags: [pt.PUBLICATION, pt.INFOGRAPHIC, pt.WEB],
+    tags: [pt.PUBLICATION, pt.ILLUSTRATION, pt.EQUALITY],
   },
 }
 

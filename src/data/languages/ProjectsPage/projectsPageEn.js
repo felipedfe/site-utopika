@@ -552,7 +552,7 @@ const projectsPageEn = {
         }
       ]
     },
-    tags: [en.PUBLICATION, en.INFOGRAPHIC, en.WEB],
+    tags: [en.PUBLICATION, en.ILLUSTRATION, en.EQUALITY],
   },
 }
 

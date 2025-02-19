@@ -328,8 +328,8 @@ const projects = [
       full: '...'
     },
     alt: '(descrição)',
-    tags: [en.PUBLICATION, en.ILLUSTRATION, en.ENVIRONMENT],
-    tagsPt: [pt.PUBLICATION, pt.ILLUSTRATION, pt.ENVIRONMENT],
+    tags: [en.PUBLICATION, en.ILLUSTRATION, en.EQUALITY],
+    tagsPt: [pt.PUBLICATION, pt.ILLUSTRATION, pt.EQUALITY],
   },
 ]
 

@@ -60,7 +60,7 @@ function Revolusolar({ projectData }) {
       <ImageWrapper>
         <img
           alt=""
-          src="/images/projects/revolusolar/revolusolar-banner.jpg"
+          src="/images/projects/revolusolar/revolusolar-banner.png"
         />
       </ImageWrapper>
 
