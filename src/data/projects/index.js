@@ -167,6 +167,17 @@ const projects = [
     tagsPt: ['animação', 'ilustração', 'esg', 'meioAmbiente'],
   },
   {
+    id: 'revolusolar',
+    title: 'Revolusolar',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: [en.PUBLICATION, en.ILLUSTRATION, en.EQUALITY],
+    tagsPt: [pt.PUBLICATION, pt.ILLUSTRATION, pt.EQUALITY],
+  },
+  {
     id: 'plenamata',
     title: 'Plenamata',
     images: {
@@ -319,17 +330,6 @@ const projects = [
     alt: '(descrição)',
     tags: ['illustration', 'animation', 'environment', 'humanRights', 'politics'],
     tagsPt: ['ilustração', 'animação', 'meioAmbiente', 'direitosHumanos', 'política'],
-  },
-  {
-    id: 'revolusolar',
-    title: 'Revolusolar',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: [en.PUBLICATION, en.ILLUSTRATION, en.EQUALITY],
-    tagsPt: [pt.PUBLICATION, pt.ILLUSTRATION, pt.EQUALITY],
   },
 ]
 
