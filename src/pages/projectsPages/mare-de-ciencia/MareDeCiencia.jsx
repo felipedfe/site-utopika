@@ -51,12 +51,6 @@ function MareDeCiencia({ projectData }) {
     tags } = projectData;
   return (
     <MainContainer>
-      {/* <ImageWrapper>
-        <img
-          alt=""
-          src="/images/projects/mare-de-ciencia/mare-de-ciencia-banner.png"
-        />
-      </ImageWrapper> */}
       <ImageWrapper>
         <img
           alt=""

@@ -546,8 +546,8 @@ const projectsPagePt = {
   },
   revolusolar: {
     title: "Revolusolar",
-    introduction: `<p>Durante o período eleitoral, em parceria com o <a class="text-link" href="https://alziras.org.br/" target="_blank">Instituto Alziras</a>, desenvolvemos um conjunto de ferramentas para monitoramento e enfrentamento da violência política de gênero. Nesta entrega, produzimos uma publicação robusta, <a class="text-link" href="https://alziras.org.br/violenciapolitica/" target="_blank">um site acessível</a> e materiais informativos para incidência no período eleitoral, reunindo dados, estratégias de enfrentamento e suporte para vítimas.</p>
-    <p>Nosso papel foi transformar esse tema urgente em um design acessível e informativo, criando recursos visuais que ampliam a conscientização e fortalecem o combate a essa forma de violência, garantindo que mais mulheres possam ocupar espaços políticos sem medo ou silenciamento.</p>`,
+    introduction: `<p>A Revolusolar é uma organização comprometida em democratizar o acesso à energia solar em comunidades de baixa renda. Mais do que a instalação de painéis solares, seu trabalho envolve a capacitação de moradores, a geração de empregos locais e a promoção da educação ambiental. Tivemos o prazer de contribuir para esse projeto, tornando o conteúdo mais acessível e inspirador por meio do design.</p>
+    <p>Desejamos sucesso aos novos amigos da <a class="text-link" href="https://www.instagram.com/revolusolar/" target="_blank">@revolusolar</a> nessa iniciativa transformadora, que impacta vidas e constrói um futuro mais sustentável.</p>`,
     credits: {
       title: "Créditos",
       info: [
@@ -569,5 +569,5 @@ export default projectsPagePt;
 
 {/* <a class="text-link" href="https://alziras.org.br/violenciapolitica/" target="_blank">um site acessível</a>
 <a class="text-link" href="https://alziras.org.br/" target="_blank">Instituto Alziras</a>
-<a class="text-link" href="https://www.instagram.com/todavos/" target="_blank">@todavos</a>
+<a class="text-link" href="https://www.instagram.com/revolusolar/" target="_blank">@revolusolar</a>
 <a class="text-link" href="https://www.instagram.com/felipedfe/" target="_blank">@felipedfe</a> */}

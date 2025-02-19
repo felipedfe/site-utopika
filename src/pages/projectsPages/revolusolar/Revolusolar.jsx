@@ -25,6 +25,10 @@ const Row = styled.div`
   }
 `
 
+const VideoWrapper = styled.section`
+  width: 100%;
+`
+
 // const SpaceWrapper = styled.div`
 //   width: 100%;
 //   margin: 3rem 0;
@@ -51,12 +55,6 @@ function Revolusolar({ projectData }) {
     tags } = projectData;
   return (
     <MainContainer>
-      {/* <ImageWrapper>
-        <img
-          alt=""
-          src="/images/projects/revolusolar/revolusolar-banner.png"
-        />
-      </ImageWrapper> */}
       <ImageWrapper>
         <img
           alt=""
@@ -111,36 +109,32 @@ function Revolusolar({ projectData }) {
         </Row>
       </GridContainer>
 
-      <ImageWrapper>
-        <img
-          alt=""
-          src="/images/projects/revolusolar/revolusolar-frame-6.png"
-        />
-      </ImageWrapper>
-
       <GridContainer>
         <Row>
+          <ImageWrapper>
+            <img
+              alt=""
+              src="/images/projects/revolusolar/revolusolar-frame-6.png"
+            />
+          </ImageWrapper>
           <ImageWrapper>
             <img
               alt=""
               src="/images/projects/revolusolar/revolusolar-frame-7.png"
             />
           </ImageWrapper>
-          <ImageWrapper>
-            <img
-              alt=""
-              src="/images/projects/revolusolar/revolusolar-frame-8.png"
-            />
-          </ImageWrapper>
         </Row>
       </GridContainer>
 
-      <ImageWrapper>
-        <img
-          alt=""
-          src="/images/projects/revolusolar/revolusolar-frame-9.jpg"
+      <VideoWrapper>
+        <VideoContainer
+          url="https://player.vimeo.com/video/999171460?h=387f6ad2da"
+          autoPlay='1'
+          loop='1'
+          muted='1'
+          aspectRatio="16/9"
         />
-      </ImageWrapper>
+      </VideoWrapper>
 
       <Credits credits={credits} />
     </MainContainer>

@@ -537,8 +537,9 @@ const projectsPageEn = {
   },
   revolusolar: {
     title: "Revolusolar",
-    introduction: `<p>During the electoral period, in partnership with <a class="text-link" href="https://alziras.org.br/" target="_blank">Instituto Alziras</a>, we developed a set of tools for monitoring and combating gender-based political violence. In this project, we produced a comprehensive publication, <a class="text-link" href="https://alziras.org.br/violenciapolitica/" target="_blank">an accessible website</a>, and informational materials for electoral advocacy, gathering data, response strategies, and support for victims.</p>
-    <p>Our role was to transform this urgent issue into an accessible and informative design, creating visual resources that raise awareness and strengthen the fight against this form of violence, ensuring that more women can occupy political spaces without fear or silencing.</p>`,
+    introduction: `<p>Revolusolar is an organization committed to democratizing access to solar energy in low-income communities. Beyond installing solar panels, their work involves training residents, creating local job opportunities, and promoting environmental education. We had the pleasure of contributing to this project, making the content more accessible and inspiring through design.</p>
+    <p>We wish success to our new friends at <a class="text-link" href="https://www.instagram.com/revolusolar/" target="_blank">@revolusolar</a> in this transformative initiative, which impacts lives and builds a more sustainable future.</p>
+    `,
     credits: {
       title: "Credits",
       info: [
