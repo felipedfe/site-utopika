@@ -53,7 +53,7 @@ const projectsPagePt = {
         },
       ]
     },
-    tags: ['animação'],
+    tags: [pt.INFOGRAPHIC, pt.ILLUSTRATION, pt.ENVIRONMENT],
   },
   refarm: {
     title: "Refarm",
