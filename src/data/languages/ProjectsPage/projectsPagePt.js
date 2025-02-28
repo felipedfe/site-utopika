@@ -563,6 +563,25 @@ const projectsPagePt = {
     },
     tags: [pt.PUBLICATION, pt.ILLUSTRATION, pt.EQUALITY],
   },
+  mobilizacao: {
+    title: "Mobilização dos Povos Pela Terra e Pelo Clima",
+    introduction: `<p>A Revolusolar é uma organização comprometida em democratizar o acesso à energia solar em comunidades de baixa renda. Mais do que a instalação de painéis solares, seu trabalho envolve a capacitação de moradores, a geração de empregos locais e a promoção da educação ambiental. Tivemos o prazer de contribuir para esse projeto, tornando o conteúdo mais acessível e inspirador por meio do design.</p>
+    <p>Desejamos sucesso aos novos amigos da <a class="text-link" href="https://www.instagram.com/revolusolar/" target="_blank">@revolusolar</a> nessa iniciativa transformadora, que impacta vidas e constrói um futuro mais sustentável.</p>`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Diagramação e projeto gráfico",
+          name: "Rachel Gepp",
+        },
+        {
+          role: "Assistência de Design",
+          name: "Ana Clara Abbate",
+        }
+      ]
+    },
+    tags: [pt.PUBLICATION, pt.ILLUSTRATION, pt.EQUALITY],
+  },
 }
 
 export default projectsPagePt;

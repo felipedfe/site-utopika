@@ -331,6 +331,17 @@ const projects = [
     tags: ['illustration', 'animation', 'environment', 'humanRights', 'politics'],
     tagsPt: ['ilustração', 'animação', 'meioAmbiente', 'direitosHumanos', 'política'],
   },
+  {
+    id: 'mobilizacao',
+    title: 'Mobilização dos Povos Pela Terra e Pelo Clima',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: [en.PUBLICATION, en.ILLUSTRATION, en.ENVIRONMENT],
+    tagsPt: [pt.PUBLICATION, pt.ILLUSTRATION, pt.ENVIRONMENT],
+  },
 ]
 
 export { projects, allTags };

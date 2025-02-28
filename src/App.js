@@ -28,6 +28,7 @@ import {
   MareDeCiencia,
   Alziras,
   Revolusolar,
+  Mobilizacao,
 } from './pages/projectsPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
@@ -245,6 +246,14 @@ function App() {
             <MainPageLayout>
               <ProjectPageLayout>
                 <Revolusolar />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+          <Route exact path="/projetos/mobilizacao" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <Mobilizacao />
               </ProjectPageLayout>
             </MainPageLayout>
           }

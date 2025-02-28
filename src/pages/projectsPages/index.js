@@ -24,6 +24,7 @@ import Agricultura from "./agricultura/Agricultura";
 import MareDeCiencia from "./mare-de-ciencia/MareDeCiencia";
 import Alziras from "./alziras/Alziras";
 import Revolusolar from "./revolusolar/Revolusolar";
+import Mobilizacao from "./mobilizacao/Mobilizacao";
 
 export {
   Mongabay,
@@ -52,4 +53,5 @@ export {
   MareDeCiencia,
   Alziras,
   Revolusolar,
+  Mobilizacao,
 }
