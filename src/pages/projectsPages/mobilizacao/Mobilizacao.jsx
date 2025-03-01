@@ -43,6 +43,15 @@ const ImageWrapper = styled.div`
   }
 `
 
+const VideoWrapper = styled.section`
+  width: 382px;
+
+  @media all and (max-width: 700px) {
+    width: 100%;
+    margin-top: 2rem;
+  }
+`
+
 function Mobilizacao({ projectData }) {
   const {
     title,
@@ -66,16 +75,19 @@ function Mobilizacao({ projectData }) {
 
       <GridContainer>
         <Row>
-          {/* <ImageWrapper>
-            <img
-              alt=""
-              src="/images/projects/mobilizacao/mobilizacao-frame-1.png"
+          <VideoWrapper>
+            <VideoContainer
+              url="https://player.vimeo.com/video/1054227248?h=8b4a6dbfe0"
+              autoPlay='1'
+              loop='1'
+              muted='1'
+              aspectRatio="3/4"
             />
-          </ImageWrapper> */}
+          </VideoWrapper>
           <ImageWrapper>
             <img
               alt=""
-              src="/images/projects/mobilizacao/mobilizacao-frame-1.png"
+              src="/images/projects/mobilizacao/mobilizacao-frame-1.webp"
             />
           </ImageWrapper>
         </Row>
@@ -157,6 +169,30 @@ function Mobilizacao({ projectData }) {
         <img
           alt=""
           src="/images/projects/mobilizacao/mobilizacao-frame-11.png"
+        />
+      </ImageWrapper>
+
+      <GridContainer>
+        <Row>
+          <ImageWrapper>
+            <img
+              alt=""
+              src="/images/projects/mobilizacao/mobilizacao-frame-12.webp"
+            />
+          </ImageWrapper>
+          <ImageWrapper>
+            <img
+              alt=""
+              src="/images/projects/mobilizacao/mobilizacao-frame-13.png"
+            />
+          </ImageWrapper>
+        </Row>
+      </GridContainer>
+
+      <ImageWrapper>
+        <img
+          alt=""
+          src="/images/projects/mobilizacao/mobilizacao-frame-14.png"
         />
       </ImageWrapper>
 
