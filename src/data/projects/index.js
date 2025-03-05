@@ -90,6 +90,17 @@ const projects = [
     tagsPt: ['publicação', 'ilustração', 'infográfico', 'território', 'meioAmbiente', 'direitosHumanos'],
   },
   {
+    id: 'mobilizacao',
+    title: 'Mobilização dos Povos Pela Terra e Pelo Clima',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: [en.SOCIAL_MEDIA, en.ILLUSTRATION, en.VISUAL_IDENTITY, en.TERRITORY, en.ENVIRONMENT],
+    tagsPt: [pt.SOCIAL_MEDIA, pt.ILLUSTRATION, pt.VISUAL_IDENTITY, pt.TERRITORY, pt.ENVIRONMENT],
+  },
+  {
     id: 'forest',
     title: 'Forest Ventures',
     images: {
@@ -330,17 +341,6 @@ const projects = [
     alt: '(descrição)',
     tags: ['illustration', 'animation', 'environment', 'humanRights', 'politics'],
     tagsPt: ['ilustração', 'animação', 'meioAmbiente', 'direitosHumanos', 'política'],
-  },
-  {
-    id: 'mobilizacao',
-    title: 'Mobilização dos Povos Pela Terra e Pelo Clima',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: [en.PUBLICATION, en.ILLUSTRATION, en.ENVIRONMENT],
-    tagsPt: [pt.PUBLICATION, pt.ILLUSTRATION, pt.ENVIRONMENT],
   },
 ]
 

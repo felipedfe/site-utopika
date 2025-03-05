@@ -565,8 +565,8 @@ const projectsPagePt = {
   },
   mobilizacao: {
     title: "Mobilização dos Povos Pela Terra e Pelo Clima",
-    introduction: `<p>A Revolusolar é uma organização comprometida em democratizar o acesso à energia solar em comunidades de baixa renda. Mais do que a instalação de painéis solares, seu trabalho envolve a capacitação de moradores, a geração de empregos locais e a promoção da educação ambiental. Tivemos o prazer de contribuir para esse projeto, tornando o conteúdo mais acessível e inspirador por meio do design.</p>
-    <p>Desejamos sucesso aos novos amigos da <a class="text-link" href="https://www.instagram.com/revolusolar/" target="_blank">@revolusolar</a> nessa iniciativa transformadora, que impacta vidas e constrói um futuro mais sustentável.</p>`,
+    introduction: `<p>A parceria entre a Utopika e a Amana Comunicação é uma união de propósitos pela transformação social. Em sintonia com a COP30, desenvolvemos a identidade visual da mobilização promovida pela <a class="text-link" href="https://repam.org.br/" target="_blank">Rede Eclesial Pan-Amazônica (REPAM-Brasil)</a>, conectando o colorido da Amazônia com a força da juventude e a diversidade dos povos.</p>
+    <p>Nossa colaboração evidencia como equipes podem, juntas, potencializar o impacto de cada projeto, traduzindo valores em narrativas visuais que inspiram e mobilizam.</p>`,
     credits: {
       title: "Créditos",
       info: [
@@ -574,13 +574,9 @@ const projectsPagePt = {
           role: "Diagramação e projeto gráfico",
           name: "Rachel Gepp",
         },
-        {
-          role: "Assistência de Design",
-          name: "Ana Clara Abbate",
-        }
       ]
     },
-    tags: [pt.PUBLICATION, pt.ILLUSTRATION, pt.EQUALITY],
+    tags: [pt.SOCIAL_MEDIA, pt.ILLUSTRATION, pt.VISUAL_IDENTITY, pt.TERRITORY, pt.ENVIRONMENT],
   },
 }
 
@@ -589,4 +585,4 @@ export default projectsPagePt;
 {/* <a class="text-link" href="https://alziras.org.br/violenciapolitica/" target="_blank">um site acessível</a>
 <a class="text-link" href="https://alziras.org.br/" target="_blank">Instituto Alziras</a>
 <a class="text-link" href="https://www.instagram.com/revolusolar/" target="_blank">@revolusolar</a>
-<a class="text-link" href="https://www.instagram.com/felipedfe/" target="_blank">@felipedfe</a> */}
+<a class="text-link" href="https://repam.org.br/" target="_blank">Rede Eclesial Pan-Amazônica (REPAM-Brasil)</a> */}

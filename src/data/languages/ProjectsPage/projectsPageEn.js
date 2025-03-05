@@ -557,22 +557,19 @@ const projectsPageEn = {
   },
   mobilizacao: {
     title: "Mobilização dos Povos Pela Terra e Pelo Clima",
-    introduction: `<p>A Revolusolar é uma organização comprometida em democratizar o acesso à energia solar em comunidades de baixa renda. Mais do que a instalação de painéis solares, seu trabalho envolve a capacitação de moradores, a geração de empregos locais e a promoção da educação ambiental. Tivemos o prazer de contribuir para esse projeto, tornando o conteúdo mais acessível e inspirador por meio do design.</p>
-    <p>Desejamos sucesso aos novos amigos da <a class="text-link" href="https://www.instagram.com/revolusolar/" target="_blank">@revolusolar</a> nessa iniciativa transformadora, que impacta vidas e constrói um futuro mais sustentável.</p>`,
+    introduction: `<p>The partnership between Utopika and Amana Comunicação is a union of purposes for social transformation. In alignment with COP30, we developed the visual identity for the mobilization promoted by the <a class="text-link" href="https://repam.org.br/" target="_blank">Pan-Amazonian Ecclesial Network (REPAM-Brasil)</a>, connecting the vibrant colors of the Amazon with the strength of youth and the diversity of its peoples.</p>
+    <p>Our collaboration highlights how teams can, together, amplify the impact of each project, translating values into visual narratives that inspire and mobilize.</p>
+    `,
     credits: {
-      title: "Créditos",
+      title: "Credits",
       info: [
         {
-          role: "Diagramação e projeto gráfico",
+          role: "Layout and graphic design",
           name: "Rachel Gepp",
         },
-        {
-          role: "Assistência de Design",
-          name: "Ana Clara Abbate",
-        }
       ]
     },
-    tags: [en.PUBLICATION, en.ILLUSTRATION, en.EQUALITY],
+    tags: [en.SOCIAL_MEDIA, en.ILLUSTRATION, en.VISUAL_IDENTITY, en.TERRITORY, en.ENVIRONMENT],
   },
 }
 

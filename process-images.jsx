@@ -34,9 +34,15 @@ function processThumb(file, destinationFolder) {
     saveForWebOptions.quality = saveQuality; // Qualidade de 0 a 100
     saveForWebOptions.includeProfile = false; // Remove o perfil de cor para economizar espaço
 
-    // Salva como JPEG otimizado
+    // Define o destino do arquivo otimizado
     var destination = new File(destinationFolder + "/thumb-low.jpg");
-    doc.exportDocument(destination, ExportType.SAVEFORWEB, saveForWebOptions);
+
+    // Verifica se thumb-low.jpg já existe antes de salvar
+    if (!destination.exists) {
+        doc.exportDocument(destination, ExportType.SAVEFORWEB, saveForWebOptions);
+    } else {
+        $.writeln("Arquivo thumb-low.jpg já existe, pulando: " + destination.name);
+    }
 
     doc.close(SaveOptions.DONOTSAVECHANGES);
 }
@@ -49,9 +55,12 @@ if (rootFolder.exists) {
     for (var i = 0; i < subfolders.length; i++) {
         var subfolder = subfolders[i];
         var thumbFile = new File(subfolder + "/thumb.gif");
+        var thumbLowFile = new File(subfolder + "/thumb-low.jpg"); // Verificação do arquivo otimizado
 
-        if (thumbFile.exists) {
+        if (thumbFile.exists && !thumbLowFile.exists) {
             processThumb(thumbFile, subfolder);
+        } else if (thumbLowFile.exists) {
+            $.writeln("Arquivo thumb-low.jpg já existe na pasta: " + subfolder.name);
         } else {
             $.writeln("Arquivo thumb.gif não encontrado na pasta: " + subfolder.name);
         }

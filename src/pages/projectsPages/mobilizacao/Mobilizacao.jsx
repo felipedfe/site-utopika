@@ -44,7 +44,7 @@ const ImageWrapper = styled.div`
 `
 
 const VideoWrapper = styled.section`
-  width: 382px;
+  width: 550px;
 
   @media all and (max-width: 700px) {
     width: 100%;
@@ -77,11 +77,11 @@ function Mobilizacao({ projectData }) {
         <Row>
           <VideoWrapper>
             <VideoContainer
-              url="https://player.vimeo.com/video/1054227248?h=8b4a6dbfe0"
+              url="https://player.vimeo.com/video/1061797199"
               autoPlay='1'
               loop='1'
               muted='1'
-              aspectRatio="3/4"
+              aspectRatio="9/16"
             />
           </VideoWrapper>
           <ImageWrapper>
