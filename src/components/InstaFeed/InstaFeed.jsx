@@ -100,8 +100,6 @@ function InstaFeed() {
   const { textLanguage } = useContext(myContext);
   const text = textOptions[textLanguage];
 
-  const TOKEN = 'IGAAXXAC1DLZA5BZAFBFQ2xkNlMta25sNFV6aDljRVItNk8taU1pUXVjODJDdzl4RXhVNFZAJMEhCeDhlZATdSUUZAaUjNzOVZAUYW9xTXpHWFdqRVpQRkZArcnc0N083a2Y3ZA2tKbmxqMjhTZA0tmR0F3U2NGcFRn';
-
   const getInstaFeed = async () => {
     try {
       // Busca o token no Firestore
