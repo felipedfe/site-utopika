@@ -109,7 +109,7 @@ function InstaFeed() {
       const token = tokenDoc.data().token;
       console.log("Token do Firestore:", token);
 
-      const fields = "media_url,media_type,permalink,thumbnail_url";
+      const fields = "media_url,media_type,permalink,thumbnail_url,children";
       const limit = 6;
       const url = `https://graph.instagram.com/me/media?access_token=${token}&fields=${fields}&limit=${limit}`;
 
@@ -118,7 +118,27 @@ function InstaFeed() {
       const data = await response.json();
       if (data.error) throw new Error(data.error.message);
 
-      setFeed(data.data);
+      let updatedFeed = await Promise.all(
+        data.data.map(async (item) => {
+          if (item.media_type === "CAROUSEL_ALBUM") {
+            // Buscar as mídias do carrossel
+            const carouselUrl = `https://graph.instagram.com/${item.id}?fields=children{media_url,media_type}&access_token=${token}`;
+            const carouselResponse = await fetch(carouselUrl);
+            const carouselData = await carouselResponse.json();
+
+            if (carouselData.children && carouselData.children.data.length > 0) {
+              return {
+                ...item,
+                media_url: carouselData.children.data[0].media_url, // Pega a primeira imagem/vídeo do carrossel
+                media_type: carouselData.children.data[0].media_type, // Atualiza o tipo da mídia
+              };
+            }
+          }
+          return item;
+        })
+      );
+
+      setFeed(updatedFeed);
     } catch (error) {
       console.log('Erro ao buscar o feed ->', error);
     }
