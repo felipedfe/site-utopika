@@ -4,6 +4,11 @@ import ProjectIntro from '../../../components/ProjectIntro/ProjectIntro';
 import VideoContainer from '../../../components/VideoContainer/VideoContainer';
 import styled from 'styled-components';
 
+const GridContainer = styled.section`
+  margin: auto;
+  width: 100%;
+`
+
 const ImageWrapper = styled.div`
   height: 100%;
   /* margin-bottom: 2rem; */
@@ -26,13 +31,23 @@ const Row = styled.div`
   width: 100%;
   display: flex;
 
-  /* @media all and (max-width: 700px) {
-    display: block;
-  } */
+  @media all and (max-width: 700px) {
+    /* display: block; */
+    flex-direction: column-reverse;
+  }
 `
 
 const VideoWrapper = styled.section`
   width: 100%;
+`
+
+const VideoWrapper2 = styled.section`
+  width: 423.5px;
+
+  @media all and (max-width: 700px) {
+    width: 100%;
+    /* margin-top: 2rem; */
+  }
 `
 
 const Video = styled.iframe`
@@ -107,7 +122,7 @@ function P4f({ projectData }) {
         <img alt="" src="/images/projects/p4f/pf4-frame-5.jpg" />
       </ImageWrapper>
 
-      {/* Vídeo em loop */}
+      {/* vídeo em loop */}
       <VideoWrapper>
         <VideoContainer
           url="https://player.vimeo.com/video/956775775?h=c26659ca22"
@@ -116,7 +131,59 @@ function P4f({ projectData }) {
           muted='1'
         />
       </VideoWrapper>
-      
+
+      <ImageWrapper>
+        <img alt="" src="/images/projects/p4f/pf4-frame-7.webp" />
+      </ImageWrapper>
+
+      <ImageWrapper>
+        <img alt="" src="/images/projects/p4f/pf4-frame-8.webp" />
+      </ImageWrapper>
+
+      <ImageWrapper>
+        <img alt="" src="/images/projects/p4f/pf4-frame-9.png" />
+      </ImageWrapper>
+
+      {/* <ImageWrapper>
+        <img alt="" src="/images/projects/p4f/pf4-frame-11.webp" />
+      </ImageWrapper>
+
+      <VideoWrapper>
+        <VideoContainer
+          url="https://player.vimeo.com/video/1068913348?h=c89f20561c"
+          autoPlay='1'
+          loop='1'
+          muted='1'
+          aspectRatio='9/16'
+        />
+      </VideoWrapper> */}
+
+      <GridContainer>
+        <Row>
+          <ImageWrapper className='pf4-img'>
+            <img alt="" src="/images/projects/p4f/pf4-frame-12.png" />
+          </ImageWrapper>
+          <VideoWrapper2 className='pf4-vid'>
+            <VideoContainer
+              url="https://player.vimeo.com/video/1068913348?h=c89f20561c"
+              autoPlay='1'
+              loop='1'
+              muted='1'
+              aspectRatio="9/16"
+            />
+          </VideoWrapper2>
+        </Row>
+      </GridContainer>
+
+      <VideoWrapper>
+        <VideoContainer
+          url="https://player.vimeo.com/video/943834702?h=7cbddddb13"
+          autoPlay='1'
+          loop='1'
+          muted='1'
+        />
+      </VideoWrapper>
+
       <Credits credits={credits} />
     </section>
   )
