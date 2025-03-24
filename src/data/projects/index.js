@@ -119,8 +119,8 @@ const projects = [
       full: '...'
     },
     alt: '(descrição)',
-    tags: [en.PUBLICATION, en.ANIMATION, en.ENVIRONMENT, en.INFOGRAPHIC],
-    tagsPt: [pt.PUBLICATION, pt.ANIMATION, pt.ENVIRONMENT, pt.INFOGRAPHIC],
+    tags: [en.PUBLICATION, en.ANIMATION, en.ENVIRONMENT, en.INFOGRAPHIC, en.SOCIAL_MEDIA],
+    tagsPt: [pt.PUBLICATION, pt.ANIMATION, pt.ENVIRONMENT, pt.INFOGRAPHIC, pt.SOCIAL_MEDIA],
   },
   {
     id: 'alianza',

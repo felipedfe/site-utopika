@@ -416,7 +416,7 @@ const projectsPageEn = {
         },
       ]
     },
-    tags: [en.PUBLICATION, en.ANIMATION, en.ENVIRONMENT, en.INFOGRAPHIC],
+    tags: [en.PUBLICATION, en.ANIMATION, en.ENVIRONMENT, en.INFOGRAPHIC, en.SOCIAL_MEDIA],
   },
   facanhas: {
     title: "Façanhas do Homem na Floresta",

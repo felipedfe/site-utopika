@@ -30,6 +30,7 @@ const MapImageWrapper = styled(ImageWrapper)`
 const Row = styled.div`
   width: 100%;
   display: flex;
+  margin-bottom: 2.4rem;
 
   @media all and (max-width: 700px) {
     /* display: block; */
@@ -42,7 +43,7 @@ const VideoWrapper = styled.section`
 `
 
 const VideoWrapper2 = styled.section`
-  width: 423.5px;
+  width: 550px;
 
   @media all and (max-width: 700px) {
     width: 100%;
@@ -160,10 +161,10 @@ function P4f({ projectData }) {
 
       <GridContainer>
         <Row>
-          <ImageWrapper className='pf4-img'>
+          <ImageWrapper>
             <img alt="" src="/images/projects/p4f/pf4-frame-12.png" />
           </ImageWrapper>
-          <VideoWrapper2 className='pf4-vid'>
+          <VideoWrapper2>
             <VideoContainer
               url="https://player.vimeo.com/video/1068913348?h=c89f20561c"
               autoPlay='1'
