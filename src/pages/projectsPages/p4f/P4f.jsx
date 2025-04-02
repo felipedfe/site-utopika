@@ -176,6 +176,12 @@ function P4f({ projectData }) {
         </Row>
       </GridContainer>
 
+      <ImageWrapper>
+        <img alt="" src="/images/projects/p4f/pf4-frame-11.webp" />
+      </ImageWrapper>
+
+        <div style={{height: '3rem'}}></div>
+
       <VideoWrapper>
         <VideoContainer
           url="https://player.vimeo.com/video/943834702?h=7cbddddb13"
