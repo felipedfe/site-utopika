@@ -1,8 +1,11 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import myContext from '../context/myContext';
+import { useLocation } from 'react-router-dom';
 
 function MyProvider(props) {
+  const location = useLocation();
+
   const largeScreenBreakPt = 1024;
   
   const [textLanguage, setTextLanguage] = useState('pt');
@@ -10,6 +13,15 @@ function MyProvider(props) {
   const [isLargeScreen, setIsLargeScreen] = useState(true);
   const [isNavMenuDisabled, setIsNavMenuDisabled] = useState(true);
   const [isSearchMenuDisabled, setIsSearchMenuDisabled] = useState(true);
+
+  useEffect(() => {
+    const searchParams = new URLSearchParams(location.search);
+    const langParam = searchParams.get('lang');
+
+    if (langParam && (langParam === 'pt' || langParam === 'en')) {
+      setTextLanguage(langParam);
+    }
+  }, [location.search]);
 
   const providerState = {
     textLanguage,

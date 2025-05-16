@@ -38,8 +38,8 @@ import './App.css';
 
 function App() {
   return (
-    <MyProvider>
-      <BrowserRouter>
+    <BrowserRouter>
+      <MyProvider>
         <ScrollToTop />
         <Routes>
           <Route exact path="/projetos/mongabay" element={
@@ -202,7 +202,7 @@ function App() {
             </MainPageLayout>
           }
           />
-           <Route exact path="/projetos/facanhas" element={
+          <Route exact path="/projetos/facanhas" element={
             <MainPageLayout>
               <ProjectPageLayout>
                 <Facanhas />
@@ -278,8 +278,8 @@ function App() {
           }
           />
         </Routes>
-      </BrowserRouter>
-    </MyProvider>
+      </MyProvider>
+    </BrowserRouter>
   );
 }
 
