@@ -57,6 +57,17 @@ const projects = [
     tagsPt: [pt.ILLUSTRATION, pt.WEB, pt.ENVIRONMENT, pt.PUBLICATION, pt.ANIMATION, pt.SOCIAL_MEDIA, pt.VISUAL_IDENTITY, pt.WORK],
   },
   {
+    id: 'funding-the-planets-guardians',
+    title: 'Funding The Planets Guardians',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: [en.ILLUSTRATION, en.TERRITORY, en.ENVIRONMENT, en.VISUAL_IDENTITY, en.HUMAN_RIGHTS],
+    tagsPt: [pt.ILLUSTRATION, pt.TERRITORY, pt.ENVIRONMENT, pt.VISUAL_IDENTITY, pt.HUMAN_RIGHTS],
+  },
+  {
     id: 'solidaria',
     title: 'Economia Solidária Digital',
     images: {

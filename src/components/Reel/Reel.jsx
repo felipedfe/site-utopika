@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../assets/LOGO UTOPIKA_OK.png';
+import HomeLinks from '../HomeLinks/HomeLinks';
 import './reel.css';
 
 function Reel() {
@@ -10,6 +11,7 @@ function Reel() {
         <div className="reel--logo-wrapper">
           <img className="info-logo" src={logo} alt="logo utopika"></img>
         </div>
+        <HomeLinks />
       </div>
       <div className="reel--video-background">
         <div className="reel--video-foreground">

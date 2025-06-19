@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Reel from '../../../components/Reel/Reel';
 import Intro from '../../../components/Intro/Intro';
 import InstaFeed from '../../../components/InstaFeed/InstaFeed';
 import logo from '../../../assets/LOGO UTOPIKA_OK.png';
+import HomeLinks from '../../../components/HomeLinks/HomeLinks';
 import './home.css';
 
 function Home() {
@@ -13,6 +15,7 @@ function Home() {
         <div className="home--info-logo-wrapper">
           <div className="home--info-container">
             <img className="mobile-logo" src={logo} alt="logo utopika"></img>
+            <HomeLinks />
           </div>
         </div>
         <section className="home--mobile-reel-wrapper">
@@ -24,6 +27,7 @@ function Home() {
             />
           </div>
         </section>
+
         <section className="home--intro-instafeed-wrapper">
           <Intro />
           <InstaFeed />

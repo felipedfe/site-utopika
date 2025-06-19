@@ -571,6 +571,35 @@ const projectsPageEn = {
     },
     tags: [en.SOCIAL_MEDIA, en.ILLUSTRATION, en.VISUAL_IDENTITY, en.TERRITORY, en.ENVIRONMENT],
   },
+  "funding-the-planets-guardians": {
+    title: "Funding The Planets Guardians",
+    introduction: `<p>At the heart of the global climate agenda, funding for socio-environmental actions is one of the biggest challenges. The game <em>Funding the Planet’s Guardians</em>, created in partnership with the <a class="text-link" href="https://alianzafondosdelsur.org/" target="_blank">Alianza Fondos del Sur</a>, managed to translate this complexity into an accessible and thought-provoking dynamic, where participants face real dilemmas about resource allocation and its direct impact on vulnerable communities.</p>
+    <p>We believe gamification is a powerful tool to raise awareness and engage diverse audiences, helping organizations communicate complex topics with greater impact!</p>
+    <p>Thank you <strong>Juliana Tinoco</strong>, <strong>Clara Daré</strong>, and <strong>Vitor Paiva</strong> for the partnership! We’re thrilled to share this award with you!</p>`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Graphic Design",
+          name: "Julia Lima and Rachel Gepp",
+        },
+        {
+          role: "Illustrations",
+          name: "Rachel Gepp",
+        },
+        {
+          role: "Production",
+          name: "Julia Lima and Rachel Gepp",
+        },
+        {
+          role: "Script",
+          name: "Vitor Paiva, Clara Daré and Juliana Tinoco",
+        },
+      ]
+
+    },
+    tags: [en.ILLUSTRATION, en.TERRITORY, en.ENVIRONMENT, en.VISUAL_IDENTITY, en.HUMAN_RIGHTS],
+  },
 }
 
 export default projectsPageEn;

@@ -578,11 +578,41 @@ const projectsPagePt = {
     },
     tags: [pt.SOCIAL_MEDIA, pt.ILLUSTRATION, pt.VISUAL_IDENTITY, pt.TERRITORY, pt.ENVIRONMENT],
   },
+  "funding-the-planets-guardians": {
+    title: "Funding The Planets Guardians",
+    introduction: `<p>No centro da pauta climática global, o financiamento para ações socioambientais é um dos maiores desafios. O jogo Funding the Planet’s Guardians, criado em parceria com a <a class="text-link" href="https://alianzafondosdelsur.org/" target="_blank">Alianza Fondos del Sur</a>, conseguiu traduzir essa complexidade em uma dinâmica acessível e instigante, onde os participantes enfrentam dilemas reais sobre alocação de recursos e o impacto direto nas comunidades vulneráveis.</p>
+    <p>Acreditamos que a gamificação é uma poderosa ferramenta para sensibilizar e engajar públicos diversos, ajudando organizações a comunicar temas complexos com mais impacto!</p>
+    <p>Obrigada <strong>Juliana Tinoco</strong>, <strong>Clara Daré</strong> e <strong>Vitor Paiva</strong> pela parceria! É uma alegria compartilhar este prêmio com vcs!</p>
+    `,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Projeto gráfico",
+          name: "Julia Lima e Rachel Gepp",
+        },
+        {
+          role: "Ilustrações",
+          name: "Rachel Gepp",
+        },
+        {
+          role: "Produção",
+          name: "Julia Lima e Rachel Gepp",
+        },
+        {
+          role: "Roteiro",
+          name: "Vitor Paiva, Clara Daré e Juliana Tinoco",
+        },
+      ]
+    },
+    tags: [pt.ILLUSTRATION, pt.TERRITORY, pt.ENVIRONMENT, pt.VISUAL_IDENTITY, pt.HUMAN_RIGHTS],
+  },
 }
 
 export default projectsPagePt;
 
 {/* <a class="text-link" href="https://alziras.org.br/violenciapolitica/" target="_blank">um site acessível</a>
 <a class="text-link" href="https://alziras.org.br/" target="_blank">Instituto Alziras</a>
+<a class="text-link" href="https://alianzafondosdelsur.org/" target="_blank">Alianza Fondos del Sur</a>
 <a class="text-link" href="https://www.instagram.com/revolusolar/" target="_blank">@revolusolar</a>
 <a class="text-link" href="https://repam.org.br/" target="_blank">Rede Eclesial Pan-Amazônica (REPAM-Brasil)</a> */}

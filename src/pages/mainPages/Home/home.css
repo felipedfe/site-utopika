@@ -59,6 +59,13 @@
   margin: auto;
 }
 
+
+.home--links-wrapper {
+  
+}
+
+/* MEDIA QUERY */
+
 @media all and (max-width: 450px) {
   .home--intro-instafeed-wrapper {
 

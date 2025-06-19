@@ -8,8 +8,8 @@ const textEn = {
       about: "About",
     },
     introduction: {
-      introPt1: "Utopika is about walking together in search of the horizons that we carry in our eyes. Looking ahead, and with our feet firmly in what we believe.",
-      introPt2: "It's about walking shoulder to shoulder with those who believe that we can transform realities through narratives that bring understanding and imagination, to create new thoughts, behaviors, new habits and new attitudes.",
+      introPt1: "The communication we create today is the impact we reap tomorrow!",
+      introPt2: "We want to walk alongside those who are transforming realities, crafting narratives that inform, mobilize, and inspire new ways of being. Because communication is a powerful tool to shape new worldviews and build the future we envision!",
       button: "More +",
     },
     instaFeed: {
@@ -20,15 +20,23 @@ const textEn = {
     },
     aboutPage: {
       intro: {
-        paragraph1: `Thank you for coming here with an interest in getting to know better who we are.
-        Our purpose is to make the world better through the work we deliver. We believe that to transform the future that scares us, we need to create images for the future we dream of!`,
-        paragraph2: `Here at Utópika, we deeply understand the concepts that our partners are debating and we join forces because we have the desire to make the transformation really happen and to become part of these stories through the visual narratives that we produce with this engagement.`,
-        paragraph3: `We go hand in hand and heart aligned with multi-talented professionals from different disciplines and knowledge, so, no matter the size of the challenge, we mobilize the necessary team to make design, illustration, audiovisual and animation projects happen, whether on the on or off platforms .
-        We are ready to offer creative solutions in any area of communication! Let's talk?`,
+        title: 'To Utopiar is to transform the future',
+        paragraph1: `Here at Utópika, we believe that communication is a tool for transformation and part of the solution to the challenges we face in the world!`,
+        paragraph2: `Our commitment is to tell stories that matter, amplify voices that need to be heard, and create campaigns that spark real change. We work at the intersection of creativity and impact, building images that carry purpose.`,
+        paragraph3: `We walk alongside organizations, social movements, and brands that are reimagining the present to transform the future. We want to be close and united in building narratives that bring solutions, imagination, and purpose.`,
+        paragraph4: `From immersive exhibitions to graphic campaigns, from visual identity to animation, our team mobilizes to give shape to ideas that move the world.`,
+        paragraph5: `Design can — and should — be on the right side of history. Shall we make it happen?`,
       },
       profile: {
-        rachel: "<strong>Rachel Gepp</strong> is a publicist, designer and illustrator, loves reality and, therefore, did not fit into the advertising market that produces illusions. She dropped everything and went to see the world. She lived in Cambodia and in the Amazon and it was in these experiences that she understood that she could use communication as a tool to combat violence and injustice.",
-        julia: "<strong>Julia Lima</strong> - designer, illustrator and motion, has worked for tv, magazine, editor and producer until she understood that design is transversal and what involves her is the theme and the people with whom she builds together. She loves children's books and how each story transforms with different strokes.",
+        julia: `<strong>Julia Lima</strong> – Designer, illustrator, and motion designer, she has worked in TV, magazines, publishing, and production companies before realizing that design is transversal — what drives her is the theme and the people she builds with.
+        <br>For over a decade, she has worked at the intersection of design, storytelling, and social impact, creating projects that amplify voices and foster genuine connections. Her experience extends to exhibition design and game design, translating complex topics into immersive and accessible experiences.
+        <br>She built Utópika not just as a studio, but as a workspace that reflects her values. She leads teams and projects always striving to unite clarity, imagination, and impact, balancing the challenges of communication, business, motherhood, and the world she wants to help build.
+        <br>To her, design only makes sense when it is committed to reality and has the courage to interfere with it.`,
+
+        rachel: `<strong>Rachel Gepp</strong> – Advertising professional, designer, and illustrator. She believes in communication as a tool for transformation and has built her career with over twenty years of experience in communications, combining strategy and action to shape visual narratives that mobilize and make an impact.
+        <br>With a strategic outlook and strong coordination skills, she merges creative intelligence with field experience. At Utópika, she creates innovative projects for social, cultural, and environmental organizations that not only communicate but also question, provoke, and inspire change.
+        <br>She specializes in creating visual identities and graphic content that translate complex issues for diverse audiences. Her work blends design, science communication, and social impact.
+        <br>To her, design is discourse, and communicating with honesty is a political act.`,
       },
       socialMedia: {
         julia: {

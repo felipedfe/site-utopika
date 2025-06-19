@@ -85,7 +85,7 @@ function Contacts() {
           rachel@utopika.com.br
         </EmailBtn>
         <PhoneBtn onClick={copyPhone}>
-          21. 965267513
+          11. 945752121
         </PhoneBtn>
       </section>
 

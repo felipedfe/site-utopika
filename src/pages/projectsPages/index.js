@@ -25,6 +25,7 @@ import MareDeCiencia from "./mare-de-ciencia/MareDeCiencia";
 import Alziras from "./alziras/Alziras";
 import Revolusolar from "./revolusolar/Revolusolar";
 import Mobilizacao from "./mobilizacao/Mobilizacao";
+import FundingThePlanetsGuardians from "./funding-the-planets-guardians/FundingThePlanetsGuardians";
 
 export {
   Mongabay,
@@ -54,4 +55,5 @@ export {
   Alziras,
   Revolusolar,
   Mobilizacao,
+  FundingThePlanetsGuardians,
 }
