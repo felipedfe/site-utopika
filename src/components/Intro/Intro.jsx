@@ -20,7 +20,7 @@ function Intro() {
             <img className="intro--gif" src={eyeGif} alt="gif de um olho" />
           </section>
           <section className="intro--text-and-btn">
-            <p>{text.introduction.introPt1}</p>
+            <h2>{text.introduction.introPt1}</h2>
             <p>{text.introduction.introPt2}</p>
             <button
               type="button"
