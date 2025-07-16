@@ -353,6 +353,17 @@ const projects = [
     tags: ['illustration', 'animation', 'environment', 'humanRights', 'politics'],
     tagsPt: ['ilustração', 'animação', 'meioAmbiente', 'direitosHumanos', 'política'],
   },
+    {
+    id: 'promar',
+    title: 'Promar',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: [en.PUBLICATION, en.ILLUSTRATION, en.ENVIRONMENT],
+    tagsPt: [pt.PUBLICATION, pt.ILLUSTRATION, pt.ENVIRONMENT],
+  },
 ]
 
 export { projects, allTags };

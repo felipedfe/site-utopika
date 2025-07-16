@@ -26,6 +26,7 @@ import Alziras from "./alziras/Alziras";
 import Revolusolar from "./revolusolar/Revolusolar";
 import Mobilizacao from "./mobilizacao/Mobilizacao";
 import FundingThePlanetsGuardians from "./funding-the-planets-guardians/FundingThePlanetsGuardians";
+import Promar from "./promar/Promar";
 
 export {
   Mongabay,
@@ -56,4 +57,5 @@ export {
   Revolusolar,
   Mobilizacao,
   FundingThePlanetsGuardians,
+  Promar,
 }

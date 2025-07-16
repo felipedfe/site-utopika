@@ -607,6 +607,21 @@ const projectsPagePt = {
     },
     tags: [pt.ILLUSTRATION, pt.TERRITORY, pt.ENVIRONMENT, pt.VISUAL_IDENTITY, pt.HUMAN_RIGHTS],
   },
+    promar: {
+    title: "Promar",
+    introduction: `<p>A comunicação visual é uma estratégia essencial para tornar a ciência acessível e ampliar seu impacto. Foi com essa visão que criamos a identidade visual do PROMAR, um programa da universidade dedicado a mapear e proteger as áreas marinhas no estado de São Paulo, com objetivo de pautar políticas públicas em diálogo com a população local.</p>
+    <p>Inspirada no espírito exploratório e científico do projeto, a identidade visual do PROMAR traduz descoberta, mapeamento e inovação, unindo elementos gráficos que remetem à revelação de camadas ocultas no fundo do oceano.</p>`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Diagramação e projeto gráfico",
+          name: "Rachel Gepp",
+        },
+      ]
+    },
+    tags: [pt.PUBLICATION, pt.ILLUSTRATION,  pt.ENVIRONMENT],
+  },
 }
 
 export default projectsPagePt;
