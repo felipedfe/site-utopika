@@ -361,8 +361,8 @@ const projects = [
       full: '...'
     },
     alt: '(descrição)',
-    tags: [en.PUBLICATION, en.ILLUSTRATION, en.ENVIRONMENT],
-    tagsPt: [pt.PUBLICATION, pt.ILLUSTRATION, pt.ENVIRONMENT],
+    tags: [en.VISUAL_IDENTITY, en.ENVIRONMENT],
+    tagsPt: [pt.VISUAL_IDENTITY, pt.ENVIRONMENT],
   },
 ]
 
