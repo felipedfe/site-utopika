@@ -188,6 +188,17 @@ const projects = [
     tags: ['animation', 'illustration', 'esg', 'environment'],
     tagsPt: ['animação', 'ilustração', 'esg', 'meioAmbiente'],
   },
+    {
+    id: 'promar',
+    title: 'Promar',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: [en.VISUAL_IDENTITY, en.ENVIRONMENT],
+    tagsPt: [pt.VISUAL_IDENTITY, pt.ENVIRONMENT],
+  },
   {
     id: 'revolusolar',
     title: 'Revolusolar',
@@ -352,17 +363,6 @@ const projects = [
     alt: '(descrição)',
     tags: ['illustration', 'animation', 'environment', 'humanRights', 'politics'],
     tagsPt: ['ilustração', 'animação', 'meioAmbiente', 'direitosHumanos', 'política'],
-  },
-    {
-    id: 'promar',
-    title: 'Promar',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: [en.PUBLICATION, en.ILLUSTRATION, en.ENVIRONMENT],
-    tagsPt: [pt.PUBLICATION, pt.ILLUSTRATION, pt.ENVIRONMENT],
   },
 ]
 

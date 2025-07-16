@@ -615,12 +615,16 @@ const projectsPagePt = {
       title: "Créditos",
       info: [
         {
-          role: "Diagramação e projeto gráfico",
-          name: "Rachel Gepp",
+          role: "Designer",
+          name: "Ana Clara Abbate",
+        },
+        {
+          role: "Direção criativa",
+          name: "Rachel Gepp e Julia Lima",
         },
       ]
     },
-    tags: [pt.PUBLICATION, pt.ILLUSTRATION,  pt.ENVIRONMENT],
+    tags: [pt.VISUAL_IDENTITY,  pt.ENVIRONMENT],
   },
 }
 
