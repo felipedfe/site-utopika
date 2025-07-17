@@ -3,6 +3,7 @@ import Credits from '../../../components/Credits/Credits';
 import ProjectIntro from '../../../components/ProjectIntro/ProjectIntro'
 import VideoContainer from '../../../components/VideoContainer/VideoContainer';
 import styled from 'styled-components';
+import { MOBILE_BREAKPOINT } from '../../../style/breakpoints';
 
 const MainContainer = styled.section`
   display: flex;
@@ -40,9 +41,14 @@ const VideoWrapper = styled.section`
 
 const ImageWrapper = styled.div`
   height: 100%;
-  margin-bottom: -0.7rem;
+  /* margin-bottom: -0.7rem; */
 
   img {
+    width: 100%;
+    display: block;
+  }
+
+  picture {
     width: 100%;
   }
 `
@@ -58,7 +64,7 @@ function Revolusolar({ projectData }) {
       <ImageWrapper>
         <img
           alt=""
-          src="/images/projects/revolusolar/revolusolar-banner.png"
+          src="/images/projects/revolusolar/revolusolar-banner_1.png"
         />
       </ImageWrapper>
 
@@ -117,11 +123,23 @@ function Revolusolar({ projectData }) {
               src="/images/projects/revolusolar/revolusolar-frame-6.png"
             />
           </ImageWrapper>
-          <ImageWrapper>
+          {/* <ImageWrapper>
             <img
               alt=""
               src="/images/projects/revolusolar/revolusolar-frame-7.png"
             />
+          </ImageWrapper> */}
+          <ImageWrapper>
+            <picture style={{ width: '100%' }}>
+              <source
+                media={`(max-width: ${MOBILE_BREAKPOINT})`}
+                srcSet="/images/projects/revolusolar/revolusolar-frame-7-low2.webp"
+              />
+              <img
+                alt=""
+                src="/images/projects/revolusolar/revolusolar-frame-7_2.png"
+              />
+            </picture>
           </ImageWrapper>
         </Row>
       </GridContainer>
