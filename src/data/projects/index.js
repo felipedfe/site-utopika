@@ -45,16 +45,16 @@ const { en } = tags;
 const { pt } = tags;
 
 const projects = [
-  {
-    id: 'agricultura',
-    title: 'Agricultura Familiar e Clima',
+      {
+    id: 'seminario',
+    title: 'Seminário Sobre Dados de Raça, Gênero e Clima',
     images: {
       thumbnail: 'thumb.png',
       full: '...'
     },
     alt: '(descrição)',
-    tags: [en.ILLUSTRATION, en.WEB, en.ENVIRONMENT, en.PUBLICATION, en.ANIMATION, en.SOCIAL_MEDIA, en.VISUAL_IDENTITY, en.WORK],
-    tagsPt: [pt.ILLUSTRATION, pt.WEB, pt.ENVIRONMENT, pt.PUBLICATION, pt.ANIMATION, pt.SOCIAL_MEDIA, pt.VISUAL_IDENTITY, pt.WORK],
+    tags: [en.VISUAL_IDENTITY, en.PUBLICATION, en.ILLUSTRATION, en.ENVIRONMENT],
+    tagsPt: [pt.VISUAL_IDENTITY, pt.PUBLICATION, pt.ILLUSTRATION, pt.ENVIRONMENT],
   },
   {
     id: 'funding-the-planets-guardians',
@@ -77,6 +77,17 @@ const projects = [
     alt: '(descrição)',
     tags: ['publication', 'equality', 'politics', 'humanRights', 'work', 'socialMedia'],
     tagsPt: ['publicação', 'igualdade', 'política', 'direitosHumanos', 'trabalho', 'mídiasSociais'],
+  },
+   {
+    id: 'agricultura',
+    title: 'Agricultura Familiar e Clima',
+    images: {
+      thumbnail: 'thumb.png',
+      full: '...'
+    },
+    alt: '(descrição)',
+    tags: [en.ILLUSTRATION, en.WEB, en.ENVIRONMENT, en.PUBLICATION, en.ANIMATION, en.SOCIAL_MEDIA, en.VISUAL_IDENTITY, en.WORK],
+    tagsPt: [pt.ILLUSTRATION, pt.WEB, pt.ENVIRONMENT, pt.PUBLICATION, pt.ANIMATION, pt.SOCIAL_MEDIA, pt.VISUAL_IDENTITY, pt.WORK],
   },
   {
     id: 'facanhas',
@@ -188,7 +199,7 @@ const projects = [
     tags: ['animation', 'illustration', 'esg', 'environment'],
     tagsPt: ['animação', 'ilustração', 'esg', 'meioAmbiente'],
   },
-    {
+  {
     id: 'promar',
     title: 'Promar',
     images: {

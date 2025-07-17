@@ -31,6 +31,7 @@ import {
   Mobilizacao,
   FundingThePlanetsGuardians,
   Promar,
+  Seminario,
 } from './pages/projectsPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
@@ -272,6 +273,14 @@ function App() {
             <MainPageLayout>
               <ProjectPageLayout>
                 <Promar />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+          <Route exact path="/projetos/seminario" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <Seminario />
               </ProjectPageLayout>
             </MainPageLayout>
           }

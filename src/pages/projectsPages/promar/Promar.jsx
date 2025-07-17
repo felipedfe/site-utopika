@@ -53,7 +53,7 @@ function Promar({ projectData }) {
       <ImageWrapper>
         <img
           alt=""
-          src="/images/projects/promar/promar-frame-6.webp"
+          src="/images/projects/promar/promar-frame-6_1.webp"
         />
       </ImageWrapper>
 
@@ -73,7 +73,7 @@ function Promar({ projectData }) {
       <ImageWrapper>
         <img
           alt=""
-          src="/images/projects/promar/promar-frame-9.webp"
+          src="/images/projects/promar/promar-frame-9_1.webp"
         />
       </ImageWrapper>
 

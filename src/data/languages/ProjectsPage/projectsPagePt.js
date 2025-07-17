@@ -626,12 +626,34 @@ const projectsPagePt = {
     },
     tags: [pt.VISUAL_IDENTITY,  pt.ENVIRONMENT],
   },
+    seminario: {
+    title: "Seminário Sobre Dados de Raça, Gênero e Clima",
+    introduction: `<p>A Utópika teve a honra de criar a identidade visual desse encontro. Mais do que peças de design, construímos um espaço visual onde os saberes puderam se fortalecer e se espalhar.</p>
+    <p>O Seminário Raça, Gênero e Clima, foi uma iniciativa do <a class="text-link" href="https://www.oc.eco.br/" target="_blank">Observatório do Clima</a>, <a class="text-link" href="https://www.instagram.com/ipeaoficial/" target="_blank">ipea</a> e <a class="text-link" href="https://www.geledes.org.br/" target="_blank">Portal Geledés</a> onde dados, territórios e experiências se cruzaram com afeto, escuta e estratégia. E tudo isso só foi possível porque trabalhamos lado a lado com a potência da <a class="text-link" href="https://entremeios.me/" target="_blank">Entremeios</a> que é beleza e inteligência em cada detalhe. Seguimos acreditando que o futuro será feito por mãos femininas.</p>`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Projeto gráfico",
+          name: "Julia Lima e Rachel Gepp",
+        },
+        {
+          role: "Ilustrações",
+          name: "Julia Lima",
+        },
+      ]
+    },
+    tags: [pt.VISUAL_IDENTITY, pt.PUBLICATION, pt.ILLUSTRATION, pt.ENVIRONMENT],
+  },
 }
 
 export default projectsPagePt;
 
-{/* <a class="text-link" href="https://alziras.org.br/violenciapolitica/" target="_blank">um site acessível</a>
+{/* 
+  <a class="text-link" href="https://alziras.org.br/violenciapolitica/" target="_blank">um site acessível</a>
 <a class="text-link" href="https://alziras.org.br/" target="_blank">Instituto Alziras</a>
 <a class="text-link" href="https://alianzafondosdelsur.org/" target="_blank">Alianza Fondos del Sur</a>
 <a class="text-link" href="https://www.instagram.com/revolusolar/" target="_blank">@revolusolar</a>
-<a class="text-link" href="https://repam.org.br/" target="_blank">Rede Eclesial Pan-Amazônica (REPAM-Brasil)</a> */}
+<a class="text-link" href="https://repam.org.br/" target="_blank">Rede Eclesial Pan-Amazônica (REPAM-Brasil)</a> 
+<a class="text-link" href="https: //www.oc.eco.br/" target="_blank">Observatório do Clima</a>
+*/}

@@ -600,7 +600,7 @@ const projectsPageEn = {
     },
     tags: [en.ILLUSTRATION, en.TERRITORY, en.ENVIRONMENT, en.VISUAL_IDENTITY, en.HUMAN_RIGHTS],
   },
-    promar: {
+  promar: {
     title: "Promar",
     introduction: `<p>Visual communication is an essential strategy to make science more accessible and expand its impact. With this vision in mind, we created the visual identity for PROMAR, a university program dedicated to mapping and protecting marine areas in the state of São Paulo, aiming to guide public policies in dialogue with the local population.</p>
     <p>Inspired by the exploratory and scientific spirit of the project, PROMAR's visual identity conveys discovery, mapping, and innovation, combining graphic elements that evoke the unveiling of hidden layers at the bottom of the ocean.</p>
@@ -618,7 +618,27 @@ const projectsPageEn = {
         },
       ]
     },
-    tags: [en.VISUAL_IDENTITY,  en.ENVIRONMENT],
+    tags: [en.VISUAL_IDENTITY, en.ENVIRONMENT],
+  },
+  seminario: {
+    title: "Seminário Sobre Dados de Raça, Gênero e Clima",
+    introduction: `<p>Utópika had the honor of creating the visual identity for this gathering. More than just design pieces, we built a visual space where knowledge could be strengthened and shared.</p>
+    <p>The Race, Gender, and Climate Seminar was an initiative by the <a class="text-link" href="https://www.oc.eco.br/" target="_blank">Climate Observatory</a>, <a class="text-link" href="https://www.instagram.com/ipeaoficial/" target="_blank">IPEA</a>, and <a class="text-link" href="https://www.geledes.org.br/" target="_blank">Geledés Portal</a>, where data, territories, and lived experiences intersected with care, listening, and strategy. And all of this was only possible because we worked side by side with the brilliance of <a class="text-link" href="https://entremeios.me/" target="_blank">Entremeios</a>, which brings beauty and intelligence to every detail. We continue to believe that the future will be shaped by women's hands.</p>
+`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Graphic Design",
+          name: "Julia Lima and Rachel Gepp",
+        },
+        {
+          role: "Illustrations",
+          name: "Julia Lima",
+        },
+      ]
+    },
+    tags: [en.VISUAL_IDENTITY, en.PUBLICATION, en.ILLUSTRATION, en.ENVIRONMENT],
   },
 }
 
