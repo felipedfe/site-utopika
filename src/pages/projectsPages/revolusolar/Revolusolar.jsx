@@ -103,7 +103,7 @@ function Revolusolar({ projectData }) {
           <ImageWrapper>
             <img
               alt=""
-              src="/images/projects/revolusolar/revolusolar-frame-4.png"
+              src="/images/projects/revolusolar/revolusolar-frame-4.webp"
             />
           </ImageWrapper>
           <ImageWrapper>

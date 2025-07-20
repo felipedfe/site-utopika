@@ -53,8 +53,8 @@ const projects = [
       full: '...'
     },
     alt: '(descrição)',
-    tags: [en.VISUAL_IDENTITY, en.PUBLICATION, en.ILLUSTRATION, en.ENVIRONMENT],
-    tagsPt: [pt.VISUAL_IDENTITY, pt.PUBLICATION, pt.ILLUSTRATION, pt.ENVIRONMENT],
+    tags: [en.VISUAL_IDENTITY, en.PUBLICATION, en.WOMEN, en.ENVIRONMENT],
+    tagsPt: [pt.VISUAL_IDENTITY, pt.PUBLICATION, pt.WOMEN, pt.ENVIRONMENT],
   },
   {
     id: 'funding-the-planets-guardians',

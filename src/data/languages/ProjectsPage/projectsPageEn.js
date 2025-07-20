@@ -629,16 +629,17 @@ const projectsPageEn = {
       title: "Credits",
       info: [
         {
-          role: "Graphic Design",
-          name: "Julia Lima and Rachel Gepp",
-        },
-        {
-          role: "Illustrations",
+          role: "Creative Direction",
           name: "Julia Lima",
         },
+        {
+          role: "Design Assistant",
+          name: "Ana Clara Abbate",
+        },
+
       ]
     },
-    tags: [en.VISUAL_IDENTITY, en.PUBLICATION, en.ILLUSTRATION, en.ENVIRONMENT],
+    tags: [en.VISUAL_IDENTITY, en.PUBLICATION, en.WOMEN, en.ENVIRONMENT],
   },
 }
 
