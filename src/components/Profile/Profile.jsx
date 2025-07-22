@@ -23,22 +23,30 @@ function Profile({ id }) {
     <ProfileWrapper>
       <Image src={`images/profile/${id}/image.png`} />
       <TextWrapper>
-        <p dangerouslySetInnerHTML={{ __html: `${profile[id]}` }}></p>
+        {/* <p dangerouslySetInnerHTML={{ __html: `${profile[id]?.text}` }}></p> */}
+        <h3>{profile[id]?.role}</h3>
+        <p>{profile[id]?.text}</p>
         <SocialMediaIcons>
-          <IconLink
-          href={socialMedia[id].instagram}
-          rel="noreferrer"
-          target='_blank'
-          >
-            <InstagramIcon />
-          </IconLink>
-          <IconLink
-          href={socialMedia[id].linkedin}
-          rel="noreferrer"
-          target='_blank'
-          >
-            <LinkedInIcon />
-          </IconLink>
+          {socialMedia[id]?.instagram && (
+            <IconLink
+              href={socialMedia[id].instagram}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <InstagramIcon />
+            </IconLink>
+          )}
+
+          {socialMedia[id]?.linkedin && (
+            <IconLink
+              href={socialMedia[id].linkedin}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <LinkedInIcon />
+            </IconLink>
+          )}
+
         </SocialMediaIcons>
       </TextWrapper>
     </ProfileWrapper>

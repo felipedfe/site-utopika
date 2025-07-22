@@ -11,6 +11,7 @@ const ProjectInfoContainer = styled.section`
 
 const Title = styled.h1`
   font-size: 2rem;
+  line-height: 1.2;
 `
 
 const Divider = styled.hr`
@@ -27,6 +28,10 @@ const TextWrapper = styled.div`
 
   @media all and (max-width:1024px) {
     margin-left: 0;
+  }
+
+  @media all and (max-width:768px) {
+    padding-top: 2rem;
   }
 `
 

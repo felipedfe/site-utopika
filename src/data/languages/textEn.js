@@ -28,15 +28,35 @@ const textEn = {
         paragraph5: `Design can — and should — be on the right side of history. Shall we make it happen?`,
       },
       profile: {
-        julia: `<strong>Julia Lima</strong> – Designer, illustrator, and motion designer, she has worked in TV, magazines, publishing, and production companies before realizing that design is transversal — what drives her is the theme and the people she builds with.
-        <br>For over a decade, she has worked at the intersection of design, storytelling, and social impact, creating projects that amplify voices and foster genuine connections. Her experience extends to exhibition design and game design, translating complex topics into immersive and accessible experiences.
-        <br>She built Utópika not just as a studio, but as a workspace that reflects her values. She leads teams and projects always striving to unite clarity, imagination, and impact, balancing the challenges of communication, business, motherhood, and the world she wants to help build.
-        <br>To her, design only makes sense when it is committed to reality and has the courage to interfere with it.`,
-
-        rachel: `<strong>Rachel Gepp</strong> – Advertising professional, designer, and illustrator. She believes in communication as a tool for transformation and has built her career with over twenty years of experience in communications, combining strategy and action to shape visual narratives that mobilize and make an impact.
-        <br>With a strategic outlook and strong coordination skills, she merges creative intelligence with field experience. At Utópika, she creates innovative projects for social, cultural, and environmental organizations that not only communicate but also question, provoke, and inspire change.
-        <br>She specializes in creating visual identities and graphic content that translate complex issues for diverse audiences. Her work blends design, science communication, and social impact.
-        <br>To her, design is discourse, and communicating with honesty is a political act.`,
+        julia: {
+          role: 'Partner and Creative Director',
+          text: `Designer, illustrator, and motion designer. With over a decade of experience, she works at the intersection of design, narrative,
+          and social impact. She sees design as a collective practice committed to reality, capable of amplifying voices and building
+          meaningful connections. She works with exhibition design and game design, translating complex themes into accessible experiences.
+          At Utópika, she leads teams and projects that combine clarity, imagination, and transformation. She believes that design only makes
+          sense when it has the courage to interfere in the world.`,
+        },
+        rachel: {
+          role: 'Partner and Creative Director',
+          text: `Advertising professional, designer, and illustrator. She combines creative intelligence with practical repertoire to develop
+          projects with critical vocation and social impact. At Utópika, she creates visual identities and graphic content for social,
+          cultural, and environmental organizations, translating complex issues for diverse audiences. She uses design as a tool for
+          provocation, mobilization, and change. She believes that communicating with honesty is a political act.`,
+        },
+        ana: {
+          role: 'Designer',
+          text: `She has participated in outreach and research projects, consolidating a transdisciplinary and critical view of design. Even in the
+          face of setbacks and conservative discourses, she maintains a proactive perspective and believes in communication as a power for
+          transformation. At Utópika, she contributes to projects that reflect diversity, listening, and commitment to the future. She
+          believes that collective and plural design is a force for mobilization.`,
+        },
+        mauricio: {
+          role: 'Strategic Partner at Utópika',
+          text: `Communication and socio-environmental facilitation consultant, writer, and strategic partner at Utópika. He has worked for over
+          15 years with impact strategies in conservation, regeneration, and climate justice projects in South America. Driven by listening
+          and intercultural dialogue, he works to turn discourse into concrete change. He believes that to communicate is to connect worlds
+          and plant seeds of future possibilities.`,
+        },
       },
       socialMedia: {
         julia: {

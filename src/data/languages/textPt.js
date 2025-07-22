@@ -28,14 +28,35 @@ const textPt = {
         paragraph5: `O design pode – e deve – estar do lado certo da história. Vamos fazer acontecer?`,
       },
       profile: {
-        julia: `<strong>Julia Lima</strong> - Designer, ilustradora e motion designer, já passou por tv, revista, editora e produtora até entender que o design é transversal e o que a envolve é o tema e as pessoas com quem se constrói junto. 
-        <br>Há mais de uma década, atua na interseção entre design, narrativa e impacto social, criando projetos que ampliam vozes e constroem conexões genuínas. Sua experiência se estende à expografia e ao design de jogos, traduzindo temas complexos em experiências imersivas e acessíveis.
-        <br>Estruturou a Utópika não apenas como um estúdio, mas como um espaço de trabalho que reflete seus valores. Coordena equipes e projetos sempre buscando unir clareza, imaginação e impacto, equilibrando os desafios de pensar comunicação, negócio, maternidade e o mundo que quer ajudar a construir.
-        <br>Para ela, o design só faz sentido quando está comprometido com a realidade e tem coragem de interferir nela.`,
-        rachel: `<strong>Rachel Gepp</strong> - Publicitária, designer e ilustradora. Acredita na comunicação como ferramenta de transformação e construiu sua trajetória com mais de vinte anos de experiência na comunicação, aliando estratégia e ação para dar forma a narrativas visuais que mobilizam e impactam.
-        <br>Com olhar estratégico e capacidade de articulação, combina inteligência criativa e experiência de campo. Na Utópika, cria projetos inovadores para organizações sociais, culturais e ambientais, que não só comunicam, mas também questionam, provocam e inspiram mudanças. 
-        <br>Especialista na criação de identidades visuais e conteúdos gráficos que traduzem pautas complexas para públicos diversos. Seu trabalho combina design, divulgação científica e impacto social.
-        <br>Para ela, design é discurso e comunicar com honestidade é um ato político`,
+        julia: {
+          role: 'Sócia e diretora criativa',
+          text: `Designer, ilustradora e motion designer. Com mais de uma década de atuação, trabalha na interseção entre design, narrativa 
+          e impacto social. Entende o design como prática coletiva e comprometida com a realidade, capaz de ampliar vozes e 
+          construir conexões significativas. Atua com expografia e design de jogos, traduzindo temas complexos em experiências 
+          acessíveis. Na Utópika, lidera equipes e projetos que combinam clareza, imaginação e transformação. Acredita que o 
+          design só faz sentido quando tem coragem de interferir no mundo.`,
+        },
+        rachel: {
+          role: 'Sócia e diretora criativa',
+          text: `Publicitária, designer e ilustradora. Une inteligência criativa a repertório prático para desenvolver projetos com 
+          vocação crítica e impacto social. Na Utópika, cria identidades visuais e conteúdos gráficos para organizações sociais, 
+          culturais e ambientais, traduzindo pautas complexas para públicos diversos. Usa o design como ferramenta de provocação, 
+          mobilização e mudança. Acredita que comunicar com honestidade é um ato político.`,
+        },
+        ana: {
+          role: 'Designer',
+          text: `Participou de projetos de extensão e pesquisa, consolidando uma visão transdisciplinar e crítica do design. Mesmo diante 
+          de retrocessos e discursos conservadores, mantém um olhar propositivo e acredita na comunicação como potência de transformação. 
+          Na Utópika, contribui para projetos que refletem diversidade, escuta e compromisso com o futuro. Acredita que o design coletivo 
+          e plural é uma força de mobilização.`,
+        },
+        mauricio: {
+          role: 'Parceiro estratégico da Utópika',
+          text: `Consultor em comunicação e facilitação socioambiental, escritor e parceiro estratégico da Utópika. Atua há mais de 
+          15 anos com estratégias de impacto em projetos de conservação, regeneração e justiça climática na América do Sul. Movido 
+          pela escuta e pelo diálogo intercultural, trabalha para transformar discursos em mudança concreta. Acredita que comunicar 
+          é conectar mundos e semear possibilidades de futuro.`,
+        },
       },
       socialMedia: {
         julia: {
