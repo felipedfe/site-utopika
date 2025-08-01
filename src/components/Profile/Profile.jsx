@@ -21,11 +21,14 @@ function Profile({ id }) {
   // console.log(socialMedia[id])
   return (
     <ProfileWrapper>
-      <Image src={`images/profile/${id}/image.png`} />
+      {profile[id]?.hasImage && (
+        <Image src={`images/profile/${id}/image.png`} />
+      )}
       <TextWrapper>
         {/* <p dangerouslySetInnerHTML={{ __html: `${profile[id]?.text}` }}></p> */}
-        <h3>{profile[id]?.role}</h3>
-        <p>{profile[id]?.text}</p>
+        <h3>{profile[id]?.name}</h3>
+        <span><i>{profile[id]?.role}</i></span>
+        <p style={{ paddingTop: '1rem' }}>{profile[id]?.text}</p>
         <SocialMediaIcons>
           {socialMedia[id]?.instagram && (
             <IconLink
