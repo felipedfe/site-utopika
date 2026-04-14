@@ -5,22 +5,31 @@ const { en } = tags;
 const projectsPageEn = {
   "trabalho-justo-para-mulheres": {
     title: "Trabalho Justo Para Mulheres",
-    introduction: `<p>(project text not defined yet)</p>
-    <p>Temporary placeholder: this content will be replaced once the final text, tags, and credits are ready.</p>`,
+    introduction: `<p>Utópika is made up of women who build creative solutions from challenging contexts. This perspective shapes how we engage with projects connected to territory, autonomy, and social justice.</p>
+    <p>In Trabalho Justo para Mulheres, in partnership with the <a class="text-link" href="https://fase.org.br/pt/" target="_blank" rel="noreferrer">FASE NGO</a>, we carried out a training process with women who already lead productive initiatives in their communities, support their families, and move local economies.</p>
+    <p>As an outcome, we developed the Mão na Massa Workbook and the Bora de Maré Passport, materials designed to support and strengthen these initiatives. More than the final products, the project built a collective process grounded in listening, exchange, and strategy-building that strengthens networks and highlights the power of solutions rooted in the territory.</p>`,
     credits: {
       title: "Credits",
       info: [
         {
-          role: "Art direction",
+          role: "Creative training and coordination",
+          name: "Rachel Gepp and Julia Lima",
+        },
+        {
+          role: "Layout",
+          name: "Rachel Gepp, Julia Lima",
+        },
+        {
+          role: "Illustrations",
           name: "Julia Lima",
         },
         {
-          role: "Design",
-          name: "Carla Dutra",
+          role: "Art assistant",
+          name: "Mariana Simões",
         },
       ]
     },
-    tags: [en.WORK, en.HUMAN_RIGHTS, en.PUBLICATION, en.ILLUSTRATION],
+    tags: [en.WORK, en.WOMEN, en.HUMAN_RIGHTS, en.PUBLICATION, en.ILLUSTRATION],
   },
   mongabay: {
     title: "Mongabay Graphic Package",

@@ -5,22 +5,31 @@ const { pt } = tags;
 const projectsPagePt = {
   "trabalho-justo-para-mulheres": {
     title: "Trabalho Justo Para Mulheres",
-    introduction: `<p>(texto do projeto ainda não definido)</p>
-    <p>Placeholder temporário: este conteúdo será substituído quando vocês tiverem introdução, descrição e materiais do projeto.</p>`,
+    introduction: `<p>A Utópika é formada por mulheres que constroem soluções criativas a partir de contextos desafiadores. Essa perspectiva orienta a forma como nos envolvemos com projetos que dialogam com território, autonomia e justiça social.</p>
+    <p>No Trabalho Justo para Mulheres, em parceria com a <a class="text-link" href="https://fase.org.br/pt/" target="_blank" rel="noreferrer">ONG FASE</a>, realizamos uma formação com mulheres que já tocam iniciativas produtivas em suas comunidades, sustentam suas famílias e movimentam economias locais.</p>
+    <p>Como desdobramento, desenvolvemos o Caderno Mão na Massa e o Passaporte Bora de Maré, materiais pensados para apoiar e fortalecer essas iniciativas. Mais do que os produtos finais, o projeto consolidou um processo de construção coletiva, com escuta, troca e articulação de estratégias que reforçam redes e evidenciam a potência do que nasce do território.</p>`,
     credits: {
       title: "Créditos",
       info: [
         {
-          role: "Direção de arte",
+          role: "Formação e coordenação criativa",
+          name: "Rachel Gepp e Julia Lima",
+        },
+        {
+          role: "Diagramação",
+          name: "Rachel Gepp, Julia Lima",
+        },
+        {
+          role: "Ilustrações",
           name: "Julia Lima",
         },
         {
-          role: "Design",
-          name: "Carla Dutra",
+          role: "Assistente de arte",
+          name: "Mariana Simões",
         },
       ]
     },
-    tags: [pt.WORK, pt.HUMAN_RIGHTS, pt.PUBLICATION, pt.ILLUSTRATION],
+    tags: [pt.WORK, pt.WOMEN, pt.HUMAN_RIGHTS, pt.PUBLICATION, pt.ILLUSTRATION],
   },
   mongabay: {
     title: "Pacote Gráfico Mongabay",

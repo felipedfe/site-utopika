@@ -53,8 +53,8 @@ const projects = [
       full: '...'
     },
     alt: '(descrição)',
-    tags: [en.WORK, en.HUMAN_RIGHTS, en.PUBLICATION, en.ILLUSTRATION],
-    tagsPt: [pt.WORK, pt.HUMAN_RIGHTS, pt.PUBLICATION, pt.ILLUSTRATION],
+    tags: [en.WORK, en.WOMEN, en.HUMAN_RIGHTS, en.PUBLICATION, en.ILLUSTRATION],
+    tagsPt: [pt.WORK, pt.WOMEN, pt.HUMAN_RIGHTS, pt.PUBLICATION, pt.ILLUSTRATION],
   },
       {
     id: 'seminario',
