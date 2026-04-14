@@ -3,6 +3,25 @@ import { tags } from '../../projects/constants';
 const { en } = tags;
 
 const projectsPageEn = {
+  "trabalho-justo-para-mulheres": {
+    title: "Trabalho Justo Para Mulheres",
+    introduction: `<p>(project text not defined yet)</p>
+    <p>Temporary placeholder: this content will be replaced once the final text, tags, and credits are ready.</p>`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Art direction",
+          name: "Julia Lima",
+        },
+        {
+          role: "Design",
+          name: "Carla Dutra",
+        },
+      ]
+    },
+    tags: [en.WORK, en.HUMAN_RIGHTS, en.PUBLICATION, en.ILLUSTRATION],
+  },
   mongabay: {
     title: "Mongabay Graphic Package",
     introduction: "Mongabay is an environmental news portal based in different regions and needed to standardize its communication and make life easier for editors collaborating around the world. To that end, we created new layouts for its video graphics package in order to be versatile and adapt to social midia, without losing the Mongabay identity.",

@@ -3,6 +3,25 @@ import { tags } from '../../projects/constants';
 const { pt } = tags;
 
 const projectsPagePt = {
+  "trabalho-justo-para-mulheres": {
+    title: "Trabalho Justo Para Mulheres",
+    introduction: `<p>(texto do projeto ainda não definido)</p>
+    <p>Placeholder temporário: este conteúdo será substituído quando vocês tiverem introdução, descrição e materiais do projeto.</p>`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Direção de arte",
+          name: "Julia Lima",
+        },
+        {
+          role: "Design",
+          name: "Carla Dutra",
+        },
+      ]
+    },
+    tags: [pt.WORK, pt.HUMAN_RIGHTS, pt.PUBLICATION, pt.ILLUSTRATION],
+  },
   mongabay: {
     title: "Pacote Gráfico Mongabay",
     introduction: "O Mongabay é um portal de notícias ambientais com sede em diferentes regiões e precisava padronizar sua comunicação e facilitar a vida de editores que colaboram ao redor do mundo. Para isso criamos novos layouts para o seu pacote gráfico em vídeo com o intuito de ser versátil e se adequar ao consumo nas redes, sem perder a identidade do Mongabay.",

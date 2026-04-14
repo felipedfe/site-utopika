@@ -28,6 +28,7 @@ import Mobilizacao from "./mobilizacao/Mobilizacao";
 import FundingThePlanetsGuardians from "./funding-the-planets-guardians/FundingThePlanetsGuardians";
 import Promar from "./promar/Promar";
 import Seminario from "./seminario/Seminario";
+import TrabalhoJustoParaMulheres from "./trabalho-justo-para-mulheres/TrabalhoJustoParaMulheres";
 
 export {
   Mongabay,
@@ -60,4 +61,5 @@ export {
   FundingThePlanetsGuardians,
   Promar,
   Seminario,
+  TrabalhoJustoParaMulheres,
 }

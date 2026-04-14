@@ -32,6 +32,7 @@ import {
   FundingThePlanetsGuardians,
   Promar,
   Seminario,
+  TrabalhoJustoParaMulheres,
 } from './pages/projectsPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
@@ -281,6 +282,15 @@ function App() {
             <MainPageLayout>
               <ProjectPageLayout>
                 <Seminario />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+
+          <Route exact path="/projetos/trabalho-justo-para-mulheres" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <TrabalhoJustoParaMulheres />
               </ProjectPageLayout>
             </MainPageLayout>
           }
