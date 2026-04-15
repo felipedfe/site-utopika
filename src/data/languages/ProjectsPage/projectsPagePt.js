@@ -17,7 +17,7 @@ const projectsPagePt = {
         },
         {
           role: "Diagramação",
-          name: "Rachel Gepp, Julia Lima",
+          name: "Rachel Gepp e Julia Lima",
         },
         {
           role: "Ilustrações",
