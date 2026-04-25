@@ -34,8 +34,10 @@ import {
   Seminario,
   TrabalhoJustoParaMulheres,
 } from './pages/projectsPages';
+import { SomosOClima } from './pages/projectOverviewPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
+import ProjectOverviewPageLayout from './pages/pageLayouts/projectOverviewPageLayout';
 import MyProvider from './provider/myProvider';
 import ScrollToTop from './helpers/ScrollToTop';
 import './App.css';
@@ -294,6 +296,18 @@ function App() {
               </ProjectPageLayout>
             </MainPageLayout>
           }
+          />
+
+          <Route
+            exact
+            path="/project-overview/somosoclima"
+            element={
+              <MainPageLayout>
+                <ProjectOverviewPageLayout>
+                  <SomosOClima />
+                </ProjectOverviewPageLayout>
+              </MainPageLayout>
+            }
           />
 
           <Route exact path="/projetos" element={
