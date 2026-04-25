@@ -45,17 +45,17 @@ const { en } = tags;
 const { pt } = tags;
 
 const projects = [
-      {
-    id: 'trabalho-justo-para-mulheres',
-    title: 'Trabalho Justo Para Mulheres',
-    images: {
-      thumbnail: 'thumb.png',
-      full: '...'
-    },
-    alt: '(descrição)',
-    tags: [en.WORK, en.WOMEN, en.HUMAN_RIGHTS, en.PUBLICATION, en.ILLUSTRATION],
-    tagsPt: [pt.WORK, pt.WOMEN, pt.HUMAN_RIGHTS, pt.PUBLICATION, pt.ILLUSTRATION],
-  },
+  //     {
+  //   id: 'trabalho-justo-para-mulheres',
+  //   title: 'Trabalho Justo Para Mulheres',
+  //   images: {
+  //     thumbnail: 'thumb.png',
+  //     full: '...'
+  //   },
+  //   alt: '(descrição)',
+  //   tags: [en.WORK, en.WOMEN, en.HUMAN_RIGHTS, en.PUBLICATION, en.ILLUSTRATION],
+  //   tagsPt: [pt.WORK, pt.WOMEN, pt.HUMAN_RIGHTS, pt.PUBLICATION, pt.ILLUSTRATION],
+  // },
       {
     id: 'seminario',
     title: 'Seminário Sobre Dados de Raça, Gênero e Clima',
