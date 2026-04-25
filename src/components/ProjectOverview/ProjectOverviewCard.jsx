@@ -59,13 +59,6 @@ const Left = styled.div`
   gap: 1rem;
 `;
 
-const Spotlight = styled.p`
-  font-weight: 700;
-  font-size: clamp(1rem, 2.2vw, 1.15rem);
-  letter-spacing: 0.06em;
-  color: var(--blue, #001944);
-`;
-
 const ClientRow = styled.div`
   display: flex;
   align-items: center;

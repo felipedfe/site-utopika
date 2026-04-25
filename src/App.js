@@ -34,7 +34,13 @@ import {
   Seminario,
   TrabalhoJustoParaMulheres,
 } from './pages/projectsPages';
-import { SomosOClima } from './pages/projectOverviewPages';
+import {
+  SomosOClima,
+  Euroclima,
+  Festsauva,
+  Rosaluxredes,
+  AdaptacaoClimatica,
+} from './pages/projectOverviewPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
 import ProjectOverviewPageLayout from './pages/pageLayouts/projectOverviewPageLayout';
@@ -305,6 +311,50 @@ function App() {
               <MainPageLayout>
                 <ProjectOverviewPageLayout>
                   <SomosOClima />
+                </ProjectOverviewPageLayout>
+              </MainPageLayout>
+            }
+          />
+          <Route
+            exact
+            path="/project-overview/euroclima"
+            element={
+              <MainPageLayout>
+                <ProjectOverviewPageLayout>
+                  <Euroclima />
+                </ProjectOverviewPageLayout>
+              </MainPageLayout>
+            }
+          />
+          <Route
+            exact
+            path="/project-overview/festsauva"
+            element={
+              <MainPageLayout>
+                <ProjectOverviewPageLayout>
+                  <Festsauva />
+                </ProjectOverviewPageLayout>
+              </MainPageLayout>
+            }
+          />
+          <Route
+            exact
+            path="/project-overview/rosaluxredes"
+            element={
+              <MainPageLayout>
+                <ProjectOverviewPageLayout>
+                  <Rosaluxredes />
+                </ProjectOverviewPageLayout>
+              </MainPageLayout>
+            }
+          />
+          <Route
+            exact
+            path="/project-overview/adaptacaoclimatica"
+            element={
+              <MainPageLayout>
+                <ProjectOverviewPageLayout>
+                  <AdaptacaoClimatica />
                 </ProjectOverviewPageLayout>
               </MainPageLayout>
             }
