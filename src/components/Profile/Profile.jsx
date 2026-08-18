@@ -21,24 +21,35 @@ function Profile({ id }) {
   // console.log(socialMedia[id])
   return (
     <ProfileWrapper>
-      <Image src={`images/profile/${id}/image.png`} />
+      {profile[id]?.hasImage && (
+        <Image src={`images/profile/${id}/image.png`} />
+      )}
       <TextWrapper>
-        <p dangerouslySetInnerHTML={{ __html: `${profile[id]}` }}></p>
+        {/* <p dangerouslySetInnerHTML={{ __html: `${profile[id]?.text}` }}></p> */}
+        <h3>{profile[id]?.name}</h3>
+        <span><i>{profile[id]?.role}</i></span>
+        <p style={{ paddingTop: '1rem' }}>{profile[id]?.text}</p>
         <SocialMediaIcons>
-          <IconLink
-          href={socialMedia[id].instagram}
-          rel="noreferrer"
-          target='_blank'
-          >
-            <InstagramIcon />
-          </IconLink>
-          <IconLink
-          href={socialMedia[id].linkedin}
-          rel="noreferrer"
-          target='_blank'
-          >
-            <LinkedInIcon />
-          </IconLink>
+          {socialMedia[id]?.instagram && (
+            <IconLink
+              href={socialMedia[id].instagram}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <InstagramIcon />
+            </IconLink>
+          )}
+
+          {socialMedia[id]?.linkedin && (
+            <IconLink
+              href={socialMedia[id].linkedin}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <LinkedInIcon />
+            </IconLink>
+          )}
+
         </SocialMediaIcons>
       </TextWrapper>
     </ProfileWrapper>

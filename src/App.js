@@ -32,9 +32,18 @@ import {
   FundingThePlanetsGuardians,
   Promar,
   Seminario,
+  TrabalhoJustoParaMulheres,
 } from './pages/projectsPages';
+import {
+  SomosOClima,
+  Euroclima,
+  Festsauva,
+  Rosaluxredes,
+  AdaptacaoClimatica,
+} from './pages/projectOverviewPages';
 import MainPageLayout from './pages/pageLayouts/mainPageLayout';
 import ProjectPageLayout from './pages/pageLayouts/projectPageLayout';
+import ProjectOverviewPageLayout from './pages/pageLayouts/projectOverviewPageLayout';
 import MyProvider from './provider/myProvider';
 import ScrollToTop from './helpers/ScrollToTop';
 import './App.css';
@@ -284,6 +293,71 @@ function App() {
               </ProjectPageLayout>
             </MainPageLayout>
           }
+          />
+
+          <Route exact path="/projetos/trabalho-justo-para-mulheres" element={
+            <MainPageLayout>
+              <ProjectPageLayout>
+                <TrabalhoJustoParaMulheres />
+              </ProjectPageLayout>
+            </MainPageLayout>
+          }
+          />
+
+          <Route
+            exact
+            path="/project-overview/somosoclima"
+            element={
+              <MainPageLayout>
+                <ProjectOverviewPageLayout>
+                  <SomosOClima />
+                </ProjectOverviewPageLayout>
+              </MainPageLayout>
+            }
+          />
+          <Route
+            exact
+            path="/project-overview/euroclima"
+            element={
+              <MainPageLayout>
+                <ProjectOverviewPageLayout>
+                  <Euroclima />
+                </ProjectOverviewPageLayout>
+              </MainPageLayout>
+            }
+          />
+          <Route
+            exact
+            path="/project-overview/festsauva"
+            element={
+              <MainPageLayout>
+                <ProjectOverviewPageLayout>
+                  <Festsauva />
+                </ProjectOverviewPageLayout>
+              </MainPageLayout>
+            }
+          />
+          <Route
+            exact
+            path="/project-overview/rosaluxredes"
+            element={
+              <MainPageLayout>
+                <ProjectOverviewPageLayout>
+                  <Rosaluxredes />
+                </ProjectOverviewPageLayout>
+              </MainPageLayout>
+            }
+          />
+          <Route
+            exact
+            path="/project-overview/adaptacaoclimatica"
+            element={
+              <MainPageLayout>
+                <ProjectOverviewPageLayout>
+                  <AdaptacaoClimatica />
+                </ProjectOverviewPageLayout>
+              </MainPageLayout>
+            }
           />
 
           <Route exact path="/projetos" element={

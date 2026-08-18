@@ -3,6 +3,34 @@ import { tags } from '../../projects/constants';
 const { pt } = tags;
 
 const projectsPagePt = {
+  "trabalho-justo-para-mulheres": {
+    title: "Trabalho Justo Para Mulheres",
+    introduction: `<p>A Utópika é formada por mulheres que constroem soluções criativas a partir de contextos desafiadores. Essa perspectiva orienta a forma como nos envolvemos com projetos que dialogam com território, autonomia e justiça social.</p>
+    <p>No Trabalho Justo para Mulheres, em parceria com a <a class="text-link" href="https://fase.org.br/pt/" target="_blank" rel="noreferrer">ONG FASE</a>, realizamos uma formação com mulheres que já tocam iniciativas produtivas em suas comunidades, sustentam suas famílias e movimentam economias locais.</p>
+    <p>Como desdobramento, desenvolvemos o Caderno Mão na Massa e o Passaporte Bora de Maré, materiais pensados para apoiar e fortalecer essas iniciativas. Mais do que os produtos finais, o projeto consolidou um processo de construção coletiva, com escuta, troca e articulação de estratégias que reforçam redes e evidenciam a potência do que nasce do território.</p>`,
+    credits: {
+      title: "Créditos",
+      info: [
+        {
+          role: "Formação e coordenação criativa",
+          name: "Rachel Gepp e Julia Lima",
+        },
+        {
+          role: "Diagramação",
+          name: "Rachel Gepp e Julia Lima",
+        },
+        {
+          role: "Ilustrações",
+          name: "Julia Lima",
+        },
+        {
+          role: "Assistente de arte",
+          name: "Mariana Simões",
+        },
+      ]
+    },
+    tags: [pt.WORK, pt.WOMEN, pt.HUMAN_RIGHTS, pt.PUBLICATION, pt.ILLUSTRATION],
+  },
   mongabay: {
     title: "Pacote Gráfico Mongabay",
     introduction: "O Mongabay é um portal de notícias ambientais com sede em diferentes regiões e precisava padronizar sua comunicação e facilitar a vida de editores que colaboram ao redor do mundo. Para isso criamos novos layouts para o seu pacote gráfico em vídeo com o intuito de ser versátil e se adequar ao consumo nas redes, sem perder a identidade do Mongabay.",

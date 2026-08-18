@@ -17,6 +17,7 @@ const AboutContainer = styled.main`
   @media all and (max-width: 1024px) {
     margin-left: 3%;
     margin-right: 3%;
+    /* line-height: 1 !important; */
   }
 
   @media all and (min-width: 1500px) {
@@ -35,11 +36,12 @@ const ProfileSection = styled.section`
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
   padding: 0 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   text-align: justify;
 
   @media all and (max-width: 768px) {
     grid-template-columns: 1fr;
+    margin-bottom: 2rem;
   }
 `
 

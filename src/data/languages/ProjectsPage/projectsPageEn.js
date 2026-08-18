@@ -3,6 +3,34 @@ import { tags } from '../../projects/constants';
 const { en } = tags;
 
 const projectsPageEn = {
+  "trabalho-justo-para-mulheres": {
+    title: "Trabalho Justo Para Mulheres",
+    introduction: `<p>Utópika is made up of women who build creative solutions from challenging contexts. This perspective shapes how we engage with projects connected to territory, autonomy, and social justice.</p>
+    <p>In Trabalho Justo para Mulheres, in partnership with the <a class="text-link" href="https://fase.org.br/pt/" target="_blank" rel="noreferrer">FASE NGO</a>, we carried out a training process with women who already lead productive initiatives in their communities, support their families, and move local economies.</p>
+    <p>As an outcome, we developed the Mão na Massa Workbook and the Bora de Maré Passport, materials designed to support and strengthen these initiatives. More than the final products, the project built a collective process grounded in listening, exchange, and strategy-building that strengthens networks and highlights the power of solutions rooted in the territory.</p>`,
+    credits: {
+      title: "Credits",
+      info: [
+        {
+          role: "Creative training and coordination",
+          name: "Rachel Gepp and Julia Lima",
+        },
+        {
+          role: "Layout",
+          name: "Rachel Gepp and Julia Lima",
+        },
+        {
+          role: "Illustrations",
+          name: "Julia Lima",
+        },
+        {
+          role: "Art assistant",
+          name: "Mariana Simões",
+        },
+      ]
+    },
+    tags: [en.WORK, en.WOMEN, en.HUMAN_RIGHTS, en.PUBLICATION, en.ILLUSTRATION],
+  },
   mongabay: {
     title: "Mongabay Graphic Package",
     introduction: "Mongabay is an environmental news portal based in different regions and needed to standardize its communication and make life easier for editors collaborating around the world. To that end, we created new layouts for its video graphics package in order to be versatile and adapt to social midia, without losing the Mongabay identity.",
