@@ -23,6 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 *.mp4
+!public/images/projects/*/thumb.mp4
 
 /.env
 *.env

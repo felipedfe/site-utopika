@@ -55,7 +55,16 @@ if (rootFolder.exists) {
 
     for (var i = 0; i < subfolders.length; i++) {
         var subfolder = subfolders[i];
+        // o thumb pode ter qualquer uma dessas extensões
+        var thumbExtensions = ["jpg", "png", "webp", "gif"];
         var thumbFile = new File(subfolder + "/thumb.gif");
+        for (var j = 0; j < thumbExtensions.length; j++) {
+            var candidate = new File(subfolder + "/thumb." + thumbExtensions[j]);
+            if (candidate.exists) {
+                thumbFile = candidate;
+                break;
+            }
+        }
         var thumbLowFile = new File(subfolder + "/thumb-low.jpg"); // Verificação do arquivo otimizado
 
         if (thumbFile.exists && !thumbLowFile.exists) {
@@ -63,7 +72,7 @@ if (rootFolder.exists) {
         } else if (thumbLowFile.exists) {
             $.writeln("Arquivo thumb-low.jpg já existe na pasta: " + subfolder.name);
         } else {
-            $.writeln("Arquivo thumb.gif não encontrado na pasta: " + subfolder.name);
+            $.writeln("Arquivo de thumb não encontrado na pasta: " + subfolder.name);
         }
     }
 

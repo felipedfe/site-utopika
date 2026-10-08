@@ -5,10 +5,15 @@ import './project-card.css';
 
 // priority: cards do topo da página, que carregam a imagem direto (sem lazy loading)
 function ProjectCard({ project, priority = false }) {
-  const { id, title, tags, tagsPt } = project;
+  const { id, title, tags, tagsPt, images } = project;
   const { textLanguage } = useContext(myContext);
 
   const [isLoading, setIsLoading] = useState(true);
+
+  // o nome do arquivo do thumb vem dos dados do projeto; thumbs animados são vídeo (.mp4)
+  const folder = `images/projects/${id}`;
+  const thumbnail = images.thumbnail;
+  const isVideo = thumbnail.endsWith('.mp4');
 
   // hook para gerenciar quando o elemento entra na viewport
   const { ref, inView } = useInView({
@@ -34,15 +39,29 @@ function ProjectCard({ project, priority = false }) {
               </div>
             </div>
           </div>
-          <img
-            className="projectcard--img"
-            src={isLoading ? `images/projects/${id}/thumb-low.jpg` : `images/projects/${id}/thumb.gif`}
-            alt={title}
-            loading={priority ? 'eager' : 'lazy'}
-            // minúsculo porque o React 18.2 ainda não reconhece fetchPriority
-            fetchpriority={priority ? 'high' : undefined}
-            onLoad={() => setIsLoading(false)}
-          />
+          {isVideo ? (
+            <video
+              className="projectcard--img"
+              src={`${folder}/${thumbnail}`}
+              poster={`${folder}/thumb-poster.jpg`}
+              aria-label={title}
+              preload={priority ? 'auto' : 'metadata'}
+              autoPlay
+              muted
+              loop
+              playsInline
+            />
+          ) : (
+            <img
+              className="projectcard--img"
+              src={isLoading ? `${folder}/thumb-low.jpg` : `${folder}/${thumbnail}`}
+              alt={title}
+              loading={priority ? 'eager' : 'lazy'}
+              // minúsculo porque o React 18.2 ainda não reconhece fetchPriority
+              fetchpriority={priority ? 'high' : undefined}
+              onLoad={() => setIsLoading(false)}
+            />
+          )}
         </>
       )}
     </div>
