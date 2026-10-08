@@ -4,7 +4,7 @@ Cada projeto tem uma tradução em português e inglês. Existe uma página úni
 
 Criando projeto:
 - pages > projectsPages > Projeto.jsx (colocar o nome do projeto em questao)
-- importar o jsx no arquivo index.js dentro de ProjectsPages
+- importar o jsx no arquivo index.js dentro de ProjectsPages, no formato `const Projeto = lazy(() => import("./projeto/Projeto"));` (carrega a página sob demanda), e adicionar no `export`
 - cadastrar em data > projects > index.js
 - colocar textos dos projetos em data > languages > ProjectsPage
 - criar pasta com imagens do projeto em public > images > projects

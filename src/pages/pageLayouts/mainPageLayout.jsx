@@ -1,4 +1,4 @@
-import React, { useEffect, useContext, useCallback } from 'react';
+import React, { Suspense, useEffect, useContext, useCallback } from 'react';
 import { useLocation } from 'react-router-dom';
 import Menu from '../../components/Menu/Menu';
 import Footer from '../../components/Footer/Footer';
@@ -72,7 +72,12 @@ function MainPageLayout({ children }) {
         <Menu />
         {isLargeScreen && pathname === '/' ? <LanguageBtn /> : null}
       </header>
-      <main className="page-content">{children}</main>
+      <main className="page-content">
+        {/* páginas de projeto são carregadas sob demanda; o fallback segura a altura pro footer não pular */}
+        <Suspense fallback={<div style={{ minHeight: '100vh' }} />}>
+          {children}
+        </Suspense>
+      </main>
       <Footer />
     </>
   );
