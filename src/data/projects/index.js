@@ -49,7 +49,7 @@ const projects = [
   //   id: 'trabalho-justo-para-mulheres',
   //   title: 'Trabalho Justo Para Mulheres',
   //   images: {
-  //     thumbnail: 'thumb.png',
+  //     thumbnail: 'thumb.jpg',
   //     full: '...'
   //   },
   //   alt: '(descrição)',
@@ -60,7 +60,7 @@ const projects = [
     id: 'seminario',
     title: 'Seminário Sobre Dados de Raça, Gênero e Clima',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.jpg',
       full: '...'
     },
     alt: '(descrição)',
@@ -71,7 +71,7 @@ const projects = [
     id: 'funding-the-planets-guardians',
     title: 'Funding The Planets Guardians',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.jpg',
       full: '...'
     },
     alt: '(descrição)',
@@ -82,7 +82,7 @@ const projects = [
     id: 'solidaria',
     title: 'Economia Solidária Digital',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.jpg',
       full: '...'
     },
     alt: '(descrição)',
@@ -93,7 +93,7 @@ const projects = [
     id: 'agricultura',
     title: 'Agricultura Familiar e Clima',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.mp4',
       full: '...'
     },
     alt: '(descrição)',
@@ -104,7 +104,7 @@ const projects = [
     id: 'facanhas',
     title: 'Façanhas do Homem na Floresta',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.jpg',
       full: '...'
     },
     alt: '(descrição)',
@@ -115,7 +115,7 @@ const projects = [
     id: 'clima',
     title: 'Em Nome do Clima - Mapeamento Crítico',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.mp4',
       full: '...'
     },
     alt: '(descrição)',
@@ -126,7 +126,7 @@ const projects = [
     id: 'mobilizacao',
     title: 'Mobilização dos Povos Pela Terra e Pelo Clima',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.gif',
       full: '...'
     },
     alt: '(descrição)',
@@ -148,7 +148,7 @@ const projects = [
     id: 'p4f',
     title: 'Partnerships for Forests',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.mp4',
       full: '...'
     },
     alt: '(descrição)',
@@ -159,7 +159,7 @@ const projects = [
     id: 'alianza',
     title: 'Um Ano da Alianza',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.jpg',
       full: '...'
     },
     alt: '(descrição)',
@@ -181,7 +181,7 @@ const projects = [
     id: 'vozesin',
     title: 'Vozes Indígenas',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.mp4',
       full: '...'
     },
     alt: '(descrição)',
@@ -192,7 +192,7 @@ const projects = [
     id: 'mongabay',
     title: 'Pacote Gráfico Mongabay',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.jpg',
       full: '...'
     },
     alt: '(descrição)',
@@ -203,7 +203,7 @@ const projects = [
     id: 'refarm',
     title: 'Refarm',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.mp4',
       full: '...'
     },
     alt: '(descrição)',
@@ -214,7 +214,7 @@ const projects = [
     id: 'promar',
     title: 'Promar',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.mp4',
       full: '...'
     },
     alt: '(descrição)',
@@ -225,7 +225,7 @@ const projects = [
     id: 'revolusolar',
     title: 'Revolusolar',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.jpg',
       full: '...'
     },
     alt: '(descrição)',
@@ -236,7 +236,7 @@ const projects = [
     id: 'plenamata',
     title: 'Plenamata',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.mp4',
       full: '...'
     },
     alt: '(descrição)',
@@ -247,7 +247,7 @@ const projects = [
     id: 'mata',
     title: 'Mata Atlântica: Novas Histórias',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.jpg',
       full: '...'
     },
     alt: '(descrição)',
@@ -258,7 +258,7 @@ const projects = [
     id: 'guia',
     title: 'Um Guia para os Perplexos',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.jpg',
       full: '...'
     },
     alt: '(descrição)',
@@ -269,7 +269,7 @@ const projects = [
     id: 'rhino',
     title: 'Rhino Poop',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.mp4',
       full: '...'
     },
     alt: '(descrição)',
@@ -280,7 +280,7 @@ const projects = [
     id: 'alziras',
     title: 'Alziras - Violência Política',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.webp',
       full: '...'
     },
     alt: '(descrição)',
@@ -291,7 +291,7 @@ const projects = [
     id: 'olhar',
     title: 'Olhar Perto, Enxergar Longe',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.jpg',
       full: '...'
     },
     alt: '(descrição)',
@@ -302,7 +302,7 @@ const projects = [
     id: 'despolarize',
     title: 'Despolarize',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.mp4',
       full: '...'
     },
     alt: '(descrição)',
@@ -313,7 +313,7 @@ const projects = [
     id: 'pasto',
     title: 'Do Prato ao Pasto',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.mp4',
       full: '...'
     },
     alt: '(descrição)',
@@ -324,7 +324,7 @@ const projects = [
     id: 'vozes',
     title: 'Vozes Femininas',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.jpg',
       full: '...'
     },
     alt: '(descrição)',
@@ -346,7 +346,7 @@ const projects = [
     id: 'mare-de-ciencia',
     title: 'Maré de Ciência',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.jpg',
       full: '...'
     },
     alt: '(descrição)',
@@ -357,7 +357,7 @@ const projects = [
     id: 'plastico',
     title: 'Sem Plástico',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.mp4',
       full: '...'
     },
     alt: '(descrição)',
@@ -368,7 +368,7 @@ const projects = [
     id: 'sitawi',
     title: 'Sitawi',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.mp4',
       full: '...'
     },
     alt: '(descrição)',
@@ -379,7 +379,7 @@ const projects = [
     id: 'captura',
     title: 'Captura Corporativa',
     images: {
-      thumbnail: 'thumb.png',
+      thumbnail: 'thumb.mp4',
       full: '...'
     },
     alt: '(descrição)',

@@ -30,7 +30,7 @@ function Projects() {
           onClick={() => setIsNavMenuDisabled(true)}
           to={`${project.id}`}
         >
-          <ProjectCard project={project} />
+          <ProjectCard project={project} priority={index < 4} />
         </Link>
       )
     });
@@ -46,15 +46,25 @@ function Projects() {
   }, []);
 
 
-  window.addEventListener('resize', () => {
-    if (window.innerWidth > largeScreenBreakPt) {
-      setIsLargeScreen(true)
-      setIsNavMenuDisabled(true)
-      setIsSearchMenuDisabled(true)
-    } else {
-      setIsLargeScreen(false)
-    }
-  });
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > largeScreenBreakPt) {
+        setIsLargeScreen(true)
+        setIsNavMenuDisabled(true)
+        setIsSearchMenuDisabled(true)
+      } else {
+        setIsLargeScreen(false)
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [
+    largeScreenBreakPt,
+    setIsLargeScreen,
+    setIsNavMenuDisabled,
+    setIsSearchMenuDisabled,
+  ]);
 
   return (
     <main className="projects--container">
